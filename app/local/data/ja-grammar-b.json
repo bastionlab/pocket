@@ -1,0 +1,415 @@
+[
+{"id":"l9-past-short","lesson":9,"title":"Past tense short forms","summary":"Plain (casual) past of verbs, adjectives and です.",
+"explain":"The short (plain) past is what you use inside longer sentences and with friends. It is built from the short present form.\n\n| Type | Present | Past | Negative past |\n|---|---|---|---|\n| ru-verb | 食べる | 食べた | 食べなかった |\n| u-verb | 書く / 飲む / 話す / 買う | 書いた / 飲んだ / 話した / 買った | 書かなかった |\n| irregular | する / 来る | した / 来た | しなかった / 来なかった |\n| i-adjective | 高い | 高かった | 高くなかった |\n| na-adj / noun | 静かだ / 学生だ | 静かだった / 学生だった | 静かじゃなかった |\n\nThe past of u-verbs follows the same sound changes as the te-form (た replaces て, だ replaces で). Watch the exceptions: 行く becomes 行った (not 行いた), and いい becomes よかった (not いかった). Polite speech keeps ～ました / ～でした; short forms are for friends, family and for clauses inside a bigger sentence.",
+"examples":[{"ja":"きのう 友達と 映画を 見た。","en":"I watched a movie with a friend yesterday."},{"ja":"先週は とても 忙しかった。","en":"Last week was very busy."},{"ja":"朝ご飯は 食べなかった。","en":"I did not eat breakfast."},{"ja":"あの 町は 静かだった。","en":"That town was quiet."}],
+"exercises":[
+{"type":"choice","q":"きのう 友達と 昼ご飯を ＿＿。","options":["食べる","食べた","食べて","食べない"],"a":1,"why":"Past short form of the ru-verb 食べる is 食べた."},
+{"type":"choice","q":"Short past of 飲む:","options":["飲んた","飲みた","飲んだ","飲った"],"a":2,"why":"む-verbs take だ, like the te-form 飲んで."},
+{"type":"fill","q":"きのうは 天気が ＿＿。(いい)","a":["よかった","良かった"],"why":"いい is irregular: よかった."},
+{"type":"fill","q":"先週 京都に ＿＿。(行く)","a":["行った","いった"],"why":"行く is an exception: 行った."},
+{"type":"choice","q":"Short negative past of 静かだ:","options":["静かじゃなかった","静かくなかった","静かじゃない だった","静かだなかった"],"a":0,"why":"na-adjectives use じゃなかった in the negative past."},
+{"type":"order","q":"Make: I did not do homework yesterday.","tokens":["きのうは","宿題を","しなかった"],"a":["きのうは","宿題を","しなかった"],"why":"する becomes しなかった in the negative past."}
+]},
+{"id":"l9-informal-past","lesson":9,"title":"Informal past speech","summary":"Casual conversation with past short forms, questions without か.",
+"explain":"With friends and family you drop です/ます and use short forms. A question needs no か: just raise your intonation, and add sentence endings like よ and ね.\n\n| Polite | Casual |\n|---|---|\n| 行きましたか。 | 行った？ |\n| 楽しかったですか。 | 楽しかった？ |\n| 暇でしたか。 | 暇だった？ |\n| はい / いいえ | うん / ううん |\n\nIn casual questions with a noun or na-adjective, the だ is dropped: 「昨日 暇？」 not 「暇だ？」. In statements だった stays: 「暇だった。」 Often particles like は, を and が also disappear in speech (「ご飯 食べた？」). Remember that this style is for people close to you. To a teacher, a boss or someone you just met, stay with ～ました / ～でした.",
+"examples":[{"ja":"きのう 何を 食べた？","en":"What did you eat yesterday?"},{"ja":"テスト、難しかったね。","en":"The test was hard, wasn't it."},{"ja":"昨日は 暇だった？ ううん、忙しかった。","en":"Were you free yesterday? No, I was busy."},{"ja":"先週の パーティー、行った？","en":"Did you go to last week's party?"}],
+"exercises":[
+{"type":"choice","q":"Casual version of 「昨日 買い物に 行きましたか。」","options":["昨日 買い物に 行ったか。","昨日 買い物に 行った？","昨日 買い物に 行きた？","昨日 買い物に 行くました？"],"a":1,"why":"Use the short past with rising intonation, no か."},
+{"type":"choice","q":"Casual: Was it fun?","options":["楽しいでした？","楽しかった？","楽しくだった？","楽しだった？"],"a":1,"why":"i-adjective past: 楽しかった."},
+{"type":"fill","q":"あの 映画、おもしろ＿＿？ (Was that movie interesting?)","a":["かった"],"why":"おもしろい becomes おもしろかった."},
+{"type":"fill","q":"きのうは 休み＿＿。 (It was a day off yesterday.)","a":["だった"],"why":"Noun + だった in a casual statement."},
+{"type":"choice","q":"The casual way to say No:","options":["ううん","うん","はい","ええ"],"a":0,"why":"うん = yes, ううん = no."},
+{"type":"order","q":"Make: Did you eat breakfast? (casual)","tokens":["朝ご飯","食べた？"],"a":["朝ご飯","食べた？"],"why":"Particles can be dropped and か is replaced by intonation."}
+]},
+{"id":"l9-omou-iu","lesson":9,"title":"～と思います / ～と言っていました","summary":"Quote thoughts and reports with short forms plus と.",
+"explain":"Put a short-form sentence before と and then 思います (I think) or 言っていました (said). The part before と is in short form, whatever the politeness of the main verb.\n\n| Before と | Example |\n|---|---|\n| verb | 来ると思います / 来たと思います |\n| i-adjective | 高いと思います |\n| na-adj / noun | 学生だと思います |\n\nNote that i-adjectives take no だ, while nouns and na-adjectives keep だ in the present (but not in the past: 学生だったと思います). Negative: 来ないと思います means I think he will not come. To report what someone said, use 言っていました: 先生は あした 休みだと 言っていました. A direct quote also works with 「」 and と. Use ～と思います to soften a statement: it is polite, not unsure.",
+"examples":[{"ja":"田中さんは きのう 来なかったと 思います。","en":"I think Tanaka did not come yesterday."},{"ja":"あの 店は 安いと 思います。","en":"I think that shop is cheap."},{"ja":"先生は あした テストが あると 言っていました。","en":"The teacher said there is a test tomorrow."},{"ja":"山田さんは 病気だったと 言っていました。","en":"Yamada said he was sick."}],
+"exercises":[
+{"type":"choice","q":"あの 店は 安い＿＿ 思います。","options":["ですと","と","だと","くと"],"a":1,"why":"i-adjectives take と directly, without だ."},
+{"type":"choice","q":"彼は 学生＿＿ 思います。","options":["だと","ですと","と","なと"],"a":0,"why":"Nouns keep だ before と."},
+{"type":"fill","q":"山田さんは 来週 京都に 行く＿＿ 言っていました。","a":["と"],"why":"Short form + と + 言っていました."},
+{"type":"fill","q":"先生は あした 休み＿＿ 言っていました。","a":["だと"],"why":"Noun + だ + と."},
+{"type":"choice","q":"I think Tanaka was sick yesterday.","options":["田中さんは きのう 病気だったと 思います。","田中さんは きのう 病気ですと 思います。","田中さんは きのう 病気だと 思いました。","田中さんは きのう 病気たと 思います。"],"a":0,"why":"Past of 病気だ is 病気だった, then と思います."},
+{"type":"order","q":"Make: Sato said it was fun.","tokens":["佐藤さんは","楽しかったと","言っていました"],"a":["佐藤さんは","楽しかったと","言っていました"],"why":"Short past + と + 言っていました."}
+]},
+{"id":"l9-qualifying","lesson":9,"title":"Qualifying nouns (intro to relative clauses)","summary":"Put a verb or adjective phrase in front of a noun to describe it.",
+"explain":"Japanese puts the describing part before the noun. A verb in short form can modify a noun directly, with no word like who or which.\n\n| Pattern | Example |\n|---|---|\n| verb + noun | 昨日 見た 映画 (the movie I saw yesterday) |\n| i-adj + noun | 高い 車 |\n| na-adj + な + noun | 静かな 町 |\n| noun + の + noun | 日本語の 先生 |\n\nInside the modifying clause, the subject is marked with が (not は): 母が 作った ケーキ. The verb must be in short form, so ます is never used before a noun. The tense in the clause is its own: 食べている 人 (the person who is eating), 食べた 人 (the person who ate). Practically any short-form sentence can become a modifier this way, which makes this one of the most important patterns in Japanese.",
+"examples":[{"ja":"昨日 買った 本は おもしろいです。","en":"The book I bought yesterday is interesting."},{"ja":"あそこで 本を 読んでいる 人は 私の 先生です。","en":"The person reading a book over there is my teacher."},{"ja":"これは 母が 作った 料理です。","en":"This is a dish my mother made."},{"ja":"私は 安くて おいしい 店が 好きです。","en":"I like shops that are cheap and tasty."}],
+"exercises":[
+{"type":"choice","q":"the movie I watched yesterday","options":["昨日 見ました 映画","昨日 見た 映画","昨日 見る 映画","昨日の 見た 映画"],"a":1,"why":"Short past form directly before the noun."},
+{"type":"choice","q":"これは 母が ＿＿ 料理です。","options":["作りました","作った","作ってで","作りますの"],"a":1,"why":"Inside a clause use the short form, and the subject takes が."},
+{"type":"fill","q":"昨日 ＿＿ 本は おもしろかったです。(読む, past)","a":["読んだ","よんだ"],"why":"む-verb past: 読んだ."},
+{"type":"choice","q":"ケーキを 食べている 人","options":["the person who ate cake","the person eating cake","the cake the person eats","a person who will eat cake"],"a":1,"why":"～ている + 人 = the person who is doing it."},
+{"type":"fill","q":"＿＿ 町は 好きです。(静かだ)","a":["静かな","しずかな"],"why":"na-adjectives take な before a noun."},
+{"type":"order","q":"Make: The man reading a book is my teacher.","tokens":["本を","読んでいる","人は","私の","先生です"],"a":["本を","読んでいる","人は","私の","先生です"],"why":"The modifying clause comes before 人."}
+]},
+{"id":"l9-mou-mada","lesson":9,"title":"もう～ました / まだ～ていません","summary":"Already done, and not yet.",
+"explain":"もう means already and goes with a past verb. To ask whether something has been done, use もう～ましたか. A negative answer is まだ～ていません (not yet), with the te-form plus いません, not the plain past negative.\n\n| Question | Yes | Not yet |\n|---|---|---|\n| もう 食べましたか。 | はい、もう 食べました。 | いいえ、まだ 食べていません。 |\n\nThe short answer is まだです (not yet). Do not answer with ～ませんでした: that says you did not do it at all in the past, which sounds like you never will. In casual talk it becomes もう 食べた？ — うん、もう 食べた / ううん、まだ 食べてない. A similar pattern, まだ～ている, is still doing.",
+"examples":[{"ja":"もう 宿題を しましたか。","en":"Have you done your homework already?"},{"ja":"はい、もう 終わりました。","en":"Yes, I have already finished."},{"ja":"いいえ、まだ 晩ご飯を 食べていません。","en":"No, I haven't eaten dinner yet."},{"ja":"もう 先生に 会った？ ううん、まだ。","en":"Have you met the teacher yet? No, not yet."}],
+"exercises":[
+{"type":"choice","q":"もう 昼ご飯を 食べましたか。 いいえ、＿＿。","options":["食べませんでした","まだ 食べていません","まだ 食べました","もう 食べません"],"a":1,"why":"Not yet = まだ + te-form + いません."},
+{"type":"fill","q":"もう 宿題を ＿＿か。(しました)","a":["しました"],"why":"もう goes with a past polite verb."},
+{"type":"choice","q":"A short answer meaning Not yet:","options":["まだです","もうです","いいえです","まだでした"],"a":0,"why":"まだです."},
+{"type":"fill","q":"まだ 手紙を 書い＿＿。(I haven't written the letter yet.)","a":["ていません","てません"],"why":"te-form + いません."},
+{"type":"order","q":"Make: I have already read this book.","tokens":["この","本を","もう","読みました"],"a":["この","本を","もう","読みました"],"why":"もう precedes the past verb."}
+]},
+{"id":"l9-kara","lesson":9,"title":"～から (reason) with short forms","summary":"Give a reason with short form + から.",
+"explain":"から attaches to a clause and means because. The reason comes first, then the result: 疲れたから、寝ます (Because I am tired, I will sleep). Both polite and short forms can precede から, but short forms are more natural in casual talk and with friends.\n\n| Reason | Example |\n|---|---|\n| verb | 雨が 降るから |\n| i-adjective | 高いから |\n| na-adj / noun | 暇だから / 休みだから |\n\nNouns and na-adjectives keep だ before から. Do not confuse it with から meaning from (駅から 家まで). Often the result is left out: 「どうして 行かないの？」 「疲れたから。」 Compare with どうして, which asks why, and note that the reason clause alone is a complete answer. If you give a polite reason, ですから is fine, but short + から is the common spoken form.",
+"examples":[{"ja":"雨が 降っているから、行きません。","en":"Because it is raining, I won't go."},{"ja":"あした 試験が あるから、勉強します。","en":"I have an exam tomorrow, so I will study."},{"ja":"今日は 暇だから、買い物に 行く。","en":"I'm free today so I will go shopping."},{"ja":"どうして 食べないの？ おなかが いっぱいだから。","en":"Why aren't you eating? Because I am full."}],
+"exercises":[
+{"type":"choice","q":"あした 試験が ＿＿、勉強します。","options":["あるから","あるので","あるが","あるです"],"a":0,"why":"Short form + から."},
+{"type":"fill","q":"今日は 暇＿＿、買い物に 行く。","a":["だから"],"why":"Nouns and na-adjectives keep だ before から."},
+{"type":"choice","q":"Which gives the reason first and the result second?","options":["寒いから、コートを 着ます。","コートを 着ます、寒いから ね を。","寒いと、コートを 着ます。","寒いし 着るです。"],"a":0,"why":"Reason + から, then the result."},
+{"type":"fill","q":"どうして 休んだの？ 頭が ＿＿＿から。(痛い)","a":["痛い","いたい"],"why":"i-adjective + から."},
+{"type":"order","q":"Make: Because I was tired, I went to bed early.","tokens":["疲れたから","早く","寝た"],"a":["疲れたから","早く","寝た"],"why":"Reason + から first."}
+]},
+
+{"id":"l10-comparison-two","lesson":10,"title":"Comparing two items (より, のほうが)","summary":"A is more ... than B.",
+"explain":"To compare two things, mark the one you are comparing against with より (than) and the winner with のほうが.\n\n| Pattern | Meaning |\n|---|---|\n| AはBより adj | A is more adj than B |\n| BよりAのほうが adj | Compared with B, A is more adj |\n| AとBとどちらが adj ですか | Which is more adj, A or B? |\n| Aのほうが adj です | A is (more) adj |\n\nどちら is used for asking about two choices (for three or more use どれ). When you ask about people the polite form is どちら too. Answer with ～のほうが～です or just the item name. ほう literally means side. In English you use more, but Japanese adjectives do not change: 高い stays 高い. Also mind the order: the thing after より is the standard, the thing before のほうが is the winner.",
+"examples":[{"ja":"夏は 冬より 暑いです。","en":"Summer is hotter than winter."},{"ja":"電車より バスのほうが 安いです。","en":"Buses are cheaper than trains."},{"ja":"犬と 猫と どちらが 好きですか。","en":"Which do you like better, dogs or cats?"},{"ja":"猫のほうが 好きです。","en":"I like cats better."}],
+"exercises":[
+{"type":"choice","q":"電車＿＿ バスのほうが 安いです。","options":["より","から","まで","で"],"a":0,"why":"より marks the thing compared against."},
+{"type":"fill","q":"犬と 猫と ＿＿が 好きですか。","a":["どちら"],"why":"どちら for a choice between two."},
+{"type":"choice","q":"夏は 冬より 暑いです。 Which is hotter?","options":["Winter","Summer","Both","Neither"],"a":1,"why":"AはBより: A (summer) is more."},
+{"type":"fill","q":"兄＿＿ 私のほうが 背が 高いです。","a":["より"],"why":"Compared with my brother."},
+{"type":"order","q":"Make: Japanese is easier than English.","tokens":["日本語は","英語より","やさしいです"],"a":["日本語は","英語より","やさしいです"],"why":"AはBより adjective."},
+{"type":"choice","q":"Which is the correct form for asking a person to choose between two?","options":["どれが 好きですか","どちらが 好きですか","どこが 好きですか","いつが 好きですか"],"a":1,"why":"どちら is for two options."}
+]},
+{"id":"l10-comparison-many","lesson":10,"title":"Comparing three or more (の中で一番)","summary":"The most ... among a group.",
+"explain":"To pick the top item from a group, name the group, add の中で, then use 一番 (the number one) before the adjective.\n\n| Question word | Group |\n|---|---|\n| 何 / どれ | things |\n| だれ | people |\n| どこ | places |\n| いつ | times |\n\nPattern: [group]の中で [question word]が 一番 adj ですか。 Answer: [item]が 一番 adj です。 If the group is a place, time or category, で alone also works (日本で、一年で). For people, say クラスの中で. Remember that 一番 is placed directly before the adjective or the adverb, and that there is no -est form for adjectives. For verbs and adverbs you use 一番 plus a verb: 一番 よく 見ます. 中 is read なか here.",
+"examples":[{"ja":"果物の 中で りんごが 一番 好きです。","en":"Of all fruits, I like apples best."},{"ja":"クラスの 中で だれが 一番 背が 高いですか。","en":"Who is the tallest in the class?"},{"ja":"一年で いつが 一番 寒いですか。","en":"When is it the coldest in the year?"},{"ja":"日本で どこが 一番 おもしろかったですか。","en":"Where was the most interesting place in Japan?"}],
+"exercises":[
+{"type":"choice","q":"スポーツの 中で＿＿ 一番 好きですか。","options":["何が","どちらが","何を が","だれが"],"a":0,"why":"Things in a group: 何 (or どれ)."},
+{"type":"fill","q":"家族の ＿＿で だれが 一番 若いですか。","a":["中","なか"],"why":"の中で = among."},
+{"type":"fill","q":"クラスの 中で 田中さんが ＿＿ 背が 高いです。","a":["一番","いちばん"],"why":"一番 = the most."},
+{"type":"choice","q":"Asking for the best time of year: 一年で ＿＿が 一番 いいですか。","options":["どこ","いつ","だれ","どちら"],"a":1,"why":"Time question: いつ."},
+{"type":"order","q":"Make: Of all seasons I like spring best.","tokens":["季節の","中で","春が","一番","好きです"],"a":["季節の","中で","春が","一番","好きです"],"why":"Group + の中で + item が + 一番 + adjective."}
+]},
+{"id":"l10-adj-no","lesson":10,"title":"Adjective / noun + の (the red one)","summary":"Use の as a stand-in noun.",
+"explain":"To avoid repeating a noun, replace it with の, which works like the English one.\n\n| Phrase | Meaning |\n|---|---|\n| 赤い の | the red one |\n| 安い の | the cheap one |\n| 静かな の | the quiet one |\n| 友達の | my friend's (one) |\n| 昨日 買った の | the one I bought yesterday |\n\nThis の works after i-adjectives, na-adjectives (with な), nouns (with の, so 先生の) and verbs in short form. It is mostly for things, not people in general. You cannot use it if the noun is the first mention: it needs a context. Do not use two の in a row; with a noun, 私の の is just 私の. To ask which: どの？ 「この 帽子と あの 帽子、どちらが いいですか。」 「大きいのが いいです。」",
+"examples":[{"ja":"赤いのを ください。","en":"I'll take the red one, please."},{"ja":"このかばんは 高いから、安いのを 買います。","en":"This bag is expensive, so I'll buy a cheap one."},{"ja":"私の 傘は 青いのです。","en":"My umbrella is the blue one."},{"ja":"昨日 見たのは おもしろかったです。","en":"The one I watched yesterday was interesting."}],
+"exercises":[
+{"type":"choice","q":"I'll take the red one.","options":["赤いのを ください","赤いなを ください","赤いが ください","赤の ください を"],"a":0,"why":"i-adjective + の + を."},
+{"type":"fill","q":"この 靴は 高いから、安い＿＿を 買います。","a":["の"],"why":"の replaces the noun 靴."},
+{"type":"choice","q":"Which is correct for the quiet one?","options":["静かのが","静かなの","静かいの","静かでの"],"a":1,"why":"na-adjective + な + の."},
+{"type":"fill","q":"その 時計、新しい＿＿ですか、古い＿＿ですか。","a":["の"],"why":"Both blanks take の (the new one / the old one)."},
+{"type":"order","q":"Make: The one I bought yesterday was cheap.","tokens":["昨日","買ったのは","安かったです"],"a":["昨日","買ったのは","安かったです"],"why":"Short verb + の turns a clause into a noun."}
+]},
+{"id":"l10-tsumori","lesson":10,"title":"～つもりだ (intention)","summary":"I plan to / I do not intend to.",
+"explain":"つもり expresses a firm plan or intention. Use the dictionary form for plans and the ない-form for plans not to do something.\n\n| Plan | Form |\n|---|---|\n| Positive | dictionary + つもりです: 行くつもりです |\n| Negative | ない form + つもりです: 行かないつもりです |\n\nNote that the negative is 行かないつもり, not 行くつもりじゃない. つもり is a noun, so it behaves like one: つもりだ in casual speech, つもりです in polite. It describes your own intention, so it is natural for first person and for asking others (どうするつもりですか). It is stronger than 思っています, but not a firm promise. When the plan is about the speaker only, with others use と言っていました. Do not use the past: use つもりだった to say that you had planned to.",
+"examples":[{"ja":"来年 日本に 行くつもりです。","en":"I plan to go to Japan next year."},{"ja":"夏休みは どこにも 行かないつもりです。","en":"I don't plan to go anywhere during summer vacation."},{"ja":"卒業したら、働くつもりだ。","en":"After graduating, I intend to work."},{"ja":"あしたは 何を するつもりですか。","en":"What do you plan to do tomorrow?"}],
+"exercises":[
+{"type":"choice","q":"I plan to buy a car.","options":["車を 買うつもりです","車を 買ったつもりです","車を 買いつもりです","車が 買うつもりです"],"a":0,"why":"Dictionary form + つもり."},
+{"type":"fill","q":"お酒は 飲ま＿＿つもりです。","a":["ない"],"why":"Plan not to do: ない-form + つもり."},
+{"type":"choice","q":"Which is correct?","options":["行かないつもりです","行くつもりじゃないです","行きませんつもりです","行かなかつもりです"],"a":0,"why":"Negative plan uses the ない form before つもり."},
+{"type":"fill","q":"あした 友達に 会う＿＿です。","a":["つもり"],"why":"つもり = intention."},
+{"type":"order","q":"Make: I plan to study in Japan.","tokens":["日本で","勉強する","つもりです"],"a":["日本で","勉強する","つもりです"],"why":"Dictionary form + つもりです."}
+]},
+{"id":"l10-naru","lesson":10,"title":"Adjective + なる (become)","summary":"Say that something becomes or turns into something.",
+"explain":"なる means to become. How you attach it depends on the word before it.\n\n| Type | Form | Example |\n|---|---|---|\n| i-adjective | drop い + く + なる | 寒くなる (get cold) |\n| na-adjective | + に + なる | 静かになる |\n| noun | + に + なる | 先生になる |\n\nThe adjective いい changes irregularly: よくなる. Past tense: 寒くなりました. Negative: 寒くならない. This pattern describes change over time: weather, health, skills, jobs. It is not the same as する, which makes something be a certain way on purpose (部屋を きれいにする: to make the room clean). Mind that を is not used with なる, since nothing is being done to an object: 暑くなった, not 暑くを なった.",
+"examples":[{"ja":"十月に なって、寒くなりました。","en":"It is October now and it has gotten cold."},{"ja":"日本語が 上手に なりたい。","en":"I want to become good at Japanese."},{"ja":"この 町は 静かに なりました。","en":"This town has become quiet."},{"ja":"将来、医者に なりたいです。","en":"In the future I want to become a doctor."}],
+"exercises":[
+{"type":"choice","q":"夏に なって、暑＿＿ なりました。","options":["く","に","な","い"],"a":0,"why":"i-adjective: drop い, add く."},
+{"type":"fill","q":"この 部屋は きれい＿＿ なりました。","a":["に"],"why":"na-adjective + に + なる."},
+{"type":"fill","q":"天気が ＿＿ なりました。(いい)","a":["よく","良く"],"why":"いい is irregular: よく."},
+{"type":"choice","q":"I want to become a teacher.","options":["先生に なりたいです","先生く なりたいです","先生を なりたいです","先生な なりたいです"],"a":0,"why":"Noun + に + なる."},
+{"type":"order","q":"Make: It has gotten cold.","tokens":["寒く","なりました"],"a":["寒く","なりました"],"why":"寒い -> 寒く + なる."}
+]},
+{"id":"l10-dokoka","lesson":10,"title":"どこかに / どこにも","summary":"Somewhere, anywhere, nowhere, something, nothing.",
+"explain":"Add か to a question word for some-, and も with a negative verb for no-/not any-.\n\n| Question word | + か (some-) | + も + negative |\n|---|---|---|\n| どこ | どこか (somewhere) | どこにも ～ない |\n| 何 | 何か (something) | 何も ～ない |\n| だれ | だれか (someone) | だれも ～ない |\n\nParticles follow the question word: どこかに 行きますか, but with を and が, the particle is left out after か (何か 食べますか) and after も (何も 食べません). Other particles stay: どこにも 行きませんでした, だれとも 話しませんでした. Some vocabulary and sentences with か are yes/no questions: 「どこか 行きましたか。」 「はい、行きました。/ いいえ、どこにも 行きませんでした。」",
+"examples":[{"ja":"夏休みに どこかに 行きましたか。","en":"Did you go anywhere during the summer vacation?"},{"ja":"いいえ、どこにも 行きませんでした。","en":"No, I did not go anywhere."},{"ja":"何か 食べたいです。","en":"I want to eat something."},{"ja":"きのうは 何も 食べませんでした。","en":"I didn't eat anything yesterday."}],
+"exercises":[
+{"type":"choice","q":"いいえ、＿＿ 行きませんでした。","options":["どこにも","どこかに","どこでも","どこを"],"a":0,"why":"Negative answer: どこにも + negative."},
+{"type":"fill","q":"何＿＿ 飲みませんか。(Won't you drink something?)","a":["か"],"why":"何か = something."},
+{"type":"fill","q":"きのうは 何＿＿ 食べませんでした。","a":["も"],"why":"何も + negative = nothing."},
+{"type":"choice","q":"Did you go anywhere?","options":["どこかに 行きましたか","どこにも 行きましたか","何かに 行きましたか","どこかを 行きましたか"],"a":0,"why":"どこか + に."},
+{"type":"order","q":"Make: Nobody came.","tokens":["だれも","来ませんでした"],"a":["だれも","来ませんでした"],"why":"だれも + negative."}
+]},
+{"id":"l10-de-means","lesson":10,"title":"で for means and tools","summary":"By bus, with chopsticks, in Japanese.",
+"explain":"で marks the means, tool or method by which an action is done. Do not mix it up with the で that marks the place of an action: that one is a place, this one is a thing.\n\n| Means | Example |\n|---|---|\n| transport | バスで 行く (go by bus) |\n| tool | はしで 食べる (eat with chopsticks) |\n| language | 日本語で 話す |\n| material | 紙で 作る |\n\nFor walking, use 歩いて (te-form of 歩く), not で: 歩いて 行く. Do not use に for transport: 電車に 行く is wrong. You can ask with 何で: 「何で 行きますか。」 「電車で 行きます。」 Do not confuse it with どうやって. For language, English is 英語で, Japanese is 日本語で. For mean of travel the particle of destination (に / へ) still stays: バスで 京都に 行く.",
+"examples":[{"ja":"毎日 電車で 学校に 行きます。","en":"I go to school by train every day."},{"ja":"はしで ご飯を 食べます。","en":"I eat rice with chopsticks."},{"ja":"日本語で 手紙を 書きました。","en":"I wrote a letter in Japanese."},{"ja":"駅まで 歩いて 行きます。","en":"I walk to the station."}],
+"exercises":[
+{"type":"choice","q":"バス＿＿ 京都に 行きます。","options":["で","に","を","が"],"a":0,"why":"で marks the means of transport."},
+{"type":"fill","q":"はし＿＿ ご飯を 食べます。","a":["で"],"why":"Tool: で."},
+{"type":"choice","q":"Which is how to say walk to school?","options":["歩いて 学校に 行きます","歩くで 学校に 行きます","歩きに 学校に 行きます","歩いで 学校に 行きます"],"a":0,"why":"Walking uses the te-form 歩いて."},
+{"type":"fill","q":"何＿＿ 来ましたか。 車で 来ました。","a":["で"],"why":"何で asks about the means."},
+{"type":"order","q":"Make: I wrote an e-mail in English.","tokens":["英語で","メールを","書きました"],"a":["英語で","メールを","書きました"],"why":"Language + で."}
+]},
+{"id":"l10-kakaru","lesson":10,"title":"～かかります (time and cost)","summary":"It takes ... time / money.",
+"explain":"かかる means to take (time or money). Use it with how long: どのくらい / どれぐらい かかりますか.\n\n| Counter | Example |\n|---|---|\n| 十分 | 十分 かかります (10 minutes) |\n| 一時間 | 一時間 かかります |\n| 二日 | 二日 かかります |\n| 千円 | 千円 かかります |\n\nPatterns: [place]から [place]まで [time] かかります. The particle between time and verb is not needed. Also ぐらい (approximately) can be added: 一時間ぐらい. Use the particle で for the means: 電車で 二十分 かかります. Distinguish かかる (it takes time) from 時間が ある (I have time). Remember that 半 (はん) means half: 一時間半 = one and a half hours.",
+"examples":[{"ja":"家から 駅まで 十分ぐらい かかります。","en":"It takes about ten minutes from my house to the station."},{"ja":"東京から 京都まで 新幹線で 二時間半 かかります。","en":"From Tokyo to Kyoto takes two and a half hours by bullet train."},{"ja":"学校まで どのくらい かかりますか。","en":"How long does it take to school?"},{"ja":"この かばんは 一万円 かかりました。","en":"This bag cost ten thousand yen."}],
+"exercises":[
+{"type":"choice","q":"家から 学校まで 三十分 ＿＿。","options":["かかります","あります","います","します"],"a":0,"why":"Time taken: かかります."},
+{"type":"fill","q":"駅まで どの＿＿ かかりますか。","a":["くらい","ぐらい"],"why":"どのくらい = how long."},
+{"type":"fill","q":"家から 駅 ＿＿ 歩いて 十分です。","a":["まで"],"why":"から ... まで."},
+{"type":"choice","q":"一時間半 means","options":["1.5 hours","half an hour","two hours","one hour"],"a":0,"why":"半 = half."},
+{"type":"order","q":"Make: It takes about 20 minutes by train.","tokens":["電車で","二十分ぐらい","かかります"],"a":["電車で","二十分ぐらい","かかります"],"why":"Means + time + かかります."}
+]},
+
+{"id":"l11-tai","lesson":11,"title":"～たい (want to do)","summary":"Say what you want to do.",
+"explain":"Take the stem of a verb (the ます-form without ます) and add たい. The result behaves like an i-adjective.\n\n| Verb | Want to | Negative | Past |\n|---|---|---|---|\n| 食べます | 食べたい | 食べたくない | 食べたかった |\n| 行きます | 行きたい | 行きたくない | 行きたかった |\n| します | したい | したくない | したかった |\n\nThe object can be marked with を or が: 水を / 水が 飲みたい. Other particles (に, で, と) stay. たい is for the speaker's wishes; for others it sounds blunt in questions to a superior, so use ～たいですか with care. Third person is ～たがっている. Mind that たい itself is not used for things: want a thing = ほしい (L14). For polite asking, ～たいんですが is also common.",
+"examples":[{"ja":"夏休みに 北海道へ 行きたいです。","en":"I want to go to Hokkaido during summer vacation."},{"ja":"今日は 何も 食べたくない。","en":"I don't want to eat anything today."},{"ja":"水が 飲みたいです。","en":"I want to drink water."},{"ja":"子供の ころ、パイロットに なりたかった。","en":"When I was a child I wanted to become a pilot."}],
+"exercises":[
+{"type":"choice","q":"Form of 見ます meaning want to watch:","options":["見たい","見るたい","見ますたい","見りたい"],"a":0,"why":"Stem 見 + たい."},
+{"type":"fill","q":"今日は 何も 食べ＿＿。(I don't want to eat anything.)","a":["たくない"],"why":"たい becomes たくない like an i-adjective."},
+{"type":"fill","q":"昨日は 家に いたかった。 → 昨日は 出かけ＿＿。 (I didn't want to go out)","a":["たくなかった"],"why":"たい -> たくなかった."},
+{"type":"choice","q":"Which is also acceptable?","options":["水が 飲みたい","水に 飲みたい","水で 飲みたい","水は 飲みたい が"],"a":0,"why":"が or を can mark the object of ～たい."},
+{"type":"order","q":"Make: I want to go to Japan.","tokens":["日本に","行きたいです"],"a":["日本に","行きたいです"],"why":"Destination に + stem + たい."}
+]},
+{"id":"l11-tari","lesson":11,"title":"～たり～たりする","summary":"Do things like A and B, among other things.",
+"explain":"This lists representative actions (and implies there are more). Take the short past form of each verb, add り, and finish with する, which carries the tense.\n\n| Verb | Past short | ～たり |\n|---|---|---|\n| 見る | 見た | 見たり |\n| 読む | 読んだ | 読んだり |\n| 行く | 行った | 行ったり |\n\nExample: 週末は 映画を 見たり、買い物を したりします. Use it at least twice, and the final する can be past (しました) or present (します). It also works with adjectives and nouns: 暑かったり、寒かったり. It can express alternation: 雨が 降ったり、やんだりする. Do not list only two with と: that is a complete list; ～たり gives examples only.",
+"examples":[{"ja":"週末は 映画を 見たり、買い物を したりします。","en":"On weekends I do things like watch movies and go shopping."},{"ja":"昨日は 本を 読んだり、寝たりしました。","en":"Yesterday I read a book, slept and so on."},{"ja":"日本語の 授業は 楽しかったり、難しかったりする。","en":"Japanese class is fun at times and hard at times."},{"ja":"夏休みに 海で 泳いだり、山に 登ったりしたい。","en":"During summer vacation I'd like to swim in the sea, climb mountains, and so on."}],
+"exercises":[
+{"type":"choice","q":"週末は 映画を ＿＿、買い物を したりします。","options":["見たり","見て","見る","見ました"],"a":0,"why":"Past short + り."},
+{"type":"fill","q":"飲んだり ＿＿ したりします。(eat)","a":["食べたり"],"why":"Past short form + り."},
+{"type":"choice","q":"Which verb ends the sentence?","options":["する","いる","ある","行く"],"a":0,"why":"する at the end carries the tense."},
+{"type":"fill","q":"昨日は 本を 読んだり、テレビを ＿＿ しました。(見る)","a":["見たり"],"why":"見る -> 見た -> 見たり."},
+{"type":"order","q":"Make: On holidays I play tennis, sleep, and so on.","tokens":["休みの日は","テニスを したり","寝たり","します"],"a":["休みの日は","テニスを したり","寝たり","します"],"why":"Two ～たり followed by します."}
+]},
+{"id":"l11-koto-ga-aru","lesson":11,"title":"～ことがある (have done before)","summary":"Talk about life experiences.",
+"explain":"To say you have done something before, use the short past form + ことがあります. The past form is required, because you refer to a past experience.\n\n| Sentence | Meaning |\n|---|---|\n| 日本に 行ったことが あります。 | I have been to Japan. |\n| 納豆を 食べたことが ありません。 | I have never eaten natto. |\n| 富士山に 登ったことが ありますか。 | Have you ever climbed Mt. Fuji? |\n\nThe particle が can be replaced by は when contrasted: 見たことは ない. It differs from the simple past: 行きました tells of a specific trip, whereas 行ったことが あります is the fact that you have the experience. Questions often use 一度 or 何回: 一度も ～ない means never even once. Remember that ことがある with the dictionary form means sometimes (a different meaning), so mind the form.",
+"examples":[{"ja":"北海道に 行ったことが ありますか。","en":"Have you ever been to Hokkaido?"},{"ja":"馬に 乗ったことが あります。","en":"I have ridden a horse."},{"ja":"すしを 作ったことが ありません。","en":"I have never made sushi."},{"ja":"一度も 飛行機に 乗ったことが ない。","en":"I have never been on a plane even once."}],
+"exercises":[
+{"type":"choice","q":"I have been to Kyoto.","options":["京都に 行ったことが あります","京都に 行くことが あります","京都に 行きことが あります","京都を 行ったことが あります"],"a":0,"why":"Short past + ことがある."},
+{"type":"fill","q":"すしを 食べた＿＿が ありますか。","a":["こと"],"why":"ことがある = have experience."},
+{"type":"fill","q":"納豆は 一度も 食べたことが ＿＿。(I have never eaten natto)","a":["ありません","ない"],"why":"Negative of ある."},
+{"type":"choice","q":"Which form comes before ことがある for experience?","options":["Dictionary","Past short","Te-form","Polite masu"],"a":1,"why":"It is the short past form."},
+{"type":"order","q":"Make: I have ridden a horse.","tokens":["馬に","乗った","ことが","あります"],"a":["馬に","乗った","ことが","あります"],"why":"馬に乗る = ride a horse."}
+]},
+{"id":"l11-ya","lesson":11,"title":"Noun や noun (and, among others)","summary":"Incomplete lists of nouns.",
+"explain":"と joins nouns into a complete list: りんごと バナナ means exactly apples and bananas. や gives a partial list, meaning things such as apples and bananas (and others). You may add など (and so on) at the end.\n\n| Particle | Meaning |\n|---|---|\n| AとB | exactly A and B |\n| AやB | A, B and other things |\n| AやBなど | A, B, etc. |\n\nIf the list is the topic or subject, attach the particle after the last noun: 机の 上に 本や ペンが あります. Do not use や to join verbs or sentences, and do not use it to join people when you want to name everyone exactly. The same particle does not combine with も directly, but you can say 本や ペンも.",
+"examples":[{"ja":"机の 上に 本や ノートが あります。","en":"On the desk there are books, notebooks and such."},{"ja":"スーパーで 肉や 野菜を 買いました。","en":"At the supermarket I bought meat, vegetables and so on."},{"ja":"りんごと みかんを 買いました。","en":"I bought apples and mandarins (just those)."},{"ja":"日本で 京都や 奈良に 行きました。","en":"In Japan I went to Kyoto, Nara and such places."}],
+"exercises":[
+{"type":"choice","q":"A list with other items implied:","options":["本や ノート","本と ノート","本か ノート","本が ノート"],"a":0,"why":"や = and (among others)."},
+{"type":"fill","q":"机の 上に 本＿＿ ペンが あります。","a":["や"],"why":"や for non-exhaustive lists."},
+{"type":"choice","q":"If you bought exactly an apple and a mandarin, say:","options":["りんごと みかんを 買いました","りんごや みかんを 買いました","りんごか みかんを 買いました","りんごで みかんを 買いました"],"a":0,"why":"と means a complete list."},
+{"type":"fill","q":"肉や 野菜 ＿＿ を 買いました。(and so on)","a":["など"],"why":"など = etc."},
+{"type":"order","q":"Make: I went to Kyoto, Nara and so on.","tokens":["京都や","奈良に","行きました"],"a":["京都や","奈良に","行きました"],"why":"Noun や noun + に."}
+]},
+
+{"id":"l12-n-desu","lesson":12,"title":"～んです (explaining / asking for reasons)","summary":"Soft explanatory ending.",
+"explain":"Use short form + んです when you explain a situation, give a reason, or ask for the background. It sounds like it is that way because... or the thing is...\n\n| Type | Form |\n|---|---|\n| verb / i-adj | short form + んです: 行くんです, 高いんです |\n| na-adj / noun | + なんです: 静かなんです, 学生なんです |\n| negative | ないんです |\n| past | 行ったんです |\n\nA typical dialogue: 「どうして 休んだんですか。」 「風邪を ひいたんです。」 It connects with the previous situation. Use it to ask about something you notice (顔色が 悪いですね。どうしたんですか). Do not use it in plain announcements like introductions or in objective facts such as 私は 学生です。 In casual speech it is のだ → の / んだ: どうしたの？ 行くんだ.",
+"examples":[{"ja":"どうして 遅れたんですか。 電車が 止まったんです。","en":"Why are you late? The train stopped."},{"ja":"元気が ありませんね。 どうしたんですか。","en":"You seem down. What is the matter?"},{"ja":"今日は 行けないんです。 用事が あるんです。","en":"I can't go today. I have something to do."},{"ja":"これ、日本語で 何と 言うんですか。","en":"How do you say this in Japanese?"}],
+"exercises":[
+{"type":"choice","q":"どうして 休んだんですか。 ＿＿。","options":["頭が 痛かったんです","頭が 痛いです か","頭が 痛くんです","頭が 痛いなんです"],"a":0,"why":"i-adjective past short + んです."},
+{"type":"fill","q":"静か＿＿んです。(It is quiet there)","a":["な"],"why":"na-adjective + なんです."},
+{"type":"fill","q":"今日は 学生＿＿んです。","a":["な"],"why":"Nouns also take な before んです."},
+{"type":"choice","q":"When is んです appropriate?","options":["Explaining a reason or situation","Introducing yourself","Stating dictionary facts","Reading a list"],"a":0,"why":"It conveys explanation."},
+{"type":"order","q":"Make: I have a cold. (explaining)","tokens":["風邪を","ひいた","んです"],"a":["風邪を","ひいた","んです"],"why":"Short past + んです."}
+]},
+{"id":"l12-sugiru","lesson":12,"title":"～すぎる (too much)","summary":"Do something too much; too adj.",
+"explain":"すぎる (過ぎる) means to exceed, so as a suffix it means too much. Attach it to a verb stem or to the stem of an adjective.\n\n| Word | Stem | Result |\n|---|---|---|\n| 食べる | 食べ | 食べすぎる |\n| 飲む | 飲み | 飲みすぎる |\n| 高い | 高 | 高すぎる |\n| 静かだ | 静か | 静かすぎる |\n\nThe whole word then conjugates as a ru-verb: 食べすぎました, 高すぎない. Exceptions: いい becomes よすぎる and ない becomes なさすぎる. It carries a negative nuance, so too much is usually unwanted. For positive amounts use とても or かなり. Use で to mark why you felt bad: 食べすぎて おなかが 痛い means I ate too much and my stomach hurts.",
+"examples":[{"ja":"昨日は 食べすぎました。","en":"I ate too much yesterday."},{"ja":"この かばんは 高すぎて 買えません。","en":"This bag is too expensive for me to buy."},{"ja":"部屋が 静かすぎて、寝られない。","en":"The room is too quiet and I can't sleep."},{"ja":"お酒を 飲みすぎないで ください。","en":"Please do not drink too much."}],
+"exercises":[
+{"type":"choice","q":"I drank too much.","options":["飲みすぎました","飲むすぎました","飲んすぎました","飲みましすぎた"],"a":0,"why":"Stem 飲み + すぎる."},
+{"type":"fill","q":"この 靴は 小さ＿＿ 履けません。(too small)","a":["すぎて"],"why":"小さい stem + すぎて."},
+{"type":"fill","q":"この 町は 静か＿＿。(too quiet)","a":["すぎる","すぎます"],"why":"na-adjective stem + すぎる."},
+{"type":"choice","q":"すぎる conjugates like a","options":["ru-verb","u-verb","i-adjective","noun"],"a":0,"why":"すぎる -> すぎない, すぎた."},
+{"type":"order","q":"Make: This test was too difficult.","tokens":["この","試験は","難しすぎました"],"a":["この","試験は","難しすぎました"],"why":"難しい stem 難し + すぎる."}
+]},
+{"id":"l12-hou-ga-ii","lesson":12,"title":"～ほうがいいです (had better)","summary":"Give advice: you should / should not.",
+"explain":"To recommend an action, use the short past form + ほうがいいです. To recommend against it, use the short negative present (ない form) + ほうがいいです.\n\n| Advice | Form |\n|---|---|\n| Should | 早く 寝た ほうが いいです |\n| Should not | お酒を 飲まない ほうが いいです |\n\nDespite the past tense, it does not mean the action was done: it is simply the form. The negative is never ～なかったほうがいい in advice. This phrase is direct, so it is for friends or a doctor; to a superior it can sound pushy. Soften with と思います: 休んだほうがいいと思います. You can also use ～ほうが with comparisons: 歩くほうが 早い. Note that いい in ほうがいい does not change to よい.",
+"examples":[{"ja":"風邪を ひいたら、早く 寝たほうが いいですよ。","en":"If you catch a cold, you should go to bed early."},{"ja":"夜は コーヒーを 飲まないほうが いいです。","en":"You shouldn't drink coffee at night."},{"ja":"医者に 行ったほうが いいと 思います。","en":"I think you had better see a doctor."},{"ja":"もっと 野菜を 食べたほうが いい。","en":"You should eat more vegetables."}],
+"exercises":[
+{"type":"choice","q":"You should go to the hospital.","options":["病院に 行ったほうが いいです","病院に 行くほうが いいです か は","病院に 行きほうが いいです","病院に 行ったほうは いいです"],"a":0,"why":"Past short + ほうがいい."},
+{"type":"fill","q":"お酒を 飲ま＿＿ほうが いいです。","a":["ない"],"why":"Negative advice uses ない-form."},
+{"type":"fill","q":"早く 寝＿＿ほうが いいですよ。","a":["た"],"why":"Positive advice uses past short 寝た."},
+{"type":"choice","q":"Which is a softer way to say it?","options":["休んだほうが いいと 思います","休んだほうが いいです よ！","休め","休まなかったほうが いい"],"a":0,"why":"Adding と思います softens."},
+{"type":"order","q":"Make: You should not eat too much.","tokens":["食べすぎ","ない","ほうが","いいです"],"a":["食べすぎ","ない","ほうが","いいです"],"why":"Negative advice with ない."}
+]},
+{"id":"l12-node","lesson":12,"title":"～ので (because)","summary":"A softer, polite reason.",
+"explain":"ので also means because, but it sounds softer and more objective than から, so it is common in polite requests and excuses. Place it after the short form.\n\n| Before ので | Example |\n|---|---|\n| verb / i-adj | 雨が 降っているので |\n| na-adj / noun | 静かなので / 休みなので (な, not だ) |\n\nTake care: だ becomes な before ので, in contrast to から (休みだから). The result clause can be a request or a statement of intent: 用事が あるので、先に 帰ります. With ので you cannot easily end with a command or invitation such as ～ましょう, because it expresses a natural cause-effect, not your own assertion. For those, use から. In speech の ので can become んで: 疲れたんで.",
+"examples":[{"ja":"頭が 痛いので、今日は 休みます。","en":"I have a headache, so I will take a day off today."},{"ja":"今日は 日曜日なので、店が 閉まっています。","en":"Because it is Sunday, the shops are closed."},{"ja":"用事が あるので、先に 帰ります。","en":"I have an errand, so I'll leave first."},{"ja":"この 町は 静かなので、好きです。","en":"This town is quiet, so I like it."}],
+"exercises":[
+{"type":"choice","q":"今日は 休み＿＿、店が 閉まっています。","options":["なので","だので","ので だ","でので"],"a":0,"why":"Noun + なので."},
+{"type":"fill","q":"疲れた＿＿、早く 寝ます。","a":["ので"],"why":"Short past + ので."},
+{"type":"choice","q":"Which one is the softer reason?","options":["ので","から ね","けど","のに"],"a":0,"why":"ので is softer and more objective."},
+{"type":"fill","q":"静か＿＿ので、好きです。","a":["な"],"why":"na-adjective + な + ので."},
+{"type":"order","q":"Make: Because I have a cold, I will rest today.","tokens":["風邪を","ひいたので","今日は","休みます"],"a":["風邪を","ひいたので","今日は","休みます"],"why":"Reason + ので, then the result."}
+]},
+{"id":"l12-nakereba","lesson":12,"title":"～なければいけません (must)","summary":"Have to do something; casual ～なきゃ.",
+"explain":"To say you must do something, change the ない-form of the verb: ない -> なければ, then add いけません (or ならない).\n\n| Verb | ない | Must |\n|---|---|---|\n| 食べる | 食べない | 食べなければいけません |\n| 行く | 行かない | 行かなければいけません |\n| する | しない | しなければいけません |\n\nIn casual speech: ～なきゃ (いけない) or just ～なきゃ. Another form is ～なくてはいけません. The literal meaning is if you don't, it won't do. For people being told they must do it, it is rather strong, so a polite request uses ～てください. The negative must not is ～てはいけません (don't do). Do not mix them up: 行かなければいけません (must go) versus 行ってはいけません (must not go).",
+"examples":[{"ja":"明日は 早く 起きなければ いけません。","en":"I have to get up early tomorrow."},{"ja":"今日は 宿題を しなければ いけません。","en":"I have to do my homework today."},{"ja":"もう 帰らなきゃ。","en":"I've got to go home now."},{"ja":"薬を 飲まなければ いけませんか。","en":"Do I have to take the medicine?"}],
+"exercises":[
+{"type":"choice","q":"I must study.","options":["勉強しなければ いけません","勉強しなくて いけません","勉強しないと いけません が","勉強して いけません"],"a":0,"why":"しない -> しなければ + いけません."},
+{"type":"fill","q":"行か＿＿ ければ いけません。","a":["な"],"why":"行かない -> 行かなければ."},
+{"type":"fill","q":"もう 帰ら＿＿。(casual: I've got to go)","a":["なきゃ"],"why":"なければ -> なきゃ."},
+{"type":"choice","q":"食べなければ いけません。means","options":["must eat","must not eat","may eat","don't have to eat"],"a":0,"why":"Double negative gives obligation."},
+{"type":"order","q":"Make: I have to wake up early tomorrow.","tokens":["あした","早く","起きなければ","いけません"],"a":["あした","早く","起きなければ","いけません"],"why":"起きない -> 起きなければ."}
+]},
+{"id":"l12-deshou","lesson":12,"title":"～でしょう (probably / right?)","summary":"Guess, or ask for agreement.",
+"explain":"でしょう attaches to the short form and has two uses, depending on intonation.\n\n| Intonation | Meaning | Example |\n|---|---|---|\n| falling ↘ | probably | あしたは 雨が 降るでしょう。 |\n| rising ↗ | right? isn't it? | 日本語、難しいでしょう？ |\n\nFor nouns and na-adjectives, the だ is dropped: 暇でしょう, 学生でしょう. It is common in weather forecasts. The casual form of the guess is だろう, but that sounds male and a little rough; for questions, でしょう with rising pitch is natural for everyone. Compared with と思います, でしょう is less personal and more like a forecast. Do not use でしょう for things you directly know such as your own plans.",
+"examples":[{"ja":"あしたは 雨が 降るでしょう。","en":"It will probably rain tomorrow."},{"ja":"日本語は 難しいでしょう？","en":"Japanese is hard, isn't it?"},{"ja":"田中さんは 今 暇でしょう。","en":"Tanaka is probably free now."},{"ja":"この 店は 高いでしょう。","en":"This shop is probably expensive."}],
+"exercises":[
+{"type":"choice","q":"あしたは 雨が ＿＿。(probably)","options":["降るでしょう","降りでしょう","降るだでしょう","降ったです"],"a":0,"why":"Short form + でしょう."},
+{"type":"fill","q":"田中さんは 今 暇＿＿。","a":["でしょう"],"why":"Noun / na-adj + でしょう, no だ."},
+{"type":"choice","q":"With rising intonation, でしょう means","options":["right? / isn't it?","probably","please","never"],"a":0,"why":"Rising = seeking confirmation."},
+{"type":"fill","q":"この 店は 高い＿＿。(probably)","a":["でしょう"],"why":"i-adjective + でしょう."},
+{"type":"order","q":"Make: It will probably be cold tomorrow.","tokens":["あしたは","寒い","でしょう"],"a":["あしたは","寒い","でしょう"],"why":"i-adjective + でしょう."}
+]},
+
+{"id":"l13-potential","lesson":13,"title":"Potential verbs (can do)","summary":"Express ability and possibility.",
+"explain":"Potential verbs say that someone can do something.\n\n| Type | Dictionary | Potential |\n|---|---|---|\n| ru-verb | 食べる | 食べられる |\n| u-verb | 書く / 読む / 話す | 書ける / 読める / 話せる |\n| する | する | できる |\n| 来る | 来る | 来られる |\n\nFor u-verbs, change the final u-sound to the e-sound and add る. For ru-verbs, add られる. All potential forms are ru-verbs themselves: 書ける -> 書けない -> 書けた. The object is normally marked with が instead of を: 日本語が 話せます. Other particles stay. Casual speech often drops ら: 食べれる. Note 見える (be visible) and 聞こえる (be audible) rather than 見られる for things that come to you naturally.",
+"examples":[{"ja":"私は 漢字が 少し 読めます。","en":"I can read a little kanji."},{"ja":"あした 来られますか。","en":"Can you come tomorrow?"},{"ja":"この 店では 日本語が 話せます。","en":"At this shop you can speak Japanese."},{"ja":"納豆は 食べられません。","en":"I can't eat natto."}],
+"exercises":[
+{"type":"choice","q":"Potential of 書く:","options":["書ける","書かれる","書けられる","書きる"],"a":0,"why":"く -> け + る."},
+{"type":"choice","q":"Potential of 食べる:","options":["食べれる","食べられる","食べける","食べせる"],"a":1,"why":"ru-verb: 食べ + られる (食べれる is casual)."},
+{"type":"fill","q":"日本語＿＿ 話せます。","a":["が"],"why":"The object of a potential verb is marked with が."},
+{"type":"fill","q":"ピアノが ＿＿ます。(する, can do)","a":["できます"],"why":"する -> できる."},
+{"type":"order","q":"Make: I can't read kanji.","tokens":["漢字が","読めません"],"a":["漢字が","読めません"],"why":"読む -> 読める; negative 読めません."},
+{"type":"choice","q":"来る potential:","options":["来られる","来れる ますん","来できる","来える"],"a":0,"why":"来る -> 来られる (こられる)."}
+]},
+{"id":"l13-shi","lesson":13,"title":"～し (listing reasons)","summary":"This and that, so ...",
+"explain":"し links short-form clauses and gives several reasons or traits. The clause before し is a short form; the last result follows. It suggests there are even more reasons.\n\n| Type | Example |\n|---|---|\n| verb | 食べるし |\n| i-adjective | 安いし |\n| na-adj / noun | 静かだし / 学生だし |\n\nStructure: A し、B し、C. 「この 店が 好きです。安いし、おいしいし、スタッフも 親切だから。」 Often combined with から or ので, or the reason alone: 暑いし、行きたくない. Note that し is used for adding reasons of the same direction (all positive or all negative). Pairing with も: 天気も いいし、暇だし. Do not use it for a single reason, as it would sound incomplete.",
+"examples":[{"ja":"この 店は 安いし、おいしいし、よく 行きます。","en":"This shop is cheap and tasty, so I often go."},{"ja":"今日は 暑いし、疲れたし、出かけたくない。","en":"It is hot and I'm tired, so I don't want to go out."},{"ja":"この 町は 静かだし、きれいだし、住みやすいです。","en":"This town is quiet and clean, so it is easy to live in."},{"ja":"車も あるし、お金も あるから、旅行に 行ける。","en":"I have a car and money, so I can go on a trip."}],
+"exercises":[
+{"type":"choice","q":"この 店は 安い＿＿、おいしいです。","options":["し","から だ","ので し","けど し"],"a":0,"why":"Short form + し."},
+{"type":"fill","q":"静か＿＿し、きれいだし、いい 町です。","a":["だ"],"why":"na-adjectives keep だ before し."},
+{"type":"fill","q":"今日は 暑い＿＿、疲れたし、家に いたい。","a":["し"],"why":"Listing reasons."},
+{"type":"choice","q":"し is used to","options":["list several reasons","ask a question","show a quote","show means"],"a":0,"why":"Lists reasons or traits."},
+{"type":"order","q":"Make: It's cheap and delicious.","tokens":["安いし","おいしいです"],"a":["安いし","おいしいです"],"why":"Short + し, then the next clause."}
+]},
+{"id":"l13-sou","lesson":13,"title":"～そうです (looks like)","summary":"Judgement from appearance.",
+"explain":"Add そう to the stem of a verb or the stem of an adjective, and you get It looks like / seems that. It describes your impression from seeing something.\n\n| Word | Stem | Result |\n|---|---|---|\n| おいしい | おいし | おいしそう |\n| 高い | 高 | 高そう |\n| 静かだ | 静か | 静かそう |\n| 降る | 降り | 降りそう |\n\nExceptions: いい -> よさそう and ない -> なさそう. After そう use です, だ, に or な: おいしそうな ケーキ, 雨が 降りそうです, 楽しそうに 話す. Be careful: そう is not for things you know directly, but for what you see. The hearsay そうだ (they say that) takes the full short form (雨が 降るそうだ), which is a different grammar. Also note 元気そう is fine, but 美味しいそう is wrong.",
+"examples":[{"ja":"この ケーキは おいしそうですね。","en":"This cake looks delicious."},{"ja":"今にも 雨が 降りそうです。","en":"It looks like it will rain any moment."},{"ja":"田中さんは 忙しそうでした。","en":"Tanaka looked busy."},{"ja":"この 問題は 難しそうだ。","en":"This problem looks hard."}],
+"exercises":[
+{"type":"choice","q":"It looks delicious.","options":["おいしそう","おいしいそう","おいしくそう","おいしだそう"],"a":0,"why":"Drop い from おいしい."},
+{"type":"fill","q":"雨が 降り＿＿です。(It looks like rain)","a":["そう"],"why":"Verb stem + そう."},
+{"type":"choice","q":"いい + そう =","options":["よさそう","いそう","いいそう","よいそう"],"a":0,"why":"Irregular: よさそう."},
+{"type":"fill","q":"あの 人は 元気＿＿です。","a":["そう"],"why":"na-adjective stem + そう."},
+{"type":"order","q":"Make: This bag looks expensive.","tokens":["この","かばんは","高そうです"],"a":["この","かばんは","高そうです"],"why":"高い -> 高 + そう."}
+]},
+{"id":"l13-temiru","lesson":13,"title":"～てみる (try doing)","summary":"Do something to see how it is.",
+"explain":"Add みる to the te-form to say try doing. It means to do it and find out.\n\n| Verb | Te-form | Try to |\n|---|---|---|\n| 食べる | 食べて | 食べてみる |\n| 行く | 行って | 行ってみる |\n| 着る | 着て | 着てみる |\n\nPolite: 食べてみます. Past: 食べてみました. Request: 食べてみてください (please try it). Wish: 食べてみたい. The みる is written in hiragana when used this way. It does not mean try hard and persevere; it is a light test. Do not confuse with ～ようとする (attempt). Use 行ってみる for visiting a place to see it.",
+"examples":[{"ja":"この ケーキを 食べてみて ください。","en":"Please try this cake."},{"ja":"新しい 店に 行ってみたいです。","en":"I'd like to try going to the new shop."},{"ja":"この 服を 着てみても いいですか。","en":"May I try this on?"},{"ja":"日本語で 手紙を 書いてみました。","en":"I tried writing a letter in Japanese."}],
+"exercises":[
+{"type":"choice","q":"Please try this.","options":["これを 食べてみて ください","これを 食べみて ください","これを 食べるみて ください","これを 食べてみろ ください"],"a":0,"why":"te-form + みる."},
+{"type":"fill","q":"この 服を 着て＿＿ても いいですか。","a":["み"],"why":"てみる."},
+{"type":"fill","q":"京都に 行って＿＿たいです。","a":["み"],"why":"行ってみたい."},
+{"type":"choice","q":"てみる implies","options":["try and see","finish","must","regret"],"a":0,"why":"Try out."},
+{"type":"order","q":"Make: I tried making sushi.","tokens":["すしを","作ってみました"],"a":["すしを","作ってみました"],"why":"te-form + みました."}
+]},
+{"id":"l13-nara","lesson":13,"title":"～なら (if / as for)","summary":"If that is the case; as for ...",
+"explain":"なら takes a topic or condition from the previous conversation and gives advice, a suggestion or a fact about it. The condition is usually something you just heard.\n\n| Before なら | Example |\n|---|---|\n| verb | 京都に 行くなら |\n| i-adjective | 安いなら |\n| noun / na-adj | 日本料理なら / 静かなら |\n\nA noun or na-adjective is not followed by だ: 日本料理なら, not 日本料理だなら. The result can be a suggestion or a command: 京都に 行くなら、秋が いいですよ. It can also mean as for X: 寿司なら あの 店が いい. Differs from たら: たら is for a real if, whereas なら responds to what the other person said. The result clause usually has an opinion, request or suggestion rather than a plain future fact.",
+"examples":[{"ja":"京都に 行くなら、秋が いいですよ。","en":"If you are going to Kyoto, autumn is nice."},{"ja":"すしなら、駅の 前の 店が おいしいです。","en":"As for sushi, the shop in front of the station is good."},{"ja":"安いなら、買います。","en":"If it is cheap, I will buy it."},{"ja":"日本語を 勉強するなら、この 本が いいですよ。","en":"If you study Japanese, this book is good."}],
+"exercises":[
+{"type":"choice","q":"京都に 行く＿＿、秋が いいですよ。","options":["なら","だなら","たら だ","でも"],"a":0,"why":"Verb + なら."},
+{"type":"fill","q":"すし＿＿、あの 店が おいしいです。","a":["なら"],"why":"Noun + なら."},
+{"type":"choice","q":"Which is wrong?","options":["寿司ならおいしい 店が ある","寿司だなら 行く","車を 買うなら、この 店が いい","安いなら、買う"],"a":1,"why":"No だ before なら."},
+{"type":"fill","q":"日本へ 行く＿＿、この 本が いいですよ。","a":["なら"],"why":"Condition + なら."},
+{"type":"order","q":"Make: If it is Japanese food, I like that restaurant.","tokens":["日本料理なら","あの","店が","いいです"],"a":["日本料理なら","あの","店が","いいです"],"why":"Noun + なら."}
+]},
+{"id":"l13-frequency","lesson":13,"title":"Frequency: 一週間に三回","summary":"How often, per period.",
+"explain":"To say how often something is done, give the period, add に, then the number of times.\n\n| Pattern | Example |\n|---|---|\n| 一日に 二回 | twice a day |\n| 一週間に 三回 | three times a week |\n| 一か月に 一回 | once a month |\n| 一年に 二回 | twice a year |\n\nThe verb follows: 一週間に 三回 運動します. The same pattern works with hours: 一日に 三時間 勉強する. Use 何回 to ask how many times: 一週間に 何回 ありますか. For time units, 週間 means weeks, 日 means days. If you add ぐらい, you get approximately: 一か月に 二回ぐらい. Note that 一回 means once, 二回 twice, 三回 three times (counter 回).",
+"examples":[{"ja":"一週間に 三回 運動します。","en":"I exercise three times a week."},{"ja":"一か月に 二回ぐらい 映画を 見ます。","en":"I watch movies about twice a month."},{"ja":"一日に 三時間 勉強します。","en":"I study three hours a day."},{"ja":"一年に 一回 日本に 行きます。","en":"I go to Japan once a year."}],
+"exercises":[
+{"type":"choice","q":"I swim twice a week.","options":["一週間に 二回 泳ぎます","一週間で 二回 泳ぎます","一週間を 二回 泳ぎます","一週間と 二回 泳ぎます"],"a":0,"why":"Period + に + count."},
+{"type":"fill","q":"一か月＿＿ 一回 映画を 見ます。","a":["に"],"why":"Period + に."},
+{"type":"fill","q":"一週間に ＿＿ 運動しますか。(how many times)","a":["何回","なんかい"],"why":"何回 = how many times."},
+{"type":"choice","q":"一年に 二回 means","options":["twice a year","two years","every two years","for two minutes"],"a":0,"why":"Frequency per year."},
+{"type":"order","q":"Make: I study three hours a day.","tokens":["一日に","三時間","勉強します"],"a":["一日に","三時間","勉強します"],"why":"Period + に + amount + verb."}
+]},
+
+{"id":"l14-hoshii","lesson":14,"title":"ほしい (want a thing)","summary":"Wanting something, not doing something.",
+"explain":"ほしい is an i-adjective that means want, for things. The thing wanted is marked with が.\n\n| Form | Example |\n|---|---|\n| present | かばんが ほしい |\n| negative | ほしくない |\n| past | ほしかった |\n| third person | ほしがっている |\n\nUse it for objects: 新しい 車が ほしいです. For wanting to do something, use ～たい (L11). Like ～たい, it describes the speaker's feeling directly, so with another person's wish use ほしがっている: 弟は ゲームを ほしがっている. The particle を is possible but が is more standard: 時間が ほしい. Note it is a bit direct when asking people: 何が ほしいですか is fine for friends, but a shop assistant asks with a different phrase.",
+"examples":[{"ja":"新しい パソコンが ほしいです。","en":"I want a new computer."},{"ja":"今は 何も ほしくない。","en":"I don't want anything right now."},{"ja":"誕生日に 何が ほしいですか。","en":"What do you want for your birthday?"},{"ja":"弟は 犬を ほしがっています。","en":"My little brother wants a dog."}],
+"exercises":[
+{"type":"choice","q":"I want a new bag.","options":["新しい かばんが ほしいです","新しい かばんを ほしくです","新しい かばんが ほしいたい","新しい かばんで ほしい"],"a":0,"why":"Thing + が + ほしい."},
+{"type":"fill","q":"今は 何も ほし＿＿。","a":["くない","くありません"],"why":"ほしい is an i-adjective."},
+{"type":"fill","q":"弟は ゲームを ほし＿＿います。","a":["がって"],"why":"Third person: ほしがっている."},
+{"type":"choice","q":"Which wants to do something?","options":["行きたい","ほしい","来たほしい","行くほしい"],"a":0,"why":"Verbs use ～たい."},
+{"type":"order","q":"Make: What do you want for your birthday?","tokens":["誕生日に","何が","ほしいですか"],"a":["誕生日に","何が","ほしいですか"],"why":"何が + ほしい."}
+]},
+{"id":"l14-kamoshirenai","lesson":14,"title":"～かもしれません (might)","summary":"Possibility: maybe / might.",
+"explain":"かもしれません is attached to the short form and means it might be that. It is weaker than でしょう.\n\n| Type | Example |\n|---|---|\n| verb | 雨が 降るかもしれません |\n| i-adjective | 高いかもしれません |\n| noun / na-adj | 休みかもしれません (no だ) |\n| past | 行ったかもしれません |\n\nIn casual speech: かもしれない or just かも. Note that for nouns and na-adjectives, だ is dropped. Use it for your own guess: あしたは 来られないかもしれません. Do not use it to mean maybe in an answer to a yes/no question where you simply do not know the answer; for that, use わかりません. Compare: でしょう (probably, about 70 percent), かもしれません (maybe, maybe 30 percent).",
+"examples":[{"ja":"あしたは 雨が 降るかもしれません。","en":"It might rain tomorrow."},{"ja":"田中さんは 病気かもしれません。","en":"Tanaka may be sick."},{"ja":"この 店は 高いかもしれない。","en":"This shop might be expensive."},{"ja":"あの 人は もう 帰ったかも。","en":"That person may have gone home already."}],
+"exercises":[
+{"type":"choice","q":"It might rain.","options":["雨が 降るかもしれません","雨が 降るでかもしれません","雨が 降りかもしれません","雨だかもしれません"],"a":0,"why":"Short form + かもしれません."},
+{"type":"fill","q":"田中さんは 病気＿＿しれません。","a":["かも"],"why":"Noun + かもしれません."},
+{"type":"choice","q":"Which is correct?","options":["暇かもしれません","暇だかもしれません","暇なかもしれません","暇でかもしれません"],"a":0,"why":"No だ before かも."},
+{"type":"fill","q":"彼は もう 帰った＿＿。(casual: may have)","a":["かも","かもしれない"],"why":"かも casual."},
+{"type":"order","q":"Make: I may not be able to come tomorrow.","tokens":["あしたは","来られない","かもしれません"],"a":["あしたは","来られない","かもしれません"],"why":"Potential negative + かもしれません."}
+]},
+{"id":"l14-giving-receiving","lesson":14,"title":"あげる / くれる / もらう","summary":"Giving and receiving verbs.",
+"explain":"Japanese has three verbs, chosen by who gives to whom.\n\n| Verb | Meaning | Pattern |\n|---|---|---|\n| あげる | I / someone gives to others | 私は 友達に プレゼントを あげました |\n| くれる | someone gives to me / my family | 友達が 私に プレゼントを くれました |\n| もらう | receive | 私は 友達に / から プレゼントを もらいました |\n\nNote that くれる is used when the receiver is the speaker or someone close to them (the speaker's in-group). With もらう, the giver is marked with に or から and the receiver is the subject. To a superior, use さしあげる (humble) or いただく; Genki gives these later. Do not use あげる when the receiver is you: 友達が 私に あげた is wrong. Combine with ～てあげる / ～てくれる / ～てもらう for favors.",
+"examples":[{"ja":"私は 母に 花を あげました。","en":"I gave flowers to my mother."},{"ja":"友達が 私に 本を くれました。","en":"A friend gave me a book."},{"ja":"私は 先生に 辞書を もらいました。","en":"I received a dictionary from my teacher."},{"ja":"弟は 兄に ゲームを もらった。","en":"My younger brother got a game from my older brother."}],
+"exercises":[
+{"type":"choice","q":"A friend gave me a gift.","options":["友達が 私に プレゼントを くれました","友達が 私に プレゼントを あげました","友達は 私に プレゼントを もらいました が","私が 友達に くれました"],"a":0,"why":"Giver is subject; receiver is the speaker: くれる."},
+{"type":"fill","q":"私は 母に 花を ＿＿。","a":["あげました"],"why":"I give: あげる."},
+{"type":"fill","q":"私は 友達に 本を ＿＿。(received)","a":["もらいました"],"why":"もらう = receive."},
+{"type":"choice","q":"With もらう the giver is marked with","options":["に / から","を","で","と"],"a":0,"why":"に or から marks the source."},
+{"type":"order","q":"Make: I gave my friend a present.","tokens":["私は","友達に","プレゼントを","あげました"],"a":["私は","友達に","プレゼントを","あげました"],"why":"Giver は, receiver に, thing を."}
+]},
+{"id":"l14-tara-dou","lesson":14,"title":"～たらどうですか (why don't you)","summary":"Make a suggestion.",
+"explain":"Make a suggestion by adding ら to the short past form and then どうですか. The structure is If you do it, how about it?\n\n| Verb | Past | Suggestion |\n|---|---|---|\n| 行く | 行った | 行ったらどうですか |\n| 休む | 休んだ | 休んだらどうですか |\n| 食べる | 食べた | 食べたらどうですか |\n\nIn casual speech: ～たら？ (行ったら？) or ～たらどう？. Being very direct, it is for friends or those you are advising, such as 医者に 行ったらどうですか. A softer version is ～ましょうか or ～たほうがいいです. Note that the same ～たら form also means if or when: 安かったら 買います. Use てください for requests; ～たらどうですか for gentle suggestions that the other may reject.",
+"examples":[{"ja":"病院に 行ったら どうですか。","en":"Why don't you go to the hospital?"},{"ja":"少し 休んだら？","en":"Why not take a short break?"},{"ja":"先生に 聞いてみたら どうですか。","en":"Why don't you try asking the teacher?"},{"ja":"早く 寝たら どう？","en":"How about going to bed early?"}],
+"exercises":[
+{"type":"choice","q":"Why don't you rest?","options":["休んだら どうですか","休むら どうですか","休みたら どうですか","休んで どうですか"],"a":0,"why":"Past short + ら + どうですか."},
+{"type":"fill","q":"先生に 聞いて＿＿どうですか。","a":["みたら"],"why":"聞いてみる -> 聞いてみた -> みたら."},
+{"type":"fill","q":"医者に 行っ＿＿ どうですか。","a":["たら"],"why":"Past short 行った + ら."},
+{"type":"choice","q":"A casual version of 休んだらどうですか:","options":["休んだら？","休むか？","休んで？","休もう"],"a":0,"why":"たら？."},
+{"type":"order","q":"Make: Why don't you go to bed early?","tokens":["早く","寝たら","どうですか"],"a":["早く","寝たら","どうですか"],"why":"寝る -> 寝た -> 寝たら."}
+]},
+{"id":"l14-number-mo","lesson":14,"title":"Number + も (as many as)","summary":"Emphasize a large amount.",
+"explain":"Attach も to a quantity to show that you feel it is a lot: as much as, as many as.\n\n| Sentence | Nuance |\n|---|---|\n| 三時間 勉強した。 | I studied three hours. (neutral) |\n| 三時間も 勉強した。 | I studied as much as three hours! |\n\nUse it with counters of amounts: 十回も, 二千円も, 五人も. The affirmative verb is normal: 五冊も 本を 買いました. This も is about the speaker's surprise, not a plain 'also'. Note that もう means already and も alone attached to a number means as much as. Compare it with the opposite しか～ない (only), and with ぐらい (about). Take care that the number cannot be a bare 'one': 一人も ～ない means not even one person (with negative).",
+"examples":[{"ja":"きのうは 十時間も 寝ました。","en":"Yesterday I slept as much as ten hours."},{"ja":"この 本は 三千円も しました。","en":"This book cost as much as 3,000 yen."},{"ja":"クラスに 外国人が 十人も います。","en":"There are as many as ten foreigners in the class."},{"ja":"ケーキを 五つも 食べた。","en":"I ate as many as five cakes."}],
+"exercises":[
+{"type":"choice","q":"I slept as much as ten hours.","options":["十時間も 寝ました","十時間が 寝ました","十時間しか 寝ました","十時間で 寝ました"],"a":0,"why":"Number + も = as many as."},
+{"type":"fill","q":"ケーキを 五つ＿＿ 食べた。(as many as five)","a":["も"],"why":"Number + も."},
+{"type":"choice","q":"三時間も 勉強した。 The speaker feels it is","options":["a lot","little","exactly average","unknown"],"a":0,"why":"も stresses a large amount."},
+{"type":"fill","q":"この 本は 三千円＿＿ しました。","a":["も"],"why":"Price: 三千円も."},
+{"type":"order","q":"Make: There are as many as ten people.","tokens":["十人も","います"],"a":["十人も","います"],"why":"Number + も + verb."}
+]},
+{"id":"l14-shika","lesson":14,"title":"Number + しか + negative (only)","summary":"Only that much, and no more.",
+"explain":"しか is always used with a negative verb. It means nothing but, only, and adds a feeling that it is too little.\n\n| Sentence | Meaning |\n|---|---|\n| 千円しか ありません。 | I only have 1,000 yen. |\n| 一人しか 来ませんでした。 | Only one person came. |\n| 水しか 飲みません。 | I only drink water. |\n\nCompare with だけ, which is neutral and uses an affirmative verb: 千円だけ あります. The particles が and を drop before しか (千円が しか is wrong). Other particles stay: 友達にしか 話しません. The negative is required: しか + ありました is wrong. The opposite emphasis is number + も, which means too much. The nuance of しか is dissatisfaction or surprise: it only came to that.",
+"examples":[{"ja":"財布に 千円しか ありません。","en":"I only have 1,000 yen in my wallet."},{"ja":"昨日は 三時間しか 寝ませんでした。","en":"I only slept three hours yesterday."},{"ja":"クラスに 学生が 二人しか いません。","en":"There are only two students in the class."},{"ja":"お水しか 飲みません。","en":"I only drink water."}],
+"exercises":[
+{"type":"choice","q":"I only have 500 yen.","options":["五百円しか ありません","五百円しか あります","五百円も ありません","五百円だけ ありません"],"a":0,"why":"しか requires a negative verb."},
+{"type":"fill","q":"三時間＿＿ 寝ませんでした。","a":["しか"],"why":"Number + しか + negative."},
+{"type":"choice","q":"Which cannot be said?","options":["一人しか 来ません","一人しか 来る","一人だけ 来ました","一人だけ 来ます"],"a":1,"why":"しか needs a negative."},
+{"type":"fill","q":"水＿＿ 飲みません。(I only drink water)","a":["しか"],"why":"Noun + しか + negative."},
+{"type":"order","q":"Make: There are only two students.","tokens":["学生が","二人しか","いません"],"a":["学生が","二人しか","いません"],"why":"Number + しか + いません."}
+]},
+
+{"id":"l15-volitional","lesson":15,"title":"Volitional form (let's / I will)","summary":"Casual let's, and I'll do it.",
+"explain":"The volitional is the casual version of ～ましょう (let's...).\n\n| Type | Dictionary | Volitional |\n|---|---|---|\n| ru-verb | 食べる | 食べよう |\n| u-verb | 書く / 飲む / 話す | 書こう / 飲もう / 話そう |\n| u-verb | 買う / 待つ / 帰る | 買おう / 待とう / 帰ろう |\n| irregular | する / 来る | しよう / 来よう |\n\nFor u-verbs, change the final u-sound to the o-sound and add う. For ru-verbs, drop る and add よう. Uses: 行こう！ (Let's go) as an invitation to friends; ～ようか as an offer (手伝おうか?); and as an inner decision (今日は 早く 寝よう). It sounds friendly and informal. To a superior or stranger, use ましょう. The question form ～ましょうか is polite offering; and ～ませんか is a polite invitation. Don't use it for orders.",
+"examples":[{"ja":"一緒に 昼ご飯を 食べよう！","en":"Let's eat lunch together!"},{"ja":"あした 映画を 見に 行こうか。","en":"Shall we go to a movie tomorrow?"},{"ja":"荷物、持とうか。","en":"Shall I carry your bag?"},{"ja":"今日は 早く 帰ろう。","en":"I'll go home early today."}],
+"exercises":[
+{"type":"choice","q":"Volitional of 飲む:","options":["飲もう","飲もうう","飲もる","飲めよう"],"a":0,"why":"む -> も + う."},
+{"type":"choice","q":"Volitional of 食べる:","options":["食べおう","食べよう","食べろう","食べるう"],"a":1,"why":"ru-verb: 食べ + よう."},
+{"type":"fill","q":"帰る -> ＿＿","a":["帰ろう","かえろう"],"why":"る -> ろ + う."},
+{"type":"fill","q":"する -> ＿＿","a":["しよう"],"why":"Irregular: しよう."},
+{"type":"choice","q":"Casual way to say Shall we go?","options":["行こうか","行きましょうか","行くですか","行ったか"],"a":0,"why":"Volitional + か."},
+{"type":"order","q":"Make: Let's go together.","tokens":["一緒に","行こう"],"a":["一緒に","行こう"],"why":"Volitional = let's."}
+]},
+{"id":"l15-volitional-to-omotteiru","lesson":15,"title":"Volitional + と思っています","summary":"I am thinking of doing / I intend to.",
+"explain":"Put the volitional form in front of と思っています to say you are thinking about doing something, a plan not yet fully fixed.\n\n| Sentence | Meaning |\n|---|---|\n| 留学しようと 思っています。 | I'm thinking of studying abroad. |\n| 来年 日本に 行こうと 思っています。 | I'm thinking of going to Japan next year. |\n\nNote the form 思っています (progressive), as the thought is continuing. The simple 思います would mean I think that. The pattern is softer than つもりです: the plan is less definite, and it is good for stating your plans to a teacher politely. It is for first person (your own plans); for another person, use と言っていました or 思っているようです. In a negative, use つもり: 行かないつもりです. 行こうと 思わない is unnatural.",
+"examples":[{"ja":"夏休みに 北海道へ 行こうと 思っています。","en":"I'm thinking of going to Hokkaido during summer vacation."},{"ja":"来年 日本で 働こうと 思っています。","en":"I'm planning to work in Japan next year."},{"ja":"新しい 車を 買おうと 思っています。","en":"I'm considering buying a new car."},{"ja":"毎日 運動しようと 思っています。","en":"I'm thinking of exercising every day."}],
+"exercises":[
+{"type":"choice","q":"I'm thinking of studying abroad.","options":["留学しようと 思っています","留学すると 思っています よう","留学しよと 思っています","留学しようと 思います か"],"a":0,"why":"Volitional + と思っています."},
+{"type":"fill","q":"車を 買おう＿＿ 思っています。","a":["と"],"why":"Volitional + と."},
+{"type":"fill","q":"来年 日本へ 行こうと 思って＿＿。","a":["います"],"why":"Progressive: 思っています."},
+{"type":"choice","q":"Which is less definite?","options":["行こうと 思っています","行くつもりです","行きます","行きたい はず"],"a":0,"why":"It is the softest, only a thought."},
+{"type":"order","q":"Make: I'm thinking of working in Japan.","tokens":["日本で","働こうと","思っています"],"a":["日本で","働こうと","思っています"],"why":"働く -> 働こう + と思っています."}
+]},
+{"id":"l15-teoku","lesson":15,"title":"～ておく (do in advance)","summary":"Do something ahead of time, for later.",
+"explain":"Add おく to the te-form to say that you do something in advance, as preparation, or leave something as it is.\n\n| Verb | Te-form | In advance |\n|---|---|---|\n| 買う | 買って | 買っておく |\n| 予約する | 予約して | 予約しておく |\n| 読む | 読んで | 読んでおく |\n\nPolite: 買っておきます. Past: 買っておきました (I have bought it, ready). Casual contractions: 買っとく, 読んどく. It focuses on preparing for a later situation: パーティーの 前に 飲み物を 買っておきます. It also means leave it that way: 窓を 開けておく. A verb in ておく is done by someone on purpose. Compare with ～てある (state results) and ～ている (progress). In writing the おく is hiragana.",
+"examples":[{"ja":"旅行の 前に ホテルを 予約しておきます。","en":"Before the trip I will book a hotel in advance."},{"ja":"テストの 前に 漢字を 勉強しておいた。","en":"I studied the kanji before the test."},{"ja":"飲み物を 買っておいて ください。","en":"Please buy drinks in advance."},{"ja":"暑いから、窓を 開けておこう。","en":"It's hot, so I'll leave the window open."}],
+"exercises":[
+{"type":"choice","q":"I will buy drinks in advance.","options":["飲み物を 買っておきます","飲み物を 買いておきます","飲み物を 買うおきます","飲み物を 買ってあります が"],"a":0,"why":"te-form + おきます."},
+{"type":"fill","q":"ホテルを 予約し＿＿おきます。","a":["て"],"why":"te-form + おく."},
+{"type":"fill","q":"テストの 前に 勉強して＿＿。(casual past, did in advance)","a":["おいた"],"why":"おく -> おいた."},
+{"type":"choice","q":"Casual contraction of 買っておく:","options":["買っとく","買っどく","買いとく","買っでく"],"a":0,"why":"ておく -> とく."},
+{"type":"order","q":"Make: Please read this in advance.","tokens":["これを","読んでおいて","ください"],"a":["これを","読んでおいて","ください"],"why":"読んでおく -> 読んでおいてください."}
+]},
+{"id":"l15-relative-clauses","lesson":15,"title":"Qualifying nouns with sentences (full relative clauses)","summary":"Any short-form sentence can describe a noun.",
+"explain":"Following the L9 pattern, any full sentence in short form can be put before a noun to describe it. The clause can have its own subject (が), object (を), place (で), time and so on. The noun being modified is what it describes.\n\n| Clause | Noun | Meaning |\n|---|---|---|\n| 私が 昨日 会った | 人 | the person I met yesterday |\n| 母が 作ってくれた | ケーキ | the cake my mother made for me |\n| 来年 日本へ 行く | 友達 | the friend who will go to Japan next year |\n| 駅の 近くに ある | 店 | a shop near the station |\n\nThe particle の may replace が inside the clause (私の 作った ケーキ), but が is more common. The head noun may be the subject, object, place or time of the clause, but nothing marks it. No relative pronoun exists. Since the clause is only a modifier, use the short form, even in polite speech. Be careful that a long clause can make the sentence ambiguous, so keep it short and clear.",
+"examples":[{"ja":"私が 昨日 会った 人は 田中さんです。","en":"The person I met yesterday is Tanaka."},{"ja":"母が 作ってくれた ケーキは おいしかった。","en":"The cake my mother made for me was delicious."},{"ja":"来年 日本へ 行く 友達は 京都に 住みたがっている。","en":"My friend who will go to Japan next year wants to live in Kyoto."},{"ja":"駅の 近くに ある 店で 昼ご飯を 食べた。","en":"I ate lunch at a shop near the station."}],
+"exercises":[
+{"type":"choice","q":"the friend I talked with yesterday","options":["昨日 話した 友達","昨日 話しました 友達","昨日 話す が 友達","昨日 話してる の 友達 が"],"a":0,"why":"Short past form + noun."},
+{"type":"fill","q":"私＿＿ 作った ケーキは おいしいです。","a":["が","の"],"why":"The subject of the clause takes が (or の)."},
+{"type":"choice","q":"駅の 近くに ある 店 means","options":["the shop near the station","the station near the shop","the shop that has the station","a shop and a station"],"a":0,"why":"駅の 近くに ある modifies 店."},
+{"type":"fill","q":"昨日 ＿＿ 映画は おもしろかった。(見る, past)","a":["見た","みた"],"why":"Past short form inside the clause."},
+{"type":"order","q":"Make: The cake my mother made was delicious.","tokens":["母が","作った","ケーキは","おいしかった"],"a":["母が","作った","ケーキは","おいしかった"],"why":"Clause + noun, then predicate."}
+]}
+]

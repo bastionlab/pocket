@@ -1,0 +1,114 @@
+<script setup lang="ts">
+/** a text box that also takes pasted, dropped or picked images; Cmd/Ctrl+Enter saves. Used for new notes and for "add to this note". */
+const props = defineProps<{
+  placeholder: string
+  save: (text: string, images: string[]) => Promise<any>
+  draftKey?: string // keeps an unsent draft in this browser
+  label?: string
+}>()
+
+const text = ref('')
+const images = ref<string[]>([])
+const uploading = ref(0)
+const busy = ref(false)
+const err = ref('')
+const drag = ref(false)
+const box = ref<HTMLTextAreaElement>()
+const file = ref<HTMLInputElement>()
+const mac = ref(false) // set on mount: the server render can't know the platform
+
+onMounted(() => {
+  mac.value = /Mac|iPhone|iPad/.test(navigator.platform)
+  try {
+    if (props.draftKey) {
+      const d = JSON.parse(localStorage.getItem(props.draftKey) || 'null')
+      if (d) { text.value = d.text ?? ''; images.value = d.images ?? [] }
+    }
+  } catch {}
+  nextTick(grow)
+})
+watch([text, images], () => {
+  if (props.draftKey) try { localStorage.setItem(props.draftKey, JSON.stringify({ text: text.value, images: images.value })) } catch {}
+}, { deep: true })
+
+function grow() {
+  const el = box.value
+  if (!el) return
+  el.style.height = 'auto'
+  el.style.height = `${Math.min(el.scrollHeight + 2, window.innerHeight * 0.5)}px`
+}
+
+async function add(files: Iterable<File>) {
+  for (const f of files) {
+    if (!f.type.startsWith('image/')) continue
+    uploading.value++
+    try { images.value.push(await uploadNoteImage(f)) } catch (e: any) { err.value = `Image failed: ${e?.statusMessage || e?.message}` } finally { uploading.value-- }
+  }
+}
+function onPaste(e: ClipboardEvent) {
+  const files = [...(e.clipboardData?.files ?? [])].filter(f => f.type.startsWith('image/'))
+  if (files.length) { e.preventDefault(); add(files) }
+}
+function onDrop(e: DragEvent) { drag.value = false; add(e.dataTransfer?.files ?? []) }
+function onPick() { add(file.value?.files ?? []); file.value!.value = '' }
+
+const ready = computed(() => (text.value.trim() || images.value.length) && !uploading.value && !busy.value)
+async function submit() {
+  if (!ready.value) return
+  busy.value = true; err.value = ''
+  try {
+    await props.save(text.value.trim(), images.value)
+    text.value = ''; images.value = []
+    if (props.draftKey) try { localStorage.removeItem(props.draftKey) } catch {}
+    nextTick(grow)
+  } catch (e: any) { err.value = e?.data?.statusMessage || e?.statusMessage || e?.message || 'failed' } finally { busy.value = false }
+}
+function onKey(e: KeyboardEvent) { if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) { e.preventDefault(); submit() } }
+defineExpose({ focus: () => box.value?.focus() })
+</script>
+
+<template>
+  <div class="compose" :class="{ drag }" @dragover.prevent="drag = true" @dragleave="drag = false" @drop.prevent="onDrop">
+    <textarea
+      ref="box" v-model="text" rows="2" :placeholder="placeholder"
+      @input="grow" @paste="onPaste" @keydown="onKey"
+    />
+    <div v-if="images.length || uploading" class="thumbs">
+      <div v-for="(img, i) in images" :key="img" class="thumb">
+        <NoteImg :name="img" />
+        <button type="button" title="remove" aria-label="remove" @click="images.splice(i, 1)"><Icon name="x" :size="14"/></button>
+      </div>
+      <div v-for="n in uploading" :key="'u' + n" class="thumb loading" />
+    </div>
+    <div class="bar">
+      <button type="button" class="btn ghost" title="add images (or paste / drop them)" @click="file?.click()"><Icon name="image" :size="16"/><span class="hide-s">Image</span></button>
+      <input ref="file" type="file" accept="image/*" multiple hidden @change="onPick">
+      <span v-if="err" class="bad small err">{{ err }}</span>
+      <span class="sp" />
+      <span class="faint small hide-s">{{ mac ? 'Cmd' : 'Ctrl' }} + Enter</span>
+      <button type="button" class="btn primary" :disabled="!ready" @click="submit">{{ busy ? 'Saving…' : label ?? 'Save' }}</button>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.compose { overflow: hidden; border: 1px solid var(--line-2); border-radius: var(--radius); background: var(--panel-2); transition: border-color var(--dur); }
+.compose:focus-within, .compose.drag { border-color: var(--accent); }
+.compose.drag { background: var(--accent-soft); }
+textarea { display: block; width: 100%; border: 0; border-radius: 0; box-shadow: none; outline: none; -webkit-appearance: none; appearance: none; background: transparent; resize: none; padding: 12px 14px 4px; font-size: 15px; line-height: 1.5; min-height: 52px; }
+textarea:focus, textarea:focus-visible { border: 0; box-shadow: none; outline: none; }
+.thumbs { display: flex; flex-wrap: wrap; gap: 8px; padding: 6px 14px; }
+.thumb { position: relative; width: 72px; height: 72px; border-radius: var(--radius-sm); overflow: hidden; background: var(--panel); border: 1px solid var(--line); }
+.thumb :deep(img) { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb button { position: absolute; top: 3px; right: 3px; width: 20px; height: 20px; border-radius: 50%; border: 0; background: rgba(0, 0, 0, .65); color: #fff; font-size: 11px; cursor: pointer; }
+@media (pointer: coarse) { .thumb button { top: 2px; right: 2px; width: 32px; height: 32px; font-size: 13px; } }
+.thumb.loading { animation: pulse 1s infinite alternate; }
+@keyframes pulse { to { background: var(--line-2); } }
+.bar { display: flex; align-items: center; gap: 8px; padding: 4px 8px 8px; }
+.err { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sp { flex: 1; }
+@media (max-width: 640px) {
+  .hide-s { display: none; }
+  textarea { font-size: 16px; } /* phones zoom into inputs under 16px */
+}
+</style>

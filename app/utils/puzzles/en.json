@@ -1,0 +1,879 @@
+{
+  "puzzles": {
+    "title": "Puzzles",
+    "all": "All puzzles",
+    "retry": "Retry",
+    "loadError": "Could not load puzzles.",
+    "kinds": {
+      "all": "All",
+      "word": "Word",
+      "logic": "Logic",
+      "geo": "Geography",
+      "quiz": "Quiz"
+    },
+    "games": {
+      "wordle": {
+        "hint": "Guess the five-letter word in six tries."
+      },
+      "anagram": {
+        "hint": "Unscramble the word, with three hints."
+      },
+      "hangman": {
+        "hint": "Find the word before eight wrong letters."
+      },
+      "word-ladder": {
+        "hint": "Change one letter at a time, in six steps."
+      },
+      "connections": {
+        "hint": "Sort sixteen words into four groups."
+      },
+      "spelling-bee": {
+        "hint": "Make words from seven letters, find the pangram."
+      },
+      "sudoku-mini": {
+        "hint": "Six by six, fill each row, column and box."
+      },
+      "sudoku": {
+        "hint": "The classic nine by nine."
+      },
+      "minesweeper": {
+        "hint": "Clear the board without hitting a mine."
+      },
+      "nonogram": {
+        "hint": "Paint the picture from the number clues."
+      },
+      "lights-out": {
+        "hint": "Switch every light off."
+      },
+      "mastermind": {
+        "hint": "Crack the hidden colour code."
+      },
+      "higher-lower": {
+        "hint": "Is the next term searched more or less on Google?"
+      },
+      "math-24": {
+        "hint": "Make 24 from four numbers."
+      },
+      "sliding-3x3": {
+        "hint": "Slide the tiles back into order."
+      },
+      "takuzu": {
+        "hint": "Fill the grid with 0 and 1, no three in a row."
+      },
+      "memory-match": {
+        "hint": "Find all the pairs in the fewest flips."
+      },
+      "country-wordle": {
+        "hint": "Find the country from distance and direction."
+      },
+      "flaggle": {
+        "hint": "Name the country from its flag."
+      },
+      "capital-quiz": {
+        "hint": "Five capitals, four choices each."
+      },
+      "outline-guess": {
+        "hint": "Which country fits these three facts?"
+      },
+      "queens": {
+        "hint": "One queen per row, column and colour."
+      }
+    },
+    "pill": {
+      "none": "Not played",
+      "failed": "Failed",
+      "streak": "Streak {n}",
+      "solved": "Solved",
+      "progress": "In progress",
+      "solvedLevel": "Solved - {level}"
+    },
+    "in": {
+      "tries": "Solved in {n} try | Solved in {n} tries",
+      "guesses": "Solved with {n} guess | Solved with {n} guesses",
+      "steps": "Solved in {n} step | Solved in {n} steps",
+      "words": "Solved, {n} word | Solved, {n} words",
+      "min": "Solved in {n} min",
+      "moves": "Solved in {n} move | Solved in {n} moves",
+      "flips": "Solved in {n} flip | Solved in {n} flips",
+      "points": "Solved, streak of {n}",
+      "right": "Solved, {n} right"
+    },
+    "day": {
+      "prev": "Previous day",
+      "next": "Next day",
+      "today": "Today",
+      "label": "Day",
+      "goToday": "Jump to today"
+    },
+    "result": {
+      "title": "Result",
+      "solved": "Solved",
+      "failed": "Not solved",
+      "copy": "Copy result",
+      "copied": "Copied",
+      "copyFailed": "Could not copy",
+      "saved": "Saved",
+      "saveFailed": "Could not save the result",
+      "played": "Already played",
+      "replay": "Play again",
+      "best": "Best streak {n}",
+      "next": "Next unplayed game",
+      "allDone": "All games done today."
+    },
+    "enter": "Enter",
+    "delete": "Delete",
+    "clear": "Clear",
+    "submit": "Submit",
+    "erase": "Erase",
+    "restart": "Restart",
+    "giveUp": "Give up",
+    "moves": "Moves: {n}",
+    "flips": "Flips: {n}",
+    "answerWas": "The answer was {a}",
+    "typeCountry": "Type a country",
+    "loading": "Loading",
+    "wordle": {
+      "short": "Not enough letters",
+      "unknown": "Not in the word list",
+      "hard": "Hard mode",
+      "contrast": "High contrast",
+      "board": "Guess grid",
+      "empty": "empty",
+      "hardPos": "{n} letter must be {l}",
+      "hardHas": "Guess must contain {l}",
+      "how": "Six tries to find the word. Green: right letter, right place. Yellow: in the word, wrong place. Grey: not in the word.",
+      "praise": {
+        "1": "Genius",
+        "2": "Magnificent",
+        "3": "Impressive",
+        "4": "Splendid",
+        "5": "Great",
+        "6": "Phew"
+      },
+      "state": {
+        "g": "correct",
+        "y": "in the word",
+        "x": "not in the word"
+      },
+      "summaryWin": "{praise}, solved in {n} of 6",
+      "summaryLoss": "The word was {a}",
+      "tries": "Tries",
+      "hints": "Hints"
+    },
+    "anagram": {
+      "left": "Guesses left: {n}",
+      "hint": "Hint ({n} left)",
+      "wrong": "Not it. {n} left",
+      "solved": "Unscrambled",
+      "shuffle": "Shuffle",
+      "answer": "Your answer",
+      "letters": "Letters",
+      "how": "Tap letters to fill the slots, tap a placed letter to take it back. A hint reveals and locks a letter.",
+      "words": "Words to solve",
+      "letterCount": "{n} letters",
+      "summaryClean": "All three words, no mistakes",
+      "summaryWin": "All three words, {n} mistake | All three words, {n} mistakes",
+      "summaryLoss": "{k} of 3 words. The word was {a}",
+      "word": "Word",
+      "mistakes": "Mistakes",
+      "missed": "The word was {a}"
+    },
+    "hangman": {
+      "wrong": "Wrong: {n} of {max}",
+      "lives": "{n} left",
+      "word": "Word with {n} letters",
+      "won": "Solved with {n} wrong",
+      "summaryWin": "Solved with {n} of {max} lives lost",
+      "summaryLoss": "The word was {a}",
+      "livesLabel": "Lives",
+      "wrongLabel": "Wrong",
+      "noLetter": "No {l} in the word"
+    },
+    "ladder": {
+      "bad": "Change one letter to make a real word",
+      "left": "Steps left: {n}",
+      "step": "Step {n} of {max}",
+      "par": "Par {n}",
+      "parTag": "par",
+      "undo": "Undo",
+      "chain": "Word ladder",
+      "start": "Start",
+      "target": "Target",
+      "short": "Type three letters",
+      "same": "Change one letter",
+      "multi": "Change only one letter at a time",
+      "used": "Already used in this ladder",
+      "unknown": "Not in the word list",
+      "won": "Reached in {n} (par {best})",
+      "path": "A shortest path: {p}",
+      "how": "Go from the start word to the target, changing one letter per step. Every step must be a real word.",
+      "stepN": "Steps {n}",
+      "current": "Current word",
+      "letter": "Letter {l}, position {n}",
+      "picker": "Replacement letter",
+      "tap": "Tap a letter to change it",
+      "pickFor": "Pick the new letter {n}",
+      "try": "Try",
+      "shortest": "Shortest route, {n} steps",
+      "summaryWin": "Reached in {n} steps, par {par}",
+      "summaryLoss": "Out of steps. Par was {par}",
+      "stepsLabel": "Steps",
+      "parLabel": "Par"
+    },
+    "connections": {
+      "left": "Mistakes left: {n}",
+      "oneAway": "One away",
+      "shuffle": "Shuffle",
+      "deselect": "Deselect all",
+      "again": "Already guessed",
+      "nope": "Not a group",
+      "board": "Words",
+      "how": "Find four groups of four words that share something. Pick four tiles and submit. Four mistakes end the game.",
+      "summaryClean": "All four groups, no mistakes",
+      "summaryWin": "All four groups, {n} mistake | All four groups, {n} mistakes",
+      "summaryLoss": "{k} of 4 groups found",
+      "groups": "Groups",
+      "mistakes": "Mistakes"
+    },
+    "bee": {
+      "short": "Too short",
+      "centre": "Use the centre letter",
+      "dupe": "Already found",
+      "unknown": "Not in the word list",
+      "pangram": "Pangram",
+      "goal": "Find the word that uses all seven letters",
+      "points": "points",
+      "words": "Words: {n}",
+      "finish": "Finish",
+      "missing": "Missing centre letter",
+      "plus": "+{n}",
+      "pangramPts": "Pangram! +{n}",
+      "pangramFound": "Pangram found, keep going",
+      "none": "No words yet",
+      "ranks": "Ranks",
+      "letters": "Letters",
+      "centreLetter": "{l}, centre letter",
+      "shuffle": "Shuffle letters",
+      "rank": {
+        "0": "Beginner",
+        "1": "Good Start",
+        "2": "Moving Up",
+        "3": "Good",
+        "4": "Solid",
+        "5": "Nice",
+        "6": "Great",
+        "7": "Amazing",
+        "8": "Genius",
+        "9": "Queen Bee"
+      },
+      "how": "Words need four or more letters and the centre letter. Four letters score 1 point, longer words one per letter, a pangram (all seven letters) +7.",
+      "hints": "Hinted words",
+      "summary": "{rank}, {pts} points, {n} words",
+      "pointsLabel": "Points",
+      "wordsLabel": "Words",
+      "toNext": "{n} to next"
+    },
+    "mines": {
+      "left": "Mines left: {n}",
+      "dig": "Dig",
+      "flag": "Flag",
+      "boom": "Boom",
+      "retry": "Try again",
+      "cell": "Row {r}, column {c}, {s}",
+      "closed": "closed",
+      "flagged": "flagged",
+      "mine": "mine",
+      "blank": "empty",
+      "howTitle": "How to play",
+      "how": "A number counts the mines around it. Long-press (or right-click) to flag; tap a number that has all its flags to open the rest around it.",
+      "sumSolved": "Cleared in {time}. Hints: {h}",
+      "sumFailed": "Hit a mine after opening {n} of {total} safe cells",
+      "fair": "Fair board: no guessing needed",
+      "hintSafe": "Hint: the numbers prove this cell is safe",
+      "hintMine": "Hint: the numbers prove this cell is a mine"
+    },
+    "nono": {
+      "fill": "Fill",
+      "mark": "Mark",
+      "cell": "Row {r}, column {c}, {s}",
+      "filled": "filled",
+      "crossed": "crossed out",
+      "empty": "empty",
+      "undo": "Undo",
+      "reset": "Clear the board",
+      "howTitle": "How to play",
+      "how": "Numbers give the runs of filled cells in each line. Drag across cells to fill a line; use Mark to cross out cells that must stay empty.",
+      "sumSolved": "Solved in {time}. Hints: {h}"
+    },
+    "mastermind": {
+      "code": "The code was"
+    },
+    "hl": {
+      "streak": "Streak: {n}",
+      "ask": "Is the next number higher or lower?",
+      "higher": "Higher",
+      "lower": "Lower",
+      "over": "Round over",
+      "streakLabel": "Streak",
+      "goal": "Goal: {n}",
+      "reachedPill": "Goal reached",
+      "trail": "Rounds so far",
+      "current": "Current number {n}",
+      "correct": "Correct",
+      "wasHigher": "Wrong, it was higher",
+      "wasLower": "Wrong, it was lower",
+      "reached": "Goal reached with a streak of {n}",
+      "short": "Streak of {n}, {m} short of the goal",
+      "question": "Is {b} searched more or less than {a}?",
+      "rounds": "Streak {n} of {max} rounds",
+      "ended": "Round over",
+      "more": "More searched",
+      "less": "Less searched",
+      "perMonth": "approx. searches a month",
+      "hidden": "searches a month",
+      "hintLabel": "Digits",
+      "digits": "{n} digits",
+      "sumWon": "Streak of {n} out of {max}.",
+      "sumShort": "Streak of {n}, {m} short of the goal.",
+      "sumHints": "({h} hints)",
+      "round": "Round"
+    },
+    "m24": {
+      "not": "That is {n}, not 24",
+      "ops": "Operations",
+      "op": {
+        "plus": "Plus",
+        "minus": "Minus",
+        "times": "Times",
+        "divide": "Divided by"
+      },
+      "pick1": "Pick a number",
+      "pick2": "Pick an operation",
+      "div0": "Cannot divide by zero",
+      "hintStep": "Try {a} {op} {b}",
+      "hintNone": "No way to 24 from here. Undo a step.",
+      "won": "That makes 24",
+      "undo": "Undo",
+      "reset": "Reset",
+      "hint": "Hint",
+      "sure": "Sure?",
+      "working": "Working",
+      "level0": "Easy",
+      "level1": "Medium",
+      "level2": "Hard",
+      "sumFirst": "Made 24 on the first try.",
+      "sumTries": "Made 24 on try {n}.",
+      "sumHints": "({h} hints)",
+      "sumLost": "Gave up. One way: {s}",
+      "levelLabel": "Level",
+      "try": "Try"
+    },
+    "cw": {
+      "hint": "Distance, direction, continent and size",
+      "left": "Guesses left: {n}",
+      "correct": "Correct",
+      "sameCont": "Same continent",
+      "otherCont": "Other continent",
+      "pop": {
+        "same": "Same size",
+        "higher": "More people",
+        "lower": "Fewer people"
+      },
+      "km": "{n} km",
+      "hintCont": "Continent",
+      "hintFirst": "First letter",
+      "slot": {
+        "cont": "Continent",
+        "first": "First letter"
+      }
+    },
+    "flag": {
+      "alt": "Flag",
+      "continent": "Continent: {v}",
+      "capital": "Capital starts with {v}",
+      "pop": "Population: {v}",
+      "lang": "Main language: {v}",
+      "name": "{n} letters, starts with {l}",
+      "sharpen": "Sharpen"
+    },
+    "quiz": {
+      "round": "Round {n} of {of}",
+      "capitalOf": "What is the capital of {c}?",
+      "next": "Next",
+      "finish": "Finish"
+    },
+    "facts": {
+      "which": "Which country is this?",
+      "points": "Points",
+      "worth": "Worth {n} points now",
+      "gained": "Correct, +{n} points"
+    },
+    "words": {
+      "howTo": "How to play",
+      "keyboard": "Keyboard"
+    },
+    "sudoku": {
+      "hints": "Hints: {n}",
+      "cell": "Row {r}, column {c}, {v}",
+      "blank": "empty",
+      "undo": "Undo",
+      "notes": "Notes",
+      "on": "On",
+      "off": "Off",
+      "hint": "Hint",
+      "left": "{n} left",
+      "howTitle": "How to play",
+      "how": "Every row, column and box holds each digit once. Tap a cell, then a digit. Notes mode pencils small candidates, and they clear themselves when you place the digit.",
+      "mistakes": "Mistakes: {n} of {max}",
+      "sumSolved": "Solved in {time}. Mistakes: {m}, hints: {h}",
+      "sumFailed": "Out of mistakes. {n} of {total} cells were right",
+      "autoNotes": "Auto notes",
+      "showSolution": "Show solution",
+      "hideSolution": "Hide solution",
+      "options": "Options and keys",
+      "digitFirst": "Digit first",
+      "conflicts": "Highlight conflicts",
+      "kDigit": "place a digit (digit first: arm it)",
+      "kNotes": "notes on / off",
+      "kAuto": "fill all notes",
+      "kMove": "move",
+      "kDeselect": "deselect",
+      "tech": {
+        "naked": "Only one digit fits this cell",
+        "row": "This digit can only go here in its row",
+        "col": "This digit can only go here in its column",
+        "box": "This digit can only go here in its box",
+        "fill": "No simple technique here, so the cell is filled"
+      }
+    },
+    "takuzu": {
+      "empty": "empty",
+      "v0": "0",
+      "v1": "1",
+      "cell": "Row {r}, column {c}, {s}",
+      "counts": "Edge numbers: zeros and ones in that line",
+      "howTitle": "How to play",
+      "how": "Tap a cell to cycle empty, 0, 1. No three equal in a row, three 0s and three 1s in every row and column, and no two identical rows or columns.",
+      "sumSolved": "Solved in {time}. Hints: {h}"
+    },
+    "lights": {
+      "moves": "Moves",
+      "lit": "Lit",
+      "min": "Minimum",
+      "cell": "Row {r}, column {c}, {s}",
+      "on": "on",
+      "off": "off",
+      "left": "Fewest presses left: {n}",
+      "howTitle": "How to play",
+      "how": "Pressing a light flips it and its four neighbours. Switch them all off in as few moves as you can.",
+      "sumSolved": "Solved in {n} moves, minimum {par}"
+    },
+    "progress": "Today: {n} of {total} done",
+    "bestStreak": "Best streak {n}",
+    "sectionDone": "{n} of {total} done",
+    "stats": {
+      "title": "Stats",
+      "played": "Played",
+      "winRate": "Win rate",
+      "streak": "Streak",
+      "best": "Best streak",
+      "dots": "{n} of the last 30 days solved",
+      "solved": "Solved",
+      "failed": "Failed",
+      "none": "Not played",
+      "note": "Played and win rate count your last 30 results."
+    },
+    "how": {
+      "title": "How to play",
+      "mastermind": "Crack the hidden colour code in the tries you get. A filled dot means the right colour in the right place, a ring means the right colour in the wrong place. Colours can repeat. A hint shows one peg of the code.",
+      "higher-lower": "The first term shows about how often it is searched on Google each month. Is the second term searched more or less? Counts are rough estimates. A streak of 6 solves the day; one wrong guess ends it.",
+      "math-24": "Tap a card, an operation, then a second card to merge them into one. Make exactly 24 from all four. Fractions are allowed, and some days need them. A hint shows the next step.",
+      "sliding-3x3": "Put the tiles in order, 1 upwards with the gap last. Tap a tile next to the gap, or swipe it towards the gap; a whole row or column moves together. A hint points at the next tile.",
+      "memory-match": "Flip two cards at a time. Matching cards stay up. Find all the pairs in as few flips as you can. A hint shows one pair for a moment and marks it.",
+      "wordle": "Find the five-letter word in six tries. Green: right letter, right place. Yellow: in the word, wrong place. Grey: not in the word.",
+      "quordle": "Four Wordles at once, one set of guesses, nine tries. Each key shows four colours, one per board. A solved board stops.",
+      "anagram": "Unscramble three words of six, seven and eight letters, one after another. Tap letters to place them, tap a placed letter to take it back. Six mistakes in total end the game; a hint locks one correct letter.",
+      "hangman": "Guess the word one letter at a time. Six wrong letters and the drawing is complete. A hint reveals a letter without costing a life.",
+      "word-ladder": "Change one letter at a time to get from the start word to the target. Tap a letter, pick its replacement; every step must be a real word. Any route counts, par is the shortest one.",
+      "connections": "Find four groups of four words that share something. Pick four tiles and submit. Beware of words that fit two groups. Four mistakes end the game.",
+      "spelling-bee": "Make words of four or more letters that use the centre letter. Four letters score 1 point, longer words one per letter, a pangram (all seven letters) +7.",
+      "sudoku-mini": "Fill the 6x6 grid so every row, column and 2x3 box holds 1 to 6 once. A wrong digit is a mistake: three mistakes end the game. Notes do not count.",
+      "sudoku": "Fill the grid so every row, column and 3x3 box holds 1 to 9 once. A wrong digit is a mistake: three mistakes end the game. Notes do not count.",
+      "minesweeper": "A number counts the mines around it. Every board is fair: an opening is already clear and you can always work out the next move, no guessing. Tap to dig, long-press (or right-click) to flag, tap a number with all its flags to open the rest around it. Hint shows a safe cell or a mine.",
+      "nonogram": "Numbers give the runs of filled cells in each line. Drag across cells to fill a line, use Mark to cross out cells that must stay empty.",
+      "takuzu": "Tap a cell to cycle empty, 0, 1. No three equal in a row, as many 0s as 1s in every row and column, and no two identical rows or columns.",
+      "lights-out": "Pressing a light flips it and its four neighbours. Switch them all off in as few moves as you can.",
+      "bridges": "Join the islands with straight bridges. An island's number is how many bridges it has, at most two between a pair, none crossing, and all islands end up connected. Tap two islands in line, or drag between them.",
+      "queens": "Place one queen in every row, column and colour region. No two queens may touch, not even diagonally. Tap once for an X mark, twice for a queen. A hint places a correct queen.",
+      "word-search": "Drag from the first to the last letter of a hidden word. Words run right, down and, on harder levels, diagonally or backwards. A found word stays highlighted. A hint outlines the first letter of a word. On a keyboard, arrows move the cursor and Space or Enter starts and ends a selection.",
+      "country-wordle": "Guess the country in 6 tries (8 on easy). Each tile compares your guess with the answer: distance and direction, region, shared border, population, area and coast. Green is a match, yellow is close.",
+      "flaggle": "The flag starts as a blur and gets sharper with every wrong guess. Guess the country in 6 tries; a hint sharpens the flag by a full step.",
+      "capital-quiz": "Name the capital of each of 6 countries. Beware of the big cities that are not the capital. A hint removes two wrong options.",
+      "outline-guess": "Five rounds. Facts about a country appear one at a time and the fewer you use, the more points you earn: 6 for one fact, down to 1 for all six, 0 if you are wrong. Reach 15 points.",
+      "shape-guess": "Name the country from its outline in 6 guesses. Each guess shows the distance, direction and continent to the answer. A hint reveals the continent, then the first letter.",
+      "quiz-knowledge": "Eight questions on everything from culture to tech: three easy (1 point), three medium (2), two hard (3). Reach 60% of the points to solve it. A hint removes two wrong answers.",
+      "quiz-science": "Eight science questions: three easy (1 point), three medium (2), two hard (3). Reach 60% of the points to solve it. A hint removes two wrong answers.",
+      "quiz-history": "Eight history questions: three easy (1 point), three medium (2), two hard (3). Reach 60% of the points to solve it. A hint removes two wrong answers.",
+      "quiz-travel": "Eight travel and geography questions: three easy (1 point), three medium (2), two hard (3). Reach 60% of the points to solve it. A hint removes two wrong answers.",
+      "crossword-mini": "Fill the 5x5 grid from the clues. Tap a square to select it, tap again to switch between across and down. A word is judged as soon as it is full: a right word locks, a wrong one is cleared again. Hints cost coins and lock a letter.",
+      "crossword": "Fill the 7x7 grid from the clues. Tap a square to select it, tap again to switch between across and down. A word is judged as soon as it is full: a right word locks, a wrong one is cleared again. Easy has more blocks and shorter words, hard has long ones. Hints cost coins and lock a letter.",
+      "word-trail": "Trace words on the letter tiles: drag across neighbouring tiles (diagonals count, no tile twice in a word), or tap them one by one and press Enter. A word that is an answer of the crossword fills in. Tiles can be reused for other words. A hint places one word and shows its path."
+    },
+    "mm": {
+      "colours": {
+        "red": "Red",
+        "orange": "Orange",
+        "yellow": "Yellow",
+        "green": "Green",
+        "blue": "Blue",
+        "purple": "Purple",
+        "pink": "Pink",
+        "teal": "Teal"
+      },
+      "board": "Mastermind board",
+      "palette": "Colours",
+      "slot": "Slot {n}",
+      "empty": "empty",
+      "shapes": "Shapes",
+      "undo": "Undo",
+      "try": "Try {n} of {max}",
+      "dupe": "You already tried that code",
+      "exact": "Right place",
+      "partial": "Wrong place",
+      "won": "Code cracked in {n}",
+      "lost": "Out of tries",
+      "hidden": "Hidden code",
+      "codeLabel": "The code: {c}",
+      "row": "Row {n}: {c}. {e} in the right place, {p} in the wrong place.",
+      "sumWon": "Cracked in {n} of {max}.",
+      "sumLost": "Out of tries. The code was {c}.",
+      "sumHints": "({h} hints)",
+      "tries": "Try"
+    },
+    "slide": {
+      "moves": "Moves",
+      "goal": "Goal",
+      "goalLabel": "Goal: tiles 1 to 8 in order, gap last",
+      "reset": "Reset",
+      "how": "Tap a tile next to the gap, or swipe it",
+      "solved": "Solved in {n} moves",
+      "sum": "Solved in {n} moves.",
+      "sumHints": "({h} hints)",
+      "goalLabelN": "Goal: tiles 1 to {n} in order, gap last",
+      "hintMove": "Move tile {n}"
+    },
+    "mem": {
+      "flips": "Flips",
+      "pairs": "Pairs",
+      "time": "Time",
+      "board": "Memory cards",
+      "card": "Card {n}",
+      "solved": "All pairs found in {n} flips",
+      "sum": "All pairs in {n} flips, {time}.",
+      "sumHints": "({h} hints)",
+      "miss": "Not a pair",
+      "match": "A pair"
+    },
+    "geo": {
+      "noMatch": "No country found",
+      "guess": "Guess",
+      "dirAria": "The answer is at {d} degrees",
+      "col": {
+        "dist": "Distance",
+        "dir": "Direction",
+        "cont": "Continent",
+        "pop": "Population"
+      },
+      "how": "How to play",
+      "howCw": "Guess the country in 6 tries. Each guess shows the distance, the direction to the answer, whether the continent matches and whether the answer has more or fewer people.",
+      "howFlag": "The flag starts blurred and gets sharper with every wrong guess, and each one unlocks a hint. Guess the country in 6 tries.",
+      "howCapital": "Pick the capital city for each of 5 countries. Number keys 1 to 4 answer, Enter goes on.",
+      "howFacts": "Five rounds. Facts about a country appear one at a time: pick the country from four. Green in the share means 3 facts or fewer.",
+      "cwEmpty": "Your guesses show up here.",
+      "won": "Solved in {n} of {of}",
+      "lost": "Out of guesses",
+      "fact": {
+        "cont": "Continent",
+        "pop": "Population",
+        "coast": "Coast",
+        "drive": "Drives on the",
+        "lang": "Main language",
+        "cap": "Capital starts with",
+        "name": "Name"
+      },
+      "correct": "correct",
+      "youPicked": "You picked {a}",
+      "right": "Correct",
+      "wrong": "Wrong",
+      "notQuite": "Not quite: {a}",
+      "moreFact": "Another fact",
+      "cutTwo": "Remove 2"
+    },
+    "hint": {
+      "label": "Hint"
+    },
+    "coins": {
+      "label": "{n} coins",
+      "price": "{n} coins",
+      "tooPoor": "Not enough coins ({n} needed)",
+      "notEnough": "Not enough coins: a hint costs {n}",
+      "hintFailed": "Could not buy the hint"
+    },
+    "finish": {
+      "close": "Close",
+      "earned": "+{n} coins",
+      "bonus": "(+{n} streak bonus)",
+      "streak": "{n} day streak",
+      "balance": "Balance",
+      "all": "All games"
+    },
+    "quordle": {
+      "board": "Board {n}",
+      "boards": "Four boards",
+      "progress": "{n} of 4 solved, {tries} tries left",
+      "summaryWin": "All four solved in {n} of {max} tries",
+      "summaryLoss": "{k} of 4 solved. Missed: {a}",
+      "solved": "Solved",
+      "triesLeft": "Tries left",
+      "missed": "Missed: {a}"
+    },
+    "bridges": {
+      "sumSolved": "Solved in {time}. Hints: {h}",
+      "island": "Island {n}, {have} bridges drawn",
+      "met": "{n} of {total} islands complete",
+      "split": "Not connected"
+    },
+    "queens": {
+      "queens": "Queens",
+      "time": "Time",
+      "board": "Queens board",
+      "cell": "Row {r}, column {c}, region {g}, {s}",
+      "queen": "queen",
+      "mark": "marked",
+      "empty": "empty",
+      "sum": "Solved in {time}.",
+      "sumHints": "Solved in {time} with {h} hints.",
+      "autoX": "Auto X",
+      "undo": "Undo",
+      "clash": "Two queens clash"
+    },
+    "wsearch": {
+      "found": "Found",
+      "time": "Time",
+      "theme": "Theme",
+      "words": "Words to find",
+      "board": "Word search, theme {theme}",
+      "cursor": "Row {r}, column {c}, letter {l}",
+      "giveUp": "Give up",
+      "sure": "Tap again to give up",
+      "sum": "Found every word in {time}.",
+      "sumHints": "Found every word in {time} with {h} hints.",
+      "sumGave": "Gave up with {n} of {total} words found."
+    },
+    "shape": {
+      "alt": "Outline of a country"
+    },
+    "qz": {
+      "progress": "Quiz progress",
+      "question": "Question {n} of {total}",
+      "finished": "All answered",
+      "pointsWord": "points",
+      "answers": "Answers",
+      "level1": "Easy",
+      "level2": "Medium",
+      "level3": "Hard",
+      "correct": "Correct, +{n}.",
+      "wrong": "Not quite.",
+      "next": "Next",
+      "finish": "Finish",
+      "yours": "You said: {a}",
+      "summary": "{pts} of {max} points, {right} of {total} right",
+      "questionLabel": "Question",
+      "pointsLabel": "Points",
+      "timed": "Timed",
+      "timedLabel": "Timed, {s} seconds per question",
+      "timedShare": "(Timed {s}s)",
+      "secUnit": "s",
+      "timeUp": "Out of time",
+      "timeUpAnswer": "Time is up. Answer: {a}.",
+      "wrongAnswer": "Not quite. Answer: {a}.",
+      "rightLabel": "Right",
+      "streakLabel": "Streak",
+      "bestLabel": "Best",
+      "review": "Review",
+      "missed": "{n} missed",
+      "noMiss": "Nothing missed",
+      "playMissed": "Play missed again",
+      "backToResult": "Back to result",
+      "practice": "Practice",
+      "practiceNote": "Not scored, no coins.",
+      "practiceLeft": "{n} still wrong.",
+      "practiceClear": "All right this time.",
+      "summaryTimed": "{pts} of {max} points, {right} of {total} right, timed"
+    },
+    "crossword": {
+      "giveUp": "Give up",
+      "notRight": "That word is not right.",
+      "locked": "Word locked in.",
+      "sure": "Really?",
+      "grid": "Crossword grid",
+      "empty": "Empty",
+      "prev": "Previous clue",
+      "next": "Next clue",
+      "across": "Across",
+      "down": "Down",
+      "revealLetter": "Reveal letter",
+      "revealWord": "Reveal word",
+      "summary": "Solved in {time}",
+      "gaveUp": "Gave up, solution shown",
+      "time": "Time",
+      "words": "Words"
+    },
+    "cwg": {
+      "tile": {
+        "dist": "Distance",
+        "sub": "Region",
+        "border": "Border",
+        "pop": "Population",
+        "area": "Area",
+        "land": "Coast"
+      },
+      "state": {
+        "ok": "match",
+        "warn": "close",
+        "no": "no match"
+      },
+      "yes": "Yes",
+      "no": "No",
+      "landlocked": "Landlocked",
+      "sea": "Sea coast",
+      "more": "answer is higher",
+      "less": "answer is lower",
+      "hintFirst": "First letter",
+      "hintCap": "Capital letter",
+      "slot": {
+        "first": "Starts with",
+        "cap": "Capital starts with"
+      },
+      "after": "After guess {n}"
+    },
+    "journey": {
+      "giveUp": "Give up",
+      "continue": "Continue",
+      "skip": "Skip",
+      "right": "Correct",
+      "wrong": "Not quite: {a}",
+      "skipped": "Skipped: {a}",
+      "flagN": "Flag {n}",
+      "profile": "Country profile",
+      "shapeOk": "Shape in {n}",
+      "shapeMiss": "Shape missed",
+      "areaVal": "{n} thousand km²",
+      "points": "points (shape {s}, trivia {t} of {of})",
+      "copy": "Copy result",
+      "copied": "Copied",
+      "l": {
+        "capital": "Capital",
+        "pop": "Population",
+        "area": "Area",
+        "currency": "Currency",
+        "langs": "Languages",
+        "exports": "Top exports",
+        "imports": "Top imports"
+      },
+      "q": {
+        "flag": "Which flag belongs to {c}?",
+        "pop": "How many people live in {c}?",
+        "capital": "What is the capital of {c}?",
+        "export": "Which of these is one of the top exports of {c}?",
+        "import": "Which of these is one of the top imports of {c}?",
+        "currency": "What currency does {c} use?",
+        "language": "Which language is spoken in {c}?",
+        "neighbour": "Which of these countries borders {c}?",
+        "region": "Which continent is {c} in?"
+      },
+      "fact": {
+        "fun": "{v}",
+        "pop": "Population: about {v}.",
+        "area": "Area: about {v}.",
+        "exports": "Top exports: {v}.",
+        "imports": "Top imports: {v}.",
+        "currency": "Currency: {v}.",
+        "languages": "Languages: {v}.",
+        "borders": "Borders: {v}.",
+        "region": "Continent: {v}."
+      }
+    },
+    "levels": {
+      "label": "Difficulty",
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "random": {
+      "label": "Random",
+      "another": "Another random",
+      "play": "Play a random one",
+      "back": "Back to today",
+      "game": "Random game",
+      "free": "free",
+      "stats": "Random games",
+      "more": "More games",
+      "noCoins": "Random games earn no coins and keep no streak.",
+      "tally": "Random: {p} played, {s} solved"
+    },
+    "grid": {
+      "time": "Time",
+      "mistakes": "Mistakes",
+      "mines": "Mines",
+      "filled": "Filled",
+      "islands": "Islands",
+      "wrongDigit": "Not right. Mistake {n} of {max}",
+      "outOfMistakes": "Out of mistakes",
+      "firstSafe": "The first dig is always safe",
+      "tzClash": "A rule is broken",
+      "inTheWay": "Another island or bridge is in the way",
+      "sudokuBoard": "Sudoku board",
+      "nonogramBoard": "Nonogram board",
+      "takuzuBoard": "Takuzu board",
+      "lightsBoard": "Lights Out board",
+      "bridgesBoard": "Bridges board"
+    },
+    "geo2": {
+      "guesses": "Guesses",
+      "round": "Round",
+      "right": "Right",
+      "score": "Score",
+      "worth": "Worth",
+      "answer": "Answer: {a}",
+      "hintAfter": "Hint opens after guess {n}"
+    },
+    "map": {
+      "title": "Map",
+      "zoom": "Zoom in",
+      "world": "World",
+      "alt": "World map. Drag to move when zoomed in, tap a country for its name."
+    },
+    "trail": {
+      "words": "Words",
+      "time": "Time",
+      "field": "Crossword field, {n} of {total} words placed",
+      "trace": "Traced word",
+      "tiles": "Letter tiles",
+      "tile": "Letter {l}, row {r}, column {c}",
+      "placeholder": "Trace a word",
+      "clear": "Clear",
+      "across": "Across",
+      "down": "Down",
+      "placed": "Word placed.",
+      "have": "Already placed.",
+      "short": "Trace at least three letters.",
+      "unknown": "Not a word on the board.",
+      "noPath": "No path for that letter.",
+      "giveUp": "Give up",
+      "sure": "Really?",
+      "gaveUp": "Gave up, solution shown",
+      "summary": "Solved in {time}"
+    }
+  }
+}

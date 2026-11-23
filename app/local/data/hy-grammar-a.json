@@ -1,0 +1,4810 @@
+[
+ {
+  "id": "hy1-pronouns-be",
+  "lesson": 1,
+  "title": "Personal pronouns and «to be»",
+  "summary": "Six pronouns, six short forms of «to be» that follow the thing described.",
+  "explain": "Armenian has six personal pronouns, and the present of «to be» has six matching forms. These forms are short, unstressed words that come **after** the thing you describe: **Ես ուսանող եմ** (*Yes usanogh em*) is literally \"I student am\".\n\n| | pronoun | «to be» |\n|---|---|---|\n| I | **ես** (*yes*) | **եմ** (*em*) |\n| you (informal) | **դու** (*du*) | **ես** (*es*) |\n| he / she / it | **նա** (*na*) | **է** (*e*) |\n| we | **մենք** (*menkʼ*) | **ենք** (*enkʼ*) |\n| you (plural / formal) | **դուք** (*dukʼ*) | **եք** (*ekʼ*) |\n| they | **նրանք** (*nrankʼ*) | **են** (*en*) |\n\n**Pitfalls**\n- **ես** (*yes*) means \"I\" but **դու ես** (*du es*) means \"you are\": the same spelling, two jobs. The pronoun is stressed, the verb is not.\n- There is no he/she distinction: **նա** (*na*) covers both (and often \"it\").\n- There are no articles in a sentence like this: **Ես ուսանող եմ** (*Yes usanogh em*) has no word for \"a\".\n- The verb agrees with the pronoun, so learn the pairs together: **ես եմ** (*yes em*), **դու ես** (*du es*), **նա է** (*na e*), **մենք ենք** (*menkʼ enkʼ*), **դուք եք** (*dukʼ ekʼ*), **նրանք են** (*nrankʼ en*).",
+  "examples": [
+   {
+    "t": "Ես ուսանող եմ։",
+    "tr": "Yes usanogh em.",
+    "en": "I am a student."
+   },
+   {
+    "t": "Դու ուրախ ես։",
+    "tr": "Du urakh es.",
+    "en": "You are happy."
+   },
+   {
+    "t": "Նա հայ է։",
+    "tr": "Na hay e.",
+    "en": "He/she is Armenian."
+   },
+   {
+    "t": "Մենք լավ ենք։",
+    "tr": "Menkʼ lav enkʼ.",
+    "en": "We are fine."
+   },
+   {
+    "t": "Դուք բժիշկ եք։",
+    "tr": "Dukʼ bzhishk ekʼ.",
+    "en": "You (formal) are a doctor."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Ես ուսանող ＿＿։",
+    "options": [
+     "եմ",
+     "է",
+     "ես",
+     "ենք"
+    ],
+    "a": 0,
+    "why": "**ես** (*yes*) (I) goes with **եմ** (*em*)."
+   },
+   {
+    "type": "choice",
+    "q": "Դու ուրախ ＿＿։",
+    "options": [
+     "ես",
+     "են",
+     "է",
+     "եմ"
+    ],
+    "a": 0,
+    "why": "**դու** (*du*) (you, informal) goes with **ես** (*es*)."
+   },
+   {
+    "type": "choice",
+    "q": "Նրանք ուրախ ＿＿։",
+    "options": [
+     "եմ",
+     "է",
+     "են",
+     "եք"
+    ],
+    "a": 2,
+    "why": "**նրանք** (*nrankʼ*) (they) goes with **են** (*en*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք լավ ＿＿։",
+    "a": [
+     "ենք"
+    ],
+    "why": "**մենք** (*menkʼ*) (we) goes with **ենք** (*enkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դուք հայ ＿＿։",
+    "a": [
+     "եք"
+    ],
+    "why": "**դուք** (*dukʼ*) (you, plural/formal) goes with **եք** (*ekʼ*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: She is a student.",
+    "tokens": [
+     "Նա",
+     "ուսանող",
+     "է"
+    ],
+    "a": [
+     "Նա",
+     "ուսանող",
+     "է"
+    ],
+    "why": "Pronoun, predicate, then «to be» at the end."
+   }
+  ]
+ },
+ {
+  "id": "hy1-word-order",
+  "lesson": 1,
+  "title": "Word order and dropping the pronoun",
+  "summary": "The verb sits at the end; the pronoun can be dropped because «to be» shows the person.",
+  "explain": "Armenian sentences are verb-final: subject, then what you say about it, then the verb. For «to be» that means the verb comes **last**, after the noun, adjective or place.\n\n- **Ես այստեղ եմ** (*Yes aystegh em*) \"I am here\".\n- **Նա լավ ընկեր է** (*Na lav ənker e*) \"He/she is a good friend\".\n\nAn adjective comes **before** its noun: **լավ ընկեր** (*lav ənker*) \"a good friend\". Words like **շատ** (*shat*) \"very\" come before the adjective: **շատ լավ** (*shat lav*).\n\nBecause **եմ, ես, է, ենք, եք, են** (*em, yes, e, enkʼ, ekʼ, en*) already show who is meant, the pronoun is often dropped. It is kept for contrast or emphasis.\n\n| with pronoun | without |\n|---|---|\n| **Ես ուսանող եմ** (*Yes usanogh em*) | **Ուսանող եմ** (*Usanogh em*) |\n| **Մենք լավ ենք** (*Menkʼ lav enkʼ*) | **Լավ ենք** (*Lav enkʼ*) |\n\n**Pitfall:** in a greeting you almost always drop it: **Ինչպե՞ս ես** (*Inchʼpes es*) \"How are you?\" and the answer **Լավ եմ** (*Lav em*) \"I am fine\".",
+  "examples": [
+   {
+    "t": "Ուսանող եմ։",
+    "tr": "Usanogh em.",
+    "en": "I am a student."
+   },
+   {
+    "t": "Ես այստեղ եմ։",
+    "tr": "Yes aystegh em.",
+    "en": "I am here."
+   },
+   {
+    "t": "Նա լավ ընկեր է։",
+    "tr": "Na lav ənker e.",
+    "en": "He/she is a good friend."
+   },
+   {
+    "t": "Դու շատ լավ ես։",
+    "tr": "Du shat lav es.",
+    "en": "You are very good."
+   },
+   {
+    "t": "Ինչպե՞ս ես։ Լավ եմ։",
+    "tr": "Inchʼpes es? Lav em.",
+    "en": "How are you? I am fine."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Where does «to be» normally go in a sentence like «We are here»?",
+    "options": [
+     "At the very start",
+     "It is not used",
+     "At the end, after the word it goes with",
+     "Right after the pronoun, before everything else"
+    ],
+    "a": 2,
+    "why": "**Մենք այստեղ ենք** (*Menkʼ aystegh enkʼ*): the verb comes last."
+   },
+   {
+    "type": "choice",
+    "q": "What does **Ուսանող եմ։** (*Usanogh em.*) mean?",
+    "options": [
+     "I am a student.",
+     "We are students.",
+     "You are a student.",
+     "He is a student."
+    ],
+    "a": 0,
+    "why": "**եմ** (*em*) shows the subject is «I», so **ես** (*yes*) can be dropped."
+   },
+   {
+    "type": "choice",
+    "q": "Նա լավ ընկեր ＿＿։",
+    "options": [
+     "եմ",
+     "ես",
+     "ենք",
+     "է"
+    ],
+    "a": 3,
+    "why": "**նա** (*na*) takes **է** (*e*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դու շատ լավ ＿＿։",
+    "a": [
+     "ես"
+    ],
+    "why": "**դու** (*du*) takes **ես** (*es*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: We are here.",
+    "tokens": [
+     "Մենք",
+     "այստեղ",
+     "ենք"
+    ],
+    "a": [
+     "Մենք",
+     "այստեղ",
+     "ենք"
+    ],
+    "why": "Subject, place, then the verb."
+   },
+   {
+    "type": "order",
+    "q": "Make: She is a good friend.",
+    "tokens": [
+     "Նա",
+     "լավ",
+     "ընկեր",
+     "է"
+    ],
+    "a": [
+     "Նա",
+     "լավ",
+     "ընկեր",
+     "է"
+    ],
+    "why": "The adjective **լավ** (*lav*) comes before the noun."
+   }
+  ]
+ },
+ {
+  "id": "hy1-this-that",
+  "lesson": 1,
+  "title": "«This / that»: սա, դա, նա and այս, այդ, այն",
+  "summary": "Three-way distance system: near me, near you, far from both.",
+  "explain": "Armenian has **three** \"this/that\" words, depending on who is near the thing.\n\n| distance | pronoun (alone) | before a noun |\n|---|---|---|\n| near me (\"this\") | **սա** (*sa*) | **այս** (*ays*) |\n| near you (\"that\") | **դա** (*da*) | **այդ** (*ayd*) |\n| far from both (\"that over there\") | **նա** (*na*) / **այն** (*ayn*) | **այն** (*ayn*) |\n\n- The **pronoun** stands alone: **Սա գիրք է** (*Sa girkʼ e*) \"This is a book\", **Դա ի՞նչ է** (*Da inchʼ e*) \"What is that?\".\n- The **determiner** comes before a noun: **այս տունը** (*ays tunə*) \"this house\". The ending **-ը** (*-ə*) is the definite article (lesson 2).\n- **նա** (*na*) is mainly \"he/she\"; for far things you will also hear **այն** (*ayn*).\n- Plurals: **սրանք** (*srankʼ*) (these), **դրանք** (*drankʼ*) (those near you), **նրանք** (*nrankʼ*) (they / those).\n\n**Pitfall:** English has no \"near you\" form, so **դա** (*da*) / **այդ** (*ayd*) feels new. Use it for things next to the person you are talking to.",
+  "examples": [
+   {
+    "t": "Սա գիրք է։",
+    "tr": "Sa girkʼ e.",
+    "en": "This is a book."
+   },
+   {
+    "t": "Դա ի՞նչ է։",
+    "tr": "Da inchʼ e?",
+    "en": "What is that (near you)?"
+   },
+   {
+    "t": "Այս տունը մեծ է։",
+    "tr": "Ays tunə mets e.",
+    "en": "This house is big."
+   },
+   {
+    "t": "Այդ սեղանը նոր է։",
+    "tr": "Ayd seghanə nor e.",
+    "en": "That table (near you) is new."
+   },
+   {
+    "t": "Այն ծառը բարձր է։",
+    "tr": "Ayn tsarrə bardzr e.",
+    "en": "That tree over there is tall."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«This (near me)» as a pronoun:",
+    "options": [
+     "նրանք",
+     "այդ",
+     "սա",
+     "դա"
+    ],
+    "a": 2,
+    "why": "**սա** (*sa*) = this, near the speaker."
+   },
+   {
+    "type": "choice",
+    "q": "«That» next to the listener, before a noun:",
+    "options": [
+     "սա",
+     "այս",
+     "այն",
+     "այդ"
+    ],
+    "a": 3,
+    "why": "**այդ** (*ayd*) = that, near you."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ գիրք է։ (This is)",
+    "a": [
+     "Սա"
+    ],
+    "why": "**սա** (*sa*) is the pronoun for «this»."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ տունը մեծ է։ (This house)",
+    "a": [
+     "Այս"
+    ],
+    "why": "**այս** (*ays*) stands before a noun."
+   },
+   {
+    "type": "order",
+    "q": "Make: This house is big.",
+    "tokens": [
+     "Այս",
+     "տունը",
+     "մեծ",
+     "է"
+    ],
+    "a": [
+     "Այս",
+     "տունը",
+     "մեծ",
+     "է"
+    ],
+    "why": "Determiner, noun, adjective, «to be»."
+   },
+   {
+    "type": "order",
+    "q": "Make: What is that? (near you)",
+    "tokens": [
+     "Դա",
+     "ի՞նչ",
+     "է"
+    ],
+    "a": [
+     "Դա",
+     "ի՞նչ",
+     "է"
+    ],
+    "why": "**դա** (*da*) for something near the listener."
+   }
+  ]
+ },
+ {
+  "id": "hy1-you-formal",
+  "lesson": 1,
+  "title": "Informal դու vs formal դուք",
+  "summary": "Use դու with friends and family, դուք with strangers, elders and groups.",
+  "explain": "Armenian, like French or German, has two ways to say \"you\".\n\n| | pronoun | «to be» | example |\n|---|---|---|---|\n| informal, one person | **դու** (*du*) | **ես** (*es*) | **Ինչպե՞ս ես** (*Inchʼpes es*) |\n| formal, or several people | **դուք** (*dukʼ*) | **եք** (*ekʼ*) | **Ինչպե՞ս եք** (*Inchʼpes ekʼ*) |\n\n- Use **դու** (*du*) for friends, family, children and people your age.\n- Use **դուք** (*dukʼ*) for strangers, older people, teachers, in shops, at work, and always for **two or more** people.\n- The formal verb is just the plural verb, so **դուք եք** (*dukʼ ekʼ*) works for both \"you (formal)\" and \"you all\".\n\n**Polite words:** **Խնդրեմ** (*Khndrem*) (please / you're welcome), **Շնորհակալություն** (*Shnorhakalutyun*) (thank you), **Կներեք** (*Knerekʼ*) (excuse me, formal).\n\n**Pitfall:** do not mix: **դուք ես** (*dukʼ es*) is wrong, and **դու եք** (*du ekʼ*) is wrong. The pronoun and the verb must match.",
+  "examples": [
+   {
+    "t": "Ինչպե՞ս ես։",
+    "tr": "Inchʼpes es?",
+    "en": "How are you? (informal)"
+   },
+   {
+    "t": "Ինչպե՞ս եք։",
+    "tr": "Inchʼpes ekʼ?",
+    "en": "How are you? (formal or plural)"
+   },
+   {
+    "t": "Ես լավ եմ, շնորհակալություն։",
+    "tr": "Yes lav em, shnorhakalutyun.",
+    "en": "I am fine, thank you."
+   },
+   {
+    "t": "Դուք ուսուցիչ եք։",
+    "tr": "Dukʼ usutsʼichʼ ekʼ.",
+    "en": "You (formal) are a teacher."
+   },
+   {
+    "t": "Դու լավ ընկեր ես։",
+    "tr": "Du lav ənker es.",
+    "en": "You are a good friend."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "You meet your teacher. Which question is polite?",
+    "options": [
+     "Ինչպե՞ս է։",
+     "Ինչպե՞ս եմ։",
+     "Ինչպե՞ս ես։",
+     "Ինչպե՞ս եք։"
+    ],
+    "a": 3,
+    "why": "For a teacher use **դուք** (*dukʼ*) with **եք** (*ekʼ*)."
+   },
+   {
+    "type": "choice",
+    "q": "Դուք ուրախ ＿＿։",
+    "options": [
+     "եք",
+     "է",
+     "ես",
+     "եմ"
+    ],
+    "a": 0,
+    "why": "**դուք** (*dukʼ*) takes **եք** (*ekʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դու հոգնած ＿＿։",
+    "a": [
+     "ես"
+    ],
+    "why": "**դու** (*du*) takes **ես** (*es*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դուք լավ ＿＿։",
+    "a": [
+     "եք"
+    ],
+    "why": "**դուք** (*dukʼ*) takes **եք** (*ekʼ*)."
+   },
+   {
+    "type": "order",
+    "q": "Make (formal): How are you?",
+    "tokens": [
+     "Ինչպե՞ս",
+     "եք"
+    ],
+    "a": [
+     "Ինչպե՞ս",
+     "եք"
+    ],
+    "why": "Question word then the formal verb."
+   },
+   {
+    "type": "order",
+    "q": "Make (informal): I am fine.",
+    "tokens": [
+     "Լավ",
+     "եմ"
+    ],
+    "a": [
+     "Լավ",
+     "եմ"
+    ],
+    "why": "The pronoun is dropped."
+   }
+  ]
+ },
+ {
+  "id": "hy2-definite-article",
+  "lesson": 2,
+  "title": "The definite article -ը / -ն",
+  "summary": "-ը after a consonant, -ն after a vowel; it is added to the noun, not the adjective.",
+  "explain": "Armenian has no word for \"the\". Instead the noun gets an ending:\n\n- **-ը** after a **consonant**: **տուն** (*tun*) → **տունը** (*tunə*)\n- **-ն** after a **vowel**: **տղա** (*tgha*) → **տղան** (*tghan*)\n\n| noun | the noun |\n|---|---|\n| **գիրք** (*girkʼ*) book | **գիրքը** (*girkʼə*) |\n| **ջուր** (*jur*) water | **ջուրը** (*jurə*) |\n| **թեյ** (*tʼey*) tea | **թեյը** (*tʼeyə*) |\n| **տղա** (*tgha*) boy | **տղան** (*tghan*) |\n| **ձի** (*dzi*) horse | **ձին** (*dzin*) |\n| **կատու** (*katu*) cat | **կատուն** (*katun*) |\n\n**Pitfalls**\n- Look at the last **letter**: **յ** (*y*) is a consonant, so **թեյը** (*tʼeyə*); **ու** (*u*) is a vowel, so **կատուն** (*katun*).\n- With an adjective the article goes on the noun: **մեծ տունը** (*mets tunə*) \"the big house\".\n- Before a word that starts with a vowel, the article is often written **-ն** (*-n*) even after a consonant (**գիրքն է** (*girkʼn e*)). Our examples mostly avoid this; just know it exists.\n- The article is unstressed: the stress stays where it was.",
+  "examples": [
+   {
+    "t": "Գիրքը նոր է։",
+    "tr": "Girkʼə nor e.",
+    "en": "The book is new."
+   },
+   {
+    "t": "Տղան ուրախ է։",
+    "tr": "Tghan urakh e.",
+    "en": "The boy is happy."
+   },
+   {
+    "t": "Շունը մեծ է։",
+    "tr": "Shunə mets e.",
+    "en": "The dog is big."
+   },
+   {
+    "t": "Կատուն փոքր է։",
+    "tr": "Katun pʼokʼr e.",
+    "en": "The cat is small."
+   },
+   {
+    "t": "Սուրճը տաք է։",
+    "tr": "Surchə takʼ e.",
+    "en": "The coffee is hot."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«The horse» (ձի):",
+    "options": [
+     "ձիը",
+     "ձի ը",
+     "ձին",
+     "ձիեր"
+    ],
+    "a": 2,
+    "why": "**ձի** (*dzi*) ends in a vowel, so **-ն** (*-n*)."
+   },
+   {
+    "type": "choice",
+    "q": "Which is the right form? ＿＿ նոր է։ (the book)",
+    "options": [
+     "Գիրք",
+     "Գրքեր",
+     "Գիրքը",
+     "Գիրքի"
+    ],
+    "a": 2,
+    "why": "**գիրք** (*girkʼ*) ends in a consonant, so **-ը** (*-ə*)."
+   },
+   {
+    "type": "fill",
+    "q": "տղա → ＿＿ (the boy)",
+    "a": [
+     "տղան"
+    ],
+    "why": "Vowel ending: **-ն** (*-n*)."
+   },
+   {
+    "type": "fill",
+    "q": "տուն → ＿＿ (the house)",
+    "a": [
+     "տունը"
+    ],
+    "why": "Consonant ending: **-ը** (*-ə*)."
+   },
+   {
+    "type": "fill",
+    "q": "կատու → ＿＿ (the cat)",
+    "a": [
+     "կատուն"
+    ],
+    "why": "**ու** (*u*) is a vowel: **-ն** (*-n*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: The cat is small.",
+    "tokens": [
+     "Կատուն",
+     "փոքր",
+     "է"
+    ],
+    "a": [
+     "Կատուն",
+     "փոքր",
+     "է"
+    ],
+    "why": "Noun with article first, then adjective, then «to be»."
+   }
+  ]
+ },
+ {
+  "id": "hy2-indefinite-mi",
+  "lesson": 2,
+  "title": "«A» with մի, and the number մեկ",
+  "summary": "մի = a/an, placed before the noun; no article with it.",
+  "explain": "The indefinite \"a / an\" is the word **մի** (*mi*), placed **before** the noun:\n\n- **մի գիրք** (*mi girkʼ*) a book\n- **մի լավ ուսուցիչ** (*mi lav usutsʼichʼ*) a good teacher (before the adjective)\n- **մի բաժակ ջուր** (*mi bazhak jur*) a glass of water\n\n**Rules and pitfalls**\n- **մի** (*mi*) is never combined with the article: **մի գիրք** (*mi girkʼ*), not **մի գիրքը** (*mi girkʼə*).\n- It is used mostly to introduce something new: **Այստեղ մի աթոռ կա** (*Aystegh mi atʼorr ka*) \"There is a chair here\". **կա** (*ka*) means \"there is\".\n- After «to be» a profession needs no **մի** (*mi*): **Նա ուսանող է** (*Na usanogh e*). Use **մի** (*mi*) only when an adjective describes it: **Նա մի լավ ուսուցիչ է** (*Na mi lav usutsʼichʼ e*).\n- **մեկ** (*mek*) is the number \"one\" and is used when you count: **Մեկ սուրճ, խնդրեմ** (*Mek surch, khndrem*) \"One coffee, please\". **մի** (*mi*) is more like \"a\".\n- The noun stays **singular** after both.",
+  "examples": [
+   {
+    "t": "Մի բաժակ ջուր, խնդրեմ։",
+    "tr": "Mi bazhak jur, khndrem.",
+    "en": "A glass of water, please."
+   },
+   {
+    "t": "Մեկ սուրճ, խնդրեմ։",
+    "tr": "Mek surch, khndrem.",
+    "en": "One coffee, please."
+   },
+   {
+    "t": "Այստեղ մի աթոռ կա։",
+    "tr": "Aystegh mi atʼorr ka.",
+    "en": "There is a chair here."
+   },
+   {
+    "t": "Նա մի լավ ուսուցիչ է։",
+    "tr": "Na mi lav usutsʼichʼ e.",
+    "en": "He/she is a good teacher."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which is correct for «a glass of water, please»?",
+    "options": [
+     "Մի բաժակ ջուրը մի, խնդրեմ։",
+     "Մի բաժակ ջուր, խնդրեմ։",
+     "Բաժակն ջուր մի, խնդրեմ։",
+     "Մի բաժակը ջուր, խնդրեմ։"
+    ],
+    "a": 1,
+    "why": "**մի** (*mi*) before the noun, no article."
+   },
+   {
+    "type": "choice",
+    "q": "Which cannot be added to a noun that already has **մի** (*mi*)?",
+    "options": [
+     "A following noun",
+     "The article -ը / -ն",
+     "An adjective",
+     "A question mark"
+    ],
+    "a": 1,
+    "why": "**մի** (*mi*) and the article do not go together."
+   },
+   {
+    "type": "fill",
+    "q": "Այստեղ ＿＿ աթոռ կա։ (a)",
+    "a": [
+     "մի"
+    ],
+    "why": "**մի** (*mi*) = a."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ սուրճ, խնդրեմ։ (one coffee)",
+    "a": [
+     "Մեկ",
+     "մեկ"
+    ],
+    "why": "**մեկ** (*mek*) is the number one."
+   },
+   {
+    "type": "order",
+    "q": "Make: She is a good teacher.",
+    "tokens": [
+     "Նա",
+     "մի",
+     "լավ",
+     "ուսուցիչ",
+     "է"
+    ],
+    "a": [
+     "Նա",
+     "մի",
+     "լավ",
+     "ուսուցիչ",
+     "է"
+    ],
+    "why": "**մի** (*mi*) before the adjective and noun."
+   },
+   {
+    "type": "order",
+    "q": "Make: There is a chair here.",
+    "tokens": [
+     "Այստեղ",
+     "մի",
+     "աթոռ",
+     "կա"
+    ],
+    "a": [
+     "Այստեղ",
+     "մի",
+     "աթոռ",
+     "կա"
+    ],
+    "why": "Place, **մի** (*mi*) + noun, then **կա** (*ka*)."
+   }
+  ]
+ },
+ {
+  "id": "hy2-plural",
+  "lesson": 2,
+  "title": "Plural: -եր and -ներ",
+  "summary": "One-syllable nouns take -եր, longer nouns take -ներ; the article then follows (-երը, -ները).",
+  "explain": "The plural ending depends on the number of syllables:\n\n| rule | singular | plural |\n|---|---|---|\n| **one syllable: -եր** | **օր** (*or*) day | **օրեր** (*orer*) |\n| | **ծառ** (*tsarr*) tree | **ծառեր** (*tsarrer*) |\n| | **աչք** (*achʼkʼ*) eye | **աչքեր** (*achʼkʼer*) |\n| **two or more: -ներ** | **սեղան** (*seghan*) table | **սեղաններ** (*seghanner*) |\n| | **ընկեր** (*ənker*) friend | **ընկերներ** (*ənkerner*) |\n| | **երեխա** (*yerekha*) child | **երեխաներ** (*yerekhaner*) |\n\nThe article goes after the plural: **սեղանները** (*seghannerə*) \"the tables\", **ծառերը** (*tsarrerə*) \"the trees\".\n\n**Pitfalls**\n- Count syllables, not letters: **աղջիկ** (*aghjik*) has two, so **աղջիկներ** (*aghjikner*).\n- A few short nouns change their stem: **գիրք** (*girkʼ*) → **գրքեր** (*grkʼer*), **տուն** (*tun*) → **տներ** (*tner*).\n- Adjectives do not change: **մեծ սեղաններ** (*mets seghanner*).\n- A plural subject needs the plural verb: **Սեղանները մեծ են** (*Seghannerə mets en*).",
+  "examples": [
+   {
+    "t": "Սեղանները մեծ են։",
+    "tr": "Seghannerə mets en.",
+    "en": "The tables are big."
+   },
+   {
+    "t": "Այս տները նոր են։",
+    "tr": "Ays tnerə nor en.",
+    "en": "These houses are new."
+   },
+   {
+    "t": "Երեխաները լավ են։",
+    "tr": "Yerekhanerə lav en.",
+    "en": "The children are fine."
+   },
+   {
+    "t": "Նրանք լավ ընկերներ են։",
+    "tr": "Nrankʼ lav ənkerner en.",
+    "en": "They are good friends."
+   },
+   {
+    "t": "Օրերը կարճ են։",
+    "tr": "Orerə karch en.",
+    "en": "The days are short."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Plural of սեղան (table):",
+    "options": [
+     "սեղանս",
+     "սեղաններ",
+     "սեղանիք",
+     "սեղաներ"
+    ],
+    "a": 1,
+    "why": "Two syllables: **-ներ** (*-ner*)."
+   },
+   {
+    "type": "choice",
+    "q": "Plural of ծառ (tree):",
+    "options": [
+     "ծառներ",
+     "ծառ",
+     "ծառաք",
+     "ծառեր"
+    ],
+    "a": 3,
+    "why": "One syllable: **-եր** (*-er*)."
+   },
+   {
+    "type": "fill",
+    "q": "ընկեր → ＿＿ (friends)",
+    "a": [
+     "ընկերներ"
+    ],
+    "why": "**ըն-կեր** (*ən-ker*) has two syllables: **-ներ** (*-ner*)."
+   },
+   {
+    "type": "fill",
+    "q": "տուն → ＿＿ (houses)",
+    "a": [
+     "տներ"
+    ],
+    "why": "Irregular stem: **տուն** (*tun*) → **տներ** (*tner*)."
+   },
+   {
+    "type": "fill",
+    "q": "գիրք → ＿＿ (the books)",
+    "a": [
+     "գրքերը"
+    ],
+    "why": "**գիրք** (*girkʼ*) → **գրքեր** (*grkʼer*), then the article **-ը** (*-ə*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: The tables are big.",
+    "tokens": [
+     "Սեղանները",
+     "մեծ",
+     "են"
+    ],
+    "a": [
+     "Սեղանները",
+     "մեծ",
+     "են"
+    ],
+    "why": "Plural subject, plural verb **են** (*en*)."
+   }
+  ]
+ },
+ {
+  "id": "hy3-present-forms",
+  "lesson": 3,
+  "title": "Present tense: participle + auxiliary",
+  "summary": "Drop -ել / -ալ, add -ում, then the auxiliary եմ ես է ենք եք են after it.",
+  "explain": "The present is built in two steps.\n\n1. Take the infinitive and replace **-ել / -ալ** with **-ում** (the imperfective participle): **գրել** (*grel*) → **գրում** (*grum*), **կարդալ** (*kardal*) → **կարդում** (*kardum*).\n2. Add the auxiliary (the same forms as «to be») as a separate word.\n\n| person | **գրել** (*grel*) to write |\n|---|---|\n| I | **գրում եմ** (*grum em*) |\n| you (inf.) | **գրում ես** (*grum es*) |\n| he / she | **գրում է** (*grum e*) |\n| we | **գրում ենք** (*grum enkʼ*) |\n| you (pl./formal) | **գրում եք** (*grum ekʼ*) |\n| they | **գրում են** (*grum en*) |\n\nThe same form means \"I write\" and \"I am writing\".\n\n**Useful verbs:** **խոսել** (*khosel*) → **խոսում** (*khosum*), **աշխատել** (*ashkhatel*) → **աշխատում** (*ashkhatum*), **սովորել** (*sovorel*) → **սովորում** (*sovorum*), **խմել** (*khmel*) → **խմում** (*khmum*), **ուտել** (*utel*) → **ուտում** (*utum*).\n\n**Pitfalls**\n- The participle **never changes**; only the auxiliary shows the person.\n- The auxiliary is a separate word, not a suffix.",
+  "examples": [
+   {
+    "t": "Ես գրում եմ։",
+    "tr": "Yes grum em.",
+    "en": "I write / I am writing."
+   },
+   {
+    "t": "Դու կարդում ես։",
+    "tr": "Du kardum es.",
+    "en": "You read / are reading."
+   },
+   {
+    "t": "Նա խոսում է։",
+    "tr": "Na khosum e.",
+    "en": "He/she speaks."
+   },
+   {
+    "t": "Մենք աշխատում ենք։",
+    "tr": "Menkʼ ashkhatum enkʼ.",
+    "en": "We work."
+   },
+   {
+    "t": "Նրանք խմում են։",
+    "tr": "Nrankʼ khmum en.",
+    "en": "They drink."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Participle of խոսել (to speak):",
+    "options": [
+     "խոսեց",
+     "խոսալ",
+     "խոսեմ",
+     "խոսում"
+    ],
+    "a": 3,
+    "why": "Drop **-ել** (*-el*), add **-ում** (*-um*)."
+   },
+   {
+    "type": "choice",
+    "q": "Մենք աշխատում ＿＿։",
+    "options": [
+     "են",
+     "ես",
+     "ենք",
+     "եմ"
+    ],
+    "a": 2,
+    "why": "**մենք** (*menkʼ*) takes **ենք** (*enkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դուք կարդում ＿＿։",
+    "a": [
+     "եք"
+    ],
+    "why": "**դուք** (*dukʼ*) takes **եք** (*ekʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "սովորել → ＿＿ (participle)",
+    "a": [
+     "սովորում"
+    ],
+    "why": "**սովորել** (*sovorel*) → **սովորում** (*sovorum*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am reading.",
+    "tokens": [
+     "Ես",
+     "կարդում",
+     "եմ"
+    ],
+    "a": [
+     "Ես",
+     "կարդում",
+     "եմ"
+    ],
+    "why": "Subject, participle, auxiliary."
+   },
+   {
+    "type": "order",
+    "q": "Make: They are working.",
+    "tokens": [
+     "Նրանք",
+     "աշխատում",
+     "են"
+    ],
+    "a": [
+     "Նրանք",
+     "աշխատում",
+     "են"
+    ],
+    "why": "The auxiliary **են** (*en*) follows the participle."
+   }
+  ]
+ },
+ {
+  "id": "hy3-irregular-present",
+  "lesson": 3,
+  "title": "Irregular presents: ունեմ, գիտեմ, գալիս, ուզում",
+  "summary": "A few very common verbs do not follow the -ում pattern.",
+  "explain": "Some very common verbs do not use the normal participle + auxiliary pattern.\n\n**Single-word presents**\n\n| | **ունենալ** (*unenal*) to have | **իմանալ** (*imanal*) / know |\n|---|---|---|\n| I | **ունեմ** (*unem*) | **գիտեմ** (*gitem*) |\n| you (inf.) | **ունես** (*unes*) | **գիտես** (*gites*) |\n| he / she | **ունի** (*uni*) | **գիտի** (*giti*) |\n| we | **ունենք** (*unenkʼ*) | **գիտենք** (*gitenkʼ*) |\n| you (pl.) | **ունեք** (*unekʼ*) | **գիտեք** (*gitekʼ*) |\n| they | **ունեն** (*unen*) | **գիտեն** (*giten*) |\n\n**Irregular participles**\n- **գալ** (*gal*) \"to come\" → **գալիս եմ** (*galis em*) (not *գալում*).\n- **տալ** (*tal*) \"to give\" → **տալիս եմ** (*talis em*).\n- **ուզենալ** (*uzenal*) \"to want\" → **ուզում եմ** (*uzum em*) (not *ուզենում*).\n\n**Pitfalls**\n- \"I have a brother\" is **Ես եղբայր ունեմ** (*Yes yeghbayr unem*): the object sits before the verb.\n- \"I know\" is **գիտեմ** (*gitem*), never *գիտում եմ*.\n- Normal ones stay regular: **գնալ** (*gnal*) → **գնում եմ** (*gnum em*), **ասել** (*asel*) → **ասում եմ** (*asum em*), **անել** (*anel*) → **անում եմ** (*anum em*).",
+  "examples": [
+   {
+    "t": "Ես եղբայր ունեմ։",
+    "tr": "Yes yeghbayr unem.",
+    "en": "I have a brother."
+   },
+   {
+    "t": "Նա շուն ունի։",
+    "tr": "Na shun uni.",
+    "en": "He/she has a dog."
+   },
+   {
+    "t": "Մենք գիտենք։",
+    "tr": "Menkʼ gitenkʼ.",
+    "en": "We know."
+   },
+   {
+    "t": "Նա գալիս է։",
+    "tr": "Na galis e.",
+    "en": "He/she is coming."
+   },
+   {
+    "t": "Ես սուրճ եմ ուզում։",
+    "tr": "Yes surch em uzum.",
+    "en": "I want coffee."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Նա շուն ＿＿։ (has)",
+    "options": [
+     "ունում",
+     "ունեմ",
+     "ունես",
+     "ունի"
+    ],
+    "a": 3,
+    "why": "**նա** (*na*) takes **ունի** (*uni*)."
+   },
+   {
+    "type": "choice",
+    "q": "«I know» is:",
+    "options": [
+     "գիտեք",
+     "գիտում եմ",
+     "գիտեմ",
+     "գիտել եմ"
+    ],
+    "a": 2,
+    "why": "**գիտեմ** (*gitem*) is a one-word present."
+   },
+   {
+    "type": "choice",
+    "q": "Which participle is irregular?",
+    "options": [
+     "գրում",
+     "գնում",
+     "գալիս",
+     "խոսում"
+    ],
+    "a": 2,
+    "why": "**գալ** (*gal*) → **գալիս** (*galis*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք եղբայր ＿＿։ (have)",
+    "a": [
+     "ունենք"
+    ],
+    "why": "**մենք** (*menkʼ*) → **ունենք** (*unenkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա ＿＿ է։ (գալ: is coming)",
+    "a": [
+     "գալիս"
+    ],
+    "why": "**գալ** (*gal*) → **գալիս** (*galis*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I have a brother.",
+    "tokens": [
+     "Ես",
+     "եղբայր",
+     "ունեմ"
+    ],
+    "a": [
+     "Ես",
+     "եղբայր",
+     "ունեմ"
+    ],
+    "why": "The object normally comes before the verb."
+   }
+  ]
+ },
+ {
+  "id": "hy3-verb-classes",
+  "lesson": 3,
+  "title": "Two verb classes: -ել and -ալ",
+  "summary": "Every infinitive ends in -ել or -ալ; the class matters for later tenses.",
+  "explain": "Every Armenian verb dictionary form (infinitive) ends in **-ել** or **-ալ**.\n\n- **-ել:** **գրել** (*grel*), **խոսել** (*khosel*), **սիրել** (*sirel*), **տեսնել** (*tesnel*), **ուտել** (*utel*), **խմել** (*khmel*), **գնել** (*gnel*)\n- **-ալ:** **կարդալ** (*kardal*), **գնալ** (*gnal*), **գալ** (*gal*), **տալ** (*tal*), **խաղալ** (*khaghal*), **լողալ** (*loghal*), **հասկանալ** (*haskanal*)\n\nIn the **present** both classes just take **-ում** (*-um*): **գրում** (*grum*), **կարդում** (*kardum*), **խաղում** (*khaghum*).\n\nThe class decides the endings of later tenses. A preview of the subjunctive (lesson 8):\n\n| | -ել (**գրել** (*grel*)) | -ալ (**կարդալ** (*kardal*)) |\n|---|---|---|\n| I | **գրեմ** (*grem*) | **կարդամ** (*kardam*) |\n| he/she | **գրի** (*gri*) | **կարդա** (*karda*) |\n\nPast tense (lesson 7) will be **-եցի** (*-etsʼi*) vs **-ացի** (*-atsʼi*).\n\n**Pitfalls**\n- **գնել** (*gnel*) \"to buy\" and **գնալ** (*gnal*) \"to go\" differ by one letter, but both give **գնում** (*gnum*) in the present. Context tells them apart: **Նա գրքեր է գնում** (*Na grkʼer e gnum*) (buys), **Նա դպրոց է գնում** (*Na dprotsʼ e gnum*) (goes).\n- Check the **last two letters** of the infinitive.",
+  "examples": [
+   {
+    "t": "Նա գրքեր է գնում։",
+    "tr": "Na grkʼer e gnum.",
+    "en": "He/she buys books."
+   },
+   {
+    "t": "Նա դպրոց է գնում։",
+    "tr": "Na dprotsʼ e gnum.",
+    "en": "He/she goes to school."
+   },
+   {
+    "t": "Ես կարդում եմ։",
+    "tr": "Yes kardum em.",
+    "en": "I am reading."
+   },
+   {
+    "t": "Մենք լողում ենք։",
+    "tr": "Menkʼ loghum enkʼ.",
+    "en": "We are swimming."
+   },
+   {
+    "t": "Նրանք խաղում են։",
+    "tr": "Nrankʼ khaghum en.",
+    "en": "They are playing."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which verb is in the -ալ class?",
+    "options": [
+     "սիրել",
+     "խոսել",
+     "կարդալ",
+     "գրել"
+    ],
+    "a": 2,
+    "why": "It ends in **-ալ** (*-al*)."
+   },
+   {
+    "type": "choice",
+    "q": "Participle of լողալ (to swim):",
+    "options": [
+     "լողեմ",
+     "լողալում",
+     "լողում",
+     "լողա"
+    ],
+    "a": 2,
+    "why": "Drop **-ալ** (*-al*), add **-ում** (*-um*)."
+   },
+   {
+    "type": "choice",
+    "q": "Subjunctive «I» of կարդալ (preview):",
+    "options": [
+     "կարդեմ",
+     "կարդում",
+     "կարդամ",
+     "կարդաս"
+    ],
+    "a": 2,
+    "why": "-ալ verbs take **-ամ** (*-am*); -ել verbs take **-եմ** (*-em*)."
+   },
+   {
+    "type": "fill",
+    "q": "գնել → ＿＿ (participle)",
+    "a": [
+     "գնում"
+    ],
+    "why": "Both **գնել** (*gnel*) and **գնալ** (*gnal*) give **գնում** (*gnum*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա դպրոց է ＿＿։ (գնալ: goes)",
+    "a": [
+     "գնում"
+    ],
+    "why": "**գնում** (*gnum*), with the auxiliary **է** (*e*) before it."
+   },
+   {
+    "type": "order",
+    "q": "Make: She buys books.",
+    "tokens": [
+     "Նա",
+     "գրքեր",
+     "է",
+     "գնում"
+    ],
+    "a": [
+     "Նա",
+     "գրքեր",
+     "է",
+     "գնում"
+    ],
+    "why": "Object, auxiliary, participle."
+   }
+  ]
+ },
+ {
+  "id": "hy3-aux-position",
+  "lesson": 3,
+  "title": "Where the auxiliary goes",
+  "summary": "The auxiliary follows the word in focus; question words attract it.",
+  "explain": "The auxiliary does not have to follow the participle. It attaches to the **word in focus**, the one right before the participle.\n\n| pattern | example | feel |\n|---|---|---|\n| object + aux + participle | **Ես նամակ եմ գրում** (*Yes namak em grum*) | neutral: \"I'm writing a letter\" |\n| participle + aux + object | **Ես գրում եմ նամակ** (*Yes grum em namak*) | the action itself is stressed |\n\n**Rules**\n- With an object or an adverb, put the auxiliary right after it: **Ես նամակ եմ գրում** (*Yes namak em grum*), **Նա շատ է աշխատում** (*Na shat e ashkhatum*).\n- **Question words always take the auxiliary right after them**: **Ի՞նչ ես անում** (*Inchʼ es anum*) \"What are you doing?\", **Դու ի՞նչ ես խմում** (*Du inchʼ es khmum*).\n- Without any focus word, the auxiliary follows the participle: **Ես գրում եմ** (*Yes grum em*).\n\n**Pitfalls**\n- The auxiliary is unstressed and never opens a sentence.\n- Do not put it **after** the participle when an object stands before the verb: **Ես նամակ գրում եմ** (*Yes namak grum em*) sounds wrong.",
+  "examples": [
+   {
+    "t": "Ես նամակ եմ գրում։",
+    "tr": "Yes namak em grum.",
+    "en": "I am writing a letter."
+   },
+   {
+    "t": "Մենք հայերեն ենք սովորում։",
+    "tr": "Menkʼ hayeren enkʼ sovorum.",
+    "en": "We are learning Armenian."
+   },
+   {
+    "t": "Ի՞նչ ես անում։",
+    "tr": "Inchʼ es anum?",
+    "en": "What are you doing?"
+   },
+   {
+    "t": "Դու ի՞նչ ես խմում։",
+    "tr": "Du inchʼ es khmum?",
+    "en": "What are you drinking?"
+   },
+   {
+    "t": "Նա շատ է աշխատում։",
+    "tr": "Na shat e ashkhatum.",
+    "en": "He/she works a lot."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "order",
+    "q": "Make: I am writing a letter.",
+    "tokens": [
+     "Ես",
+     "նամակ",
+     "եմ",
+     "գրում"
+    ],
+    "a": [
+     "Ես",
+     "նամակ",
+     "եմ",
+     "գրում"
+    ],
+    "why": "Object, then auxiliary, then participle."
+   },
+   {
+    "type": "order",
+    "q": "Make: What are you doing?",
+    "tokens": [
+     "Ի՞նչ",
+     "ես",
+     "անում"
+    ],
+    "a": [
+     "Ի՞նչ",
+     "ես",
+     "անում"
+    ],
+    "why": "The auxiliary goes right after the question word."
+   },
+   {
+    "type": "order",
+    "q": "Make: We are learning Armenian.",
+    "tokens": [
+     "Մենք",
+     "հայերեն",
+     "ենք",
+     "սովորում"
+    ],
+    "a": [
+     "Մենք",
+     "հայերեն",
+     "ենք",
+     "սովորում"
+    ],
+    "why": "Object **հայերեն** (*hayeren*) first, then **ենք** (*enkʼ*)."
+   },
+   {
+    "type": "choice",
+    "q": "In «What are you reading?», the auxiliary goes:",
+    "options": [
+     "right after the question word",
+     "after the object, before the question word",
+     "at the start",
+     "at the end of the sentence"
+    ],
+    "a": 0,
+    "why": "**Ի՞նչ ես կարդում** (*Inchʼ es kardum*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ի՞նչ ＿＿ խմում։ (you, informal)",
+    "a": [
+     "ես"
+    ],
+    "why": "**դու** (*du*) takes **ես** (*es*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա շատ ＿＿ աշխատում։",
+    "a": [
+     "է"
+    ],
+    "why": "**նա** (*na*) takes **է** (*e*), after **շատ** (*shat*)."
+   }
+  ]
+ },
+ {
+  "id": "hy4-negation",
+  "lesson": 4,
+  "title": "Negation: չեմ գրում, չի, չէ",
+  "summary": "Negative auxiliary before the participle; 3rd person is չի with verbs but չէ with «to be».",
+  "explain": "To negate the present, use the **negative auxiliary** and put it **before** the participle (after any focus word).\n\n| person | negative aux | negative «to be» |\n|---|---|---|\n| I | **չեմ** (*chʼem*) | **չեմ** (*chʼem*) |\n| you (inf.) | **չես** (*chʼes*) | **չես** (*chʼes*) |\n| he / she | **չի** (*chʼi*) | **չէ** (*chʼe*) |\n| we | **չենք** (*chʼenkʼ*) | **չենք** (*chʼenkʼ*) |\n| you (pl.) | **չեք** (*chʼekʼ*) | **չեք** (*chʼekʼ*) |\n| they | **չեն** (*chʼen*) | **չեն** (*chʼen*) |\n\n- Verb: **Ես չեմ գրում** (*Yes chʼem grum*), **Նա չի գրում** (*Na chʼi grum*), **Ես նամակ չեմ գրում** (*Yes namak chʼem grum*).\n- «To be»: **Նա ուսանող չէ** (*Na usanogh chʼe*).\n- One-word verbs add **չ-** (*chʼ-*): **ունեմ** (*unem*) → **չունեմ** (*chʼunem*), **գիտեմ** (*gitem*) → **չգիտեմ** (*chʼgitem*), **կա** (*ka*) → **չկա** (*chʼka*).\n\n**Pitfalls**\n- Only the 3rd person singular differs: **չի** (*chʼi*) (with a verb) vs **չէ** (*chʼe*) (with «to be»).\n- Armenian uses **double negation**: **Ես ոչինչ չեմ անում** (*Yes vochʼinchʼ chʼem anum*) \"I do nothing\", **Ես երբեք չեմ խմում** (*Yes yerbekʼ chʼem khmum*) \"I never drink\".",
+  "examples": [
+   {
+    "t": "Ես չեմ գրում։",
+    "tr": "Yes chʼem grum.",
+    "en": "I am not writing."
+   },
+   {
+    "t": "Նա ուսանող չէ։",
+    "tr": "Na usanogh chʼe.",
+    "en": "He/she is not a student."
+   },
+   {
+    "t": "Մենք չենք աշխատում։",
+    "tr": "Menkʼ chʼenkʼ ashkhatum.",
+    "en": "We do not work."
+   },
+   {
+    "t": "Ես եղբայր չունեմ։",
+    "tr": "Yes yeghbayr chʼunem.",
+    "en": "I have no brother."
+   },
+   {
+    "t": "Ես ոչինչ չեմ հասկանում։",
+    "tr": "Yes vochʼinchʼ chʼem haskanum.",
+    "en": "I understand nothing."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Նա ＿＿ գրում։ (does not)",
+    "options": [
+     "չէ",
+     "չեն",
+     "չի",
+     "չեմ"
+    ],
+    "a": 2,
+    "why": "With a verb the 3rd person is **չի** (*chʼi*)."
+   },
+   {
+    "type": "choice",
+    "q": "Նա ուսանող ＿＿։ (is not)",
+    "options": [
+     "չի",
+     "չեն",
+     "չեմ",
+     "չէ"
+    ],
+    "a": 3,
+    "why": "With «to be» the 3rd person is **չէ** (*chʼe*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք ＿＿ աշխատում։ (do not)",
+    "a": [
+     "չենք"
+    ],
+    "why": "**մենք** (*menkʼ*) → **չենք** (*chʼenkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես եղբայր ＿＿։ (do not have)",
+    "a": [
+     "չունեմ"
+    ],
+    "why": "**ունեմ** (*unem*) → **չունեմ** (*chʼunem*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I do not understand.",
+    "tokens": [
+     "Ես",
+     "չեմ",
+     "հասկանում"
+    ],
+    "a": [
+     "Ես",
+     "չեմ",
+     "հասկանում"
+    ],
+    "why": "Negative aux before the participle."
+   },
+   {
+    "type": "order",
+    "q": "Make: She is not a doctor.",
+    "tokens": [
+     "Նա",
+     "բժիշկ",
+     "չէ"
+    ],
+    "a": [
+     "Նա",
+     "բժիշկ",
+     "չէ"
+    ],
+    "why": "**չէ** (*chʼe*) after the predicate."
+   }
+  ]
+ },
+ {
+  "id": "hy4-yesno",
+  "lesson": 4,
+  "title": "Yes/no questions and the ՞ mark",
+  "summary": "Same word order as a statement; ՞ goes on the stressed vowel of the word being asked about.",
+  "explain": "A yes/no question has the **same word order** as a statement. Only intonation changes, and in writing the question mark ՞ sits **on the stressed vowel of the word you are asking about**, not at the end.\n\n- **Դու ուսանո՞ղ ես** (*Du usanogh es*) \"Are you a student?\": ask about \"student\".\n- **Դուք հայերեն խոսո՞ւմ եք** (*Dukʼ hayeren khosum ekʼ*) \"Do you speak Armenian?\": ask about the verb.\n- **Դու հոգնա՞ծ ես** (*Du hognats es*) \"Are you tired?\"\n\nThe sentence still ends with **։** (*.*). Armenian stress is usually on the **last syllable**; in **ու** (*u*) the mark goes on the **ո** (*vo*).\n\n**Answers:** **Այո** (*Ayo*) \"yes\" or **Ոչ** (*Vochʼ*) \"no\", then repeat the key word: **Այո, ուսանող եմ** (*Ayo, usanogh em*) / **Ոչ, ուսանող չեմ** (*Vochʼ, usanogh chʼem*).\n\n**Pitfalls**\n- Do not write **ես՞** (*yes*) or put ՞ after the last word.\n- There is no inversion and no \"do\": the auxiliary stays where it was.",
+  "examples": [
+   {
+    "t": "Դու ուսանո՞ղ ես։",
+    "tr": "Du usanogh es?",
+    "en": "Are you a student?"
+   },
+   {
+    "t": "Դուք հայերեն խոսո՞ւմ եք։",
+    "tr": "Dukʼ hayeren khosum ekʼ?",
+    "en": "Do you speak Armenian?"
+   },
+   {
+    "t": "Դու հոգնա՞ծ ես։",
+    "tr": "Du hognats es?",
+    "en": "Are you tired?"
+   },
+   {
+    "t": "Նա գրո՞ւմ է։",
+    "tr": "Na grum e?",
+    "en": "Is he/she writing?"
+   },
+   {
+    "t": "Ոչ, հայերեն չեմ խոսում։",
+    "tr": "Vochʼ, hayeren chʼem khosum.",
+    "en": "No, I do not speak Armenian."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Where does the question mark ՞ go?",
+    "options": [
+     "On the stressed vowel of the word asked about",
+     "At the end of the sentence",
+     "Before the question word",
+     "Always on the verb"
+    ],
+    "a": 0,
+    "why": "**Դու ուսանո՞ղ ես** (*Du usanogh es*)."
+   },
+   {
+    "type": "choice",
+    "q": "«Do you (formal) speak Armenian?»",
+    "options": [
+     "Դու հայերեն խոսո՞ւմ ես։",
+     "Դուք հայերեն խոսո՞ւմ եք։",
+     "Դուք հայերեն խոսո՞ւմ ես։",
+     "Դուք հայերեն խոսում եք։"
+    ],
+    "a": 1,
+    "why": "Formal = **դուք** (*dukʼ*) + **եք** (*ekʼ*), mark on the verb."
+   },
+   {
+    "type": "fill",
+    "q": "Դու ուսանո՞ղ ես։ — Ոչ, ուսանող ＿＿։",
+    "a": [
+     "չեմ"
+    ],
+    "why": "Negative of **եմ** (*em*) is **չեմ** (*chʼem*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա հոգնա՞ծ ＿＿։",
+    "a": [
+     "է"
+    ],
+    "why": "**նա** (*na*) takes **է** (*e*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: Are you tired? (informal)",
+    "tokens": [
+     "Դու",
+     "հոգնա՞ծ",
+     "ես"
+    ],
+    "a": [
+     "Դու",
+     "հոգնա՞ծ",
+     "ես"
+    ],
+    "why": "Statement order, with ՞ on the stressed vowel."
+   },
+   {
+    "type": "order",
+    "q": "Make: Do you speak Armenian? (formal)",
+    "tokens": [
+     "Դուք",
+     "հայերեն",
+     "խոսո՞ւմ",
+     "եք"
+    ],
+    "a": [
+     "Դուք",
+     "հայերեն",
+     "խոսո՞ւմ",
+     "եք"
+    ],
+    "why": "Same order as the statement."
+   }
+  ]
+ },
+ {
+  "id": "hy4-wh",
+  "lesson": 4,
+  "title": "Question words",
+  "summary": "The question word goes before the verb and takes the auxiliary right after it.",
+  "explain": "| question word | meaning |\n|---|---|\n| **ո՞վ** (*ov*) | who |\n| **ի՞նչ** (*inchʼ*) | what |\n| **որտե՞ղ** (*vortegh*) | where (location) |\n| **ո՞ւր** (*ur*) | where to |\n| **ե՞րբ** (*yerb*) | when |\n| **ինչո՞ւ** (*inchʼu*) | why |\n| **ինչպե՞ս** (*inchʼpes*) | how |\n| **քանի՞** (*kʼani*) | how many |\n| **ինչքա՞ն** (*inchʼkʼan*) | how much |\n| **ո՞ր** (*vor*) | which |\n\n**Rules**\n- The question word stands before the verb and the auxiliary comes right after it: **Որտե՞ղ ես ապրում** (*Vortegh es aprum*), **Ե՞րբ եք գալիս** (*Yerb ekʼ galis*).\n- The ՞ mark sits on the question word: **Ի՞նչ է քո անունը** (*Inchʼ e kʼo anunə*) \"What is your name?\"\n- Negative: **Ինչո՞ւ չես գալիս** (*Inchʼu chʼes galis*) \"Why aren't you coming?\"\n- **քանի՞** (*kʼani*) is followed by a **singular** noun: **Քանի՞ գիրք ունես** (*Kʼani girkʼ unes*).\n\n**Pitfall:** **որտե՞ղ** (*vortegh*) is \"where (are you)\", **ո՞ւր** (*ur*) is \"where (to)\": **Ո՞ւր ես գնում** (*Ur es gnum*).",
+  "examples": [
+   {
+    "t": "Ի՞նչ է քո անունը։",
+    "tr": "Inchʼ e kʼo anunə?",
+    "en": "What is your name?"
+   },
+   {
+    "t": "Որտե՞ղ ես ապրում։",
+    "tr": "Vortegh es aprum?",
+    "en": "Where do you live?"
+   },
+   {
+    "t": "Ե՞րբ եք գալիս։",
+    "tr": "Yerb ekʼ galis?",
+    "en": "When are you coming? (formal)"
+   },
+   {
+    "t": "Ինչո՞ւ չես գալիս։",
+    "tr": "Inchʼu chʼes galis?",
+    "en": "Why aren't you coming?"
+   },
+   {
+    "t": "Քանի՞ գիրք ունես։",
+    "tr": "Kʼani girkʼ unes?",
+    "en": "How many books do you have?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Ե՞րբ ես գալիս։ means:",
+    "options": [
+     "When are you coming?",
+     "Where are you going?",
+     "Who is coming?",
+     "Why are you coming?"
+    ],
+    "a": 0,
+    "why": "**ե՞րբ** (*yerb*) = when."
+   },
+   {
+    "type": "choice",
+    "q": "Which word means «why»?",
+    "options": [
+     "ինչո՞ւ",
+     "ի՞նչ",
+     "ինչպե՞ս",
+     "ո՞վ"
+    ],
+    "a": 0,
+    "why": "**ինչո՞ւ** (*inchʼu*) = why."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ է նա։ (Who is he/she?)",
+    "a": [
+     "Ո՞վ",
+     "Ով",
+     "ո՞վ",
+     "ով"
+    ],
+    "why": "**ո՞վ** (*ov*) = who."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ ես ապրում։ (Where do you live?)",
+    "a": [
+     "Որտե՞ղ",
+     "Որտեղ"
+    ],
+    "why": "**որտե՞ղ** (*vortegh*) = where."
+   },
+   {
+    "type": "order",
+    "q": "Make: What is your name? (informal)",
+    "tokens": [
+     "Ի՞նչ",
+     "է",
+     "քո",
+     "անունը"
+    ],
+    "a": [
+     "Ի՞նչ",
+     "է",
+     "քո",
+     "անունը"
+    ],
+    "why": "Question word, auxiliary, then the rest."
+   },
+   {
+    "type": "order",
+    "q": "Make: Why aren't you coming?",
+    "tokens": [
+     "Ինչո՞ւ",
+     "չես",
+     "գալիս"
+    ],
+    "a": [
+     "Ինչո՞ւ",
+     "չես",
+     "գալիս"
+    ],
+    "why": "**ինչո՞ւ** (*inchʼu*) + negative aux + participle."
+   }
+  ]
+ },
+ {
+  "id": "hy4-ka-chka",
+  "lesson": 4,
+  "title": "There is / there isn't: կա, չկա, կան, չկան",
+  "summary": "Existence uses կա / կան; negatives are չկա / չկան; ունեմ / չունեմ for having.",
+  "explain": "To say something exists, use **կա** (*ka*) (singular) and **կան** (*kan*) (plural). The negatives are written as one word: **չկա** (*chʼka*), **չկան** (*chʼkan*).\n\n| | singular | plural |\n|---|---|---|\n| there is / are | **կա** (*ka*) | **կան** (*kan*) |\n| there isn't / aren't | **չկա** (*chʼka*) | **չկան** (*chʼkan*) |\n\n- **Այստեղ ջուր կա** (*Aystegh jur ka*) \"There is water here.\"\n- **Այստեղ ջուր չկա** (*Aystegh jur chʼka*) \"There is no water here.\"\n- **Այստեղ աթոռներ կան** (*Aystegh atʼorrner kan*) \"There are chairs here.\"\n\nFor having, use **ունեմ** (*unem*) / **չունեմ** (*chʼunem*): **Ես եղբայր չունեմ** (*Yes yeghbayr chʼunem*). In a shop: **Սուրճ ունե՞ք** (*Surch unekʼ*) \"Do you have coffee?\" Answer: **Ոչ, սուրճ չունենք** (*Vochʼ, surch chʼunenkʼ*).\n\n**Pitfalls**\n- Do not use **է** (*e*) for existence: **Ջուր է** (*Jur e*) would mean \"it is water\".\n- The place word usually comes first: **Այստեղ ... կա** (*Aystegh ... ka*).\n- With a number the noun stays singular (lesson 9).",
+  "examples": [
+   {
+    "t": "Այստեղ ջուր կա։",
+    "tr": "Aystegh jur ka.",
+    "en": "There is water here."
+   },
+   {
+    "t": "Այստեղ ջուր չկա։",
+    "tr": "Aystegh jur chʼka.",
+    "en": "There is no water here."
+   },
+   {
+    "t": "Այստեղ աթոռներ կան։",
+    "tr": "Aystegh atʼorrner kan.",
+    "en": "There are chairs here."
+   },
+   {
+    "t": "Սուրճ ունե՞ք։",
+    "tr": "Surch unekʼ?",
+    "en": "Do you have coffee? (formal)"
+   },
+   {
+    "t": "Ոչ, սուրճ չունենք։",
+    "tr": "Vochʼ, surch chʼunenkʼ.",
+    "en": "No, we do not have coffee."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Այստեղ ջուր ＿＿։ (there is no)",
+    "options": [
+     "չկա",
+     "չկան",
+     "չի",
+     "չէ"
+    ],
+    "a": 0,
+    "why": "**չկա** (*chʼka*) = there is no."
+   },
+   {
+    "type": "choice",
+    "q": "Այստեղ աթոռներ ＿＿։ (there are)",
+    "options": [
+     "կա",
+     "կան",
+     "են",
+     "ունեն"
+    ],
+    "a": 1,
+    "why": "Plural: **կան** (*kan*)."
+   },
+   {
+    "type": "fill",
+    "q": "Այստեղ սեղան ＿＿։ (there is)",
+    "a": [
+     "կա"
+    ],
+    "why": "**կա** (*ka*)."
+   },
+   {
+    "type": "fill",
+    "q": "Սուրճ ＿＿։ (Do you (formal) have coffee?)",
+    "a": [
+     "ունե՞ք",
+     "ունեք"
+    ],
+    "why": "**ունեք** (*unekʼ*) with ՞ on the stressed vowel."
+   },
+   {
+    "type": "order",
+    "q": "Make: There is no water here.",
+    "tokens": [
+     "Այստեղ",
+     "ջուր",
+     "չկա"
+    ],
+    "a": [
+     "Այստեղ",
+     "ջուր",
+     "չկա"
+    ],
+    "why": "Place, noun, **չկա** (*chʼka*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: There are chairs here.",
+    "tokens": [
+     "Այստեղ",
+     "աթոռներ",
+     "կան"
+    ],
+    "a": [
+     "Այստեղ",
+     "աթոռներ",
+     "կան"
+    ],
+    "why": "Plural noun with **կան** (*kan*)."
+   }
+  ]
+ },
+ {
+  "id": "hy5-genitive-dative",
+  "lesson": 5,
+  "title": "Genitive / dative: -ի and its variants",
+  "summary": "One form for possession and the indirect object; most nouns take -ի.",
+  "explain": "The genitive (\"of\", possession) and the dative (\"to\") share one form for most nouns. The possessor comes **before** the thing owned: **տղայի գիրքը** (*tghayi girkʼə*) \"the boy's book\".\n\n| type | noun | gen./dat. |\n|---|---|---|\n| consonant: **-ի** | **սեղան** (*seghan*) | **սեղանի** (*seghani*) |\n| | **գիրք** (*girkʼ*) | **գրքի** (*grkʼi*) |\n| | **Երևան** (*Yerevan*) | **Երևանի** (*Yerevani*) |\n| ends in -ա: **-յի** | **տղա** (*tgha*) | **տղայի** (*tghayi*) |\n| people, -ի nouns: **-ու** | **մարդ** (*mard*) | **մարդու** (*mardu*) |\n| | **այգի** (*aygi*) | **այգու** (*aygu*) |\n| **-ան** (few) | **տուն** (*tun*) | **տան** (*tan*) |\n| | **ձմեռ** (*dzmerr*) | **ձմռան** (*dzmrran*) |\n| kinship | **մայր** (*mayr*) | **մոր** (*mor*) |\n| | **քույր** (*kʼuyr*) | **քրոջ** (*kʼroj*) |\n| | **ընկեր** (*ənker*) | **ընկերոջ** (*ənkeroj*) |\n\n**Pitfalls**\n- Learn the irregular ones as vocabulary: **տան դուռը** (*tan durrə*) \"the door of the house\".\n- The possessed noun usually has the article: **Երևանի փողոցները** (*Yerevani pʼoghotsʼnerə*).\n- With people, the dative often adds **-ին** (*-in*): **Արմենի** (*Armeni*) (of Armen) but **Արմենին** (*Armenin*) (to Armen).",
+  "examples": [
+   {
+    "t": "Սա տղայի գիրքն է։",
+    "tr": "Sa tghayi girkʼn e.",
+    "en": "This is the boy's book."
+   },
+   {
+    "t": "Տան դուռը մեծ է։",
+    "tr": "Tan durrə mets e.",
+    "en": "The door of the house is big."
+   },
+   {
+    "t": "Երևանի փողոցները գեղեցիկ են։",
+    "tr": "Yerevani pʼoghotsʼnerə geghetsʼik en.",
+    "en": "The streets of Yerevan are beautiful."
+   },
+   {
+    "t": "Ես Արմենին նամակ եմ գրում։",
+    "tr": "Yes Armenin namak em grum.",
+    "en": "I am writing a letter to Armen."
+   },
+   {
+    "t": "Սա մոր գիրքն է։",
+    "tr": "Sa mor girkʼn e.",
+    "en": "This is mother's book."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Genitive of սեղան (table):",
+    "options": [
+     "սեղանում",
+     "սեղանի",
+     "սեղանից",
+     "սեղանու"
+    ],
+    "a": 1,
+    "why": "Consonant noun: **-ի** (*-i*)."
+   },
+   {
+    "type": "choice",
+    "q": "Genitive of տուն (house):",
+    "options": [
+     "տունի",
+     "տանը",
+     "տան",
+     "տնի"
+    ],
+    "a": 2,
+    "why": "Irregular: **տուն** (*tun*) → **տան** (*tan*)."
+   },
+   {
+    "type": "choice",
+    "q": "Genitive of տղա (boy):",
+    "options": [
+     "տղայի",
+     "տղաի",
+     "տղաու",
+     "տղու"
+    ],
+    "a": 0,
+    "why": "Vowel -ա: **-յի** (*-yi*)."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ փողոցները գեղեցիկ են։ (Երևան, «of Yerevan»)",
+    "a": [
+     "Երևանի"
+    ],
+    "why": "**Երևան** (*Yerevan*) + **-ի** (*-i*)."
+   },
+   {
+    "type": "fill",
+    "q": "մարդ → ＿＿ (of the man)",
+    "a": [
+     "մարդու"
+    ],
+    "why": "**մարդ** (*mard*) → **մարդու** (*mardu*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is the boy's book.",
+    "tokens": [
+     "Սա",
+     "տղայի",
+     "գիրքն",
+     "է"
+    ],
+    "a": [
+     "Սա",
+     "տղայի",
+     "գիրքն",
+     "է"
+    ],
+    "why": "Possessor before the possessed."
+   }
+  ]
+ },
+ {
+  "id": "hy5-possessive-pronouns",
+  "lesson": 5,
+  "title": "Possessive pronouns",
+  "summary": "իմ, քո, նրա, մեր, ձեր, նրանց stand before the noun.",
+  "explain": "Possessive pronouns stand **before** the noun and never change.\n\n| | my | your (inf.) | his / her | our | your (pl./formal) | their |\n|---|---|---|---|---|---|---|\n| | **իմ** (*im*) | **քո** (*kʼo*) | **նրա** (*nra*) | **մեր** (*mer*) | **ձեր** (*dzer*) | **նրանց** (*nrantsʼ*) |\n\n**Իմ տունը մեծ է** (*Im tunə mets e*) \"My house is big.\" The noun usually keeps the article.\n\n**Related object forms** (dative, used for \"me / you / him...\", see the last point of this lesson):\n\n| I | you | he/she | we | you (pl.) | they |\n|---|---|---|---|---|---|\n| **ինձ** (*indz*) | **քեզ** (*kʼez*) | **նրան** (*nran*) | **մեզ** (*mez*) | **ձեզ** (*dzez*) | **նրանց** (*nrantsʼ*) |\n\n**Pitfalls**\n- **նրա** (*nra*) means both \"his\" and \"her\" (no gender).\n- **իմ** (*im*) is the possessive, **ինձ** (*indz*) is \"me\": do not mix them.\n- **ձեր** (*dzer*) is both formal \"your\" and plural \"your\".",
+  "examples": [
+   {
+    "t": "Իմ տունը մեծ է։",
+    "tr": "Im tunə mets e.",
+    "en": "My house is big."
+   },
+   {
+    "t": "Ի՞նչ է քո անունը։",
+    "tr": "Inchʼ e kʼo anunə?",
+    "en": "What is your name?"
+   },
+   {
+    "t": "Նրա ընկերը բժիշկ է։",
+    "tr": "Nra ənkerə bzhishk e.",
+    "en": "His/her friend is a doctor."
+   },
+   {
+    "t": "Մեր տունը նոր է։",
+    "tr": "Mer tunə nor e.",
+    "en": "Our house is new."
+   },
+   {
+    "t": "Նրանց տունը փոքր է։",
+    "tr": "Nrantsʼ tunə pʼokʼr e.",
+    "en": "Their house is small."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«my»:",
+    "options": [
+     "ինձ",
+     "իմ",
+     "քո",
+     "մեր"
+    ],
+    "a": 1,
+    "why": "**իմ** (*im*) = my."
+   },
+   {
+    "type": "choice",
+    "q": "«their»:",
+    "options": [
+     "ձեր",
+     "նրանց",
+     "մեր",
+     "նրա"
+    ],
+    "a": 1,
+    "why": "**նրանց** (*nrantsʼ*) = their."
+   },
+   {
+    "type": "choice",
+    "q": "«your» (formal or plural):",
+    "options": [
+     "իմ",
+     "մեր",
+     "ձեր",
+     "քո"
+    ],
+    "a": 2,
+    "why": "**ձեր** (*dzer*) = your (pl./formal)."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ տունը նոր է։ (our)",
+    "a": [
+     "Մեր"
+    ],
+    "why": "**մեր** (*mer*) = our."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ ընկերը բժիշկ է։ (his/her)",
+    "a": [
+     "Նրա"
+    ],
+    "why": "**նրա** (*nra*) = his/her."
+   },
+   {
+    "type": "order",
+    "q": "Make: My house is big.",
+    "tokens": [
+     "Իմ",
+     "տունը",
+     "մեծ",
+     "է"
+    ],
+    "a": [
+     "Իմ",
+     "տունը",
+     "մեծ",
+     "է"
+    ],
+    "why": "Possessive before the noun."
+   }
+  ]
+ },
+ {
+  "id": "hy5-possessive-suffix",
+  "lesson": 5,
+  "title": "Possessive suffixes -ս and -դ",
+  "summary": "Attach -ս (my) and -դ (your, informal) to the noun instead of the article.",
+  "explain": "Instead of **իմ** (*im*) / **քո** (*kʼo*) you can attach **-ս** \"my\" and **-դ** \"your (informal)\" to the noun. They **replace the article**.\n\n| noun | my | your (inf.) |\n|---|---|---|\n| **գիրք** (*girkʼ*) | **գիրքս** (*girkʼs*) | **գիրքդ** (*girkʼd*) |\n| **մայր** (*mayr*) | **մայրս** (*mayrs*) | **մայրդ** (*mayrd*) |\n| **քույր** (*kʼuyr*) | **քույրս** (*kʼuyrs*) | **քույրդ** (*kʼuyrd*) |\n| **ընկեր** (*ənker*) | **ընկերս** (*ənkers*) | **ընկերդ** (*ənkerd*) |\n| **պապա** (*papa*) | **պապաս** (*papas*) | **պապադ** (*papad*) |\n| **ընկերներ** (*ənkerner*) | **ընկերներս** (*ənkerners*) | **ընկերներդ** (*ənkernerd*) |\n\n- **Մայրս բժիշկ է** (*Mayrs bzhishk e*) \"My mother is a doctor.\"\n- **Եղբայրդ ուսանո՞ղ է** (*Yeghbayrd usanogh e*) \"Is your brother a student?\"\n- The 3rd person has no suffix: use **նրա** (*nra*) or the article: **նրա գիրքը** (*nra girkʼə*).\n\n**Pitfalls**\n- Never write both the article and the suffix: **գիրքս** (*girkʼs*), not *գիրքըս*.\n- **իմ գիրքս** (*im girkʼs*) is allowed for emphasis (\"*my* book\").\n- Suffixes are very common with family words.",
+  "examples": [
+   {
+    "t": "Սա գիրքս է։",
+    "tr": "Sa girkʼs e.",
+    "en": "This is my book."
+   },
+   {
+    "t": "Մայրս բժիշկ է։",
+    "tr": "Mayrs bzhishk e.",
+    "en": "My mother is a doctor."
+   },
+   {
+    "t": "Եղբայրդ ուսանո՞ղ է։",
+    "tr": "Yeghbayrd usanogh e?",
+    "en": "Is your brother a student?"
+   },
+   {
+    "t": "Ընկերներս ուրախ են։",
+    "tr": "Ənkerners urakh en.",
+    "en": "My friends are happy."
+   },
+   {
+    "t": "Ինչպե՞ս է քույրդ։",
+    "tr": "Inchʼpes e kʼuyrd?",
+    "en": "How is your sister?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«my sister»:",
+    "options": [
+     "քույրը",
+     "քույրսը",
+     "քույրդ",
+     "քույրս"
+    ],
+    "a": 3,
+    "why": "**-ս** (*-s*) replaces the article."
+   },
+   {
+    "type": "choice",
+    "q": "«your (informal) friend»:",
+    "options": [
+     "ընկերը",
+     "ընկերդ",
+     "ընկերդը",
+     "ընկերս"
+    ],
+    "a": 1,
+    "why": "**-դ** (*-d*) = your."
+   },
+   {
+    "type": "fill",
+    "q": "մայր → ＿＿ (my mother)",
+    "a": [
+     "մայրս"
+    ],
+    "why": "**մայր** (*mayr*) + **-ս** (*-s*)."
+   },
+   {
+    "type": "fill",
+    "q": "եղբայր → ＿＿ (your brother, informal)",
+    "a": [
+     "եղբայրդ"
+    ],
+    "why": "**եղբայր** (*yeghbayr*) + **-դ** (*-d*)."
+   },
+   {
+    "type": "fill",
+    "q": "գրքեր → ＿＿ (my books)",
+    "a": [
+     "գրքերս"
+    ],
+    "why": "Plural + **-ս** (*-s*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: My mother is a doctor.",
+    "tokens": [
+     "Մայրս",
+     "բժիշկ",
+     "է"
+    ],
+    "a": [
+     "Մայրս",
+     "բժիշկ",
+     "է"
+    ],
+    "why": "**մայրս** (*mayrs*) already says «my»."
+   }
+  ]
+ },
+ {
+  "id": "hy5-object-pronouns",
+  "lesson": 5,
+  "title": "Object pronouns: ինձ, քեզ, նրան...",
+  "summary": "The dative form of the pronoun is used for «me, you, him...».",
+  "explain": "The pronouns have a special object form, the same one used for \"to me / to you\":\n\n| subject | object |\n|---|---|\n| **ես** (*yes*) | **ինձ** (*indz*) |\n| **դու** (*du*) | **քեզ** (*kʼez*) |\n| **նա** (*na*) | **նրան** (*nran*) |\n| **մենք** (*menkʼ*) | **մեզ** (*mez*) |\n| **դուք** (*dukʼ*) | **ձեզ** (*dzez*) |\n| **նրանք** (*nrankʼ*) | **նրանց** (*nrantsʼ*) |\n\nIt stands **before the verb**, normally before the auxiliary as well: **Ես քեզ սիրում եմ** (*Yes kʼez sirum em*) \"I love you\".\n\n- direct object: **Նա մեզ տեսնում է** (*Na mez tesnum e*) \"He/she sees us.\"\n- indirect object: **Նա նրան նամակ է գրում** (*Na nran namak e grum*) \"He/she writes him/her a letter.\"\n\n**Pitfalls**\n- **նրանց** (*nrantsʼ*) is both \"their\" and \"them\".\n- With the negative the pronoun still comes first: **Ես ձեզ չեմ ճանաչում** (*Yes dzez chʼem chanachʼum*) \"I do not know you.\"\n- Do not use the subject form: **Ես դու սիրում եմ** (*Yes du sirum em*) is wrong.",
+  "examples": [
+   {
+    "t": "Ես քեզ սիրում եմ։",
+    "tr": "Yes kʼez sirum em.",
+    "en": "I love you."
+   },
+   {
+    "t": "Դու ինձ հասկանո՞ւմ ես։",
+    "tr": "Du indz haskanum es?",
+    "en": "Do you understand me?"
+   },
+   {
+    "t": "Նա մեզ տեսնում է։",
+    "tr": "Na mez tesnum e.",
+    "en": "He/she sees us."
+   },
+   {
+    "t": "Ես ձեզ չեմ ճանաչում։",
+    "tr": "Yes dzez chʼem chanachʼum.",
+    "en": "I do not know you (formal)."
+   },
+   {
+    "t": "Նա նրան նամակ է գրում։",
+    "tr": "Na nran namak e grum.",
+    "en": "He/she writes him/her a letter."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«me»:",
+    "options": [
+     "իմ",
+     "մեզ",
+     "ես",
+     "ինձ"
+    ],
+    "a": 3,
+    "why": "**ինձ** (*indz*) = me."
+   },
+   {
+    "type": "choice",
+    "q": "«us»:",
+    "options": [
+     "մեզ",
+     "ինձ",
+     "ձեզ",
+     "մեր"
+    ],
+    "a": 0,
+    "why": "**մեզ** (*mez*) = us."
+   },
+   {
+    "type": "choice",
+    "q": "Ես ＿＿ սիրում եմ։ (you, informal)",
+    "options": [
+     "դու",
+     "քո",
+     "քեզ",
+     "ձեզ"
+    ],
+    "a": 2,
+    "why": "Object of **դու** (*du*) is **քեզ** (*kʼez*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա ＿＿ տեսնում է։ (us)",
+    "a": [
+     "մեզ"
+    ],
+    "why": "**մենք** (*menkʼ*) → **մեզ** (*mez*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դու ＿＿ հասկանո՞ւմ ես։ (me)",
+    "a": [
+     "ինձ"
+    ],
+    "why": "**ես** (*yes*) → **ինձ** (*indz*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I love you. (informal)",
+    "tokens": [
+     "Ես",
+     "քեզ",
+     "սիրում",
+     "եմ"
+    ],
+    "a": [
+     "Ես",
+     "քեզ",
+     "սիրում",
+     "եմ"
+    ],
+    "why": "Object pronoun before the verb."
+   }
+  ]
+ },
+ {
+  "id": "hy6-ablative",
+  "lesson": 6,
+  "title": "Ablative -ից: from, out of",
+  "summary": "Add -ից to the noun for «from».",
+  "explain": "The ablative answers \"from where / from whom\". Add **-ից** to the noun (the genitive -ի is replaced by -ից).\n\n| noun | from... |\n|---|---|\n| **Երևան** (*Yerevan*) | **Երևանից** (*Yerevanitsʼ*) |\n| **Հայաստան** (*Hayastan*) | **Հայաստանից** (*Hayastanitsʼ*) |\n| **դպրոց** (*dprotsʼ*) | **դպրոցից** (*dprotsʼitsʼ*) |\n| **գյուղ** (*gyugh*) | **գյուղից** (*gyughitsʼ*) |\n| **տուն** (*tun*) | **տնից** (*tnitsʼ*) (stem changes) |\n| **տղա** (*tgha*) | **տղայից** (*tghayitsʼ*) (after -ա: -յից) |\n| **մարդ** (*mard*) | **մարդուց** (*mardutsʼ*) (people: -ուց) |\n\n- **Ես Հայաստանից եմ** (*Yes Hayastanitsʼ em*) \"I am from Armenia.\"\n- **Դու որտեղի՞ց ես** (*Du vorteghitsʼ es*) \"Where are you from?\" (**որտեղ** (*vortegh*) → **որտեղից** (*vorteghitsʼ*)).\n- **Նա տնից է գալիս** (*Na tnitsʼ e galis*) \"He/she is coming from home.\"\n\n**Pitfalls**\n- Learn the irregular stems with the noun: **տուն** (*tun*) → **տնից** (*tnitsʼ*).\n- **-ից** (*-itsʼ*) is also used for \"than\" and \"after/before\" (lesson 10).\n- Do not confuse **-ից** (*-itsʼ*) (from) with the instrumental **-ով** (*-ov*) (by, with).",
+  "examples": [
+   {
+    "t": "Ես Հայաստանից եմ։",
+    "tr": "Yes Hayastanitsʼ em.",
+    "en": "I am from Armenia."
+   },
+   {
+    "t": "Դու որտեղի՞ց ես։",
+    "tr": "Du vorteghitsʼ es?",
+    "en": "Where are you from?"
+   },
+   {
+    "t": "Նա տնից է գալիս։",
+    "tr": "Na tnitsʼ e galis.",
+    "en": "He/she is coming from home."
+   },
+   {
+    "t": "Մենք համալսարանից ենք գալիս։",
+    "tr": "Menkʼ hamalsaranitsʼ enkʼ galis.",
+    "en": "We are coming from the university."
+   },
+   {
+    "t": "Գնացքը Երևանից է գալիս։",
+    "tr": "Gnatsʼkʼə Yerevanitsʼ e galis.",
+    "en": "The train is coming from Yerevan."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«from Yerevan»:",
+    "options": [
+     "Երևանի",
+     "Երևանով",
+     "Երևանում",
+     "Երևանից"
+    ],
+    "a": 3,
+    "why": "**-ից** (*-itsʼ*) = from."
+   },
+   {
+    "type": "choice",
+    "q": "«from the school»:",
+    "options": [
+     "դպրոցում",
+     "դպրոցը",
+     "դպրոցից",
+     "դպրոցով"
+    ],
+    "a": 2,
+    "why": "**դպրոց** (*dprotsʼ*) + **-ից** (*-itsʼ*)."
+   },
+   {
+    "type": "choice",
+    "q": "«from the boy»:",
+    "options": [
+     "տղաից",
+     "տղայով",
+     "տղայից",
+     "տղային"
+    ],
+    "a": 2,
+    "why": "After **-ա** (*-a*) insert **յ** (*y*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես Հայաստան＿＿ եմ։ (from)",
+    "a": [
+     "ից"
+    ],
+    "why": "**Հայաստան** (*Hayastan*) + **-ից** (*-itsʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "մարդ → ＿＿ (from the man)",
+    "a": [
+     "մարդուց"
+    ],
+    "why": "People take **-ուց** (*-utsʼ*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: Where are you from? (informal)",
+    "tokens": [
+     "Դու",
+     "որտեղի՞ց",
+     "ես"
+    ],
+    "a": [
+     "Դու",
+     "որտեղի՞ց",
+     "ես"
+    ],
+    "why": "Question word with **-ից** (*-itsʼ*)."
+   }
+  ]
+ },
+ {
+  "id": "hy6-instrumental",
+  "lesson": 6,
+  "title": "Instrumental -ով: by, with (a tool)",
+  "summary": "-ով marks the means: transport, tools, body parts.",
+  "explain": "The instrumental **-ով** (*-ov*) expresses the **means** by which something is done.\n\n| noun | by / with... |\n|---|---|\n| **ավտոբուս** (*avtobus*) | **ավտոբուսով** (*avtobusov*) by bus |\n| **գնացք** (*gnatsʼkʼ*) | **գնացքով** (*gnatsʼkʼov*) by train |\n| **ոտք** (*votkʼ*) | **ոտքով** (*votkʼov*) on foot |\n| **գրիչ** (*grichʼ*) | **գրիչով** (*grichʼov*) with a pen |\n| **հեռախոս** (*herrakhos*) | **հեռախոսով** (*herrakhosov*) by phone |\n| **մեքենա** (*mekʼena*) | **մեքենայով** (*mekʼenayov*) by car (after -ա: -յով) |\n| **տաքսի** (*takʼsi*) | **տաքսիով** (*takʼsiov*) by taxi |\n\n- **Ես մեքենայով եմ գնում** (*Yes mekʼenayov em gnum*) \"I go by car.\"\n- **Նա հեռախոսով է խոսում** (*Na herrakhosov e khosum*) \"He/she talks on the phone.\"\n\n**Pitfalls**\n- No preposition is needed: **ավտոբուսով** (*avtobusov*), not \"by bus\" as two words.\n- \"With a person\" is **not** **-ով** (*-ov*): it uses **հետ** (*het*) (lesson 10).\n- Plural: **-ներով** (*-nerov*).",
+  "examples": [
+   {
+    "t": "Ես մեքենայով եմ գնում։",
+    "tr": "Yes mekʼenayov em gnum.",
+    "en": "I go by car."
+   },
+   {
+    "t": "Նա ավտոբուսով է գալիս։",
+    "tr": "Na avtobusov e galis.",
+    "en": "He/she comes by bus."
+   },
+   {
+    "t": "Մենք ոտքով ենք գնում։",
+    "tr": "Menkʼ votkʼov enkʼ gnum.",
+    "en": "We go on foot."
+   },
+   {
+    "t": "Ես գրիչով եմ գրում։",
+    "tr": "Yes grichʼov em grum.",
+    "en": "I write with a pen."
+   },
+   {
+    "t": "Նա հեռախոսով է խոսում։",
+    "tr": "Na herrakhosov e khosum.",
+    "en": "He/she talks on the phone."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«by car»:",
+    "options": [
+     "մեքենայում",
+     "մեքենայից",
+     "մեքենայով",
+     "մեքենաով"
+    ],
+    "a": 2,
+    "why": "After **-ա** (*-a*): **-յով** (*-yov*)."
+   },
+   {
+    "type": "choice",
+    "q": "«by bus»:",
+    "options": [
+     "ավտոբուսից",
+     "ավտոբուսում",
+     "ավտոբուսը",
+     "ավտոբուսով"
+    ],
+    "a": 3,
+    "why": "**-ով** (*-ov*) = by."
+   },
+   {
+    "type": "fill",
+    "q": "Նա գնացք＿＿ է գալիս։ (by)",
+    "a": [
+     "ով"
+    ],
+    "why": "**գնացք** (*gnatsʼkʼ*) + **-ով** (*-ov*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես գրիչ＿＿ եմ գրում։ (with)",
+    "a": [
+     "ով"
+    ],
+    "why": "**գրիչ** (*grichʼ*) + **-ով** (*-ov*)."
+   },
+   {
+    "type": "fill",
+    "q": "ոտք → ＿＿ (on foot)",
+    "a": [
+     "ոտքով"
+    ],
+    "why": "**ոտք** (*votkʼ*) + **-ով** (*-ov*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: We go on foot.",
+    "tokens": [
+     "Մենք",
+     "ոտքով",
+     "ենք",
+     "գնում"
+    ],
+    "a": [
+     "Մենք",
+     "ոտքով",
+     "ենք",
+     "գնում"
+    ],
+    "why": "Means word before the auxiliary."
+   }
+  ]
+ },
+ {
+  "id": "hy6-locative",
+  "lesson": 6,
+  "title": "Locative -ում: in, at",
+  "summary": "Add -ում to a place; beware the verb ending of the same shape.",
+  "explain": "The locative **-ում** (*-um*) means \"in / at\" a place.\n\n| noun | in... |\n|---|---|\n| **Երևան** (*Yerevan*) | **Երևանում** (*Yerevanum*) |\n| **դպրոց** (*dprotsʼ*) | **դպրոցում** (*dprotsʼum*) |\n| **սենյակ** (*senyak*) | **սենյակում** (*senyakum*) |\n| **քաղաք** (*kʼaghakʼ*) | **քաղաքում** (*kʼaghakʼum*) |\n| **այգի** (*aygi*) | **այգում** (*aygum*) (drops -ի) |\n| **փողոցներ** (*pʼoghotsʼner*) | **փողոցներում** (*pʼoghotsʼnerum*) |\n| **տուն** (*tun*) | **տանը** (*tanə*) at home (special) |\n\n- **Ես Երևանում եմ ապրում** (*Yes Yerevanum em aprum*) \"I live in Yerevan.\"\n- **Մենք այգում ենք խաղում** (*Menkʼ aygum enkʼ khaghum*) \"We play in the park.\"\n- **Տանը ջուր չկա** (*Tanə jur chʼka*) \"There is no water at home.\"\n\n**Pitfalls**\n- **-ում** (*-um*) on a **noun** = \"in\"; **-ում** (*-um*) on a **verb** = present participle (**գրում** (*grum*)). In **Ես Երևանում եմ ապրում** (*Yes Yerevanum em aprum*) you see both!\n- \"At home\" is **տանը** (*tanə*), not *տունում*.\n- Going **to** a place uses no ending (next point).",
+  "examples": [
+   {
+    "t": "Ես Երևանում եմ ապրում։",
+    "tr": "Yes Yerevanum em aprum.",
+    "en": "I live in Yerevan."
+   },
+   {
+    "t": "Նա դպրոցում է աշխատում։",
+    "tr": "Na dprotsʼum e ashkhatum.",
+    "en": "He/she works at a school."
+   },
+   {
+    "t": "Գրքերը սենյակում են։",
+    "tr": "Grkʼerə senyakum en.",
+    "en": "The books are in the room."
+   },
+   {
+    "t": "Մենք այգում ենք խաղում։",
+    "tr": "Menkʼ aygum enkʼ khaghum.",
+    "en": "We play in the park."
+   },
+   {
+    "t": "Տանը ջուր չկա։",
+    "tr": "Tanə jur chʼka.",
+    "en": "There is no water at home."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«in Yerevan»:",
+    "options": [
+     "Երևանի",
+     "Երևանից",
+     "Երևանով",
+     "Երևանում"
+    ],
+    "a": 3,
+    "why": "**-ում** (*-um*) = in."
+   },
+   {
+    "type": "choice",
+    "q": "«in the school»:",
+    "options": [
+     "դպրոցում",
+     "դպրոցով",
+     "դպրոցից",
+     "դպրոցի"
+    ],
+    "a": 0,
+    "why": "**դպրոց** (*dprotsʼ*) + **-ում** (*-um*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես քաղաք＿＿ եմ ապրում։ (in)",
+    "a": [
+     "ում"
+    ],
+    "why": "**քաղաք** (*kʼaghakʼ*) + **-ում** (*-um*)."
+   },
+   {
+    "type": "fill",
+    "q": "այգի → ＿＿ (in the park)",
+    "a": [
+     "այգում"
+    ],
+    "why": "**այգի** (*aygi*) drops **-ի** (*-i*): **այգում** (*aygum*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես ＿＿ չեմ։ (at home)",
+    "a": [
+     "տանը"
+    ],
+    "why": "«At home» is **տանը** (*tanə*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I live in Yerevan.",
+    "tokens": [
+     "Ես",
+     "Երևանում",
+     "եմ",
+     "ապրում"
+    ],
+    "a": [
+     "Ես",
+     "Երևանում",
+     "եմ",
+     "ապրում"
+    ],
+    "why": "Place before the auxiliary."
+   }
+  ]
+ },
+ {
+  "id": "hy6-time-direction",
+  "lesson": 6,
+  "title": "Going to a place; time expressions",
+  "summary": "Direction takes no ending; seasons, months, parts of the day each have a pattern.",
+  "explain": "**Going to a place:** the noun has **no ending**: **Ես խանութ եմ գնում** (*Yes khanutʼ em gnum*) \"I am going to the shop\", **Մենք Երևան ենք գնում** (*Menkʼ Yerevan enkʼ gnum*).\n\n**Time**\n\n| meaning | form |\n|---|---|\n| in summer | **ամռանը** (*amrranə*) (from **ամառ** (*amarr*)) |\n| in winter | **ձմռանը** (*dzmrranə*) (from **ձմեռ** (*dzmerr*)) |\n| in spring | **գարնանը** (*garnanə*) |\n| in autumn | **աշնանը** (*ashnanə*) |\n| in January | **հունվարին** (*hunvarin*) (month + **-ին** (*-in*)) |\n| in the morning | **առավոտյան** (*arravotyan*) |\n| in the evening | **երեկոյան** (*yerekoyan*) |\n| at night | **գիշերը** (*gisherə*) |\n| on Sunday | **կիրակի օրը** (*kiraki orə*) |\n\n- **Ձմռանը ցուրտ է** (*Dzmrranə tsʼurt e*) \"It is cold in winter.\"\n- **Հունվարին ձյուն է գալիս** (*Hunvarin dzyun e galis*) \"It snows in January.\"\n\n**Pitfalls**\n- Seasons use the genitive stem + **-ը** (*-ə*): **ամառ** (*amarr*) → **ամռանը** (*amrranə*), not *ամառում*.\n- Days of the week need **օրը** (*orə*) (\"on the day\").\n- Parts of the day end in **-յան** (*-yan*).",
+  "examples": [
+   {
+    "t": "Ես խանութ եմ գնում։",
+    "tr": "Yes khanutʼ em gnum.",
+    "en": "I am going to the shop."
+   },
+   {
+    "t": "Ձմռանը ցուրտ է։",
+    "tr": "Dzmrranə tsʼurt e.",
+    "en": "It is cold in winter."
+   },
+   {
+    "t": "Ամռանը մենք Սևան ենք գնում։",
+    "tr": "Amrranə menkʼ Sevan enkʼ gnum.",
+    "en": "In summer we go to Sevan."
+   },
+   {
+    "t": "Առավոտյան ես սուրճ եմ խմում։",
+    "tr": "Arravotyan yes surch em khmum.",
+    "en": "In the morning I drink coffee."
+   },
+   {
+    "t": "Հունվարին ձյուն է գալիս։",
+    "tr": "Hunvarin dzyun e galis.",
+    "en": "It snows in January."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«in winter»:",
+    "options": [
+     "ձմեռում",
+     "ձմեռանը",
+     "ձմռան",
+     "ձմռանը"
+    ],
+    "a": 3,
+    "why": "Genitive stem **ձմռան** (*dzmrran*) + **-ը** (*-ə*)."
+   },
+   {
+    "type": "choice",
+    "q": "«in the morning»:",
+    "options": [
+     "առավոտյան",
+     "առավոտով",
+     "առավոտը",
+     "առավոտում"
+    ],
+    "a": 0,
+    "why": "Parts of the day end in **-յան** (*-yan*)."
+   },
+   {
+    "type": "choice",
+    "q": "Ես ＿＿ եմ գնում։ (to the shop)",
+    "options": [
+     "խանութ",
+     "խանութով",
+     "խանութից",
+     "խանութում"
+    ],
+    "a": 0,
+    "why": "Direction takes no ending."
+   },
+   {
+    "type": "fill",
+    "q": "ամառ → ＿＿ (in summer)",
+    "a": [
+     "ամռանը"
+    ],
+    "why": "**ամառ** (*amarr*) → **ամռան** (*amrran*) + **-ը** (*-ə*)."
+   },
+   {
+    "type": "fill",
+    "q": "Հունվար＿＿ ձյուն է գալիս։ (in January)",
+    "a": [
+     "ին"
+    ],
+    "why": "Months take **-ին** (*-in*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: In winter it is cold.",
+    "tokens": [
+     "Ձմռանը",
+     "ցուրտ",
+     "է"
+    ],
+    "a": [
+     "Ձմռանը",
+     "ցուրտ",
+     "է"
+    ],
+    "why": "Time word first."
+   }
+  ]
+ },
+ {
+  "id": "hy7-aorist-regular",
+  "lesson": 7,
+  "title": "Past (aorist): -եցի / -ացի",
+  "summary": "Stem + -եցի... for -ել verbs, -ացի... for -ալ verbs.",
+  "explain": "The simple past (\"I wrote\") is one word: take the stem (infinitive minus -ել / -ալ) and add the endings.\n\n| | -ել: **գրել** (*grel*) | -ալ: **կարդալ** (*kardal*) |\n|---|---|---|\n| I | **գրեցի** (*gretsʼi*) | **կարդացի** (*kardatsʼi*) |\n| you (inf.) | **գրեցիր** (*gretsʼir*) | **կարդացիր** (*kardatsʼir*) |\n| he / she | **գրեց** (*gretsʼ*) | **կարդաց** (*kardatsʼ*) |\n| we | **գրեցինք** (*gretsʼinkʼ*) | **կարդացինք** (*kardatsʼinkʼ*) |\n| you (pl.) | **գրեցիք** (*gretsʼikʼ*) | **կարդացիք** (*kardatsʼikʼ*) |\n| they | **գրեցին** (*gretsʼin*) | **կարդացին** (*kardatsʼin*) |\n\nSo **-ել → -եցի**, **-ալ → -ացի**. This is where the two verb classes matter. **գնալ** (*gnal*) follows the -ալ pattern: **գնացի** (*gnatsʼi*), **գնաց** (*gnatsʼ*).\n\nThe aorist is for a **completed** action, with no auxiliary: **Երեկ ես նամակ գրեցի** (*Yerek yes namak gretsʼi*) \"Yesterday I wrote a letter.\"\n\n**Pitfalls**\n- Do not add **եմ** (*em*) to the aorist: *գրեցի եմ* is wrong.\n- The 3rd person singular is short: **գրեց** (*gretsʼ*), **կարդաց** (*kardatsʼ*).\n- Common irregulars are in the next point.",
+  "examples": [
+   {
+    "t": "Երեկ ես նամակ գրեցի։",
+    "tr": "Yerek yes namak gretsʼi.",
+    "en": "Yesterday I wrote a letter."
+   },
+   {
+    "t": "Նա գիրք կարդաց։",
+    "tr": "Na girkʼ kardatsʼ.",
+    "en": "He/she read a book."
+   },
+   {
+    "t": "Մենք սուրճ խմեցինք։",
+    "tr": "Menkʼ surch khmetsʼinkʼ.",
+    "en": "We drank coffee."
+   },
+   {
+    "t": "Դուք լավ աշխատեցիք։",
+    "tr": "Dukʼ lav ashkhatetsʼikʼ.",
+    "en": "You worked well."
+   },
+   {
+    "t": "Նրանք երեկ քաղաք գնացին։",
+    "tr": "Nrankʼ yerek kʼaghakʼ gnatsʼin.",
+    "en": "They went to town yesterday."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I wrote»:",
+    "options": [
+     "գրեմ",
+     "գրացի",
+     "գրեցի",
+     "գրում եմ"
+    ],
+    "a": 2,
+    "why": "-ել verb: **-եցի** (*-etsʼi*)."
+   },
+   {
+    "type": "choice",
+    "q": "«they read» (կարդալ):",
+    "options": [
+     "կարդացինք",
+     "կարդեցին",
+     "կարդացին",
+     "կարդում են"
+    ],
+    "a": 2,
+    "why": "-ալ verb: **-ացին** (*-atsʼin*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա նամակ ＿＿։ (գրել: he wrote)",
+    "a": [
+     "գրեց"
+    ],
+    "why": "3rd person: **-եց** (*-etsʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես երեկ քաղաք ＿＿։ (գնալ: went)",
+    "a": [
+     "գնացի"
+    ],
+    "why": "**գնալ** (*gnal*) → **գնացի** (*gnatsʼi*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք գիրք ＿＿։ (կարդալ: read)",
+    "a": [
+     "կարդացինք"
+    ],
+    "why": "**մենք** (*menkʼ*) → **-ացինք** (*-atsʼinkʼ*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I wrote a letter.",
+    "tokens": [
+     "Ես",
+     "նամակ",
+     "գրեցի"
+    ],
+    "a": [
+     "Ես",
+     "նամակ",
+     "գրեցի"
+    ],
+    "why": "No auxiliary."
+   }
+  ]
+ },
+ {
+  "id": "hy7-aorist-irregular",
+  "lesson": 7,
+  "title": "Irregular aorists: եկա, տեսա, կերա, եղա...",
+  "summary": "The most common verbs have their own past stems.",
+  "explain": "Many common verbs have an irregular aorist. Learn the 1st and 3rd person.\n\n| infinitive | I | he / she |\n|---|---|---|\n| **գալ** (*gal*) come | **եկա** (*yeka*) | **եկավ** (*yekav*) |\n| **տեսնել** (*tesnel*) see | **տեսա** (*tesa*) | **տեսավ** (*tesav*) |\n| **ուտել** (*utel*) eat | **կերա** (*kera*) | **կերավ** (*kerav*) |\n| **լինել** (*linel*) be | **եղա** (*yegha*) | **եղավ** (*yeghav*) |\n| **հասկանալ** (*haskanal*) understand | **հասկացա** (*haskatsʼa*) | **հասկացավ** (*haskatsʼav*) |\n| **անել** (*anel*) do | **արեցի** (*aretsʼi*) | **արեց** (*aretsʼ*) |\n| **ասել** (*asel*) say | **ասացի** (*asatsʼi*) | **ասաց** (*asatsʼ*) |\n| **տալ** (*tal*) give | **տվեցի** (*tvetsʼi*) | **տվեց** (*tvetsʼ*) |\n\nVerbs of the **-ա type** use: **-ա, -ար, -ավ, -անք, -աք, -ան** (*-a, -ar, -av, -ankʼ, -akʼ, -an*). Example **կերա, կերար, կերավ, կերանք, կերաք, կերան** (*kera, kerar, kerav, kerankʼ, kerakʼ, keran*).\n\n**Pitfalls**\n- **արեցի** (*aretsʼi*), **ասացի** (*asatsʼi*), **տվեցի** (*tvetsʼi*) use the regular endings.\n- **գալ** (*gal*) is not *գացի*: it is **եկա** (*yeka*); **գնացի** (*gnatsʼi*) is \"I went\".\n- In the 3rd person singular -ա verbs end in **-ավ** (*-av*).",
+  "examples": [
+   {
+    "t": "Երեկ նա եկավ։",
+    "tr": "Yerek na yekav.",
+    "en": "He/she came yesterday."
+   },
+   {
+    "t": "Ես նրան տեսա։",
+    "tr": "Yes nran tesa.",
+    "en": "I saw him/her."
+   },
+   {
+    "t": "Մենք ճաշ կերանք։",
+    "tr": "Menkʼ chash kerankʼ.",
+    "en": "We ate lunch."
+   },
+   {
+    "t": "Դու ի՞նչ արեցիր։",
+    "tr": "Du inchʼ aretsʼir?",
+    "en": "What did you do?"
+   },
+   {
+    "t": "Երկու օր առաջ նա եկավ։",
+    "tr": "Yerku or arraj na yekav.",
+    "en": "He/she came two days ago."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I came»:",
+    "options": [
+     "եկա",
+     "եկեցի",
+     "գալեցի",
+     "գալա"
+    ],
+    "a": 0,
+    "why": "**գալ** (*gal*) → **եկա** (*yeka*)."
+   },
+   {
+    "type": "choice",
+    "q": "«he/she saw»:",
+    "options": [
+     "տեսավ",
+     "տեսեց",
+     "տեսնեց",
+     "տեսացի"
+    ],
+    "a": 0,
+    "why": "**տեսնել** (*tesnel*) → **տեսա** (*tesa*), **տեսավ** (*tesav*)."
+   },
+   {
+    "type": "choice",
+    "q": "«we ate»:",
+    "options": [
+     "կերեցինք",
+     "կերանք",
+     "կերացինք",
+     "ուտեցինք"
+    ],
+    "a": 1,
+    "why": "**ուտել** (*utel*) → **կերա-** (*kera-*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես նրան ＿＿։ (տեսնել: saw)",
+    "a": [
+     "տեսա"
+    ],
+    "why": "**տեսա** (*tesa*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա երեկ ＿＿։ (գալ: came)",
+    "a": [
+     "եկավ"
+    ],
+    "why": "**եկավ** (*yekav*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: We ate lunch.",
+    "tokens": [
+     "Մենք",
+     "ճաշ",
+     "կերանք"
+    ],
+    "a": [
+     "Մենք",
+     "ճաշ",
+     "կերանք"
+    ],
+    "why": "Irregular **կերանք** (*kerankʼ*)."
+   }
+  ]
+ },
+ {
+  "id": "hy7-past-be",
+  "lesson": 7,
+  "title": "Past of «to be» and the imperfect",
+  "summary": "էի էիր էր էինք էիք էին: «was/were», and «was doing» with a participle.",
+  "explain": "The past of «to be»:\n\n| I | you (inf.) | he / she | we | you (pl.) | they |\n|---|---|---|---|---|---|\n| **էի** (*ei*) | **էիր** (*eir*) | **էր** (*er*) | **էինք** (*einkʼ*) | **էիք** (*eikʼ*) | **էին** (*ein*) |\n\nNegative: **չէի, չէիր, չէր, չէինք, չէիք, չէին** (*chʼei, chʼeir, chʼer, chʼeinkʼ, chʼeikʼ, chʼein*).\n\n- as «to be»: **Ես ուսանող էի** (*Yes usanogh ei*) \"I was a student.\"\n- as auxiliary with the participle, the **imperfect**: **Ես նամակ էի գրում** (*Yes namak ei grum*) \"I was writing a letter / I used to write letters.\"\n\n| completed (aorist) | ongoing / habitual (imperfect) |\n|---|---|\n| **գրեցի** (*gretsʼi*) I wrote | **գրում էի** (*grum ei*) I was writing |\n\n**Pitfalls**\n- Do not mix the aorist with the imperfect.\n- **էր** (*er*) is \"was\" (3rd person), not \"is\": **է** (*e*).\n- The auxiliary stays after the focus word: **Մենք նամակ էինք գրում** (*Menkʼ namak einkʼ grum*).",
+  "examples": [
+   {
+    "t": "Երեկ ես տանը չէի։",
+    "tr": "Yerek yes tanə chʼei.",
+    "en": "Yesterday I was not at home."
+   },
+   {
+    "t": "Նա ուսանող էր։",
+    "tr": "Na usanogh er.",
+    "en": "He/she was a student."
+   },
+   {
+    "t": "Դուք որտե՞ղ էիք։",
+    "tr": "Dukʼ vortegh eikʼ?",
+    "en": "Where were you?"
+   },
+   {
+    "t": "Մենք նամակ էինք գրում։",
+    "tr": "Menkʼ namak einkʼ grum.",
+    "en": "We were writing a letter."
+   },
+   {
+    "t": "Նրանք շատ հոգնած էին։",
+    "tr": "Nrankʼ shat hognats ein.",
+    "en": "They were very tired."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Նա ուսանող ＿＿։ (was)",
+    "options": [
+     "էր",
+     "էին",
+     "էի",
+     "է"
+    ],
+    "a": 0,
+    "why": "**նա** (*na*) → **էր** (*er*)."
+   },
+   {
+    "type": "choice",
+    "q": "Ես նամակ ＿＿ գրում։ (was writing)",
+    "options": [
+     "էինք",
+     "եմ",
+     "էի",
+     "էր"
+    ],
+    "a": 2,
+    "why": "**ես** (*yes*) → **էի** (*ei*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք երեկ տանը ＿＿։ (were not)",
+    "a": [
+     "չէինք"
+    ],
+    "why": "Negative: **չէինք** (*chʼeinkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դուք որտե՞ղ ＿＿։ (were)",
+    "a": [
+     "էիք"
+    ],
+    "why": "**դուք** (*dukʼ*) → **էիք** (*eikʼ*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I was a student.",
+    "tokens": [
+     "Ես",
+     "ուսանող",
+     "էի"
+    ],
+    "a": [
+     "Ես",
+     "ուսանող",
+     "էի"
+    ],
+    "why": "Past of «to be» at the end."
+   },
+   {
+    "type": "order",
+    "q": "Make: We were writing a letter.",
+    "tokens": [
+     "Մենք",
+     "նամակ",
+     "էինք",
+     "գրում"
+    ],
+    "a": [
+     "Մենք",
+     "նամակ",
+     "էինք",
+     "գրում"
+    ],
+    "why": "Object, past auxiliary, participle."
+   }
+  ]
+ },
+ {
+  "id": "hy7-aorist-negative",
+  "lesson": 7,
+  "title": "Negating the past",
+  "summary": "Put չ- directly before the aorist verb.",
+  "explain": "The negative of the aorist is formed by writing **չ-** directly in front of the verb, with no separate auxiliary.\n\n| positive | negative |\n|---|---|\n| **գրեցի** (*gretsʼi*) | **չգրեցի** (*chʼgretsʼi*) |\n| **եկա** (*yeka*) | **չեկա** (*chʼeka*) |\n| **տեսա** (*tesa*) | **չտեսա** (*chʼtesa*) |\n| **կերանք** (*kerankʼ*) | **չկերանք** (*chʼkerankʼ*) |\n| **կարդացին** (*kardatsʼin*) | **չկարդացին** (*chʼkardatsʼin*) |\n\n- **Ես նամակ չգրեցի** (*Yes namak chʼgretsʼi*) \"I did not write a letter.\"\n- **Նա չեկավ** (*Na chʼekav*) \"He/she did not come.\"\n\nCompare: in the present the negative is a separate word (**չեմ գրում** (*chʼem grum*)); in the aorist it is **attached**.\n\n**Pitfalls**\n- Do not write *չեմ գրեցի*.\n- The verb is not changed, only **չ-** (*chʼ-*) is added.\n- Keep other words (like **նամակ** (*namak*)) before the negated verb: **Ես նամակ չգրեցի** (*Yes namak chʼgretsʼi*).",
+  "examples": [
+   {
+    "t": "Ես նամակ չգրեցի։",
+    "tr": "Yes namak chʼgretsʼi.",
+    "en": "I did not write a letter."
+   },
+   {
+    "t": "Նա չեկավ։",
+    "tr": "Na chʼekav.",
+    "en": "He/she did not come."
+   },
+   {
+    "t": "Մենք ոչինչ չտեսանք։",
+    "tr": "Menkʼ vochʼinchʼ chʼtesankʼ.",
+    "en": "We saw nothing."
+   },
+   {
+    "t": "Դու ինձ չասացիր։",
+    "tr": "Du indz chʼasatsʼir.",
+    "en": "You did not tell me."
+   },
+   {
+    "t": "Նրանք չկերան։",
+    "tr": "Nrankʼ chʼkeran.",
+    "en": "They did not eat."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I did not write»:",
+    "options": [
+     "չգրում",
+     "գրեցի չեմ",
+     "չգրեցի",
+     "չեմ գրեցի"
+    ],
+    "a": 2,
+    "why": "**չ-** (*chʼ-*) + aorist."
+   },
+   {
+    "type": "choice",
+    "q": "«he/she did not come»:",
+    "options": [
+     "չգալիս",
+     "չեկած",
+     "չի եկավ",
+     "չեկավ"
+    ],
+    "a": 3,
+    "why": "**չ-** (*chʼ-*) + **եկավ** (*yekav*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք ոչինչ ＿＿։ (տեսնել: did not see)",
+    "a": [
+     "չտեսանք"
+    ],
+    "why": "**չ-** (*chʼ-*) + **տեսանք** (*tesankʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա երեկ ＿＿։ (գալ: did not come)",
+    "a": [
+     "չեկավ"
+    ],
+    "why": "**չ-** (*chʼ-*) + **եկավ** (*yekav*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես ＿＿ նամակը։ (կարդալ: did not read)",
+    "a": [
+     "չկարդացի"
+    ],
+    "why": "**չ-** (*chʼ-*) + **կարդացի** (*kardatsʼi*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I did not write a letter.",
+    "tokens": [
+     "Ես",
+     "նամակ",
+     "չգրեցի"
+    ],
+    "a": [
+     "Ես",
+     "նամակ",
+     "չգրեցի"
+    ],
+    "why": "**չգրեցի** (*chʼgretsʼi*) is one word."
+   }
+  ]
+ },
+ {
+  "id": "hy8-subjunctive",
+  "lesson": 8,
+  "title": "The subjunctive",
+  "summary": "The base for future, «let's», and many constructions.",
+  "explain": "The subjunctive is a one-word form. It is the base of the future and is used for \"let's\" and \"let him\".\n\n| | -ել (**գրել** (*grel*)) | -ալ (**կարդալ** (*kardal*)) |\n|---|---|---|\n| I | **գրեմ** (*grem*) | **կարդամ** (*kardam*) |\n| you (inf.) | **գրես** (*gres*) | **կարդաս** (*kardas*) |\n| he / she | **գրի** (*gri*) | **կարդա** (*karda*) |\n| we | **գրենք** (*grenkʼ*) | **կարդանք** (*kardankʼ*) |\n| you (pl.) | **գրեք** (*grekʼ*) | **կարդաք** (*kardakʼ*) |\n| they | **գրեն** (*gren*) | **կարդան** (*kardan*) |\n\nIrregular stems are common but the endings are the same: **գալ** (*gal*) → **գամ, գաս, գա, գանք, գաք, գան** (*gam, gas, ga, gankʼ, gakʼ, gan*); **ուտել** (*utel*) → **ուտեմ** (*utem*); **անել** (*anel*) → **անեմ** (*anem*); **տալ** (*tal*) → **տամ** (*tam*).\n\n**Uses**\n- \"Let's...\": **Գնանք** (*Gnankʼ*) \"Let's go\", **Խմենք** (*Khmenkʼ*) \"Let's drink\".\n- **թող** (*tʼogh*) + 3rd person: **Թող նա գա** (*Tʼogh na ga*) \"Let him come.\"\n\n**Pitfalls**\n- 3rd person: **-ի** (*-i*) for -ել, **-ա** (*-a*) for -ալ.\n- The subjunctive alone is not a statement of fact; you will meet it after **պետք է** (*petkʼ e*), **եթե** (*yetʼe*), **որ** (*vor*) (lesson 11).",
+  "examples": [
+   {
+    "t": "Գնանք։",
+    "tr": "Gnankʼ.",
+    "en": "Let's go."
+   },
+   {
+    "t": "Սուրճ խմենք։",
+    "tr": "Surch khmenkʼ.",
+    "en": "Let's drink coffee."
+   },
+   {
+    "t": "Թող նա գա։",
+    "tr": "Tʼogh na ga.",
+    "en": "Let him/her come."
+   },
+   {
+    "t": "Թող երեխաները քնեն։",
+    "tr": "Tʼogh yerekhanerə kʼnen.",
+    "en": "Let the children sleep."
+   },
+   {
+    "t": "Հիմա կարդանք։",
+    "tr": "Hima kardankʼ.",
+    "en": "Let's read now."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Subjunctive «I» of գրել:",
+    "options": [
+     "գրում եմ",
+     "գրեցի",
+     "գրեմ",
+     "գրամ"
+    ],
+    "a": 2,
+    "why": "-ել verb: **-եմ** (*-em*)."
+   },
+   {
+    "type": "choice",
+    "q": "«Let's read» (կարդալ):",
+    "options": [
+     "կարդաք",
+     "կարդենք",
+     "կարդում ենք",
+     "կարդանք"
+    ],
+    "a": 3,
+    "why": "-ալ verb, we: **-անք** (*-ankʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Թող նա ＿＿։ (գալ: come)",
+    "a": [
+     "գա"
+    ],
+    "why": "**գալ** (*gal*) → **գա** (*ga*) (3rd person)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք ＿＿։ (խմել: let's drink)",
+    "a": [
+     "խմենք"
+    ],
+    "why": "**խմել** (*khmel*) → **խմենք** (*khmenkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Թող նա ＿＿։ (գրել: write)",
+    "a": [
+     "գրի"
+    ],
+    "why": "-ել, 3rd person: **-ի** (*-i*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: Let him come.",
+    "tokens": [
+     "Թող",
+     "նա",
+     "գա"
+    ],
+    "a": [
+     "Թող",
+     "նա",
+     "գա"
+    ],
+    "why": "**թող** (*tʼogh*) + subject + subjunctive."
+   }
+  ]
+ },
+ {
+  "id": "hy8-future-k",
+  "lesson": 8,
+  "title": "Future with կ- + subjunctive",
+  "summary": "կ- is glued to the subjunctive: կգրեմ, կգնանք.",
+  "explain": "The simple future is the **subjunctive with կ- in front**, written as one word.\n\n| | **գրել** (*grel*) | **կարդալ** (*kardal*) |\n|---|---|---|\n| I | **կգրեմ** (*kgrem*) | **կկարդամ** (*kkardam*) |\n| you (inf.) | **կգրես** (*kgres*) | **կկարդաս** (*kkardas*) |\n| he / she | **կգրի** (*kgri*) | **կկարդա** (*kkarda*) |\n| we | **կգրենք** (*kgrenkʼ*) | **կկարդանք** (*kkardankʼ*) |\n| you (pl.) | **կգրեք** (*kgrekʼ*) | **կկարդաք** (*kkardakʼ*) |\n| they | **կգրեն** (*kgren*) | **կկարդան** (*kkardan*) |\n\nBefore a vowel: **ուտեմ** (*utem*) → **կուտեմ** (*kutem*), **անեմ** (*anem*) → **կանեմ** (*kanem*), **օգնեմ** (*ognem*) → **կօգնեմ** (*kognem*). Also **գալ** (*gal*) → **կգամ** (*kgam*), **լինել** (*linel*) → **կլինեմ** (*klinem*).\n\nIt is the neutral, spontaneous future: a decision now, a prediction, a promise.\n\n**Pitfalls**\n- **կ** (*k*) is **never** a separate word and takes no auxiliary: **կգրեմ** (*kgrem*), not *կ գրեմ եմ*.\n- Focus words come before the verb: **Վաղը ես նամակ կգրեմ** (*Vaghə yes namak kgrem*).\n- For a **plan** you can use the future participle (next point).",
+  "examples": [
+   {
+    "t": "Վաղը ես նամակ կգրեմ։",
+    "tr": "Vaghə yes namak kgrem.",
+    "en": "Tomorrow I will write a letter."
+   },
+   {
+    "t": "Նա վաղը կգա։",
+    "tr": "Na vaghə kga.",
+    "en": "He/she will come tomorrow."
+   },
+   {
+    "t": "Մենք Երևան կգնանք։",
+    "tr": "Menkʼ Yerevan kgnankʼ.",
+    "en": "We will go to Yerevan."
+   },
+   {
+    "t": "Դուք ի՞նչ կխմեք։",
+    "tr": "Dukʼ inchʼ kkhmekʼ?",
+    "en": "What will you drink?"
+   },
+   {
+    "t": "Ես քեզ կօգնեմ։",
+    "tr": "Yes kʼez kognem.",
+    "en": "I will help you."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I will write»:",
+    "options": [
+     "կգրեցի",
+     "գրեմ եմ",
+     "գրում եմ",
+     "կգրեմ"
+    ],
+    "a": 3,
+    "why": "**կ-** (*k-*) + **գրեմ** (*grem*)."
+   },
+   {
+    "type": "choice",
+    "q": "«they will go»:",
+    "options": [
+     "գնացին",
+     "կգնանք",
+     "գնում են",
+     "կգնան"
+    ],
+    "a": 3,
+    "why": "**կ-** (*k-*) + **գնան** (*gnan*)."
+   },
+   {
+    "type": "choice",
+    "q": "«he/she will eat»:",
+    "options": [
+     "կերավ",
+     "ուտելու",
+     "կուտի",
+     "կ ուտի"
+    ],
+    "a": 2,
+    "why": "**կ-** (*k-*) + **ուտի** (*uti*), written together."
+   },
+   {
+    "type": "fill",
+    "q": "Վաղը նա ＿＿։ (գալ: will come)",
+    "a": [
+     "կգա"
+    ],
+    "why": "**կ-** (*k-*) + **գա** (*ga*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք վաղը ＿＿։ (գրել: will write)",
+    "a": [
+     "կգրենք"
+    ],
+    "why": "**կ-** (*k-*) + **գրենք** (*grenkʼ*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I will help you.",
+    "tokens": [
+     "Ես",
+     "քեզ",
+     "կօգնեմ"
+    ],
+    "a": [
+     "Ես",
+     "քեզ",
+     "կօգնեմ"
+    ],
+    "why": "**կօգնեմ** (*kognem*) is one word."
+   }
+  ]
+ },
+ {
+  "id": "hy8-future-participle",
+  "lesson": 8,
+  "title": "Future participle: գրելու եմ",
+  "summary": "Infinitive + -ու + auxiliary: a planned or imminent action.",
+  "explain": "The second future uses the **future participle**: infinitive + **-ու**, followed by the auxiliary (same positions as in the present).\n\n| infinitive | future participle |\n|---|---|\n| **գրել** (*grel*) | **գրելու** (*grelu*) |\n| **կարդալ** (*kardal*) | **կարդալու** (*kardalu*) |\n| **գալ** (*gal*) | **գալու** (*galu*) |\n| **գնել** (*gnel*) | **գնելու** (*gnelu*) |\n\n| person | **գրել** (*grel*) |\n|---|---|\n| I | **գրելու եմ** (*grelu em*) |\n| you (inf.) | **գրելու ես** (*grelu es*) |\n| he / she | **գրելու է** (*grelu e*) |\n| we | **գրելու ենք** (*grelu enkʼ*) |\n| you (pl.) | **գրելու եք** (*grelu ekʼ*) |\n| they | **գրելու են** (*grelu en*) |\n\n**Difference:** **կգրեմ** (*kgrem*) is a neutral future (\"I will write\"); **գրելու եմ** (*grelu em*) is a **plan or intention** (\"I am going to write\"). Often both work.\n\n**Pitfalls**\n- The participle never changes; only the auxiliary does.\n- Focus words take the auxiliary: **Մենք նոր տուն ենք գնելու** (*Menkʼ nor tun enkʼ gnelu*).\n- Past: **գրելու էի** (*grelu ei*) \"I was going to write\".",
+  "examples": [
+   {
+    "t": "Վաղը ես աշխատելու եմ։",
+    "tr": "Vaghə yes ashkhatelu em.",
+    "en": "Tomorrow I am going to work."
+   },
+   {
+    "t": "Մենք նոր տուն ենք գնելու։",
+    "tr": "Menkʼ nor tun enkʼ gnelu.",
+    "en": "We are going to buy a new house."
+   },
+   {
+    "t": "Նա գալու է։",
+    "tr": "Na galu e.",
+    "en": "He/she is going to come."
+   },
+   {
+    "t": "Դու ի՞նչ ես անելու։",
+    "tr": "Du inchʼ es anelu?",
+    "en": "What are you going to do?"
+   },
+   {
+    "t": "Ես նրան կանչելու եմ։",
+    "tr": "Yes nran kanchʼelu em.",
+    "en": "I am going to call him/her."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which is built from the infinitive + -ու?",
+    "options": [
+     "գրում եմ",
+     "գրելու եմ",
+     "գրեցի",
+     "կգրեմ"
+    ],
+    "a": 1,
+    "why": "Future participle: **գրելու** (*grelu*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք վաղը գնալու ＿＿։",
+    "a": [
+     "ենք"
+    ],
+    "why": "**մենք** (*menkʼ*) → **ենք** (*enkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա վաղը աշխատ＿＿ է։ (going to work)",
+    "a": [
+     "ելու"
+    ],
+    "why": "**աշխատել** (*ashkhatel*) → **աշխատելու** (*ashkhatelu*)."
+   },
+   {
+    "type": "fill",
+    "q": "կարդալ → ＿＿ եմ (I am going to read)",
+    "a": [
+     "կարդալու"
+    ],
+    "why": "**կարդալ** (*kardal*) + **-ու** (*-u*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: She is going to come.",
+    "tokens": [
+     "Նա",
+     "գալու",
+     "է"
+    ],
+    "a": [
+     "Նա",
+     "գալու",
+     "է"
+    ],
+    "why": "Participle + auxiliary."
+   },
+   {
+    "type": "order",
+    "q": "Make: We are going to buy a new house.",
+    "tokens": [
+     "Մենք",
+     "նոր",
+     "տուն",
+     "ենք",
+     "գնելու"
+    ],
+    "a": [
+     "Մենք",
+     "նոր",
+     "տուն",
+     "ենք",
+     "գնելու"
+    ],
+    "why": "Object before the auxiliary."
+   }
+  ]
+ },
+ {
+  "id": "hy8-negative-future",
+  "lesson": 8,
+  "title": "Negative future: չեմ գրի / չեմ գրելու",
+  "summary": "Negative aux + 3rd-person subjunctive (-ի / -ա), or negative aux + future participle.",
+  "explain": "There are two ways to negate the future.\n\n**1. Negative auxiliary + 3rd-person subjunctive** (the form ending in **-ի** for -ել verbs and **-ա** for -ալ verbs), whatever the person. The person is carried by the auxiliary.\n\n| | **գրել** (*grel*) | **կարդալ** (*kardal*) |\n|---|---|---|\n| I | **չեմ գրի** (*chʼem gri*) | **չեմ կարդա** (*chʼem karda*) |\n| you (inf.) | **չես գրի** (*chʼes gri*) | **չես կարդա** (*chʼes karda*) |\n| he / she | **չի գրի** (*chʼi gri*) | **չի կարդա** (*chʼi karda*) |\n| we | **չենք գրի** (*chʼenkʼ gri*) | **չենք կարդա** (*chʼenkʼ karda*) |\n\n**2. Negative auxiliary + future participle:** **չեմ գրելու** (*chʼem grelu*), **չի գալու** (*chʼi galu*).\n\n- **Ես վաղը չեմ գա** (*Yes vaghə chʼem ga*) \"I won't come tomorrow.\"\n- **Նա նամակ չի գրի** (*Na namak chʼi gri*) \"He/she won't write a letter.\"\n\n**Pitfalls**\n- Do **not** use **կ-** (*k-*) with the negative: *չեմ կգրի* is wrong.\n- Do **not** use the personal subjunctive: *չեմ գրեմ* is wrong.\n- The negative auxiliary comes before the verb.",
+  "examples": [
+   {
+    "t": "Ես վաղը չեմ գա։",
+    "tr": "Yes vaghə chʼem ga.",
+    "en": "I will not come tomorrow."
+   },
+   {
+    "t": "Նա նամակ չի գրի։",
+    "tr": "Na namak chʼi gri.",
+    "en": "He/she will not write a letter."
+   },
+   {
+    "t": "Մենք չենք գնա։",
+    "tr": "Menkʼ chʼenkʼ gna.",
+    "en": "We will not go."
+   },
+   {
+    "t": "Ես չեմ գրելու։",
+    "tr": "Yes chʼem grelu.",
+    "en": "I am not going to write."
+   },
+   {
+    "t": "Դուք չեք հասկանա։",
+    "tr": "Dukʼ chʼekʼ haskana.",
+    "en": "You will not understand."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I won't come»:",
+    "options": [
+     "չգամ",
+     "չեմ գալիս",
+     "չեմ գամ",
+     "չեմ գա"
+    ],
+    "a": 3,
+    "why": "Neg. aux + 3rd-person subjunctive **գա** (*ga*)."
+   },
+   {
+    "type": "choice",
+    "q": "«He won't write»:",
+    "options": [
+     "չի գրեմ",
+     "չգրի",
+     "չի կգրի",
+     "չի գրի"
+    ],
+    "a": 3,
+    "why": "**չի** (*chʼi*) + **գրի** (*gri*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք վաղը ＿＿ գնա։ (won't)",
+    "a": [
+     "չենք"
+    ],
+    "why": "**մենք** (*menkʼ*) → **չենք** (*chʼenkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դու չես ＿＿։ (կարդալ: won't read)",
+    "a": [
+     "կարդա"
+    ],
+    "why": "-ալ verb: **կարդա** (*karda*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա չի ＿＿։ (գալ: is not going to come)",
+    "a": [
+     "գալու"
+    ],
+    "why": "**չի** (*chʼi*) + **գալու** (*galu*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I won't write.",
+    "tokens": [
+     "Ես",
+     "չեմ",
+     "գրի"
+    ],
+    "a": [
+     "Ես",
+     "չեմ",
+     "գրի"
+    ],
+    "why": "Negative aux + **գրի** (*gri*)."
+   }
+  ]
+ },
+ {
+  "id": "hy9-imperative",
+  "lesson": 9,
+  "title": "Imperative: գրի՛ր, գրե՛ք",
+  "summary": "Two forms: informal singular and plural/formal; -ել and -ալ verbs differ.",
+  "explain": "The imperative has an informal singular form (to a friend) and a plural/formal form. The stress falls on the ending, marked here with ՛.\n\n| class | sing. (informal) | plural / formal |\n|---|---|---|\n| -ել | stem + **-ի՛ր**: **գրի՛ր** (*grir*) | stem + **-ե՛ք**: **գրե՛ք** (*grekʼ*) |\n| -ալ | stem + **-ա՛**: **կարդա՛** (*karda*) | stem + **-ացե՛ք**: **կարդացե՛ք** (*kardatsʼekʼ*) |\n\nMore: **նստել** (*nstel*) → **նստի՛ր** (*nstir*) / **նստե՛ք** (*nstekʼ*); **խոսել** (*khosel*) → **խոսի՛ր** (*khosir*) / **խոսե՛ք** (*khosekʼ*); **գնալ** (*gnal*) → **գնա՛** (*gna*) / **գնացե՛ք** (*gnatsʼekʼ*).\n\n**Irregular**\n\n| | sing. | plural |\n|---|---|---|\n| **գալ** (*gal*) come | **արի՛** (*ari*) | **եկե՛ք** (*yekekʼ*) |\n| **անել** (*anel*) do | **արա՛** (*ara*) | **արե՛ք** (*arekʼ*) |\n| **տալ** (*tal*) give | **տո՛ւր** (*tur*) | **տվե՛ք** (*tvekʼ*) |\n| **ուտել** (*utel*) eat | **կե՛ր** (*ker*) | **կերե՛ք** (*kerekʼ*) |\n| **տեսնել** (*tesnel*) see | **տե՛ս** (*tes*) | **տեսե՛ք** (*tesekʼ*) |\n\n**Pitfalls**\n- Use the plural for strangers, elders and groups.\n- **եկե՛ք** (*yekekʼ*) is plural/formal \"come\"; **արի՛** (*ari*) is the singular.\n- The ՛ mark is a help for pronunciation; normal texts often omit it.",
+  "examples": [
+   {
+    "t": "Նստի՛ր։",
+    "tr": "Nstir.",
+    "en": "Sit down. (informal)"
+   },
+   {
+    "t": "Արի՛ այստեղ։",
+    "tr": "Ari aystegh.",
+    "en": "Come here. (informal)"
+   },
+   {
+    "t": "Գրի՛ր քո անունը։",
+    "tr": "Grir kʼo anunə.",
+    "en": "Write your name. (informal)"
+   },
+   {
+    "t": "Կարդացե՛ք այս բառը։",
+    "tr": "Kardatsʼekʼ ays barrə.",
+    "en": "Read this word. (formal/plural)"
+   },
+   {
+    "t": "Եկե՛ք այստեղ։",
+    "tr": "Yekekʼ aystegh.",
+    "en": "Come here. (formal/plural)"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«Write!» (informal)",
+    "options": [
+     "գրում ես",
+     "գրի՛ր",
+     "գրեմ",
+     "գրե՛ք"
+    ],
+    "a": 1,
+    "why": "-ել, singular: **-ի՛ր** (*-ir*)."
+   },
+   {
+    "type": "choice",
+    "q": "«Read!» (formal/plural, կարդալ)",
+    "options": [
+     "կարդաք",
+     "կարդացե՛ք",
+     "կարդա՛",
+     "կարդացի"
+    ],
+    "a": 1,
+    "why": "-ալ plural: **-ացե՛ք** (*-atsʼekʼ*)."
+   },
+   {
+    "type": "choice",
+    "q": "«Come!» (informal)",
+    "options": [
+     "եկա",
+     "գա՛",
+     "արի՛",
+     "եկե՛ք"
+    ],
+    "a": 2,
+    "why": "**գալ** (*gal*) → **արի՛** (*ari*)."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ այստեղ։ (Come, plural/formal)",
+    "a": [
+     "Եկե՛ք",
+     "Եկեք"
+    ],
+    "why": "**գալ** (*gal*) plural: **եկե՛ք** (*yekekʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ սուրճ։ (խմել: drink, informal)",
+    "a": [
+     "խմի՛ր",
+     "խմիր"
+    ],
+    "why": "-ել singular: **-ի՛ր** (*-ir*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: Sit down, please. (formal)",
+    "tokens": [
+     "Նստե՛ք",
+     "խնդրեմ"
+    ],
+    "a": [
+     "Նստե՛ք",
+     "խնդրեմ"
+    ],
+    "why": "Plural/formal imperative."
+   }
+  ]
+ },
+ {
+  "id": "hy9-prohibition-polite",
+  "lesson": 9,
+  "title": "Prohibitions and polite requests",
+  "summary": "Մի՛ + the imperative; խնդրում եմ for «please».",
+  "explain": "**Don't...:** use **մի՛** (*mi*) before the verb.\n\n- singular: the same form as the affirmative imperative: **գնա՛** (*gna*) → **Մի՛ գնա** (*Mi gna*), **խոսի՛ր** (*khosir*) → **Մի՛ խոսիր** (*Mi khosir*), **ասա՛** (*asa*) → **Մի՛ ասա** (*Mi asa*).\n- plural, -ել verbs: **Մի՛ խոսեք** (*Mi khosekʼ*), **Մի՛ գրեք** (*Mi grekʼ*).\n\n**Polite requests**\n- **Խնդրում եմ** (*Khndrum em*) \"I ask / please\", followed by the plural or subjunctive: **Խնդրում եմ, նստեք** (*Khndrum em, nstekʼ*) \"Please sit down.\"\n- **Խնդրեմ** (*Khndrem*) is \"please\" in short requests and \"you're welcome / here you are\".\n- **Կներե՛ք** (*Knerekʼ*) \"excuse me\" (formal).\n\n**Pitfalls**\n- Do not negate the imperative with **չ-** (*chʼ-*): **Չգնա՛** (*Chʼgna*) is not a command.\n- **մի՛** (*mi*) also means \"a\" (lesson 2). Here it comes before a **verb**.\n- Talking to strangers: use the plural forms.",
+  "examples": [
+   {
+    "t": "Մի՛ գնա։",
+    "tr": "Mi gna.",
+    "en": "Don't go."
+   },
+   {
+    "t": "Մի՛ խոսիր։",
+    "tr": "Mi khosir.",
+    "en": "Don't talk."
+   },
+   {
+    "t": "Մի՛ ասա։",
+    "tr": "Mi asa.",
+    "en": "Don't say (it)."
+   },
+   {
+    "t": "Խնդրում եմ, նստեք։",
+    "tr": "Khndrum em, nstekʼ.",
+    "en": "Please sit down."
+   },
+   {
+    "t": "Խնդրում եմ, մի՛ խոսեք։",
+    "tr": "Khndrum em, mi khosekʼ.",
+    "en": "Please don't talk."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«Don't go!» (informal)",
+    "options": [
+     "Մի՛ գնա։",
+     "Չեմ գնա։",
+     "Մի գնում։",
+     "Չգնա՛։"
+    ],
+    "a": 0,
+    "why": "**մի՛** (*mi*) + imperative."
+   },
+   {
+    "type": "choice",
+    "q": "«Please, don't speak» (formal)",
+    "options": [
+     "Խնդրում եմ, չեմ խոսում։",
+     "Խնդրում եմ, մի՛ խոսիր։",
+     "Խնդրում եմ, խոսեք չեք։",
+     "Խնդրում եմ, մի՛ խոսեք։"
+    ],
+    "a": 3,
+    "why": "Formal plural: **խոսեք** (*khosekʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ խոսիր։ (Don't)",
+    "a": [
+     "Մի՛",
+     "Մի"
+    ],
+    "why": "**մի՛** (*mi*) = don't."
+   },
+   {
+    "type": "fill",
+    "q": "Խնդրում ＿＿, նստեք։",
+    "a": [
+     "եմ"
+    ],
+    "why": "**խնդրում եմ** (*khndrum em*) = please."
+   },
+   {
+    "type": "order",
+    "q": "Make: Don't say (it).",
+    "tokens": [
+     "Մի՛",
+     "ասա"
+    ],
+    "a": [
+     "Մի՛",
+     "ասա"
+    ],
+    "why": "**մի՛** (*mi*) + imperative."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please sit down.",
+    "tokens": [
+     "Խնդրում",
+     "եմ",
+     "նստեք"
+    ],
+    "a": [
+     "Խնդրում",
+     "եմ",
+     "նստեք"
+    ],
+    "why": "**խնդրում եմ** (*khndrum em*) + plural."
+   }
+  ]
+ },
+ {
+  "id": "hy9-numbers",
+  "lesson": 9,
+  "title": "Numbers 1–1000",
+  "summary": "Teens are տասն + unit; tens are single words.",
+  "explain": "| 1–10 | | 11–19 | |\n|---|---|---|---|\n| 1 **մեկ** (*mek*) | 6 **վեց** (*vetsʼ*) | 11 **տասնմեկ** (*tasnmek*) | 16 **տասնվեց** (*tasnvetsʼ*) |\n| 2 **երկու** (*yerku*) | 7 **յոթ** (*yotʼ*) | 12 **տասներկու** (*tasnerku*) | 17 **տասնյոթ** (*tasnyotʼ*) |\n| 3 **երեք** (*yerekʼ*) | 8 **ութ** (*utʼ*) | 13 **տասներեք** (*tasnerekʼ*) | 18 **տասնութ** (*tasnutʼ*) |\n| 4 **չորս** (*chʼors*) | 9 **ինը** (*inə*) | 14 **տասնչորս** (*tasnchʼors*) | 19 **տասնինը** (*tasninə*) |\n| 5 **հինգ** (*hing*) | 10 **տասը** (*tasə*) | 15 **տասնհինգ** (*tasnhing*) | |\n\n**Tens:** **քսան** (*kʼsan*) 20, **երեսուն** (*yeresun*) 30, **քառասուն** (*kʼarrasun*) 40, **հիսուն** (*hisun*) 50, **վաթսուն** (*vatʼsun*) 60, **յոթանասուն** (*yotʼanasun*) 70, **ութսուն** (*utʼsun*) 80, **իննսուն** (*innsun*) 90.\n\n**Hundreds:** **հարյուր** (*haryur*) 100, **երկու հարյուր** (*yerku haryur*) 200, **հազար** (*hazar*) 1000.\n\nCompounds are written as **one word**: **քսանմեկ** (*kʼsanmek*) 21, **քսանհինգ** (*kʼsanhing*) 25, **երեսունվեց** (*yeresunvetsʼ*) 36.\n\n**Pitfalls**\n- Teens: **տասն-** (*tasn-*) + unit, with **տասներկու** (*tasnerku*) and **տասներեք** (*tasnerekʼ*) joined at the vowel.\n- **ինը** (*inə*) loses **-ը** (*-ə*) in compounds: **տասնինը** (*tasninə*).\n- Age: **Ես քսանհինգ տարեկան եմ** (*Yes kʼsanhing tarekan em*) \"I am 25 years old\".",
+  "examples": [
+   {
+    "t": "Մեկ, երկու, երեք, չորս, հինգ։",
+    "tr": "Mek, yerku, yerekʼ, chʼors, hing.",
+    "en": "One, two, three, four, five."
+   },
+   {
+    "t": "Տասնմեկ, տասներկու, տասներեք։",
+    "tr": "Tasnmek, tasnerku, tasnerekʼ.",
+    "en": "Eleven, twelve, thirteen."
+   },
+   {
+    "t": "Ես քսանհինգ տարեկան եմ։",
+    "tr": "Yes kʼsanhing tarekan em.",
+    "en": "I am twenty-five years old."
+   },
+   {
+    "t": "Սա հարյուր դրամ է։",
+    "tr": "Sa haryur dram e.",
+    "en": "This is one hundred drams."
+   },
+   {
+    "t": "Երեք հարյուր հիսուն։",
+    "tr": "Yerekʼ haryur hisun.",
+    "en": "Three hundred and fifty."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "12:",
+    "options": [
+     "տասնյոթ",
+     "տասներկու",
+     "երկուտաս",
+     "տասնմեկ"
+    ],
+    "a": 1,
+    "why": "**տասն-** (*tasn-*) + **երկու** (*yerku*)."
+   },
+   {
+    "type": "choice",
+    "q": "30:",
+    "options": [
+     "քառասուն",
+     "երեսուն",
+     "քսան",
+     "հիսուն"
+    ],
+    "a": 1,
+    "why": "**երեսուն** (*yeresun*) = 30."
+   },
+   {
+    "type": "choice",
+    "q": "70:",
+    "options": [
+     "յոթ",
+     "յոթանասուն",
+     "վաթսուն",
+     "ութսուն"
+    ],
+    "a": 1,
+    "why": "**յոթանասուն** (*yotʼanasun*) = 70."
+   },
+   {
+    "type": "fill",
+    "q": "15 = ＿＿",
+    "a": [
+     "տասնհինգ"
+    ],
+    "why": "**տասն** (*tasn*) + **հինգ** (*hing*)."
+   },
+   {
+    "type": "fill",
+    "q": "25 = ＿＿",
+    "a": [
+     "քսանհինգ"
+    ],
+    "why": "**քսան** (*kʼsan*) + **հինգ** (*hing*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am twenty-five years old.",
+    "tokens": [
+     "Ես",
+     "քսանհինգ",
+     "տարեկան",
+     "եմ"
+    ],
+    "a": [
+     "Ես",
+     "քսանհինգ",
+     "տարեկան",
+     "եմ"
+    ],
+    "why": "Number before **տարեկան** (*tarekan*)."
+   }
+  ]
+ },
+ {
+  "id": "hy9-counting",
+  "lesson": 9,
+  "title": "Counting nouns: the noun stays singular",
+  "summary": "After a number or a quantity word, the noun is singular.",
+  "explain": "After a number, Armenian keeps the noun in the **singular**:\n\n- **երեք գիրք** (*yerekʼ girkʼ*) \"three books\" (not *երեք գրքեր*)\n- **հինգ ընկեր** (*hing ənker*) \"five friends\"\n- **երկու ժամ** (*yerku zham*) \"two hours\"\n\nThe same holds for quantity words: **քանի՞ օր** (*kʼani or*) \"how many days?\", **մի քանի օր** (*mi kʼani or*) \"a few days\", **շատ գիրք** (*shat girkʼ*) \"many books\".\n\n**The verb is singular too** when the subject is a counted singular noun: **Տանը չորս սենյակ կա** (*Tanə chʼors senyak ka*) \"There are four rooms in the house.\"\n\n**Pitfalls**\n- Do not add **-եր** (*-er*) or **-ներ** (*-ner*) after numbers. The plural is for nouns without a number: **գրքեր** (*grkʼer*) \"books\", **երեք գիրք** (*yerekʼ girkʼ*) \"three books\".\n- Definite counting is possible with an article on the noun, but keep it simple at this level.\n- **քանի՞** (*kʼani*) behaves like a number: **Քանի՞ գիրք ունես** (*Kʼani girkʼ unes*).",
+  "examples": [
+   {
+    "t": "Ես երեք եղբայր ունեմ։",
+    "tr": "Yes yerekʼ yeghbayr unem.",
+    "en": "I have three brothers."
+   },
+   {
+    "t": "Նա հինգ գիրք գնեց։",
+    "tr": "Na hing girkʼ gnetsʼ.",
+    "en": "He/she bought five books."
+   },
+   {
+    "t": "Մենք երկու ժամ սպասեցինք։",
+    "tr": "Menkʼ yerku zham spasetsʼinkʼ.",
+    "en": "We waited two hours."
+   },
+   {
+    "t": "Տանը չորս սենյակ կա։",
+    "tr": "Tanə chʼors senyak ka.",
+    "en": "There are four rooms in the house."
+   },
+   {
+    "t": "Քանի՞ գիրք ունես։",
+    "tr": "Kʼani girkʼ unes?",
+    "en": "How many books do you have?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«three brothers»:",
+    "options": [
+     "երեք եղբայր",
+     "երեք եղբայրներ",
+     "երեքը եղբայր",
+     "մի երեք եղբայրներ"
+    ],
+    "a": 0,
+    "why": "Singular noun after a number."
+   },
+   {
+    "type": "choice",
+    "q": "«five books»:",
+    "options": [
+     "հինգ գրքերը",
+     "հինգը գիրք",
+     "հինգ գիրք",
+     "հինգ գրքեր"
+    ],
+    "a": 2,
+    "why": "Singular noun after a number."
+   },
+   {
+    "type": "fill",
+    "q": "Երկու ＿＿ սպասեցինք։ (hours; ժամ)",
+    "a": [
+     "ժամ"
+    ],
+    "why": "**ժամ** (*zham*) stays singular."
+   },
+   {
+    "type": "fill",
+    "q": "Ես չորս ＿＿ ունեմ։ (sisters; քույր)",
+    "a": [
+     "քույր"
+    ],
+    "why": "Singular after **չորս** (*chʼors*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: She bought five books.",
+    "tokens": [
+     "Նա",
+     "հինգ",
+     "գիրք",
+     "գնեց"
+    ],
+    "a": [
+     "Նա",
+     "հինգ",
+     "գիրք",
+     "գնեց"
+    ],
+    "why": "Number + singular noun."
+   },
+   {
+    "type": "order",
+    "q": "Make: There are four rooms in the house.",
+    "tokens": [
+     "Տանը",
+     "չորս",
+     "սենյակ",
+     "կա"
+    ],
+    "a": [
+     "Տանը",
+     "չորս",
+     "սենյակ",
+     "կա"
+    ],
+    "why": "Singular noun, singular verb **կա** (*ka*)."
+   }
+  ]
+ },
+ {
+  "id": "hy9-time",
+  "lesson": 9,
+  "title": "Telling the time",
+  "summary": "Ժամը X-ն է for «it is X», and X + -ին for «at X».",
+  "explain": "**\"What time is it?\"** **Ժամը քանի՞սն է** (*Zhamə kʼanisn e*). **\"It is five o'clock\":** **Ժամը հինգն է** (*Zhamə hingn e*). The number takes **-ն** before **է** (*e*).\n\n**\"At five\":** the number takes the dative: **ժամը հինգին** (*zhamə hingin*).\n\n| number | it is... | at... |\n|---|---|---|\n| 1 | **մեկն** (*mekn*) | **մեկին** (*mekin*) |\n| 2 | **երկուսն** (*yerkusn*) | **երկուսին** (*yerkusin*) |\n| 3 | **երեքն** (*yerekʼn*) | **երեքին** (*yerekʼin*) |\n| 5 | **հինգն** (*hingn*) | **հինգին** (*hingin*) |\n| 7 | **յոթն** (*yotʼn*) | **յոթին** (*yotʼin*) |\n| 8 | **ութն** (*utʼn*) | **ութին** (*utʼin*) |\n| 10 | **տասն** (*tasn*) | **տասին** (*tasin*) |\n\n**կես** (*kes*) is \"half\": **կես ժամ** (*kes zham*) \"half an hour\". **ժամ** (*zham*) is also \"hour\", **րոպե** (*rope*) \"minute\".\n\n**Pitfalls**\n- **ժամը** (*zhamə*) (\"the hour\") must be in the sentence.\n- Do not use the bare number for \"at\": **ժամը հինգին** (*zhamə hingin*), not *ժամը հինգ*.\n- Parts of the day use **-յան** (*-yan*): **առավոտյան** (*arravotyan*).",
+  "examples": [
+   {
+    "t": "Ժամը քանի՞սն է։",
+    "tr": "Zhamə kʼanisn e?",
+    "en": "What time is it?"
+   },
+   {
+    "t": "Ժամը յոթն է։",
+    "tr": "Zhamə yotʼn e.",
+    "en": "It is seven o'clock."
+   },
+   {
+    "t": "Ես առավոտյան ժամը ութին արթնանում եմ։",
+    "tr": "Yes arravotyan zhamə utʼin artʼnanum em.",
+    "en": "I wake up at eight in the morning."
+   },
+   {
+    "t": "Ճաշը ժամը երկուսին է։",
+    "tr": "Chashə zhamə yerkusin e.",
+    "en": "Lunch is at two."
+   },
+   {
+    "t": "Գնացքը ժամը վեցին է։",
+    "tr": "Gnatsʼkʼə zhamə vetsʼin e.",
+    "en": "The train is at six."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«It is five o'clock»:",
+    "options": [
+     "Ժամը հինգ է։",
+     "Ժամը հինգն է։",
+     "Հինգը ժամն է։",
+     "Ժամը հինգին է։"
+    ],
+    "a": 1,
+    "why": "Number + **-ն** (*-n*) + **է** (*e*)."
+   },
+   {
+    "type": "choice",
+    "q": "«at eight»:",
+    "options": [
+     "ժամը ութում",
+     "ժամը ութով",
+     "ժամը ութին",
+     "ժամը ութն"
+    ],
+    "a": 2,
+    "why": "«At» takes the dative **-ին** (*-in*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ժամը յոթ＿＿ է։ (It is seven)",
+    "a": [
+     "ն"
+    ],
+    "why": "**յոթն** (*yotʼn*) before **է** (*e*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ճաշը ժամը երկու＿＿ է։ (at two)",
+    "a": [
+     "սին"
+    ],
+    "why": "**երկուսին** (*yerkusin*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: What time is it?",
+    "tokens": [
+     "Ժամը",
+     "քանի՞սն",
+     "է"
+    ],
+    "a": [
+     "Ժամը",
+     "քանի՞սն",
+     "է"
+    ],
+    "why": "Fixed question."
+   },
+   {
+    "type": "order",
+    "q": "Make: It is six o'clock.",
+    "tokens": [
+     "Ժամը",
+     "վեցն",
+     "է"
+    ],
+    "a": [
+     "Ժամը",
+     "վեցն",
+     "է"
+    ],
+    "why": "**ժամը** (*zhamə*) + number-**ն** (*n*) + **է** (*e*)."
+   }
+  ]
+ },
+ {
+  "id": "hy10-adjectives",
+  "lesson": 10,
+  "title": "Adjectives: no agreement",
+  "summary": "Adjectives stand before the noun and never change.",
+  "explain": "Adjectives come **before** the noun and are **invariable**: no gender, number or case.\n\n- **մեծ տուն** (*mets tun*) a big house\n- **մեծ տներ** (*mets tner*) big houses (the adjective does not take a plural)\n- **մեծ տան** (*mets tan*) of a big house\n\nAs a predicate it also stays the same: **Տունը մեծ է** (*Tunə mets e*), **Տները մեծ են** (*Tnerə mets en*). Only the verb shows the plural.\n\nAn article goes on the **noun**: **մեծ տունը** (*mets tunə*) \"the big house\".\n\nIntensifiers: **շատ** (*shat*) \"very\": **շատ գեղեցիկ** (*shat geghetsʼik*).\n\n**Pitfalls**\n- Do not add **-եր** (*-er*) to an adjective.\n- In **Սրանք մեծ տներ են** (*Srankʼ mets tner en*), **մեծ** (*mets*) stays unchanged while **տներ** (*tner*) and **են** (*en*) are plural.\n- Some adjectives end in **ը** (*ə*) (**սառը** (*sarrə*), **դառը** (*darrə*)): it is part of the word.",
+  "examples": [
+   {
+    "t": "Սա մեծ տուն է։",
+    "tr": "Sa mets tun e.",
+    "en": "This is a big house."
+   },
+   {
+    "t": "Սրանք մեծ տներ են։",
+    "tr": "Srankʼ mets tner en.",
+    "en": "These are big houses."
+   },
+   {
+    "t": "Այս տները նոր են։",
+    "tr": "Ays tnerə nor en.",
+    "en": "These houses are new."
+   },
+   {
+    "t": "Նա շատ գեղեցիկ աղջիկ է։",
+    "tr": "Na shat geghetsʼik aghjik e.",
+    "en": "She is a very beautiful girl."
+   },
+   {
+    "t": "Ջուրը շատ սառը է։",
+    "tr": "Jurə shat sarrə e.",
+    "en": "The water is very cold."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«big houses»:",
+    "options": [
+     "մեծ տուններ",
+     "մեծ տներ",
+     "տներ մեծ",
+     "մեծեր տներ"
+    ],
+    "a": 1,
+    "why": "The adjective does not change."
+   },
+   {
+    "type": "choice",
+    "q": "Adjectives in Armenian...",
+    "options": [
+     "add -եր in the plural",
+     "take **-ը** (*-ə*) when definite",
+     "follow the noun",
+     "never change for number or case"
+    ],
+    "a": 3,
+    "why": "They are invariable."
+   },
+   {
+    "type": "fill",
+    "q": "Այս տները ＿＿ են։ (new)",
+    "a": [
+     "նոր"
+    ],
+    "why": "**նոր** (*nor*) stays unchanged."
+   },
+   {
+    "type": "fill",
+    "q": "Նա շատ ＿＿ աղջիկ է։ (beautiful)",
+    "a": [
+     "գեղեցիկ"
+    ],
+    "why": "**գեղեցիկ** (*geghetsʼik*) before the noun."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is a big house.",
+    "tokens": [
+     "Սա",
+     "մեծ",
+     "տուն",
+     "է"
+    ],
+    "a": [
+     "Սա",
+     "մեծ",
+     "տուն",
+     "է"
+    ],
+    "why": "Adjective before the noun."
+   },
+   {
+    "type": "order",
+    "q": "Make: The water is very cold.",
+    "tokens": [
+     "Ջուրը",
+     "շատ",
+     "սառը",
+     "է"
+    ],
+    "a": [
+     "Ջուրը",
+     "շատ",
+     "սառը",
+     "է"
+    ],
+    "why": "**շատ** (*shat*) before the adjective."
+   }
+  ]
+ },
+ {
+  "id": "hy10-comparative",
+  "lesson": 10,
+  "title": "Comparison: ավելի ... քան",
+  "summary": "ավելի + adjective, and քան or the ablative for «than».",
+  "explain": "Comparative = **ավելի** (\"more\") + adjective. \"Than\" is **քան**.\n\n- **Սա ավելի մեծ է, քան դա** (*Sa aveli mets e, kʼan da*) \"This is bigger than that.\"\n- **Նա ավելի բարձր է, քան ես** (*Na aveli bardzr e, kʼan yes*) \"He/she is taller than me.\"\n\nYou can also use the **ablative** instead of **քան** (*kʼan*): **Ես նրանից ավելի ուժեղ եմ** (*Yes nranitsʼ aveli uzhegh em*) \"I am stronger than he/she.\" **նրանից** (*nranitsʼ*) = ablative of **նա** (*na*).\n\n| positive | comparative |\n|---|---|\n| **լավ** (*lav*) | **ավելի լավ** (*aveli lav*) |\n| **էժան** (*ezhan*) | **ավելի էժան** (*aveli ezhan*) |\n| **տաք** (*takʼ*) | **ավելի տաք** (*aveli takʼ*) |\n\n**ավելի շատ** (*aveli shat*) \"more\", **ավելի քիչ** (*aveli kʼichʼ*) \"less\".\n\n**Pitfalls**\n- There is no **-er** (*-er*) ending: always **ավելի** (*aveli*) + adjective.\n- Use **քան** (*kʼan*) **or** the ablative, not both.\n- After **քան** (*kʼan*) the second item is in the nominative: **քան ես** (*kʼan yes*), **քան դու** (*kʼan du*).",
+  "examples": [
+   {
+    "t": "Սա ավելի էժան է։",
+    "tr": "Sa aveli ezhan e.",
+    "en": "This is cheaper."
+   },
+   {
+    "t": "Նա ավելի բարձր է, քան ես։",
+    "tr": "Na aveli bardzr e, kʼan yes.",
+    "en": "He/she is taller than me."
+   },
+   {
+    "t": "Ես նրանից ավելի ուժեղ եմ։",
+    "tr": "Yes nranitsʼ aveli uzhegh em.",
+    "en": "I am stronger than him/her."
+   },
+   {
+    "t": "Այստեղ ավելի տաք է։",
+    "tr": "Aystegh aveli takʼ e.",
+    "en": "It is warmer here."
+   },
+   {
+    "t": "Սա ավելի մեծ է, քան դա։",
+    "tr": "Sa aveli mets e, kʼan da.",
+    "en": "This is bigger than that."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«bigger»:",
+    "options": [
+     "մեծ ավելի",
+     "շատ մեծ",
+     "ավելի մեծ",
+     "ամենամեծ"
+    ],
+    "a": 2,
+    "why": "**ավելի** (*aveli*) + adjective."
+   },
+   {
+    "type": "choice",
+    "q": "«than»:",
+    "options": [
+     "ավելի",
+     "հետ",
+     "համար",
+     "քան"
+    ],
+    "a": 3,
+    "why": "**քան** (*kʼan*) = than."
+   },
+   {
+    "type": "fill",
+    "q": "Նա ինձնից ＿＿ բարձր է։ (more)",
+    "a": [
+     "ավելի"
+    ],
+    "why": "**ավելի** (*aveli*)."
+   },
+   {
+    "type": "fill",
+    "q": "Սա ավելի էժան է, ＿＿ դա։ (than)",
+    "a": [
+     "քան"
+    ],
+    "why": "**քան** (*kʼan*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is cheaper than that.",
+    "tokens": [
+     "Սա",
+     "ավելի",
+     "էժան",
+     "է",
+     "քան",
+     "դա"
+    ],
+    "a": [
+     "Սա",
+     "ավելի",
+     "էժան",
+     "է",
+     "քան",
+     "դա"
+    ],
+    "why": "**ավելի** (*aveli*) + adj. + **քան** (*kʼan*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: He is stronger than me.",
+    "tokens": [
+     "Նա",
+     "ինձնից",
+     "ավելի",
+     "ուժեղ",
+     "է"
+    ],
+    "a": [
+     "Նա",
+     "ինձնից",
+     "ավելի",
+     "ուժեղ",
+     "է"
+    ],
+    "why": "Ablative of the pronoun, then **ավելի** (*aveli*)."
+   }
+  ]
+ },
+ {
+  "id": "hy10-superlative",
+  "lesson": 10,
+  "title": "Superlative: ամենա-",
+  "summary": "Prefix ամենա- to the adjective.",
+  "explain": "The superlative is formed with the prefix **ամենա-**, written together with the adjective.\n\n| adjective | superlative |\n|---|---|\n| **մեծ** (*mets*) | **ամենամեծ** (*amenamets*) |\n| **լավ** (*lav*) | **ամենալավ** (*amenalav*) |\n| **բարձր** (*bardzr*) | **ամենաբարձր** (*amenabardzr*) |\n| **գեղեցիկ** (*geghetsʼik*) | **ամենագեղեցիկ** (*amenageghetsʼik*) |\n| **շատ** (*shat*) | **ամենաշատ** (*amenashat*) |\n\n- **Սա ամենամեծ տունն է** (*Sa amenamets tunn e*) \"This is the biggest house.\"\n- **Երևանը Հայաստանի ամենամեծ քաղաքն է** (*Yerevanə Hayastani amenamets kʼaghakʼn e*) \"Yerevan is the biggest city of Armenia.\" The group is in the genitive: **Հայաստանի** (*Hayastani*).\n\nYou can also say **ամենից** (*amenitsʼ*) + adjective (\"most of all\").\n\n**Pitfalls**\n- **ամենա-** (*amena-*) is attached: **ամենամեծ** (*amenamets*), not *ամենա մեծ*.\n- It combines with the article on the noun: **ամենամեծ տունը** (*amenamets tunə*).\n- Do not double: **ավելի ամենա-** (*aveli amena-*).",
+  "examples": [
+   {
+    "t": "Սա ամենամեծ տունն է։",
+    "tr": "Sa amenamets tunn e.",
+    "en": "This is the biggest house."
+   },
+   {
+    "t": "Երևանը Հայաստանի ամենամեծ քաղաքն է։",
+    "tr": "Yerevanə Hayastani amenamets kʼaghakʼn e.",
+    "en": "Yerevan is the biggest city of Armenia."
+   },
+   {
+    "t": "Սա ամենալավ գիրքն է։",
+    "tr": "Sa amenalav girkʼn e.",
+    "en": "This is the best book."
+   },
+   {
+    "t": "Նա ամենաբարձր տղան է։",
+    "tr": "Na amenabardzr tghan e.",
+    "en": "He is the tallest boy."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«the tallest»:",
+    "options": [
+     "ավելի բարձր",
+     "բարձրամենա",
+     "ամեն բարձր",
+     "ամենաբարձր"
+    ],
+    "a": 3,
+    "why": "**ամենա-** (*amena-*) + adjective."
+   },
+   {
+    "type": "choice",
+    "q": "Superlative of լավ:",
+    "options": [
+     "ամենա լավը",
+     "լավագույն ավելի",
+     "ամենալավ",
+     "ավելի լավ"
+    ],
+    "a": 2,
+    "why": "**ամենա-** (*amena-*) + **լավ** (*lav*)."
+   },
+   {
+    "type": "choice",
+    "q": "Where does ամենա- go?",
+    "options": [
+     "Attached to the adjective",
+     "On the verb",
+     "After the noun",
+     "As a separate word after the adjective"
+    ],
+    "a": 0,
+    "why": "It is a prefix."
+   },
+   {
+    "type": "fill",
+    "q": "Սա ＿＿ գիրքն է։ (most interesting; հետաքրքիր)",
+    "a": [
+     "ամենահետաքրքիր"
+    ],
+    "why": "**ամենա-** (*amena-*) + **հետաքրքիր** (*hetakʼrkʼir*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա ամենա＿＿ տղան է։ (smartest; խելացի)",
+    "a": [
+     "խելացի"
+    ],
+    "why": "**ամենախելացի** (*amenakhelatsʼi*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is the biggest house.",
+    "tokens": [
+     "Սա",
+     "ամենամեծ",
+     "տունն",
+     "է"
+    ],
+    "a": [
+     "Սա",
+     "ամենամեծ",
+     "տունն",
+     "է"
+    ],
+    "why": "**ամենամեծ** (*amenamets*) before the noun."
+   }
+  ]
+ },
+ {
+  "id": "hy10-postpositions-space",
+  "lesson": 10,
+  "title": "Postpositions of place: վրա, տակ, մոտ, մեջ, առաջ",
+  "summary": "The noun goes in the genitive and the postposition follows.",
+  "explain": "Armenian uses **postpositions** (after the noun). The noun is in the **genitive** (**-ի** (*-i*) etc.).\n\n| noun + postposition | meaning |\n|---|---|\n| **սեղանի վրա** (*seghani vra*) | on the table |\n| **սեղանի տակ** (*seghani tak*) | under the table |\n| **տան մոտ** (*tan mot*) | near the house |\n| **բաժակի մեջ** (*bazhaki mej*) | in the cup |\n| **դպրոցի առաջ** (*dprotsʼi arraj*) | in front of the school |\n\nWith pronouns, use the object form: **ինձ մոտ** (*indz mot*) \"at my place / with me\", **քեզ մոտ** (*kʼez mot*).\n\n- **Գիրքը սեղանի վրա է** (*Girkʼə seghani vra e*) \"The book is on the table.\"\n- **Սուրճը բաժակի մեջ է** (*Surchə bazhaki mej e*) \"The coffee is in the cup.\"\n\n**Pitfalls**\n- Never leave the noun bare: *սեղան վրա* is wrong; it is **սեղանի վրա** (*seghani vra*).\n- Word order is reversed from English: noun first, postposition second.\n- **մոտ** (*mot*) is also an adjective \"near\": **Տունը մոտ է** (*Tunə mot e*) \"The house is near\".",
+  "examples": [
+   {
+    "t": "Գիրքը սեղանի վրա է։",
+    "tr": "Girkʼə seghani vra e.",
+    "en": "The book is on the table."
+   },
+   {
+    "t": "Շունը ծառի տակ է։",
+    "tr": "Shunə tsarri tak e.",
+    "en": "The dog is under the tree."
+   },
+   {
+    "t": "Մեր տունը դպրոցի մոտ է։",
+    "tr": "Mer tunə dprotsʼi mot e.",
+    "en": "Our house is near the school."
+   },
+   {
+    "t": "Մեքենան դպրոցի առաջ է։",
+    "tr": "Mekʼenan dprotsʼi arraj e.",
+    "en": "The car is in front of the school."
+   },
+   {
+    "t": "Սուրճը բաժակի մեջ է։",
+    "tr": "Surchə bazhaki mej e.",
+    "en": "The coffee is in the cup."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«on the table»:",
+    "options": [
+     "սեղանում վրա",
+     "սեղանի վրա",
+     "սեղանից վրա",
+     "սեղան վրա"
+    ],
+    "a": 1,
+    "why": "Genitive + **վրա** (*vra*)."
+   },
+   {
+    "type": "choice",
+    "q": "«under the tree»:",
+    "options": [
+     "ծառ տակ",
+     "ծառի տակ",
+     "ծառը տակ",
+     "ծառից տակ"
+    ],
+    "a": 1,
+    "why": "Genitive + **տակ** (*tak*)."
+   },
+   {
+    "type": "fill",
+    "q": "Գիրքը սեղան＿＿ վրա է։",
+    "a": [
+     "ի"
+    ],
+    "why": "Genitive **-ի** (*-i*)."
+   },
+   {
+    "type": "fill",
+    "q": "Շունը ծառ＿＿ տակ է։",
+    "a": [
+     "ի"
+    ],
+    "why": "Genitive **-ի** (*-i*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մեր տունը դպրոցի ＿＿ է։ (near)",
+    "a": [
+     "մոտ"
+    ],
+    "why": "**մոտ** (*mot*) = near."
+   },
+   {
+    "type": "order",
+    "q": "Make: The cat is under the table.",
+    "tokens": [
+     "Կատուն",
+     "սեղանի",
+     "տակ",
+     "է"
+    ],
+    "a": [
+     "Կատուն",
+     "սեղանի",
+     "տակ",
+     "է"
+    ],
+    "why": "Noun in genitive, then **տակ** (*tak*)."
+   }
+  ]
+ },
+ {
+  "id": "hy10-postpositions-other",
+  "lesson": 10,
+  "title": "հետո, առաջ, հետ, համար",
+  "summary": "After/before take the ablative; with and for take the genitive / dative.",
+  "explain": "Other postpositions and the case they need:\n\n| construction | meaning |\n|---|---|\n| noun-**ից** **հետո** (*heto*) | after: **ճաշից հետո** (*chashitsʼ heto*) |\n| noun-**ից** **առաջ** (*arraj*) | before (time): **ճաշից առաջ** (*chashitsʼ arraj*) |\n| genitive + **հետ** (*het*) | with (a person): **ընկերոջս հետ** (*ənkerojs het*) |\n| genitive + **համար** (*hamar*) | for: **մայրիկի համար** (*mayriki hamar*) |\n\nPronouns use the object form: **ինձ հետ** (*indz het*) \"with me\", **քեզ հետ** (*kʼez het*), **նրա հետ** (*nra het*), **մեզ հետ** (*mez het*); **ինձ համար** (*indz hamar*) \"for me\", **քեզ համար** (*kʼez hamar*).\n\n- **Ճաշից հետո ես քնում եմ** (*Chashitsʼ heto yes kʼnum em*) \"After lunch I sleep.\"\n- **Սա քեզ համար է** (*Sa kʼez hamar e*) \"This is for you.\"\n\n**Pitfalls**\n- Time uses the **ablative**: **դասից հետո** (*dasitsʼ heto*), not *դասի հետո*.\n- **առաջ** (*arraj*) for place takes the genitive (**դպրոցի առաջ** (*dprotsʼi arraj*)), for time the ablative.\n- **հետ** (*het*) (with a person) is not **-ով** (*-ov*).",
+  "examples": [
+   {
+    "t": "Ճաշից հետո ես քնում եմ։",
+    "tr": "Chashitsʼ heto yes kʼnum em.",
+    "en": "After lunch I sleep."
+   },
+   {
+    "t": "Դասից առաջ սուրճ ենք խմում։",
+    "tr": "Dasitsʼ arraj surch enkʼ khmum.",
+    "en": "Before class we drink coffee."
+   },
+   {
+    "t": "Ես ընկերոջս հետ եմ գնում։",
+    "tr": "Yes ənkerojs het em gnum.",
+    "en": "I go with my friend."
+   },
+   {
+    "t": "Դու ինձ հետ կգաս։",
+    "tr": "Du indz het kgas.",
+    "en": "You will come with me."
+   },
+   {
+    "t": "Սա քեզ համար է։",
+    "tr": "Sa kʼez hamar e.",
+    "en": "This is for you."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«after lunch»:",
+    "options": [
+     "ճաշի հետո",
+     "ճաշ հետո",
+     "ճաշով հետո",
+     "ճաշից հետո"
+    ],
+    "a": 3,
+    "why": "Time: ablative + **հետո** (*heto*)."
+   },
+   {
+    "type": "choice",
+    "q": "«with me»:",
+    "options": [
+     "ինձ հետ",
+     "իմ հետ",
+     "ինձ համար",
+     "ես հետ"
+    ],
+    "a": 0,
+    "why": "Pronoun object form + **հետ** (*het*)."
+   },
+   {
+    "type": "choice",
+    "q": "«for you» (informal):",
+    "options": [
+     "քեզ համար",
+     "դու համար",
+     "քեզ հետ",
+     "քեզնից համար"
+    ],
+    "a": 0,
+    "why": "**քեզ** (*kʼez*) + **համար** (*hamar*)."
+   },
+   {
+    "type": "fill",
+    "q": "Սա ＿＿ համար է։ (for me)",
+    "a": [
+     "ինձ"
+    ],
+    "why": "**ինձ համար** (*indz hamar*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դասից ＿＿ սուրճ ենք խմում։ (before)",
+    "a": [
+     "առաջ"
+    ],
+    "why": "**առաջ** (*arraj*) = before."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is for you. (informal)",
+    "tokens": [
+     "Սա",
+     "քեզ",
+     "համար",
+     "է"
+    ],
+    "a": [
+     "Սա",
+     "քեզ",
+     "համար",
+     "է"
+    ],
+    "why": "Pronoun + **համար** (*hamar*)."
+   }
+  ]
+ },
+ {
+  "id": "hy11-petq",
+  "lesson": 11,
+  "title": "Must / need: պետք է + subjunctive",
+  "summary": "պետք է is invariable; the verb after it is in the subjunctive.",
+  "explain": "**պետք է** (*petkʼ e*) means \"must / should / need to\". It never changes. The verb after it is in the **subjunctive**, which shows the person.\n\n- **Ես պետք է գնամ** (*Yes petkʼ e gnam*) \"I must go.\"\n- **Դու պետք է սովորես** (*Du petkʼ e sovores*) \"You must study.\"\n- **Մենք պետք է աշխատենք** (*Menkʼ petkʼ e ashkhatenkʼ*) \"We must work.\"\n- **Նա պետք է գա** (*Na petkʼ e ga*) \"He/she must come.\"\n\n**Needing a thing:** the person goes in the dative: **Ինձ ջուր է պետք** (*Indz jur e petkʼ*) \"I need water.\" Negative: **Ինձ ջուր պետք չէ** (*Indz jur petkʼ chʼe*) \"I don't need water.\"\n\n**Pitfalls**\n- Don't conjugate **պետք** (*petkʼ*): *Ես պետք եմ* is wrong.\n- Use the subjunctive, not the infinitive: **Ես պետք է գնամ** (*Yes petkʼ e gnam*), not *Ես պետք է գնալ*.\n- Don't add **կ-** (*k-*): *պետք է կգնամ* is wrong.",
+  "examples": [
+   {
+    "t": "Ես պետք է գնամ։",
+    "tr": "Yes petkʼ e gnam.",
+    "en": "I must go."
+   },
+   {
+    "t": "Դու պետք է սովորես։",
+    "tr": "Du petkʼ e sovores.",
+    "en": "You must study."
+   },
+   {
+    "t": "Մենք պետք է աշխատենք։",
+    "tr": "Menkʼ petkʼ e ashkhatenkʼ.",
+    "en": "We must work."
+   },
+   {
+    "t": "Նա պետք է գա։",
+    "tr": "Na petkʼ e ga.",
+    "en": "He/she must come."
+   },
+   {
+    "t": "Ինձ ջուր է պետք։",
+    "tr": "Indz jur e petkʼ.",
+    "en": "I need water."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I must go»:",
+    "options": [
+     "Ես պետք է գնալ։",
+     "Ես պետք եմ գնամ։",
+     "Ես պետք է գնամ։",
+     "Ես պետք է կգնամ։"
+    ],
+    "a": 2,
+    "why": "**պետք է** (*petkʼ e*) + subjunctive."
+   },
+   {
+    "type": "choice",
+    "q": "«We must work»:",
+    "options": [
+     "Մենք պետք է աշխատենք։",
+     "Մենք պետք ենք աշխատել։",
+     "Մենք պետք է կաշխատենք։",
+     "Մենք պետք է աշխատում ենք։"
+    ],
+    "a": 0,
+    "why": "Subjunctive **աշխատենք** (*ashkhatenkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դու պետք է ＿＿։ (սովորել: study)",
+    "a": [
+     "սովորես"
+    ],
+    "why": "2nd person subjunctive **-ես** (*-es*)."
+   },
+   {
+    "type": "fill",
+    "q": "Նա պետք է ＿＿։ (գալ: come)",
+    "a": [
+     "գա"
+    ],
+    "why": "**գալ** (*gal*) → **գա** (*ga*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ինձ ջուր ＿＿ պետք։ (I need water)",
+    "a": [
+     "է"
+    ],
+    "why": "**ինձ ... է պետք** (*indz ... e petkʼ*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I need water.",
+    "tokens": [
+     "Ինձ",
+     "ջուր",
+     "է",
+     "պետք"
+    ],
+    "a": [
+     "Ինձ",
+     "ջուր",
+     "է",
+     "պետք"
+    ],
+    "why": "Dative person + thing + **է պետք** (*e petkʼ*)."
+   }
+  ]
+ },
+ {
+  "id": "hy11-karogh",
+  "lesson": 11,
+  "title": "Can: կարող եմ and կարողանալ",
+  "summary": "կարող + auxiliary + infinitive; past with կարողացա.",
+  "explain": "****կարող եմ** (*karogh em*)** \"I can\" is **կարող** (*karogh*) + the auxiliary, followed by the **infinitive**.\n\n| | |\n|---|---|\n| **Ես կարող եմ գալ** (*Yes karogh em gal*) | I can come. |\n| **Ես չեմ կարող գալ** (*Yes chʼem karogh gal*) | I can't come. |\n| **Ես կարող էի գալ** (*Yes karogh ei gal*) | I could come. |\n\n****կարողանալ** (*karoghanal*)** \"to manage / to be able\" is a normal verb: **Ես կարողանում եմ խոսել** (*Yes karoghanum em khosel*) \"I can speak (I'm able to)\". Past: **կարողացա** (*karoghatsʼa*) (like **հասկացա** (*haskatsʼa*)).\n\n- **Ես չկարողացա գալ** (*Yes chʼkaroghatsʼa gal*) \"I could not come (I did not manage).\"\n\n**Pitfalls**\n- The main verb stays an infinitive: **կարող եմ գալ** (*karogh em gal*), not *կարող եմ գամ*.\n- The auxiliary changes with the person: **կարող ես** (*karogh es*), **կարող է** (*karogh e*), **կարող ենք** (*karogh enkʼ*).\n- 3rd person negative: **Նա չի կարող** (*Na chʼi karogh*) (not **չէ** (*chʼe*)).",
+  "examples": [
+   {
+    "t": "Ես կարող եմ գալ։",
+    "tr": "Yes karogh em gal.",
+    "en": "I can come."
+   },
+   {
+    "t": "Դու կարո՞ղ ես օգնել։",
+    "tr": "Du karogh es ognel?",
+    "en": "Can you help?"
+   },
+   {
+    "t": "Նա չի կարող գալ։",
+    "tr": "Na chʼi karogh gal.",
+    "en": "He/she cannot come."
+   },
+   {
+    "t": "Մենք կարող ենք խոսել հայերեն։",
+    "tr": "Menkʼ karogh enkʼ khosel hayeren.",
+    "en": "We can speak Armenian."
+   },
+   {
+    "t": "Ես չկարողացա գալ։",
+    "tr": "Yes chʼkaroghatsʼa gal.",
+    "en": "I could not come."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I can come»:",
+    "options": [
+     "Ես կարող է գալ։",
+     "Ես կարող ես գալ։",
+     "Ես կարող գալ եմ։",
+     "Ես կարող եմ գալ։"
+    ],
+    "a": 3,
+    "why": "**կարող եմ** (*karogh em*) + infinitive."
+   },
+   {
+    "type": "choice",
+    "q": "«She can't come»:",
+    "options": [
+     "Նա չեմ կարող գալ։",
+     "Նա չէ կարող գալ։",
+     "Նա չի կարող գալ։",
+     "Նա կարող չի գալ։"
+    ],
+    "a": 2,
+    "why": "**չի կարող** (*chʼi karogh*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք ＿＿ խոսել հայերեն։ (can)",
+    "a": [
+     "կարող ենք"
+    ],
+    "why": "**կարող ենք** (*karogh enkʼ*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես ＿＿ գալ։ (could not; aorist of կարողանալ)",
+    "a": [
+     "չկարողացա"
+    ],
+    "why": "**չ-** (*chʼ-*) + **կարողացա** (*karoghatsʼa*)."
+   },
+   {
+    "type": "fill",
+    "q": "Դու կարո՞ղ ＿＿ օգնել։",
+    "a": [
+     "ես"
+    ],
+    "why": "**դու** (*du*) takes **ես** (*es*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I can't come.",
+    "tokens": [
+     "Ես",
+     "չեմ",
+     "կարող",
+     "գալ"
+    ],
+    "a": [
+     "Ես",
+     "չեմ",
+     "կարող",
+     "գալ"
+    ],
+    "why": "Negative aux + **կարող** (*karogh*) + infinitive."
+   }
+  ]
+ },
+ {
+  "id": "hy11-uzum",
+  "lesson": 11,
+  "title": "Wanting: ուզում եմ + infinitive",
+  "summary": "Same subject: infinitive; different subject: որ + subjunctive.",
+  "explain": "**ուզում եմ** (*uzum em*) \"I want\" works like the present of **ուզենալ** (*uzenal*).\n\n- same subject, infinitive: **Ես ուզում եմ քնել** (*Yes uzum em kʼnel*) \"I want to sleep.\"\n- with a noun: **Ես սուրճ եմ ուզում** (*Yes surch em uzum*) \"I want coffee.\"\n- different subject: **Ուզում եմ, որ դու գաս** (*Uzum em, vor du gas*) \"I want you to come.\" (**որ** (*vor*) + subjunctive)\n- past: **ուզում էի** (*uzum ei*) \"I wanted\".\n- negative: **Ես չեմ ուզում գնալ** (*Yes chʼem uzum gnal*) \"I don't want to go.\"\n\nSimilarly **սիրում եմ** (*sirum em*) \"I like to\": **Ես սիրում եմ կարդալ** (*Yes sirum em kardal*) \"I like reading.\"\n\n**Pitfalls**\n- **ուզում եմ** (*uzum em*) is **not** *ուզենում եմ*.\n- A different subject needs **որ** (*vor*): not *Ուզում եմ դու գալ*.\n- With a noun object, the auxiliary follows it: **Ես սուրճ եմ ուզում** (*Yes surch em uzum*).",
+  "examples": [
+   {
+    "t": "Ես ուզում եմ քնել։",
+    "tr": "Yes uzum em kʼnel.",
+    "en": "I want to sleep."
+   },
+   {
+    "t": "Նա ուզում է կարդալ։",
+    "tr": "Na uzum e kardal.",
+    "en": "He/she wants to read."
+   },
+   {
+    "t": "Ես սուրճ եմ ուզում։",
+    "tr": "Yes surch em uzum.",
+    "en": "I want coffee."
+   },
+   {
+    "t": "Ես չեմ ուզում գնալ։",
+    "tr": "Yes chʼem uzum gnal.",
+    "en": "I do not want to go."
+   },
+   {
+    "t": "Ուզում եմ, որ դու գաս։",
+    "tr": "Uzum em, vor du gas.",
+    "en": "I want you to come."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I want to sleep»:",
+    "options": [
+     "Ես ուզում եմ քնում։",
+     "Ես քնել ուզում։",
+     "Ես ուզում եմ քնել։",
+     "Ես ուզել եմ քնում։"
+    ],
+    "a": 2,
+    "why": "**ուզում եմ** (*uzum em*) + infinitive."
+   },
+   {
+    "type": "choice",
+    "q": "«I want you to come»:",
+    "options": [
+     "Ուզում եմ քեզ գալ։",
+     "Ուզում եմ դու գալիս։",
+     "Ուզում եմ, որ դու գալ։",
+     "Ուզում եմ, որ դու գաս։"
+    ],
+    "a": 3,
+    "why": "Different subject: **որ** (*vor*) + subjunctive."
+   },
+   {
+    "type": "fill",
+    "q": "Նա ուզում է ＿＿։ (կարդալ: to read)",
+    "a": [
+     "կարդալ"
+    ],
+    "why": "Infinitive."
+   },
+   {
+    "type": "fill",
+    "q": "Ես չեմ ＿＿ գնալ։ (want)",
+    "a": [
+     "ուզում"
+    ],
+    "why": "**չեմ ուզում** (*chʼem uzum*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ուզում եմ, ＿＿ դու գաս։ (that)",
+    "a": [
+     "որ"
+    ],
+    "why": "**որ** (*vor*) introduces the clause."
+   },
+   {
+    "type": "order",
+    "q": "Make: I want to sleep.",
+    "tokens": [
+     "Ես",
+     "ուզում",
+     "եմ",
+     "քնել"
+    ],
+    "a": [
+     "Ես",
+     "ուզում",
+     "եմ",
+     "քնել"
+    ],
+    "why": "**ուզում եմ** (*uzum em*) + infinitive."
+   }
+  ]
+ },
+ {
+  "id": "hy11-yete",
+  "lesson": 11,
+  "title": "If: եթե + subjunctive",
+  "summary": "Future conditions: եթե + subjunctive, future in the result.",
+  "explain": "**եթե** (*yetʼe*) means \"if\". For a real future condition, the **if-clause takes the subjunctive** and the result takes the **future** (**կ-** (*k-*)).\n\n- **Եթե գաս, կտեսնես** (*Yetʼe gas, ktesnes*) \"If you come, you will see.\"\n- **Եթե նա գա, մենք կգնանք** (*Yetʼe na ga, menkʼ kgnankʼ*) \"If he/she comes, we will go.\"\n- **Եթե ուզես, ես կօգնեմ** (*Yetʼe uzes, yes kognem*) \"If you want, I will help.\"\n\n| if-clause | result |\n|---|---|\n| **եթե** (*yetʼe*) + subjunctive | **կ-** (*k-*) future |\n\nFor a fact that is true now, the normal present is used: **Եթե հոգնած ես, քնի՛ր** (*Yetʼe hognats yes, kʼnir*) \"If you are tired, sleep.\"\n\n**Pitfalls**\n- Don't use **կ-** (*k-*) in the if-clause: *եթե կգաս* is wrong.\n- The comma separates the two clauses.\n- Hypothetical (\"if I had...\") uses different forms, not covered here.",
+  "examples": [
+   {
+    "t": "Եթե գաս, կտեսնես։",
+    "tr": "Yetʼe gas, ktesnes.",
+    "en": "If you come, you will see."
+   },
+   {
+    "t": "Եթե նա գա, մենք կգնանք։",
+    "tr": "Yetʼe na ga, menkʼ kgnankʼ.",
+    "en": "If he/she comes, we will go."
+   },
+   {
+    "t": "Եթե ուզես, ես կօգնեմ։",
+    "tr": "Yetʼe uzes, yes kognem.",
+    "en": "If you want, I will help."
+   },
+   {
+    "t": "Եթե հոգնած ես, քնի՛ր։",
+    "tr": "Yetʼe hognats es, kʼnir.",
+    "en": "If you are tired, sleep."
+   },
+   {
+    "t": "Եթե վաղը անձրև գա, ես տանը կլինեմ։",
+    "tr": "Yetʼe vaghə andzrev ga, yes tanə klinem.",
+    "en": "If it rains tomorrow, I will be at home."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which word means «if»?",
+    "options": [
+     "բայց",
+     "որ",
+     "եթե",
+     "քան"
+    ],
+    "a": 2,
+    "why": "**եթե** (*yetʼe*) = if."
+   },
+   {
+    "type": "choice",
+    "q": "Եթե նա ＿＿, մենք կգնանք։ (comes)",
+    "options": [
+     "գա",
+     "գալ",
+     "կգա",
+     "գալու"
+    ],
+    "a": 0,
+    "why": "The if-clause takes the subjunctive."
+   },
+   {
+    "type": "fill",
+    "q": "Եթե դու ＿＿, ես կօգնեմ։ (ուզել: want)",
+    "a": [
+     "ուզես"
+    ],
+    "why": "2nd person subjunctive."
+   },
+   {
+    "type": "fill",
+    "q": "Եթե նա գա, մենք ＿＿։ (գնալ: will go)",
+    "a": [
+     "կգնանք"
+    ],
+    "why": "Result: **կ-** (*k-*) future."
+   },
+   {
+    "type": "order",
+    "q": "Make: If you come, you will see.",
+    "tokens": [
+     "Եթե",
+     "գաս",
+     "կտեսնես"
+    ],
+    "a": [
+     "Եթե",
+     "գաս",
+     "կտեսնես"
+    ],
+    "why": "**եթե** (*yetʼe*) + subjunctive, then future."
+   },
+   {
+    "type": "order",
+    "q": "Make: If he comes, we will go.",
+    "tokens": [
+     "Եթե",
+     "նա",
+     "գա",
+     "մենք",
+     "կգնանք"
+    ],
+    "a": [
+     "Եթե",
+     "նա",
+     "գա",
+     "մենք",
+     "կգնանք"
+    ],
+    "why": "if-clause, then result."
+   }
+  ]
+ },
+ {
+  "id": "hy11-perfect",
+  "lesson": 11,
+  "title": "Present perfect: գրել եմ",
+  "summary": "Perfect participle + auxiliary: results and experience.",
+  "explain": "The present perfect is a **perfect participle** + the present auxiliary.\n\n| infinitive | participle | I have... |\n|---|---|---|\n| **գրել** (*grel*) | **գրել** (*grel*) | **գրել եմ** (*grel em*) |\n| **կարդալ** (*kardal*) | **կարդացել** (*kardatsʼel*) | **կարդացել եմ** (*kardatsʼel em*) |\n| **գալ** (*gal*) | **եկել** (*yekel*) | **եկել եմ** (*yekel em*) |\n| **ուտել** (*utel*) | **կերել** (*kerel*) | **կերել եմ** (*kerel em*) |\n| **տեսնել** (*tesnel*) | **տեսել** (*tesel*) | **տեսել եմ** (*tesel em*) |\n| **անել** (*anel*) | **արել** (*arel*) | **արել եմ** (*arel em*) |\n| **լինել** (*linel*) | **եղել** (*yeghel*) | **եղել եմ** (*yeghel em*) |\n\nSo -ել verbs look like their infinitive; -ալ verbs end in **-ացել** (*-atsʼel*). The auxiliary follows the usual rules: **Ես նամակ եմ գրել** (*Yes namak em grel*), **Նա արդեն եկել է** (*Na arden yekel e*).\n\nNegative: **Ես նամակ չեմ գրել** (*Yes namak chʼem grel*). With **դեռ** (*derr*) \"yet\": **Մենք դեռ չենք կերել** (*Menkʼ derr chʼenkʼ kerel*). Past perfect: **գրել էի** (*grel ei*) \"I had written\".\n\n**Pitfalls**\n- Do not confuse **գրել եմ** (*grel em*) (perfect) with **գրում եմ** (*grum em*) (present).\n- The aorist **գրեցի** (*gretsʼi*) is for a simple past event; the perfect shows a result or experience.",
+  "examples": [
+   {
+    "t": "Ես նամակ եմ գրել։",
+    "tr": "Yes namak em grel.",
+    "en": "I have written a letter."
+   },
+   {
+    "t": "Նա արդեն եկել է։",
+    "tr": "Na arden yekel e.",
+    "en": "He/she has already come."
+   },
+   {
+    "t": "Դու կերե՞լ ես։",
+    "tr": "Du kerel es?",
+    "en": "Have you eaten?"
+   },
+   {
+    "t": "Մենք դեռ չենք կերել։",
+    "tr": "Menkʼ derr chʼenkʼ kerel.",
+    "en": "We have not eaten yet."
+   },
+   {
+    "t": "Ես երբեք չեմ եղել Հայաստանում։",
+    "tr": "Yes yerbekʼ chʼem yeghel Hayastanum.",
+    "en": "I have never been to Armenia."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I have written»:",
+    "options": [
+     "գրում եմ",
+     "գրեցի",
+     "գրելու եմ",
+     "գրել եմ"
+    ],
+    "a": 3,
+    "why": "Perfect participle + **եմ** (*em*)."
+   },
+   {
+    "type": "choice",
+    "q": "«She has come»:",
+    "options": [
+     "եկել է",
+     "եկավ",
+     "գալու է",
+     "գալիս է"
+    ],
+    "a": 0,
+    "why": "**գալ** (*gal*) → **եկել** (*yekel*)."
+   },
+   {
+    "type": "choice",
+    "q": "«We have read» (կարդալ):",
+    "options": [
+     "կարդալ ենք",
+     "կարդացել ենք",
+     "կարդացինք",
+     "կարդում ենք"
+    ],
+    "a": 1,
+    "why": "-ալ: **-ացել** (*-atsʼel*)."
+   },
+   {
+    "type": "fill",
+    "q": "Ես արդեն ＿＿ եմ։ (ուտել: eaten)",
+    "a": [
+     "կերել"
+    ],
+    "why": "**ուտել** (*utel*) → **կերել** (*kerel*)."
+   },
+   {
+    "type": "fill",
+    "q": "Մենք դեռ չենք ＿＿։ (տեսնել: seen)",
+    "a": [
+     "տեսել"
+    ],
+    "why": "**չենք տեսել** (*chʼenkʼ tesel*)."
+   },
+   {
+    "type": "order",
+    "q": "Make: I have not written a letter.",
+    "tokens": [
+     "Ես",
+     "նամակ",
+     "չեմ",
+     "գրել"
+    ],
+    "a": [
+     "Ես",
+     "նամակ",
+     "չեմ",
+     "գրել"
+    ],
+    "why": "Neg. aux + participle."
+   }
+  ]
+ }
+]

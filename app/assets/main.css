@@ -1,0 +1,205 @@
+:root {
+  --bg: #0a0c10; --panel: #11141a; --panel-2: #171b23; --line: #1f242e; --line-2: #2b313d;
+  --text: #e6e8ed; --muted: #8a92a2; --faint: #7b8496;
+  --accent: #7c9cff; --accent-soft: #1d2640;
+  --ok: #3ccf8e; --ok-soft: rgba(60, 207, 142, .12);
+  --warn: #f0b440; --warn-soft: rgba(240, 180, 64, .12);
+  --bad: #f26b6b; --bad-soft: rgba(242, 107, 107, .13);
+  --track: #1d222b;
+  --mono: ui-monospace, 'JetBrains Mono', 'SF Mono', Menlo, monospace;
+  --radius: 12px; --radius-sm: 8px;
+  --claude: #d97757; --term-bg: #07090c; --term-fg: #d0d4dc;
+  --tabbar: 0px;
+  /* motion tokens: every transition/animation uses these, so the whole app moves with one feel */
+  --dur-fast: 120ms; --dur: 180ms; --dur-slow: 280ms;
+  --ease-out: cubic-bezier(.2, .8, .2, 1);      /* default: things arriving or settling */
+  --ease-spring: cubic-bezier(.34, 1.56, .64, 1); /* small overshoot: entrances, press release */
+  --ease-in: cubic-bezier(.4, 0, 1, 1);          /* leaving the screen */
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; background: var(--bg); }
+body {
+  margin: 0; background: var(--bg); color: var(--text);
+  font: 14px/1.45 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+a { color: var(--accent); text-decoration: none; }
+@media (hover: hover) { a:hover { text-decoration: underline; } }
+code, .mono { font-family: var(--mono); font-size: 12.5px; }
+.muted { color: var(--muted); }
+.faint { color: var(--faint); }
+.small { font-size: 12px; }
+.ok { color: var(--ok); } .warn { color: var(--warn); } .bad { color: var(--bad); }
+::selection { background: rgba(142, 166, 255, .3); }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--line-2); border-radius: 10px; border: 3px solid transparent; background-clip: padding-box; }
+::-webkit-scrollbar-track { background: transparent; }
+
+.wrap { width: 100%; max-width: 1320px; margin: 0 auto; padding: 24px 28px 60px; }
+@media (max-width: 640px) { .wrap { padding: 12px 12px calc(28px + var(--tabbar)); } }
+/* phones: our own pull-to-refresh (layout) instead of the browser's reload */
+@media (pointer: coarse) { html, body { overscroll-behavior-y: contain; } }
+
+.grid { display: grid; gap: 14px; margin-bottom: 14px; }
+.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 1100px) { .cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 760px) { .cols-3, .cols-2 { grid-template-columns: minmax(0, 1fr); } }
+
+/* section heading between panels: `<h2 class="sec">Title <span class="muted small">count</span></h2>` */
+.sec { font-size: 15px; font-weight: 600; color: var(--text); margin: 26px 0 10px; display: flex; gap: 10px; align-items: baseline; }
+.sec .small { font-weight: 400; }
+
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--faint); flex: none; }
+.dot.ok { background: var(--ok); box-shadow: 0 0 0 3px var(--ok-soft); }
+.dot.warn { background: var(--warn); box-shadow: 0 0 0 3px var(--warn-soft); }
+.dot.bad { background: var(--bad); box-shadow: 0 0 0 3px var(--bad-soft); }
+
+.pill { display: inline-flex; align-items: center; gap: 4px; padding: 1px 8px; border-radius: 999px; font-size: 11.5px; background: var(--panel-2); color: var(--muted); border: 1px solid var(--line); white-space: nowrap; }
+.pill.ok { background: var(--ok-soft); color: var(--ok); border-color: transparent; }
+.pill.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+.pill.bad { background: var(--bad-soft); color: var(--bad); border-color: transparent; }
+button.pill { font: inherit; font-size: 11.5px; cursor: pointer; transition: transform var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out); }
+button.pill:active:not(:disabled) { transform: scale(.97); transition-duration: 60ms; }
+.pill.accent { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line-2); background: var(--panel-2); color: var(--text); font: inherit; font-size: 13px; cursor: pointer; white-space: nowrap; transition: border-color var(--dur-fast), background var(--dur-fast), color var(--dur-fast), transform var(--dur-fast) var(--ease-out); }
+/* press: a small squeeze on touch and mouse, springs back on release */
+.btn:active:not(:disabled) { transform: scale(.97); transition-duration: 60ms; }
+@media (hover: hover) { .btn:hover { border-color: var(--faint); text-decoration: none; } }
+.btn:disabled { opacity: .45; cursor: default; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #0a0c10; font-weight: 600; }
+@media (hover: hover) { .btn.primary:hover { filter: brightness(1.08); } }
+.btn.danger { color: var(--bad); }
+.btn.ghost { background: transparent; border-color: transparent; color: var(--muted); padding: 6px 8px; }
+@media (hover: hover) { .btn.ghost:hover { color: var(--text); background: var(--panel-2); } }
+@media (pointer: coarse) { .btn { min-height: 34px; } }
+/* visually hidden, still read by screen readers (page h1s on phone) */
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+input:not([type='checkbox']):not([type='radio']), select, textarea {
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--line-2); border-radius: 8px; font: inherit;
+}
+/* inner padding at zero specificity (:where), so a page's or skin's own padding still wins */
+:where(input:not([type='checkbox'], [type='radio'], [type='range'], [type='color'], [type='file']), select, textarea) { padding: 7px 10px; }
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline: none; border-color: var(--accent); }
+input[type='search'] { -webkit-appearance: none; appearance: none; }
+input[type='checkbox'], input[type='radio'] { accent-color: var(--accent); }
+/* phones zoom into inputs under 16px; !important so a compact scoped size cannot undo it */
+@media (max-width: 640px) { input:not([type='checkbox']):not([type='radio']), select, textarea { font-size: 16px !important; } }
+
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; font-weight: 500; color: var(--faint); font-size: 12px; padding: 0 10px 6px; }
+td { padding: 8px 10px; border-top: 1px solid var(--line); vertical-align: middle; }
+th:first-child, td:first-child { padding-left: 0; }
+th:last-child, td:last-child { padding-right: 0; }
+.num { text-align: right; white-space: nowrap; }
+.scroll-x { overflow-x: auto; }
+/* shared controls: use these instead of page-local copies */
+.btn.sm { padding: 3px 10px; font-size: 12px; }
+.btn.icon { padding: 0; width: 34px; height: 34px; }
+.lnk { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); cursor: pointer; transition: opacity var(--dur-fast) var(--ease-out); }
+.lnk:active:not(:disabled) { opacity: .6; transition-duration: 60ms; }
+@media (hover: hover) { .lnk:hover { text-decoration: underline; } }
+/* segmented control: <div class="seg"><button class="on">A</button><button>B</button></div> */
+.seg { display: inline-flex; border: 1px solid var(--line-2); border-radius: var(--radius-sm); overflow: hidden; flex-shrink: 0; }
+.seg > button { background: transparent; border: 0; color: var(--muted); font: inherit; font-size: 12.5px; padding: 5px 11px; cursor: pointer; white-space: nowrap; transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out); }
+.seg > button:active:not(:disabled) { transform: scale(.97); transition-duration: 60ms; }
+.seg > button + button { border-left: 1px solid var(--line); }
+.seg > button.on { background: var(--accent-soft); color: var(--accent); }
+.seg > button:disabled { cursor: default; opacity: .6; }
+/* filter / choice chip: <button class="chip on"> */
+.chip { display: inline-flex; align-items: center; gap: 5px; padding: 4px 11px; border-radius: 999px; border: 1px solid var(--line-2); background: transparent; color: var(--muted); font: inherit; font-size: 12.5px; cursor: pointer; white-space: nowrap; transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out); }
+.chip:active:not(:disabled) { transform: scale(.97); transition-duration: 60ms; }
+@media (hover: hover) { .chip:hover { color: var(--text); } }
+.chip.on { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.empty-state { padding: 40px 12px; text-align: center; color: var(--muted); }
+.errbox { border: 1px solid var(--bad-soft); background: var(--bad-soft); color: var(--bad); border-radius: var(--radius-sm); padding: 8px 12px; overflow-wrap: anywhere; }
+@media (pointer: coarse) { .seg > button, .chip { min-height: 34px; } .btn.sm { min-height: 32px; } }
+.btn.primary .pill { background: rgba(10, 12, 16, .22); color: inherit; border-color: transparent; }
+
+/* Nerd Font icons for the terminals (p10k / omz use nerdfont-v3). Icons only: the unicode-range limits it
+   to the private-use areas, so normal text keeps --mono and nothing downloads until a terminal needs it. */
+/* the non-Mono variant on purpose: Mono shrinks each icon into one narrow cell; this one lets it spill
+   into the space p10k leaves after it, like a real terminal does */
+@font-face {
+  font-family: 'Symbols Nerd Font';
+  src: url('/fonts/SymbolsNerdFont-Regular.ttf') format('truetype');
+  font-display: block;
+  unicode-range: U+23FB-23FE, U+2665, U+26A1, U+2B58, U+E000-F8FF, U+F0000-FFFFD;
+}
+
+/* rendered markdown in notes (v-html, so not reachable from scoped styles) */
+.md > :first-child { margin-top: 0; }
+.md > :last-child { margin-bottom: 0; }
+.md p { margin: 0 0 8px; }
+.md ul, .md ol { margin: 0 0 8px; padding-left: 20px; }
+.md li:has(> input[type='checkbox']) { list-style: none; margin-left: -20px; padding-left: 23px; text-indent: -23px; }
+.md li > input[type='checkbox'] { margin: 0 6px 0 0; vertical-align: -2px; cursor: pointer; }
+.md li:has(> input:checked) { color: var(--faint); text-decoration: line-through; }
+.md h1, .md h2, .md h3 { font-size: 13.5px; font-weight: 600; color: var(--text); margin: 12px 0 4px; }
+.md a { text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+.md pre { background: var(--bg); border: 1px solid var(--line); padding: 8px 10px; border-radius: 7px; overflow-x: auto; }
+pre .hl-k { color: #c792ea; } pre .hl-s { color: #c3e88d; } pre .hl-n { color: #f78c6c; } pre .hl-c { color: var(--faint); font-style: italic; }
+.md :not(pre) > code { background: var(--panel-2); padding: 1px 4px; border-radius: 4px; }
+.md blockquote { margin: 0 0 8px; padding-left: 10px; border-left: 2px solid var(--line-2); color: var(--muted); }
+.md img { max-width: 100%; }
+.md table { display: block; overflow-x: auto; max-width: 100%; margin: 0 0 8px; }
+.md th, .md td { min-width: 70px; }
+
+/* tap-twice delete (useArm): the armed button (.sure) turns solid red and says "Sure?" */
+.sure, .sure:hover { background: var(--bad) !important; border-color: var(--bad) !important; color: #0a0c10 !important; font-weight: 600; width: auto !important; padding: 0 10px !important; animation: armpop var(--dur) var(--ease-spring); }
+@keyframes armpop { from { transform: scale(.9) } }
+@media (prefers-reduced-motion: reduce) { .sure { animation: none; } }
+
+/* file cards under a chat answer (utils/filecards.ts) */
+.fcard { max-width: 100%; margin: 0 0 8px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--panel-2); overflow: hidden; }
+.fcard .fch { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; padding: 6px 10px; }
+.fcard .fch b { overflow-wrap: anywhere; font-weight: 600; }
+.fcard .fch span { font-size: .75em; opacity: .6; flex: none; }
+.fcard video, .fcard img { display: block; max-width: 100%; max-height: 50vh; margin: 0 auto; background: #000; }
+.fcard audio { display: block; width: calc(100% - 20px); margin: 0 10px 6px; }
+.fcard .fca { display: flex; gap: 14px; padding: 6px 10px; border-top: 1px solid var(--line); }
+
+/* ---- motion ---- */
+/* tappable rows (settings rows, palette items, list entries): a quick squeeze while pressed. On a row that is
+   not a button use it together with a transition-free background so it stays cheap */
+.press { transition: transform var(--dur-fast) var(--ease-out); }
+.press:active:not(:disabled) { transform: scale(.985); transition-duration: 60ms; }
+/* one shared spinner: `animation: spin 0.8s linear infinite` works from any style block. A scoped SFC renames its own
+   keyframes but leaves `spin` alone when the name is not defined there, so reference this one, never redefine it */
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid var(--line-2); border-top-color: var(--accent); border-radius: 50%; animation: spin .8s linear infinite; flex: none; }
+/* keyboard focus: a visible ring on every control (inputs keep their border highlight) */
+:is(button, a, [role='button'], [role='tab'], [tabindex]):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* shared enter/exit: <Transition name="sheet"> on a dialog's scrim (the box inside moves with it). name="pop"
+   is only layouts/default.vue's banner and has its own scoped rules. */
+.sheet-enter-active { transition: opacity var(--dur) var(--ease-out); }
+.sheet-leave-active { transition: opacity var(--dur-fast) var(--ease-in); }
+.sheet-enter-active > * { transition: transform var(--dur) var(--ease-out); }
+.sheet-leave-active > * { transition: transform var(--dur-fast) var(--ease-in); }
+.sheet-enter-from, .sheet-leave-to { opacity: 0; }
+.sheet-enter-from > * { transform: translateY(10px) scale(.97); }
+.sheet-leave-to > * { transform: translateY(6px) scale(.98); }
+/* list rows: add (rise), remove (fade + shrink), reorder (glide) — <TransitionGroup name="list"> */
+.list-enter-active { transition: opacity var(--dur) var(--ease-out), transform var(--dur-slow) var(--ease-spring); }
+.list-leave-active { transition: opacity var(--dur-fast) var(--ease-in), transform var(--dur-fast) var(--ease-in); }
+.list-enter-from { opacity: 0; transform: translateY(6px); }
+.list-leave-to { opacity: 0; transform: scale(.98); }
+.list-move { transition: transform var(--dur-slow) var(--ease-out); }
+/* page change on the stock look (skins bring their own .skin-<name>-* classes) */
+.page-enter-active { transition: opacity var(--dur) var(--ease-out); } /* opacity only: a transform would re-anchor position:fixed descendants (FABs) */
+.page-leave-active { transition: opacity var(--dur-fast) var(--ease-in); }
+.page-enter-from { opacity: 0; }
+.page-leave-to { opacity: 0; }
+
+/* reduced motion: everything still changes state, it just does not move or fade slowly */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important; scroll-behavior: auto !important;
+  }
+}

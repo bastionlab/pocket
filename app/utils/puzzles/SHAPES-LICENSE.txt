@@ -1,0 +1,12 @@
+shapes.ts: country silhouettes for the Shape Guess game, generated from the "world-atlas" npm package, version 2.0.2
+(countries-50m.json, https://github.com/topojson/world-atlas), whose data comes from Natural Earth (naturalearthdata.com).
+
+- world-atlas: ISC licence, Copyright 2013-2019 Michael Bostock. Permission to use, copy, modify, and/or distribute this
+  software for any purpose with or without fee is hereby granted, provided that the copyright notice and this permission
+  notice appear in all copies. The software is provided "as is" without warranty of any kind.
+- Natural Earth: public domain, no permission needed.
+
+Processing: TopoJSON decoded, each country projected (equirectangular scaled by cos of its mean latitude, longitudes
+shifted across the antimeridian for Russia / Fiji), distant overseas territories and slivers under 0.8 % of the largest
+piece left out, simplified with Douglas-Peucker, written as one SVG path per country. Countries under 9,000 km2 are
+left out (no recognisable shape). The generator script is not part of the add-on.

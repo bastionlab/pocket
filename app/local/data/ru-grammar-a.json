@@ -1,0 +1,4530 @@
+[
+ {
+  "id": "ru1-pronouns",
+  "lesson": 1,
+  "title": "Pronouns and no «to be»",
+  "summary": "Eight pronouns, and Russian simply drops «am / is / are» in the present.",
+  "explain": "Russian has eight personal pronouns. In the present tense there is **no word for «am / is / are»**: you just put the pronoun and the description side by side.\n\n| | pronoun |\n|---|---|\n| I | **я** (*ya*) |\n| you (informal) | **ты** (*ty*) |\n| he | **он** (*on*) |\n| she | **она́** (*oná*) |\n| it | **оно́** (*onó*) |\n| we | **мы** (*my*) |\n| you (plural / formal) | **вы** (*vy*) |\n| they | **они́** (*oní*) |\n\n**Я студе́нт.** (*Ya studént.*) = I am a student.\n\n**Pitfalls**\n- **Я студе́нт** (*Ya studént*) is literally \"I student\". Do not look for «am».\n- **вы** (*vy*) is both \"you all\" and the polite singular \"you\"; **ты** (*ty*) is for friends, family and children (more in lesson 3).\n- **он, она́, оно́** (*on, oná, onó*) also mean \"it\", chosen by the gender of the noun (next point).\n- **я** is not capitalised in the middle of a sentence, unlike English \"I\".\n- A dash is sometimes written between two nouns (**Москва́ — столи́ца**, *Moskvá — stolítsa*), but in everyday sentences there is nothing.",
+  "examples": [
+   {
+    "t": "Я студе́нт.",
+    "tr": "Ya studént.",
+    "en": "I am a student (male)."
+   },
+   {
+    "t": "Ты до́ма.",
+    "tr": "Ty dóma.",
+    "en": "You are at home."
+   },
+   {
+    "t": "Она́ врач.",
+    "tr": "Oná vrach.",
+    "en": "She is a doctor."
+   },
+   {
+    "t": "Мы гото́вы.",
+    "tr": "My gotóvy.",
+    "en": "We are ready."
+   },
+   {
+    "t": "Они́ здесь.",
+    "tr": "Oní zdes'.",
+    "en": "They are here."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "＿＿ врач. (He is a doctor.)",
+    "options": [
+     "Он",
+     "Она́",
+     "Они́",
+     "Мы"
+    ],
+    "a": 0,
+    "why": "**он** (*on*) means «he»."
+   },
+   {
+    "type": "choice",
+    "q": "Which word means «we»?",
+    "options": [
+     "мы",
+     "вы",
+     "они́",
+     "он"
+    ],
+    "a": 0,
+    "why": "**мы** (*my*) is «we»; **вы** (*vy*) is «you (plural / formal)»."
+   },
+   {
+    "type": "choice",
+    "q": "Which pronoun is the polite or plural «you»?",
+    "options": [
+     "ты",
+     "вы",
+     "мы",
+     "она́"
+    ],
+    "a": 1,
+    "why": "**вы** (*vy*) is used for several people or politely; **ты** (*ty*) is informal."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ студе́нт. (I am a student.)",
+    "a": [
+     "я",
+     "Я"
+    ],
+    "why": "**я** (*ya*) is «I»; no word for «am» is needed."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ до́ма. (We are at home.)",
+    "a": [
+     "мы",
+     "Мы"
+    ],
+    "why": "**мы** (*my*) is «we»."
+   },
+   {
+    "type": "order",
+    "q": "Make: She is a doctor.",
+    "tokens": [
+     "Она́",
+     "врач"
+    ],
+    "a": [
+     "Она́",
+     "врач"
+    ],
+    "why": "Pronoun plus noun, with no «is»."
+   }
+  ]
+ },
+ {
+  "id": "ru1-gender",
+  "lesson": 1,
+  "title": "Gender of nouns",
+  "summary": "Every noun is masculine, feminine or neuter, and you can read it from the ending.",
+  "explain": "Every Russian noun has a gender. Usually the **last letter** tells you which.\n\n| gender | ending | example | pronoun |\n|---|---|---|---|\n| masculine | consonant, **-й**, **-ь** | **стол** (*stol*) table, **музе́й** (*muzéy*) museum, **день** (*den'*) day | **он** |\n| feminine | **-а, -я**, some **-ь** | **кни́га** (*kníga*) book, **неде́ля** (*nedélya*) week, **ночь** (*noch'*) night | **она́** |\n| neuter | **-о, -е** | **окно́** (*oknó*) window, **мо́ре** (*móre*) sea | **оно́** |\n\nThe pronoun you use for a thing follows its gender: **Где журна́л? Он здесь.** (*Gde zhurnál? On zdes'.*) \"Where is the magazine? It is here.\"\n\n**Pitfalls**\n- **-ь** can be masculine (**день**, *den'*) or feminine (**ночь**, *noch'*). Learn the gender with the word.\n- Male persons with an «-а» ending are still masculine: **па́па** (*pápa*) dad, **дя́дя** (*dyádya*) uncle: **Па́па до́ма. Он врач.**\n- Some borrowed words never change and are often neuter: **кино́** (*kinó*) cinema, **метро́** (*metró*) metro. **Ко́фе** (*kófe*) is the famous exception: it is masculine.\n- Adjectives and verbs in the past agree with gender, so it matters from the start.",
+  "examples": [
+   {
+    "t": "Где журна́л? Он до́ма.",
+    "tr": "Gde zhurnál? On dóma.",
+    "en": "Where is the magazine? It is at home."
+   },
+   {
+    "t": "Где кни́га? Она́ здесь.",
+    "tr": "Gde kníga? Oná zdes'.",
+    "en": "Where is the book? It is here."
+   },
+   {
+    "t": "Где окно́? Оно́ там.",
+    "tr": "Gde oknó? Onó tam.",
+    "en": "Where is the window? It is there."
+   },
+   {
+    "t": "Па́па до́ма. Он врач.",
+    "tr": "Pápa dóma. On vrach.",
+    "en": "Dad is at home. He is a doctor."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What gender is **кни́га**?",
+    "options": [
+     "feminine",
+     "masculine",
+     "neuter",
+     "it has none"
+    ],
+    "a": 0,
+    "why": "The ending **-а** marks a feminine noun."
+   },
+   {
+    "type": "choice",
+    "q": "What gender is **окно́**?",
+    "options": [
+     "neuter",
+     "masculine",
+     "feminine",
+     "it has none"
+    ],
+    "a": 0,
+    "why": "The ending **-о** marks a neuter noun."
+   },
+   {
+    "type": "choice",
+    "q": "Which pronoun replaces **стол**?",
+    "options": [
+     "он",
+     "она́",
+     "оно́",
+     "они́"
+    ],
+    "a": 0,
+    "why": "**стол** ends in a consonant, so it is masculine: **он**."
+   },
+   {
+    "type": "fill",
+    "q": "Где кни́га? ＿＿ здесь. (It is here.)",
+    "a": [
+     "она"
+    ],
+    "why": "**кни́га** is feminine, so **она́**."
+   },
+   {
+    "type": "fill",
+    "q": "Где окно́? ＿＿ там. (It is there.)",
+    "a": [
+     "оно"
+    ],
+    "why": "**окно́** is neuter, so **оно́**."
+   },
+   {
+    "type": "order",
+    "q": "Make: Dad is at home.",
+    "tokens": [
+     "Па́па",
+     "до́ма"
+    ],
+    "a": [
+     "Па́па",
+     "до́ма"
+    ],
+    "why": "**па́па** ends in **-а** but names a man, so it is masculine."
+   }
+  ]
+ },
+ {
+  "id": "ru1-eto-vot",
+  "lesson": 1,
+  "title": "это and вот: «this is» and «here is»",
+  "summary": "Name things with это, point at them with вот; the word never changes.",
+  "explain": "**Э́то** (*éto*) means \"this is / that is / these are\". It does **not** change for gender or number, and it needs no verb.\n\n| question | answer |\n|---|---|\n| **Что э́то?** (*Chto éto?*) What is this? | **Э́то окно́.** (*Éto oknó.*) |\n| **Кто э́то?** (*Kto éto?*) Who is this? | **Э́то А́нна.** (*Éto Ánna.*) |\n\nUse **что** (*chto*) for things and **кто** (*kto*) for people.\n\n**Вот** (*vot*) means \"here is / here are\" and is used when you point or hand something over: **Вот кни́га.** (*Vot kníga.*) \"Here is the book.\"\n\n**Pitfalls**\n- **Э́то** only **identifies**. To describe something already named, use a pronoun: **Э́то А́нна. Она́ студе́нтка.** (*Éto Ánna. Oná studéntka.*) \"This is Anna. She is a student.\"\n- **Э́то** stays the same for plurals: **Э́то столы́** (*Éto stolý*) \"These are tables\".\n- To deny, put **не** before the noun: **Э́то не стол.** (*Éto ne stol.*) \"This is not a table.\"\n- Do not confuse **э́то** (this is) with **э́тот / э́та** (this + noun), which come later.",
+  "examples": [
+   {
+    "t": "Что э́то?",
+    "tr": "Chto éto?",
+    "en": "What is this?"
+   },
+   {
+    "t": "Э́то окно́.",
+    "tr": "Éto oknó.",
+    "en": "This is a window."
+   },
+   {
+    "t": "Кто э́то? Э́то А́нна.",
+    "tr": "Kto éto? Éto Ánna.",
+    "en": "Who is this? This is Anna."
+   },
+   {
+    "t": "Вот кни́га.",
+    "tr": "Vot kníga.",
+    "en": "Here is the book."
+   },
+   {
+    "t": "Э́то не стол.",
+    "tr": "Éto ne stol.",
+    "en": "This is not a table."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you ask «What is this?»",
+    "options": [
+     "Что э́то?",
+     "Кто э́то?",
+     "Где э́то?",
+     "Что она́?"
+    ],
+    "a": 0,
+    "why": "**Что э́то?** asks about things."
+   },
+   {
+    "type": "choice",
+    "q": "Anna is a student. Choose the pronoun: Анна — студе́нтка. ＿＿ до́ма.",
+    "options": [
+     "Она́",
+     "Оно́",
+     "Он",
+     "Вот"
+    ],
+    "a": 0,
+    "why": "To describe a woman use **она́**; **э́то** only identifies."
+   },
+   {
+    "type": "choice",
+    "q": "Does **э́то** change for gender?",
+    "options": [
+     "No, never",
+     "Yes, three forms",
+     "Only in the plural",
+     "Only for people"
+    ],
+    "a": 0,
+    "why": "**Э́то** is one invariable word."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ э́то? — Э́то окно́. (What)",
+    "a": [
+     "что",
+     "Что"
+    ],
+    "why": "Things: **что**."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ э́то? — Э́то А́нна. (Who)",
+    "a": [
+     "кто",
+     "Кто"
+    ],
+    "why": "People: **кто**."
+   },
+   {
+    "type": "order",
+    "q": "Make: Here is the table.",
+    "tokens": [
+     "Вот",
+     "стол"
+    ],
+    "a": [
+     "Вот",
+     "стол"
+    ],
+    "why": "**Вот** + noun, with no verb."
+   }
+  ]
+ },
+ {
+  "id": "ru1-intro",
+  "lesson": 1,
+  "title": "Introductions: «Меня зовут…»",
+  "summary": "Say your name, ask for theirs and where you are from.",
+  "explain": "To say your name, Russians use **Меня́ зову́т …** (*Menyá zovút …*), literally \"they call me …\". To ask: **Как вас зову́т?** (*Kak vas zovút?*) to someone you address with **вы**, **Как тебя́ зову́т?** (*Kak tebyá zovút?*) with **ты**.\n\n| phrase | transliteration | meaning |\n|---|---|---|\n| **Приве́т!** | *Privét* | Hi (informal) |\n| **Здра́вствуйте!** | *Zdrávstvuyte* | Hello (formal) |\n| **Меня́ зову́т Макс.** | *Menyá zovút Maks* | My name is Max |\n| **О́чень прия́тно.** | *Óchen' priyátno* | Nice to meet you |\n| **Как дела́?** | *Kak delá* | How are things? |\n| **Хорошо́.** | *Khoroshó* | Good |\n| **Я из А́нглии.** | *Ya iz Ánglii* | I am from England |\n\n**Pitfalls**\n- **Зову́т** does not change: it is always the \"they\" form, and the name stays as it is (**Меня́ зову́т Макс**).\n- **меня́** (*menyá*) and **тебя́** (*tebyá*) are new case forms of **я** and **ты**; for now learn them as set phrases.\n- **из** (*iz*) + a country means \"from\"; the country takes a special ending (**Англия → из Англии**), which you will meet in lesson 6.\n- **Здра́вствуйте** is hard to say: the first **в** is silent, roughly *ZDRAST-vuy-tye*.",
+  "examples": [
+   {
+    "t": "Приве́т! Меня́ зову́т Макс.",
+    "tr": "Privét! Menyá zovút Maks.",
+    "en": "Hi! My name is Max."
+   },
+   {
+    "t": "Как вас зову́т?",
+    "tr": "Kak vas zovút?",
+    "en": "What is your name? (formal)"
+   },
+   {
+    "t": "Меня́ зову́т А́нна. О́чень прия́тно.",
+    "tr": "Menyá zovút Ánna. Óchen' priyátno.",
+    "en": "My name is Anna. Nice to meet you."
+   },
+   {
+    "t": "Я из А́нглии.",
+    "tr": "Ya iz Ánglii.",
+    "en": "I am from England."
+   },
+   {
+    "t": "Как дела́? — Хорошо́.",
+    "tr": "Kak delá? Khoroshó.",
+    "en": "How are you? Good."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What does **Меня́ зову́т Том** mean?",
+    "options": [
+     "My name is Tom.",
+     "I know Tom.",
+     "Tom is calling me.",
+     "Tom is my friend."
+    ],
+    "a": 0,
+    "why": "It is the standard way to give your name."
+   },
+   {
+    "type": "choice",
+    "q": "How do you politely ask a stranger's name?",
+    "options": [
+     "Как вас зову́т?",
+     "Как тебя́ зову́т?",
+     "Кто э́то?",
+     "Что вас?"
+    ],
+    "a": 0,
+    "why": "With **вы**, use **вас**."
+   },
+   {
+    "type": "choice",
+    "q": "Which phrase means «Nice to meet you»?",
+    "options": [
+     "О́чень прия́тно",
+     "Как дела́",
+     "Здра́вствуйте",
+     "Хорошо́"
+    ],
+    "a": 0,
+    "why": "**О́чень прия́тно** is said when meeting."
+   },
+   {
+    "type": "fill",
+    "q": "Меня́ ＿＿ А́нна. (is called)",
+    "a": [
+     "зовут"
+    ],
+    "why": "**Меня́ зову́т** is the fixed phrase."
+   },
+   {
+    "type": "fill",
+    "q": "Как ＿＿ зову́т? (informal «you»)",
+    "a": [
+     "тебя"
+    ],
+    "why": "With **ты** the accusative is **тебя́**."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am from England.",
+    "tokens": [
+     "Я",
+     "из",
+     "А́нглии"
+    ],
+    "a": [
+     "Я",
+     "из",
+     "А́нглии"
+    ],
+    "why": "**Я из** + country."
+   }
+  ]
+ },
+ {
+  "id": "ru2-plurals",
+  "lesson": 2,
+  "title": "Regular plurals",
+  "summary": "Masculine and feminine add -ы/-и, neuter changes -о/-е to -а/-я.",
+  "explain": "Most plurals are made by changing the ending.\n\n| singular | plural | rule |\n|---|---|---|\n| **стол** (*stol*) | **столы́** (*stolý*) | consonant + **-ы** |\n| **ла́мпа** (*lámpa*) | **ла́мпы** (*lámpy*) | **-а → -ы** |\n| **неде́ля** (*nedélya*) | **неде́ли** (*nedéli*) | **-я → -и** |\n| **музе́й** (*muzéy*) | **музе́и** (*muzéi*) | **-й → -и** |\n| **тетра́дь** (*tetrád'*) | **тетра́ди** (*tetrádi*) | **-ь → -и** |\n| **окно́** (*oknó*) | **о́кна** (*ókna*) | **-о → -а** |\n| **мо́ре** (*móre*) | **моря́** (*moryá*) | **-е → -я** |\n\nSo the pattern is: **hard** endings take **-ы / -а**, **soft** endings (**-я, -ь, -й, -е**) take **-и / -я**.\n\n**Pitfalls**\n- The **stress often moves** in the plural: **окно́ → о́кна**, **мо́ре → моря́**, **стол → столы́**. Learn the plural stress with the word.\n- Only the noun changes: **э́то** stays the same: **Э́то столы́.** (*Éto stolý.*) \"These are tables.\"\n- The plural of **музе́й** is **музе́и** (with **и**), not **музе́ы**.\n- In the plural there is no gender, so the pronoun is always **они́** (*oní*).",
+  "examples": [
+   {
+    "t": "Э́то столы́.",
+    "tr": "Éto stolý.",
+    "en": "These are tables."
+   },
+   {
+    "t": "Вот ла́мпы и о́кна.",
+    "tr": "Vot lámpy i ókna.",
+    "en": "Here are lamps and windows."
+   },
+   {
+    "t": "Там музе́и.",
+    "tr": "Tam muzéi.",
+    "en": "There are museums there."
+   },
+   {
+    "t": "Э́то тетра́ди.",
+    "tr": "Éto tetrádi.",
+    "en": "These are notebooks."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the plural of **стол**?",
+    "options": [
+     "столы́",
+     "столи́",
+     "стола́",
+     "столь́"
+    ],
+    "a": 0,
+    "why": "Hard consonant: add **-ы**."
+   },
+   {
+    "type": "choice",
+    "q": "What is the plural of **окно́**?",
+    "options": [
+     "о́кна",
+     "о́кны",
+     "о́кни",
+     "о́кно"
+    ],
+    "a": 0,
+    "why": "Neuter **-о** becomes **-а** (and the stress moves)."
+   },
+   {
+    "type": "choice",
+    "q": "What is the plural of **неде́ля**?",
+    "options": [
+     "неде́ли",
+     "неде́лы",
+     "неде́ля",
+     "неде́льи"
+    ],
+    "a": 0,
+    "why": "Soft **-я** becomes **-и**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то стол. Э́то ＿＿. (plural)",
+    "a": [
+     "столы"
+    ],
+    "why": "Hard consonant: **-ы**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то окно́. Э́то ＿＿. (plural)",
+    "a": [
+     "окна"
+    ],
+    "why": "**-о → -а**."
+   },
+   {
+    "type": "order",
+    "q": "Make: These are lamps.",
+    "tokens": [
+     "Э́то",
+     "ла́мпы"
+    ],
+    "a": [
+     "Э́то",
+     "ла́мпы"
+    ],
+    "why": "**Э́то** stays the same; the noun is plural."
+   }
+  ]
+ },
+ {
+  "id": "ru2-spelling-irregular",
+  "lesson": 2,
+  "title": "Spelling rules and irregular plurals",
+  "summary": "After г к х ж ч ш щ you write и, never ы; a few common nouns are irregular.",
+  "explain": "**Spelling rule:** after **г, к, х, ж, ч, ш, щ** Russian never writes **ы**; it writes **и** instead.\n\n| singular | plural |\n|---|---|\n| **кни́га** (*kníga*) | **кни́ги** (*knígi*) |\n| **ча́шка** (*cháshka*) cup | **ча́шки** (*cháshki*) |\n| **нож** (*nozh*) knife | **ножи́** (*nozhí*) |\n| **каранда́ш** (*karandásh*) pencil | **карандаши́** (*karandashí*) |\n\n**Common irregular plurals** (learn them as they come):\n\n| singular | plural |\n|---|---|\n| **дом** (*dom*) house | **дома́** (*domá*) |\n| **го́род** (*górod*) city | **города́** (*gorodá*) |\n| **друг** (*drug*) friend | **друзья́** (*druz'yá*) |\n| **челове́к** (*chelovék*) person | **лю́ди** (*lyúdi*) people |\n| **ребёнок** (*rebyónok*) child | **де́ти** (*déti*) children |\n\n**Pitfalls**\n- Plurals in **-а** (**дома́, города́**) are masculine nouns, not neuter.\n- **лю́ди** is the plural of **челове́к**, there is no regular plural form.\n- Some words never change: **кофе, такси́, метро́, кино́** (*kófe, taksí, metró, kinó*).",
+  "examples": [
+   {
+    "t": "Э́то кни́ги и ча́шки.",
+    "tr": "Éto knígi i cháshki.",
+    "en": "These are books and cups."
+   },
+   {
+    "t": "Вот ножи́.",
+    "tr": "Vot nozhí.",
+    "en": "Here are knives."
+   },
+   {
+    "t": "Там дома́.",
+    "tr": "Tam domá.",
+    "en": "There are houses there."
+   },
+   {
+    "t": "Там города́.",
+    "tr": "Tam gorodá.",
+    "en": "There are cities there."
+   },
+   {
+    "t": "Де́ти до́ма.",
+    "tr": "Déti dóma.",
+    "en": "The children are at home."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the plural of **кни́га**?",
+    "options": [
+     "кни́ги",
+     "кни́гы",
+     "кни́га",
+     "кни́гэ"
+    ],
+    "a": 0,
+    "why": "After **г** you write **и**, not **ы**."
+   },
+   {
+    "type": "choice",
+    "q": "Why is the plural of **каранда́ш** written **карандаши́**?",
+    "options": [
+     "After ш you write и",
+     "It is an exception",
+     "Because it is stressed",
+     "Because it is neuter"
+    ],
+    "a": 0,
+    "why": "The spelling rule: after г к х ж ч ш щ never **ы**."
+   },
+   {
+    "type": "choice",
+    "q": "What is the plural of **друг**?",
+    "options": [
+     "друзья́",
+     "други́",
+     "друга́",
+     "друзы́"
+    ],
+    "a": 0,
+    "why": "Irregular: **друг → друзья́**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то ча́шка. Э́то ＿＿. (plural)",
+    "a": [
+     "чашки"
+    ],
+    "why": "After **ш** (and **к**) write **и**: **ча́шки**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то дом. Э́то ＿＿. (plural)",
+    "a": [
+     "дома"
+    ],
+    "why": "Irregular plural **дома́**."
+   },
+   {
+    "type": "order",
+    "q": "Make: These are children.",
+    "tokens": [
+     "Э́то",
+     "де́ти"
+    ],
+    "a": [
+     "Э́то",
+     "де́ти"
+    ],
+    "why": "**Де́ти** is the plural of **ребёнок**."
+   }
+  ]
+ },
+ {
+  "id": "ru2-numbers",
+  "lesson": 2,
+  "title": "Numbers 1–20 and the noun after them",
+  "summary": "Learn 1–20 and the three noun patterns: 1 + singular, 2–4 + genitive singular, 5+ + genitive plural.",
+  "explain": "| 1–10 | | 11–20 | |\n|---|---|---|---|\n| 1 | **оди́н, одна́, одно́** (*odín, odná, odnó*) | 11 | **оди́ннадцать** (*odínnadtsat'*) |\n| 2 | **два, две** (*dva, dve*) | 12 | **двена́дцать** (*dvenádtsat'*) |\n| 3 | **три** (*tri*) | 13 | **трина́дцать** (*trinádtsat'*) |\n| 4 | **четы́ре** (*chetýre*) | 14 | **четы́рнадцать** (*chetýrnadtsat'*) |\n| 5 | **пять** (*pyat'*) | 15 | **пятна́дцать** (*pyatnádtsat'*) |\n| 6 | **шесть** (*shest'*) | 16 | **шестна́дцать** (*shestnádtsat'*) |\n| 7 | **семь** (*sem'*) | 17 | **семна́дцать** (*semnádtsat'*) |\n| 8 | **во́семь** (*vósem'*) | 18 | **восемна́дцать** (*vosemnádtsat'*) |\n| 9 | **де́вять** (*dévyat'*) | 19 | **девятна́дцать** (*devyatnádtsat'*) |\n| 10 | **де́сять** (*désyat'*) | 20 | **два́дцать** (*dvádtsat'*) |\n\n**One** agrees with the noun: **оди́н стол, одна́ кни́га, одно́ окно́**. **Two** has a feminine form: **два стола́, две ла́мпы**.\n\nThe noun after a number changes:\n- **1** (and 21, 31…): nominative singular: **оди́н стол**.\n- **2, 3, 4**: genitive singular: **два стола́, три кни́ги, четы́ре ча́шки**.\n- **5–20**: genitive plural: **пять столо́в, пять кни́г, пять ламп**.\n\n**Pitfall:** 11–14 are «teens», so they take the **5+** pattern: **оди́ннадцать кни́г**. The full genitive rules come in lesson 6; for now learn these phrases.",
+  "examples": [
+   {
+    "t": "Вот оди́н стол.",
+    "tr": "Vot odín stol.",
+    "en": "Here is one table."
+   },
+   {
+    "t": "Вот одна́ кни́га.",
+    "tr": "Vot odná kníga.",
+    "en": "Here is one book."
+   },
+   {
+    "t": "Вот два стола́ и две ла́мпы.",
+    "tr": "Vot dva stolá i dve lámpy.",
+    "en": "Here are two tables and two lamps."
+   },
+   {
+    "t": "Там пять столо́в.",
+    "tr": "Tam pyat' stolóv.",
+    "en": "There are five tables there."
+   },
+   {
+    "t": "Там пять кни́г.",
+    "tr": "Tam pyat' knig.",
+    "en": "There are five books there."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which number is «seven»?",
+    "options": [
+     "семь",
+     "шесть",
+     "восемь",
+     "де́вять"
+    ],
+    "a": 0,
+    "why": "**семь** (*sem'*) is 7."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say «two lamps»?",
+    "options": [
+     "две ла́мпы",
+     "два ла́мпы",
+     "две ла́мп",
+     "два ла́мпа"
+    ],
+    "a": 0,
+    "why": "**Лампа** is feminine, so **две**, and then the genitive singular **ла́мпы**."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say «three books»?",
+    "options": [
+     "три кни́ги",
+     "три кни́г",
+     "три кни́га",
+     "три кни́гами"
+    ],
+    "a": 0,
+    "why": "2–4 + genitive singular."
+   },
+   {
+    "type": "fill",
+    "q": "оди́н стол, ＿＿ кни́га (one)",
+    "a": [
+     "одна"
+    ],
+    "why": "**Кни́га** is feminine: **одна́**."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ окна́ (two windows)",
+    "a": [
+     "два",
+     "Два"
+    ],
+    "why": "**Окно́** is neuter, so **два**."
+   },
+   {
+    "type": "order",
+    "q": "Make: Here are five books.",
+    "tokens": [
+     "Вот",
+     "пять",
+     "кни́г"
+    ],
+    "a": [
+     "Вот",
+     "пять",
+     "кни́г"
+    ],
+    "why": "5+ takes the genitive plural **кни́г**."
+   }
+  ]
+ },
+ {
+  "id": "ru2-possessives",
+  "lesson": 2,
+  "title": "Possessives: мой, твой, наш, ваш, его, её, их",
+  "summary": "My / your / our / your change with the gender of the thing owned; his / her / their never change.",
+  "explain": "The possessive agrees with the **owned noun** (not the owner).\n\n| | masc. | fem. | neut. | plural |\n|---|---|---|---|---|\n| my | **мой** (*moy*) | **моя́** (*moyá*) | **моё** (*moyó*) | **мои́** (*moí*) |\n| your (informal) | **твой** (*tvoy*) | **твоя́** (*tvoyá*) | **твоё** (*tvoyó*) | **твои́** (*tvoí*) |\n| our | **наш** (*nash*) | **на́ша** (*násha*) | **на́ше** (*náshe*) | **на́ши** (*náshi*) |\n| your (formal / plural) | **ваш** (*vash*) | **ва́ша** (*vásha*) | **ва́ше** (*váshe*) | **ва́ши** (*váshi*) |\n\n**его́** (*yevó*) \"his\", **её** (*yeyó*) \"her\", **их** (*ikh*) \"their\" **never change**: **её кни́га, её стол, её дом**.\n\n**Pitfalls**\n- **Мой дом** \"my house\", **моя́ кни́га** \"my book\", **моё окно́** \"my window\": choose by the noun's gender.\n- **его́, её, их** are never declined, so **Э́то её брат** \"This is her brother\".\n- **его́** is pronounced *yevó* (the г sounds like в).\n- There is a separate word **свой** (*svoy*) \"one's own\" for the subject; it comes later.",
+  "examples": [
+   {
+    "t": "Э́то мой брат.",
+    "tr": "Éto moy brat.",
+    "en": "This is my brother."
+   },
+   {
+    "t": "Э́то моя́ сестра́.",
+    "tr": "Éto moyá sestrá.",
+    "en": "This is my sister."
+   },
+   {
+    "t": "Э́то на́ше окно́.",
+    "tr": "Éto náshe oknó.",
+    "en": "This is our window."
+   },
+   {
+    "t": "Вот её кни́га.",
+    "tr": "Vot yeyó kníga.",
+    "en": "Here is her book."
+   },
+   {
+    "t": "Где ва́ши ключи́?",
+    "tr": "Gde váshi klyuchí?",
+    "en": "Where are your keys?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you say «my book»?",
+    "options": [
+     "моя́ кни́га",
+     "мой кни́га",
+     "моё кни́га",
+     "мои́ кни́га"
+    ],
+    "a": 0,
+    "why": "**Кни́га** is feminine: **моя́**."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say «my table»?",
+    "options": [
+     "мой стол",
+     "моя́ стол",
+     "моё стол",
+     "мои́ стол"
+    ],
+    "a": 0,
+    "why": "**Стол** is masculine: **мой**."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say «our window»?",
+    "options": [
+     "на́ше окно́",
+     "наш окно́",
+     "на́ша окно́",
+     "на́ши окно́"
+    ],
+    "a": 0,
+    "why": "**Окно́** is neuter: **на́ше**."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ друг. (my friend, male)",
+    "a": [
+     "мой",
+     "Мой"
+    ],
+    "why": "**Друг** is masculine."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ ма́ма. (your, informal)",
+    "a": [
+     "твоя",
+     "Твоя"
+    ],
+    "why": "**Ма́ма** is feminine: **твоя́**."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is my sister.",
+    "tokens": [
+     "Э́то",
+     "моя́",
+     "сестра́"
+    ],
+    "a": [
+     "Э́то",
+     "моя́",
+     "сестра́"
+    ],
+    "why": "The possessive is feminine to match **сестра́**."
+   }
+  ]
+ },
+ {
+  "id": "ru3-conj1",
+  "lesson": 3,
+  "title": "Present tense: first conjugation (чита́ть)",
+  "summary": "Verbs in -ать/-ять take -ю, -ешь, -ет, -ем, -ете, -ют.",
+  "explain": "Russian verbs change by person. Take the infinitive **чита́ть** \"to read\", drop **-ть** to get the stem **чита-**, and add the endings:\n\n| | чита́ть (*chitát'*) |\n|---|---|\n| я | **чита́ю** (*chitáyu*) |\n| ты | **чита́ешь** (*chitáyesh'*) |\n| он / она́ | **чита́ет** (*chitáyet*) |\n| мы | **чита́ем** (*chitáyem*) |\n| вы | **чита́ете** (*chitáyete*) |\n| они́ | **чита́ют** (*chitáyut*) |\n\nThe endings are **-ю, -ешь, -ет, -ем, -ете, -ют** (written with **ю, е** because the stem ends in a vowel). The same pattern works for **де́лать** (*délat'*) \"to do\", **зна́ть** (*znat'*) \"to know\", **ду́мать** (*dúmat'*) \"to think\", **рабо́тать** (*rabótat'*) \"to work\" and **гуля́ть** (*gulyát'*) \"to walk\".\n\n**Pitfalls**\n- The **stress** stays on the same syllable in these verbs: **я рабо́таю, ты рабо́таешь**.\n- The sentence **Я чита́ю** means both \"I read\" and \"I am reading\": there is no continuous tense.\n- For **-ять** verbs the endings are the same: **гуля́ю, гуля́ешь**.\n- Not every verb in **-ать** is first conjugation (**держа́ть, слы́шать** are not), but most are.",
+  "examples": [
+   {
+    "t": "Я чита́ю.",
+    "tr": "Ya chitáyu.",
+    "en": "I read / I am reading."
+   },
+   {
+    "t": "Ты рабо́таешь.",
+    "tr": "Ty rabótayesh'.",
+    "en": "You work."
+   },
+   {
+    "t": "Она́ зна́ет.",
+    "tr": "Oná znáyet.",
+    "en": "She knows."
+   },
+   {
+    "t": "Мы ду́маем.",
+    "tr": "My dúmayem.",
+    "en": "We think."
+   },
+   {
+    "t": "Они́ гуля́ют.",
+    "tr": "Oní gulyáyut.",
+    "en": "They are walking."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Choose the form: Они́ ＿＿. (читать)",
+    "options": [
+     "чита́ют",
+     "чита́ете",
+     "чита́ет",
+     "чита́ем"
+    ],
+    "a": 0,
+    "why": "**они́** takes **-ют**."
+   },
+   {
+    "type": "choice",
+    "q": "Choose the form: Ты ＿＿. (работать)",
+    "options": [
+     "рабо́таешь",
+     "рабо́тает",
+     "рабо́таю",
+     "рабо́таем"
+    ],
+    "a": 0,
+    "why": "**ты** takes **-ешь**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ＿＿. (знать)",
+    "a": [
+     "знаю"
+    ],
+    "why": "**я** takes **-ю**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы ＿＿. (де́лать)",
+    "a": [
+     "делаем"
+    ],
+    "why": "**мы** takes **-ем**."
+   },
+   {
+    "type": "fill",
+    "q": "Она́ ＿＿. (ду́мать)",
+    "a": [
+     "думает"
+    ],
+    "why": "**она́** takes **-ет**."
+   },
+   {
+    "type": "order",
+    "q": "Make: We are walking.",
+    "tokens": [
+     "Мы",
+     "гуля́ем"
+    ],
+    "a": [
+     "Мы",
+     "гуля́ем"
+    ],
+    "why": "**мы** takes **-ем**."
+   }
+  ]
+ },
+ {
+  "id": "ru3-conj2",
+  "lesson": 3,
+  "title": "Present tense: second conjugation (говори́ть)",
+  "summary": "Verbs in -ить take -ю/-у, -ишь, -ит, -им, -ите, -ят/-ат.",
+  "explain": "The second conjugation has a different set of endings. Most verbs in **-ить** belong here, plus a few in **-еть/-ать**.\n\n| | говори́ть (*govorít'*) | звони́ть (*zvonít'*) |\n|---|---|---|\n| я | **говорю́** (*govoryú*) | **звоню́** (*zvonyú*) |\n| ты | **говори́шь** (*govorísh'*) | **звони́шь** (*zvonísh'*) |\n| он / она́ | **говори́т** (*govorít*) | **звони́т** (*zvonít*) |\n| мы | **говори́м** (*govorím*) | **звони́м** (*zvoním*) |\n| вы | **говори́те** (*govoríte*) | **звони́те** (*zvoníte*) |\n| они́ | **говоря́т** (*govoryát*) | **звоня́т** (*zvonyát*) |\n\nThe endings: **-ю (-у), -ишь, -ит, -им, -ите, -ят (-ат)**. In the last form after **ж, ч, ш, щ** you write **-ат** (**слы́шать: слы́шат**).\n\n**Pitfalls**\n- Some verbs move the stress: **смотре́ть** \"to watch\": **смотрю́, смо́тришь, смо́трит, смо́трим, смо́трите, смо́трят**.\n- With **ж, ч, ш, щ** you write **-у** instead of **-ю** (**учу́**, *uchú*).\n- Do not mix up the two conjugations: **чита́ешь** (1st) but **говори́шь** (2nd).\n- Example: **Я говорю́ по-ру́сски.** (*Ya govoryú po-rússki.*) \"I speak Russian.\"\n",
+  "examples": [
+   {
+    "t": "Я говорю́ по-ру́сски.",
+    "tr": "Ya govoryú po-rússki.",
+    "en": "I speak Russian."
+   },
+   {
+    "t": "Ты говори́шь хорошо́.",
+    "tr": "Ty govorísh' khoroshó.",
+    "en": "You speak well."
+   },
+   {
+    "t": "Она́ звони́т.",
+    "tr": "Oná zvonít.",
+    "en": "She is calling."
+   },
+   {
+    "t": "Мы говори́м.",
+    "tr": "My govorím.",
+    "en": "We are speaking."
+   },
+   {
+    "t": "Они́ говоря́т по-англи́йски.",
+    "tr": "Oní govoryát po-anglíyski.",
+    "en": "They speak English."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Choose the form: Я ＿＿. (говорить)",
+    "options": [
+     "говорю́",
+     "говори́ю",
+     "говори́шь",
+     "говоря́т"
+    ],
+    "a": 0,
+    "why": "**я** takes **-ю**: **говорю́**."
+   },
+   {
+    "type": "choice",
+    "q": "Choose the form: Они́ ＿＿. (говорить)",
+    "options": [
+     "говоря́т",
+     "говорю́т",
+     "говори́т",
+     "говори́м"
+    ],
+    "a": 0,
+    "why": "2nd conjugation **они́**: **-ят**."
+   },
+   {
+    "type": "fill",
+    "q": "Ты ＿＿. (говори́ть)",
+    "a": [
+     "говоришь"
+    ],
+    "why": "**ты** takes **-ишь**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы ＿＿. (звони́ть)",
+    "a": [
+     "звоним"
+    ],
+    "why": "**мы** takes **-им**."
+   },
+   {
+    "type": "fill",
+    "q": "Она́ ＿＿. (звони́ть)",
+    "a": [
+     "звонит"
+    ],
+    "why": "**она́** takes **-ит**."
+   },
+   {
+    "type": "order",
+    "q": "Make: They speak Russian.",
+    "tokens": [
+     "Они́",
+     "говоря́т",
+     "по-ру́сски"
+    ],
+    "a": [
+     "Они́",
+     "говоря́т",
+     "по-ру́сски"
+    ],
+    "why": "**они́** takes **-ят** in the second conjugation."
+   }
+  ]
+ },
+ {
+  "id": "ru3-ty-vy",
+  "lesson": 3,
+  "title": "ты or вы?",
+  "summary": "ты for friends and family, вы for strangers, elders and groups; the verb follows.",
+  "explain": "Russian has two words for \"you\":\n\n| | who | pronoun | verb |\n|---|---|---|---|\n| informal | friends, family, children, peers | **ты** (*ty*) | **ты говори́шь** (*ty govoríshʼ*) |\n| formal | strangers, elders, officials, one person you respect | **вы** (*vy*) | **вы говори́те** (*vy govoríte*) |\n| plural | two or more people, always | **вы** (*vy*) | **вы говори́те** |\n\nWhen you address one person politely, the **verb is still plural**: **Вы рабо́таете?** (*Vy rabótayete?*) is one respected person or a group.\n\n**Pitfalls**\n- When in doubt with an adult stranger, use **вы**. Switching to **ты** is a step: \"**Давайте на ты**\" (*Davayte na ty*, let's use ты).\n- In a polite letter, **Вы** is capitalised.\n- Shop assistants, officials, teachers and colleagues are usually **вы**.\n- **Здра́вствуйте** (*Zdrávstvuyte*) is the formal hello; **Приве́т** (*Privét*) is for **ты**.",
+  "examples": [
+   {
+    "t": "Приве́т, ты рабо́таешь?",
+    "tr": "Privét, ty rabótayesh'?",
+    "en": "Hi, are you working? (informal)"
+   },
+   {
+    "t": "Здра́вствуйте, вы рабо́таете?",
+    "tr": "Zdrávstvuyte, vy rabótayete?",
+    "en": "Hello, are you working? (formal)"
+   },
+   {
+    "t": "Де́ти, вы говори́те по-ру́сски?",
+    "tr": "Déti, vy govoríte po-rússki?",
+    "en": "Children, do you speak Russian?"
+   },
+   {
+    "t": "Извини́те, вы зна́ете?",
+    "tr": "Izviníte, vy znáyete?",
+    "en": "Excuse me, do you know?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which pronoun do you use for a friend of your own age?",
+    "options": [
+     "ты",
+     "вы",
+     "он",
+     "мы"
+    ],
+    "a": 0,
+    "why": "Friends use **ты**."
+   },
+   {
+    "type": "choice",
+    "q": "Which pronoun do you use for a teacher you meet for the first time?",
+    "options": [
+     "вы",
+     "ты",
+     "они́",
+     "я"
+    ],
+    "a": 0,
+    "why": "A respected stranger gets **вы**."
+   },
+   {
+    "type": "choice",
+    "q": "You are talking to two friends. Which pronoun?",
+    "options": [
+     "вы",
+     "ты",
+     "мы",
+     "он"
+    ],
+    "a": 0,
+    "why": "**вы** is also the plural."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ говори́шь по-ру́сски? (informal)",
+    "a": [
+     "ты",
+     "Ты"
+    ],
+    "why": "**говори́шь** goes with **ты**."
+   },
+   {
+    "type": "fill",
+    "q": "Вы чита́＿＿. (ending)",
+    "a": [
+     "ете"
+    ],
+    "why": "**вы** takes **-ете**."
+   },
+   {
+    "type": "order",
+    "q": "Make: Do you (formal) speak Russian?",
+    "tokens": [
+     "Вы",
+     "говори́те",
+     "по-ру́сски"
+    ],
+    "a": [
+     "Вы",
+     "говори́те",
+     "по-ру́сски"
+    ],
+    "why": "**вы** takes **-ите** in the second conjugation."
+   }
+  ]
+ },
+ {
+  "id": "ru3-adverbs-order",
+  "lesson": 3,
+  "title": "Adverbs and word order",
+  "summary": "Adverbs usually sit before the verb; Russian word order is flexible and puts new information last.",
+  "explain": "Adverbs say how, how often or where. Many come from adjectives by changing the ending to **-о**.\n\n| adverb | meaning |\n|---|---|\n| **хорошо́** (*khoroshó*) | well |\n| **пло́хо** (*plókho*) | badly |\n| **бы́стро** (*býstro*) | fast |\n| **ме́дленно** (*médlenno*) | slowly |\n| **ча́сто** (*chásto*) | often |\n| **ре́дко** (*rédko*) | rarely |\n| **всегда́** (*vsegdá*) | always |\n| **никогда́** (*nikogdá*) | never |\n| **о́чень** (*óchen'*) | very |\n\n**Word order.** The neutral order is **subject – verb – object**, like English: **Я чита́ю кни́гу.** An adverb of manner or frequency usually goes **before the verb**: **Я хорошо́ говорю́**, **Она́ ча́сто чита́ет**. Because the endings show the roles, the order is flexible: the new or important word goes **last**. **Кни́гу чита́ет А́нна** stresses *Anna*.\n\n**Pitfalls**\n- **хорошо́** (*khoroshó*) is an adverb; the adjective is **хоро́ший** (*khoróshiy*).\n- **о́чень** (*óchen'*) \"very\" goes before the word it modifies: **о́чень бы́стро**.\n- Do not put the adverb between verb and object as English often does: say **Я хорошо́ зна́ю ру́сский**, not \"I know well Russian\".",
+  "examples": [
+   {
+    "t": "Я хорошо́ говорю́ по-ру́сски.",
+    "tr": "Ya khoroshó govoryú po-rússki.",
+    "en": "I speak Russian well."
+   },
+   {
+    "t": "Она́ ча́сто чита́ет.",
+    "tr": "Oná chásto chitáyet.",
+    "en": "She often reads."
+   },
+   {
+    "t": "Мы всегда́ до́ма.",
+    "tr": "My vsegdá dóma.",
+    "en": "We are always at home."
+   },
+   {
+    "t": "Они́ ме́дленно говоря́т.",
+    "tr": "Oní médlenno govoryát.",
+    "en": "They speak slowly."
+   },
+   {
+    "t": "Ты о́чень бы́стро рабо́таешь.",
+    "tr": "Ty óchen' býstro rabótayesh'.",
+    "en": "You work very fast."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which word means «well» (adverb)?",
+    "options": [
+     "хорошо́",
+     "хоро́ший",
+     "хоро́шая",
+     "хоро́шее"
+    ],
+    "a": 0,
+    "why": "**хорошо́** is the adverb."
+   },
+   {
+    "type": "choice",
+    "q": "Which word means «never»?",
+    "options": [
+     "никогда́",
+     "всегда́",
+     "ча́сто",
+     "ре́дко"
+    ],
+    "a": 0,
+    "why": "**никогда́** (*nikogdá*)."
+   },
+   {
+    "type": "choice",
+    "q": "Which word means «often»?",
+    "options": [
+     "ча́сто",
+     "ре́дко",
+     "всегда́",
+     "о́чень"
+    ],
+    "a": 0,
+    "why": "**ча́сто** (*chásto*)."
+   },
+   {
+    "type": "fill",
+    "q": "Я ＿＿ говорю́ по-ру́сски. (badly)",
+    "a": [
+     "плохо"
+    ],
+    "why": "**пло́хо** is «badly»."
+   },
+   {
+    "type": "fill",
+    "q": "Мы ＿＿ до́ма. (always)",
+    "a": [
+     "всегда"
+    ],
+    "why": "**всегда́** is «always»."
+   },
+   {
+    "type": "order",
+    "q": "Make: She often reads.",
+    "tokens": [
+     "Она́",
+     "ча́сто",
+     "чита́ет"
+    ],
+    "a": [
+     "Она́",
+     "ча́сто",
+     "чита́ет"
+    ],
+    "why": "Adverb before the verb."
+   }
+  ]
+ },
+ {
+  "id": "ru3-negation",
+  "lesson": 3,
+  "title": "Negation with не",
+  "summary": "Put не before the word you deny; Russian uses double negatives: никто не, ничего не, никогда не.",
+  "explain": "To make a sentence negative put **не** (*ne*) directly **before** the word you deny, usually the verb.\n\n- **Я зна́ю.** → **Я не зна́ю.** (*Ya ne znáyu.*) \"I don't know.\"\n- **Э́то стол.** → **Э́то не стол.** (*Éto ne stol.*) \"This is not a table.\"\n\n**Double negatives are required.** If the sentence has a negative word like **никто́** or **никогда́**, you must also say **не** before the verb.\n\n| negative word | meaning | example |\n|---|---|---|\n| **никто́** (*nikto*) | nobody | **Никто́ не зна́ет.** |\n| **ничего́** (*nichevó*) | nothing | **Я ничего́ не зна́ю.** |\n| **никогда́** (*nikogdá*) | never | **Я никогда́ не рабо́таю.** |\n| **нигде́** (*nigdé*) | nowhere | **Я нигде́ не рабо́таю.** |\n\n**Pitfalls**\n- English \"Nobody knows\" is **Никто́ не зна́ет** (*Nikto ne znáyet*): without **не** the sentence is wrong.\n- **не** is a separate word and is **unstressed**: it leans on the verb, so **не зна́ю** is said almost as one word.\n- **нет** (*net*) is \"no\" or \"there is not\"; **не** is the particle before words.\n- **Нет** alone is the answer \"no\": **— Ты зна́ешь? — Нет, не зна́ю.**",
+  "examples": [
+   {
+    "t": "Я не понима́ю.",
+    "tr": "Ya ne ponimáyu.",
+    "en": "I do not understand."
+   },
+   {
+    "t": "Она́ не рабо́тает.",
+    "tr": "Oná ne rabótayet.",
+    "en": "She does not work."
+   },
+   {
+    "t": "Э́то не стол.",
+    "tr": "Éto ne stol.",
+    "en": "This is not a table."
+   },
+   {
+    "t": "Я никогда́ не говорю́ по-францу́зски.",
+    "tr": "Ya nikogdá ne govoryú po-frantsúzski.",
+    "en": "I never speak French."
+   },
+   {
+    "t": "Никто́ не зна́ет.",
+    "tr": "Nikto ne znáyet.",
+    "en": "Nobody knows."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you say «I don't know»?",
+    "options": [
+     "Я не зна́ю",
+     "Я нет зна́ю",
+     "Не я зна́ю",
+     "Я зна́ю нет"
+    ],
+    "a": 0,
+    "why": "**не** goes right before the verb."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say «Nobody knows»?",
+    "options": [
+     "Никто́ не зна́ет",
+     "Никто́ зна́ет",
+     "Кто не зна́ет",
+     "Никто́ нет зна́ет"
+    ],
+    "a": 0,
+    "why": "Russian needs **не** as well as **никто́**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ＿＿ зна́ю. (don't)",
+    "a": [
+     "не"
+    ],
+    "why": "**не** before the verb."
+   },
+   {
+    "type": "fill",
+    "q": "Она́ никогда́ ＿＿ рабо́тает. (not)",
+    "a": [
+     "не"
+    ],
+    "why": "**никогда́** needs **не**."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ не зна́ет. (Nobody)",
+    "a": [
+     "никто",
+     "Никто"
+    ],
+    "why": "**никто́** is «nobody»."
+   },
+   {
+    "type": "order",
+    "q": "Make: I do not understand.",
+    "tokens": [
+     "Я",
+     "не",
+     "понима́ю"
+    ],
+    "a": [
+     "Я",
+     "не",
+     "понима́ю"
+    ],
+    "why": "**не** before the verb."
+   }
+  ]
+ },
+ {
+  "id": "ru4-accusative",
+  "lesson": 4,
+  "title": "Accusative: the direct object",
+  "summary": "Feminine -а/-я becomes -у/-ю; masculine and neuter inanimate nouns stay the same.",
+  "explain": "The **accusative** case marks the direct object: what you read, see, love. Only some nouns change.\n\n| gender | nominative | accusative |\n|---|---|---|\n| feminine **-а** | **кни́га** (*kníga*) | **кни́гу** (*knígu*) |\n| feminine **-я** | **неде́ля** (*nedélya*) | **неде́лю** (*nedélyu*) |\n| feminine **-ь** | **дверь** (*dver'*) | **дверь** (no change) |\n| masculine (thing) | **стол** (*stol*) | **стол** (no change) |\n| neuter | **окно́** (*oknó*) | **окно́** (no change) |\n| plural (things) | **кни́ги** | **кни́ги** (no change) |\n\n**Pronouns** have their own forms:\n\n| I | you | he / it | she | we | you (pl.) | they |\n|---|---|---|---|---|---|---|\n| **меня́** | **тебя́** | **его́** | **её** | **нас** | **вас** | **их** |\n\n**Pitfalls**\n- Only feminine **-а/-я** nouns change in the singular: **Я чита́ю кни́гу, Я ви́жу сестру́**.\n- With **мой, ваш, э́та, но́вая** the feminine ending changes as well: **Я ви́жу ва́шу сестру́** \"I see your sister\". (**ва́ша → ва́шу**)\n- Never put **вас, меня́, тебя́** in the nominative: **Я зна́ю тебя́**, not \"я знаю ты\".\n- The case is not marked in the dictionary form, so for masculine things you cannot see a change.",
+  "examples": [
+   {
+    "t": "Я чита́ю кни́гу.",
+    "tr": "Ya chitáyu knígu.",
+    "en": "I am reading a book."
+   },
+   {
+    "t": "Она́ лю́бит му́зыку.",
+    "tr": "Oná lyúbit múzyku.",
+    "en": "She loves music."
+   },
+   {
+    "t": "Мы смо́трим фильм.",
+    "tr": "My smótrim fil'm.",
+    "en": "We are watching a film."
+   },
+   {
+    "t": "Он пи́шет письмо́.",
+    "tr": "On píshet pis'mó.",
+    "en": "He is writing a letter."
+   },
+   {
+    "t": "Я ви́жу ва́шу сестру́.",
+    "tr": "Ya vízhu váshu sestrú.",
+    "en": "I see your sister."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Я чита́ю ＿＿. (книга)",
+    "options": [
+     "кни́гу",
+     "кни́га",
+     "кни́ги",
+     "кни́ге"
+    ],
+    "a": 0,
+    "why": "Feminine **-а** → **-у** in the accusative."
+   },
+   {
+    "type": "choice",
+    "q": "Она́ пи́шет ＿＿. (письмо́)",
+    "options": [
+     "письмо́",
+     "письму́",
+     "письма́",
+     "письмо́й"
+    ],
+    "a": 0,
+    "why": "Neuter nouns stay the same."
+   },
+   {
+    "type": "fill",
+    "q": "Я люблю́ ＿＿. (му́зыка)",
+    "a": [
+     "музыку"
+    ],
+    "why": "**-а → -у**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы смо́трим ＿＿. (кино́)",
+    "a": [
+     "кино"
+    ],
+    "why": "Neuter: no change."
+   },
+   {
+    "type": "fill",
+    "q": "Он зна́ет ＿＿. (я)",
+    "a": [
+     "меня"
+    ],
+    "why": "Accusative of **я**."
+   },
+   {
+    "type": "order",
+    "q": "Make: I see her.",
+    "tokens": [
+     "Я",
+     "ви́жу",
+     "её"
+    ],
+    "a": [
+     "Я",
+     "ви́жу",
+     "её"
+    ],
+    "why": "The accusative of **она́** is **её**."
+   }
+  ]
+ },
+ {
+  "id": "ru4-animate",
+  "lesson": 4,
+  "title": "Accusative of animate masculine nouns",
+  "summary": "For people and animals, masculine accusative looks like the genitive (-а/-я).",
+  "explain": "For **inanimate** masculine nouns the accusative is the same as the nominative: **Я ви́жу стол.** For **animate** masculine nouns (people and animals) the accusative takes the **-а / -я** ending (the genitive form).\n\n| nominative | accusative |\n|---|---|\n| **стол** (*stol*) table | **стол** (thing: no change) |\n| **брат** (*brat*) brother | **бра́та** (*bráta*) |\n| **друг** (*drug*) friend | **дру́га** (*drúga*) |\n| **студе́нт** (*studént*) student | **студе́нта** (*studénta*) |\n| **учи́тель** (*uchítel'*) teacher | **учи́теля** (*uchítelya*) |\n| **кот** (*kot*) cat | **кота́** (*kotá*) |\n\nFeminine animate nouns follow the normal rule: **соба́ка → соба́ку** (*sobáka → sobáku*).\n\n**Pitfalls**\n- Compare: **Я ви́жу стол** (thing, no change) and **Я ви́жу бра́та** (person, **-а**).\n- Animate or not is a question of grammar, not biology: for masculine words only people and animals count.\n- Plural: animate nouns also take the genitive plural in the accusative; you will see this in lesson 6.\n- Words like **па́па** and **дя́дя** are masculine, but their accusative is **па́пу**, **дя́дю** (following the ending).",
+  "examples": [
+   {
+    "t": "Я ви́жу бра́та.",
+    "tr": "Ya vízhu bráta.",
+    "en": "I see my brother."
+   },
+   {
+    "t": "Она́ зна́ет студе́нта.",
+    "tr": "Oná znáyet studénta.",
+    "en": "She knows the student."
+   },
+   {
+    "t": "Мы лю́бим учи́теля.",
+    "tr": "My lyúbim uchítelya.",
+    "en": "We love the teacher."
+   },
+   {
+    "t": "Ты ви́дишь соба́ку и кота́?",
+    "tr": "Ty vídish' sobáku i kotá?",
+    "en": "Do you see the dog and the cat?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Я ви́жу ＿＿. (стол)",
+    "options": [
+     "стол",
+     "сто́ла",
+     "столу́",
+     "столо́м"
+    ],
+    "a": 0,
+    "why": "A table is inanimate: no change."
+   },
+   {
+    "type": "choice",
+    "q": "Я ви́жу ＿＿. (брат)",
+    "options": [
+     "бра́та",
+     "брат",
+     "бра́ту",
+     "бра́том"
+    ],
+    "a": 0,
+    "why": "A person: accusative like genitive **-а**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы ви́дим ＿＿. (студе́нт)",
+    "a": [
+     "студента"
+    ],
+    "why": "Animate masculine: **-а**."
+   },
+   {
+    "type": "fill",
+    "q": "Он лю́бит ＿＿. (соба́ка)",
+    "a": [
+     "собаку"
+    ],
+    "why": "Feminine **-а → -у**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ви́жу ＿＿. (дом)",
+    "a": [
+     "дом"
+    ],
+    "why": "A house is inanimate."
+   },
+   {
+    "type": "order",
+    "q": "Make: I see the brother.",
+    "tokens": [
+     "Я",
+     "ви́жу",
+     "бра́та"
+    ],
+    "a": [
+     "Я",
+     "ви́жу",
+     "бра́та"
+    ],
+    "why": "Animate masculine takes **-а**."
+   }
+  ]
+ },
+ {
+  "id": "ru4-question-words",
+  "lesson": 4,
+  "title": "Question words",
+  "summary": "кто, что, где, куда, когда, почему, как and сколько open every question.",
+  "explain": "Question words come at the **start** of the sentence; the rest is a normal statement.\n\n| word | meaning |\n|---|---|\n| **кто** (*kto*) | who |\n| **что** (*chto*) | what (said *shto*) |\n| **где** (*gde*) | where (location) |\n| **куда́** (*kudá*) | where to (direction) |\n| **когда́** (*kogdá*) | when |\n| **почему́** (*pochemú*) | why |\n| **как** (*kak*) | how |\n| **ско́лько** (*skól'ko*) | how many / how much |\n\n**Pitfalls**\n- **Где** asks about **position** (**Где ты?** \"Where are you?\"), **куда́** about **movement** (**Куда́ ты идёшь?** \"Where are you going?\").\n- **кто** takes a masculine singular verb even if you expect a crowd: **Кто там?** (*Kto tam?*)\n- **что** is pronounced *shto*, not *chto*.\n- **почему́** (*pochemú*) asks the reason; the answer starts with **потому́ что** \"because\" (lesson 11).\n- A question word replaces the part you ask about: **Он рабо́тает до́ма.** → **Где он рабо́тает?**",
+  "examples": [
+   {
+    "t": "Что ты де́лаешь?",
+    "tr": "Chto ty délayesh'?",
+    "en": "What are you doing?"
+   },
+   {
+    "t": "Где твой брат?",
+    "tr": "Gde tvoy brat?",
+    "en": "Where is your brother?"
+   },
+   {
+    "t": "Куда́ вы идёте?",
+    "tr": "Kudá vy idyóte?",
+    "en": "Where are you going?"
+   },
+   {
+    "t": "Когда́ ты рабо́таешь?",
+    "tr": "Kogdá ty rabótayesh'?",
+    "en": "When do you work?"
+   },
+   {
+    "t": "Почему́ она́ не рабо́тает?",
+    "tr": "Pochemú oná ne rabótayet?",
+    "en": "Why is she not working?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which word asks «why»?",
+    "options": [
+     "Почему́",
+     "Когда́",
+     "Куда́",
+     "Как"
+    ],
+    "a": 0,
+    "why": "**почему́** is «why»."
+   },
+   {
+    "type": "choice",
+    "q": "Which word asks «where to»?",
+    "options": [
+     "Куда́",
+     "Где",
+     "Когда́",
+     "Кто"
+    ],
+    "a": 0,
+    "why": "**куда́** = direction."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ ты де́лаешь? (What)",
+    "a": [
+     "что",
+     "Что"
+    ],
+    "why": "**что** is «what»."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ твой брат? (Where)",
+    "a": [
+     "где",
+     "Где"
+    ],
+    "why": "**где** is «where»."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ э́то? (Who)",
+    "a": [
+     "кто",
+     "Кто"
+    ],
+    "why": "**кто** is «who»."
+   },
+   {
+    "type": "order",
+    "q": "Make: Where do you work?",
+    "tokens": [
+     "Где",
+     "ты",
+     "рабо́таешь"
+    ],
+    "a": [
+     "Где",
+     "ты",
+     "рабо́таешь"
+    ],
+    "why": "Question word first, then a normal statement."
+   }
+  ]
+ },
+ {
+  "id": "ru4-yes-no",
+  "lesson": 4,
+  "title": "Yes/no questions: intonation and ли",
+  "summary": "Keep the word order and raise your voice, or put ли after the word you ask about.",
+  "explain": "To ask a yes/no question you do not need to change the word order. You **raise the intonation** on the key word:\n\n- **Э́то стол.** → **Э́то стол?** (*Éto stol?*) \"Is this a table?\"\n- **Ты зна́ешь А́нну?** (*Ty znáyesh' Ánnu?*) \"Do you know Anna?\"\n\nThe pitch rises on the word you ask about; the rest is flat, and falls at the end.\n\n**The particle ли** (*li*) is more formal. Put the word you ask about first, then **ли**: **Рабо́таешь ли ты до́ма?** (*Rabótayesh' li ty dóma?*) \"Do you work at home?\" It also introduces indirect questions: **Я не зна́ю, рабо́тает ли он.** \"I don't know whether he works.\"\n\n**Answers**\n- **Да.** (*Da.*) \"Yes.\" / **Да, рабо́таю.** (*Da, rabótayu.*) \"Yes, I do.\" Russians usually repeat the verb.\n- **Нет, не рабо́таю.** (*Net, ne rabótayu.*) \"No, I don't.\"\n\n**Pitfalls**\n- Do not look for **do/does**; Russian has no auxiliary in questions.\n- **ли** is never first in the sentence, and it **always follows** the word being asked about: **Зна́ете ли вы, где вокза́л?**\n- In writing, only the **?** marks the question, so read the intonation aloud.",
+  "examples": [
+   {
+    "t": "Э́то стол? — Да, э́то стол.",
+    "tr": "Éto stol? Da, éto stol.",
+    "en": "Is this a table? Yes, it's a table."
+   },
+   {
+    "t": "Ты зна́ешь А́нну? — Нет, не зна́ю.",
+    "tr": "Ty znáyesh' Ánnu? Net, ne znáyu.",
+    "en": "Do you know Anna? No, I don't."
+   },
+   {
+    "t": "Рабо́таешь ли ты до́ма?",
+    "tr": "Rabótayesh' li ty dóma?",
+    "en": "Do you work at home?"
+   },
+   {
+    "t": "Вы говори́те по-ру́сски? — Да, немно́го.",
+    "tr": "Vy govoríte po-rússki? Da, nemnógo.",
+    "en": "Do you speak Russian? Yes, a little."
+   },
+   {
+    "t": "Зна́ете ли вы, где вокза́л?",
+    "tr": "Znáyete li vy, gde vokzál?",
+    "en": "Do you know where the station is?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you turn **Он до́ма.** into a question?",
+    "options": [
+     "Raise the intonation: Он до́ма?",
+     "Change the order to Дома он?",
+     "Add **не**",
+     "Add **нет**"
+    ],
+    "a": 0,
+    "why": "Same words, rising intonation."
+   },
+   {
+    "type": "choice",
+    "q": "Where does **ли** go?",
+    "options": [
+     "After the word you ask about",
+     "At the very end",
+     "Before the verb always",
+     "At the beginning of the sentence"
+    ],
+    "a": 0,
+    "why": "**ли** follows the key word."
+   },
+   {
+    "type": "choice",
+    "q": "«Ты зна́ешь А́нну?» — How do you answer «No»?",
+    "options": [
+     "Нет, не зна́ю",
+     "Нет, зна́ю",
+     "Не, нет зна́ю",
+     "Да, не зна́ю"
+    ],
+    "a": 0,
+    "why": "Say **нет** and keep **не** before the verb."
+   },
+   {
+    "type": "fill",
+    "q": "Зна́ешь ＿＿ ты? (question particle)",
+    "a": [
+     "ли"
+    ],
+    "why": "**ли** marks a question."
+   },
+   {
+    "type": "fill",
+    "q": "Ты рабо́таешь? — ＿＿, рабо́таю. (Yes)",
+    "a": [
+     "да"
+    ],
+    "why": "**да** is yes."
+   },
+   {
+    "type": "order",
+    "q": "Make: Do you know Anna?",
+    "tokens": [
+     "Ты",
+     "зна́ешь",
+     "А́нну"
+    ],
+    "a": [
+     "Ты",
+     "зна́ешь",
+     "А́нну"
+    ],
+    "why": "Rising intonation, normal order."
+   }
+  ]
+ },
+ {
+  "id": "ru5-prepositional",
+  "lesson": 5,
+  "title": "Prepositional case: в, на + place",
+  "summary": "After в and на (location) nouns take -е; some take -и or -у.",
+  "explain": "The **prepositional** case answers **«Где?»** (where?) after **в** \"in\" and **на** \"on / at\". It is only used **with a preposition**.\n\n| ending (nom.) | prepositional | example |\n|---|---|---|\n| masculine consonant | **-е** | **дом → в до́ме** (*v dóme*) |\n| feminine **-а** | **-е** | **Москва́ → в Москве́** (*v Moskvé*) |\n| feminine **-я** | **-е** | **неде́ля → на неде́ле** |\n| neuter **-о** | **-е** | **окно́ → на окне́** (*na okné*) |\n| **-ия, -ие, -ий** | **-ии** | **Росси́я → в Росси́и** (*v Rossíi*) |\n| feminine **-ь** | **-и** | **тетра́дь → в тетра́ди** |\n| neuter **-е** | **-е** | **мо́ре → в мо́ре** |\n\n**Pitfalls**\n- A few masculine nouns take stressed **-у** after **в / на**: **в саду́** (*v sadú*) in the garden, **в лесу́** (*v lesú*) in the forest, **на мосту́** on the bridge, **в углу́** in the corner.\n- The stress may shift: **стол → на столе́** (*na stolé*).\n- A noun in **-ие / -ия** ends in **-ии** in the prepositional: **в Росси́и**, **в Ита́лии**.\n- Do not use **в Москву́** for \"in Moscow\": that is \"to Moscow\" (see «где vs куда» below).",
+  "examples": [
+   {
+    "t": "Я живу́ в Москве́.",
+    "tr": "Ya zhivú v Moskvé.",
+    "en": "I live in Moscow."
+   },
+   {
+    "t": "Кни́га на столе́.",
+    "tr": "Kníga na stolé.",
+    "en": "The book is on the table."
+   },
+   {
+    "t": "Она́ в шко́ле.",
+    "tr": "Oná v shkóle.",
+    "en": "She is at school."
+   },
+   {
+    "t": "Мы в Росси́и.",
+    "tr": "My v Rossíi.",
+    "en": "We are in Russia."
+   },
+   {
+    "t": "Он в саду́.",
+    "tr": "On v sadú.",
+    "en": "He is in the garden."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "в ＿＿ (Москва́)",
+    "options": [
+     "Москве́",
+     "Москву́",
+     "Москва́",
+     "Москвы́"
+    ],
+    "a": 0,
+    "why": "Feminine **-а → -е**."
+   },
+   {
+    "type": "choice",
+    "q": "на ＿＿ (стол)",
+    "options": [
+     "столе́",
+     "столу́",
+     "стола́",
+     "столом́"
+    ],
+    "a": 0,
+    "why": "Masculine consonant: **-е**."
+   },
+   {
+    "type": "fill",
+    "q": "Я в ＿＿. (шко́ла)",
+    "a": [
+     "школе"
+    ],
+    "why": "Feminine **-а → -е**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы живём в ＿＿. (го́род)",
+    "a": [
+     "городе"
+    ],
+    "why": "Masculine: **-е**."
+   },
+   {
+    "type": "fill",
+    "q": "Я в ＿＿. (дом)",
+    "a": [
+     "доме"
+    ],
+    "why": "Masculine: **-е**."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am at school.",
+    "tokens": [
+     "Я",
+     "в",
+     "шко́ле"
+    ],
+    "a": [
+     "Я",
+     "в",
+     "шко́ле"
+    ],
+    "why": "**в** + prepositional."
+   }
+  ]
+ },
+ {
+  "id": "ru5-v-na",
+  "lesson": 5,
+  "title": "в or на? and о + prepositional",
+  "summary": "В for enclosed spaces, на for open spaces and events; о/об for «about».",
+  "explain": "**в** means \"in (a closed space)\", **на** means \"on / at (a surface, an open space, an event)\". Most places take **в**, but many take **на** and you must learn them.\n\n| в + place | на + place |\n|---|---|\n| **в магази́не** (*v magazíne*) | **на рабо́те** (*na rabóte*) at work |\n| **в шко́ле** (*v shkóle*) | **на у́лице** (*na úlitse*) outside |\n| **в университе́те** (*v universitéte*) | **на конце́рте** (*na kontsérte*) |\n| **в кафе́** (*v kafé*) | **на ку́хне** (*na kúkhne*) in the kitchen |\n\n**о / об + prepositional** means \"about\": **Я говорю́ о кни́ге** (*o kníge*). Use **об** before a vowel: **об А́нне** (*ob Ánne*). **обо** appears before **мне**: **обо мне**.\n\n| about | form |\n|---|---|\n| me | **обо мне́** (*obo mné*) |\n| you | **о тебе́** (*o tebé*) |\n| him / it | **о нём** (*o nyom*) |\n| her | **о ней** (*o ney*) |\n| us / you / them | **о нас, о вас, о них** |\n\n**Pitfalls**\n- **на рабо́те** (not «в»). Likewise **на вокза́ле** and **на фа́брике**.\n- **о** and **об** are about sound: **о кни́ге** but **об А́нне**.\n- **нём** and **ней** contain **-н-** (after a preposition **его** and **её** become **нём**, **ней**).",
+  "examples": [
+   {
+    "t": "Я на рабо́те.",
+    "tr": "Ya na rabóte.",
+    "en": "I am at work."
+   },
+   {
+    "t": "Мы в магази́не.",
+    "tr": "My v magazíne.",
+    "en": "We are in the shop."
+   },
+   {
+    "t": "Они́ говоря́т о кни́ге.",
+    "tr": "Oní govoryát o kníge.",
+    "en": "They are talking about the book."
+   },
+   {
+    "t": "Он ду́мает о тебе́.",
+    "tr": "On dúmayet o tebé.",
+    "en": "He is thinking about you."
+   },
+   {
+    "t": "Я ду́маю об А́нне.",
+    "tr": "Ya dúmayu ob Ánne.",
+    "en": "I am thinking about Anna."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Он ＿＿. (at work)",
+    "options": [
+     "на рабо́те",
+     "в рабо́те",
+     "в рабо́ту",
+     "на рабо́ту"
+    ],
+    "a": 0,
+    "why": "**работа** takes **на**."
+   },
+   {
+    "type": "choice",
+    "q": "＿＿ А́нне. (about)",
+    "options": [
+     "об",
+     "о",
+     "обо",
+     "на"
+    ],
+    "a": 0,
+    "why": "**об** before a vowel."
+   },
+   {
+    "type": "fill",
+    "q": "Мы говори́м о ＿＿. (кни́га)",
+    "a": [
+     "книге"
+    ],
+    "why": "**о** + prepositional."
+   },
+   {
+    "type": "fill",
+    "q": "Он ду́мает о ＿＿. (ты)",
+    "a": [
+     "тебе"
+    ],
+    "why": "Prepositional of **ты**."
+   },
+   {
+    "type": "fill",
+    "q": "Я в ＿＿. (магази́н)",
+    "a": [
+     "магазине"
+    ],
+    "why": "**в** + prepositional."
+   },
+   {
+    "type": "order",
+    "q": "Make: She is at work.",
+    "tokens": [
+     "Она́",
+     "на",
+     "рабо́те"
+    ],
+    "a": [
+     "Она́",
+     "на",
+     "рабо́те"
+    ],
+    "why": "**на рабо́те**."
+   }
+  ]
+ },
+ {
+  "id": "ru5-where-to",
+  "lesson": 5,
+  "title": "где vs куда: location or direction",
+  "summary": "Position uses в/на + prepositional, movement uses в/на + accusative.",
+  "explain": "The same prepositions **в** and **на** answer two questions:\n\n| question | case | example |\n|---|---|---|\n| **Где?** where (at) | prepositional | **Я в шко́ле.** (*Ya v shkóle.*) |\n| **Куда́?** where to | accusative | **Я иду́ в шко́лу.** (*Ya idú v shkólu.*) |\n\nFor direction the noun takes the **accusative**: feminine **-а → -у** (**шко́ла → в шко́лу**, **Москва́ → в Москву́**, **рабо́та → на рабо́ту**); masculine and neuter things do not change (**в дом, в магази́н, на вокза́л**).\n\n| position | direction |\n|---|---|\n| **здесь** (*zdes'*) here | **сюда́** (*syudá*) |\n| **там** (*tam*) there | **туда́** (*tudá*) |\n| **до́ма** (*dóma*) at home | **домо́й** (*domóy*) |\n\n**Pitfalls**\n- Do not say **Я в шко́лу**; you need a motion verb: **Я иду́ в шко́лу**.\n- **Домо́й** (towards home) vs **до́ма** (at home): the two are never interchangeable.\n- The preposition stays the same (**в/на**) — only the case changes.\n- If a place takes **на** for location it also takes **на** for direction: **на рабо́те → на рабо́ту**.",
+  "examples": [
+   {
+    "t": "Где ты? — Я в шко́ле.",
+    "tr": "Gde ty? Ya v shkóle.",
+    "en": "Where are you? I am at school."
+   },
+   {
+    "t": "Куда́ ты идёшь? — Я иду́ в шко́лу.",
+    "tr": "Kudá ty idyósh'? Ya idú v shkólu.",
+    "en": "Where are you going? I am going to school."
+   },
+   {
+    "t": "Он е́дет в Москву́.",
+    "tr": "On yédet v Moskvú.",
+    "en": "He is going (by transport) to Moscow."
+   },
+   {
+    "t": "Мы идём на рабо́ту.",
+    "tr": "My idyóm na rabótu.",
+    "en": "We are going to work."
+   },
+   {
+    "t": "Я иду́ домо́й.",
+    "tr": "Ya idú domóy.",
+    "en": "I am going home."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Куда́ ты идёшь? — Я иду́ ＿＿ работу.",
+    "options": [
+     "на",
+     "в",
+     "о",
+     "у"
+    ],
+    "a": 0,
+    "why": "**работа** takes **на**."
+   },
+   {
+    "type": "choice",
+    "q": "Choose: Я ＿＿. (I am at home)",
+    "options": [
+     "до́ма",
+     "домо́й",
+     "в дом",
+     "на дом"
+    ],
+    "a": 0,
+    "why": "Location: **до́ма**."
+   },
+   {
+    "type": "fill",
+    "q": "Я иду́ в ＿＿. (шко́ла)",
+    "a": [
+     "школу"
+    ],
+    "why": "Direction: accusative **-у**."
+   },
+   {
+    "type": "fill",
+    "q": "Он е́дет в ＿＿. (Москва́)",
+    "a": [
+     "Москву"
+    ],
+    "why": "Direction: accusative **-у**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы идём ＿＿. (home, direction)",
+    "a": [
+     "домой"
+    ],
+    "why": "**домо́й** = going home."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am going to school.",
+    "tokens": [
+     "Я",
+     "иду́",
+     "в",
+     "шко́лу"
+    ],
+    "a": [
+     "Я",
+     "иду́",
+     "в",
+     "шко́лу"
+    ],
+    "why": "**в** + accusative for direction."
+   }
+  ]
+ },
+ {
+  "id": "ru5-have",
+  "lesson": 5,
+  "title": "There is / есть, у меня есть, нет",
+  "summary": "У меня есть = I have; нет is followed by the genitive.",
+  "explain": "Russian has no verb \"to have\". You say **у меня́ есть …** (*u menyá yest' …*) \"by me there is …\". The thing you have is in the **nominative**.\n\n| person | form |\n|---|---|\n| I | **у меня́** (*u menyá*) |\n| you | **у тебя́** (*u tebyá*) |\n| he | **у него́** (*u negó*) |\n| she | **у неё** (*u neyó*) |\n| we | **у нас** (*u nas*) |\n| you (pl.) | **у вас** (*u vas*) |\n| they | **у них** (*u nikh*) |\n\n**У меня́ есть брат.** \"I have a brother.\" **В го́роде есть теа́тр.** \"There is a theatre in the city.\"\n\nTo say \"don't have / there isn't\" use **нет** and the **genitive**: **У меня́ нет бра́та.** (*U menyá net bráta.*) The genitive ending is **-а** for masculine, **-ы / -и** for feminine (**кни́га → кни́ги**, **сестра́ → сестры́**).\n\n**Pitfalls**\n- **есть** is dropped when you describe: **У меня́ краси́вая маши́на** \"I have a nice car\" (no **есть**); it appears when you say that something exists.\n- After **нет** the thing is **genitive**, never accusative: **нет кни́ги**, not «нет книгу».",
+  "examples": [
+   {
+    "t": "У меня́ есть брат.",
+    "tr": "U menyá yest' brat.",
+    "en": "I have a brother."
+   },
+   {
+    "t": "У тебя́ есть кни́га?",
+    "tr": "U tebyá yest' kníga?",
+    "en": "Do you have a book?"
+   },
+   {
+    "t": "У неё нет бра́та.",
+    "tr": "U neyó net bráta.",
+    "en": "She has no brother."
+   },
+   {
+    "t": "В го́роде есть теа́тр.",
+    "tr": "V górode yest' teátr.",
+    "en": "There is a theatre in the city."
+   },
+   {
+    "t": "У нас нет маши́ны.",
+    "tr": "U nas net mashíny.",
+    "en": "We have no car."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you say «I have a sister»?",
+    "options": [
+     "У меня́ есть сестра́",
+     "Я есть сестра́",
+     "Мне есть сестра́",
+     "У я есть сестра́"
+    ],
+    "a": 0,
+    "why": "**у меня́ есть** + nominative."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say «He has no brother»?",
+    "options": [
+     "У него́ нет бра́та",
+     "У него́ не бра́т",
+     "У него́ нет брат",
+     "Он не есть бра́та"
+    ],
+    "a": 0,
+    "why": "**нет** + genitive."
+   },
+   {
+    "type": "fill",
+    "q": "У ＿＿ есть брат. (me)",
+    "a": [
+     "меня"
+    ],
+    "why": "**у меня́**."
+   },
+   {
+    "type": "fill",
+    "q": "У неё ＿＿ маши́ны. (no)",
+    "a": [
+     "нет"
+    ],
+    "why": "**нет** means «there is not»."
+   },
+   {
+    "type": "fill",
+    "q": "У меня́ нет ＿＿. (кни́га)",
+    "a": [
+     "книги"
+    ],
+    "why": "Genitive: **-а → -и** (spelling rule after **г**)."
+   },
+   {
+    "type": "order",
+    "q": "Make: Do you (informal) have a book?",
+    "tokens": [
+     "У",
+     "тебя́",
+     "есть",
+     "кни́га"
+    ],
+    "a": [
+     "У",
+     "тебя́",
+     "есть",
+     "кни́га"
+    ],
+    "why": "**у тебя́ есть** + nominative."
+   }
+  ]
+ },
+ {
+  "id": "ru6-genitive-forms",
+  "lesson": 6,
+  "title": "Genitive case: forms and possession",
+  "summary": "The genitive means «of»: кни́га бра́та = the brother's book.",
+  "explain": "The **genitive** answers **«чей? / кого? / чего?»** and is used for possession: **кни́га бра́та** \"the brother's book\" (the owned thing first, the owner after, no «of»).\n\n| nominative | genitive | example |\n|---|---|---|\n| masculine hard | **-а** | **брат → бра́та** (*bráta*) |\n| masculine soft **-ь, -й** | **-я** | **учи́тель → учи́теля** |\n| feminine **-а** | **-ы** (or **-и**) | **сестра́ → сестры́** (*sestrý*) |\n| feminine **-я** | **-и** | **неде́ля → неде́ли** |\n| **-ия** | **-ии** | **Мари́я → Мари́и** |\n| feminine **-ь** | **-и** | **тетра́дь → тетра́ди** |\n| neuter **-о** | **-а** | **окно́ → окна́** |\n| neuter **-е** | **-я** | **мо́ре → мо́ря** |\n\nAfter **г, к, х, ж, ч, ш, щ** feminine **-а → -и**: **кни́га → кни́ги**, **ча́шка → ча́шки**.\n\nPronouns in the genitive look like the accusative: **меня́, тебя́, его́, её, нас, вас, их**. After a preposition 3rd-person ones get an **н**: **у него́**, **у неё**, **у них**.\n\n**Pitfalls**\n- The owner comes **after** the noun: **дом А́нны** (*dom Ánny*), not \"Anna house\".\n- The stress may shift in the genitive: **окно́ → окна́**.\n- Possessive **его́, её, их** do not change, so there is no genitive of them.",
+  "examples": [
+   {
+    "t": "Э́то кни́га бра́та.",
+    "tr": "Éto kníga bráta.",
+    "en": "This is my brother's book."
+   },
+   {
+    "t": "Э́то дом А́нны.",
+    "tr": "Éto dom Ánny.",
+    "en": "This is Anna's house."
+   },
+   {
+    "t": "Где маши́на дру́га?",
+    "tr": "Gde mashína drúga?",
+    "en": "Where is the friend's car?"
+   },
+   {
+    "t": "Э́то су́мка сестры́.",
+    "tr": "Éto súmka sestrý.",
+    "en": "This is my sister's bag."
+   },
+   {
+    "t": "Э́то окно́ шко́лы.",
+    "tr": "Éto oknó shkóly.",
+    "en": "This is the school's window."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "кни́га ＿＿ (брат)",
+    "options": [
+     "бра́та",
+     "бра́ту",
+     "бра́том",
+     "бра́те"
+    ],
+    "a": 0,
+    "why": "Masculine hard: **-а**."
+   },
+   {
+    "type": "choice",
+    "q": "дом ＿＿ (А́нна)",
+    "options": [
+     "А́нны",
+     "А́нне",
+     "А́нну",
+     "А́нной"
+    ],
+    "a": 0,
+    "why": "Feminine **-а → -ы**."
+   },
+   {
+    "type": "fill",
+    "q": "кни́га ＿＿ (сестра́)",
+    "a": [
+     "сестры"
+    ],
+    "why": "Feminine **-а → -ы**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то маши́на ＿＿. (друг)",
+    "a": [
+     "друга"
+    ],
+    "why": "Masculine: **-а**."
+   },
+   {
+    "type": "fill",
+    "q": "окно́ ＿＿ (шко́ла)",
+    "a": [
+     "школы"
+    ],
+    "why": "Feminine **-а → -ы**."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is Anna's book.",
+    "tokens": [
+     "Э́то",
+     "кни́га",
+     "А́нны"
+    ],
+    "a": [
+     "Э́то",
+     "кни́га",
+     "А́нны"
+    ],
+    "why": "Owned noun first, owner in the genitive."
+   }
+  ]
+ },
+ {
+  "id": "ru6-quantity",
+  "lesson": 6,
+  "title": "Quantity: много, мало, несколько + genitive",
+  "summary": "Quantity words take the genitive: plural for countable things, singular for masses.",
+  "explain": "Words of quantity (**мно́го** \"a lot\", **ма́ло** \"little / few\", **не́сколько** \"several\", **ско́лько** \"how many\", **бо́льше** \"more\", **ме́ньше** \"less\") are followed by the **genitive**.\n\n- Countable things: **genitive plural** → **мно́го кни́г** (*mnógo knig*).\n- Mass nouns: **genitive singular** → **мно́го воды́** (*mnógo vodý*).\n\n**Genitive plural endings**\n\n| nominative | genitive plural | rule |\n|---|---|---|\n| **стол** (*stol*) | **столо́в** (*stolóv*) | masculine hard: **-ов** |\n| **парк** (*park*) | **па́рков** | **-ов** |\n| **музе́й** (*muzéy*) | **музе́ев** | **-й → -ев** |\n| **кни́га** (*kníga*) | **книг** | feminine **-а**: drop it |\n| **ла́мпа** (*lámpa*) | **ламп** | drop **-а** |\n| **окно́** (*oknó*) | **о́кон** | neuter **-о**: drop it |\n| **тетра́дь** | **тетра́дей** | **-ь → -ей** |\n| **друг** | **друзе́й** | irregular |\n\n**Pitfalls**\n- After **ж, ч, ш, щ** masculine takes **-ей**: **нож → ноже́й**.\n- **Мно́го кни́г** is correct; **мно́го кни́ги** and **мно́го кни́гу** are wrong.\n- Some nouns have inserted vowels (**сестра́ → сестёр**, **де́вочка → де́вочек**): learn them as you meet them.",
+  "examples": [
+   {
+    "t": "У меня́ мно́го кни́г.",
+    "tr": "U menyá mnógo knig.",
+    "en": "I have a lot of books."
+   },
+   {
+    "t": "В го́роде ма́ло па́рков.",
+    "tr": "V górode málo párkov.",
+    "en": "There are few parks in the city."
+   },
+   {
+    "t": "Ско́лько у тебя́ друзе́й?",
+    "tr": "Skól'ko u tebyá druzéy?",
+    "en": "How many friends do you have?"
+   },
+   {
+    "t": "В ча́шке мно́го воды́.",
+    "tr": "V cháshke mnógo vodý.",
+    "en": "There is a lot of water in the cup."
+   },
+   {
+    "t": "У него́ мно́го рабо́ты.",
+    "tr": "U negó mnógo rabóty.",
+    "en": "He has a lot of work."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "мно́го ＿＿ (кни́ги)",
+    "options": [
+     "книг",
+     "книги",
+     "книгу",
+     "книгами"
+    ],
+    "a": 0,
+    "why": "Genitive plural: **книг**."
+   },
+   {
+    "type": "choice",
+    "q": "ма́ло ＿＿ (парк)",
+    "options": [
+     "па́рков",
+     "па́рки",
+     "па́рка",
+     "па́рках"
+    ],
+    "a": 0,
+    "why": "**-ов**."
+   },
+   {
+    "type": "fill",
+    "q": "мно́го ＿＿ (стол, plural)",
+    "a": [
+     "столов"
+    ],
+    "why": "**-ов**."
+   },
+   {
+    "type": "fill",
+    "q": "мно́го ＿＿ (кни́га, plural)",
+    "a": [
+     "книг"
+    ],
+    "why": "Drop **-а**."
+   },
+   {
+    "type": "fill",
+    "q": "мно́го ＿＿ (вода́)",
+    "a": [
+     "воды"
+    ],
+    "why": "Mass noun: genitive singular."
+   },
+   {
+    "type": "order",
+    "q": "Make: I have a lot of books.",
+    "tokens": [
+     "У",
+     "меня́",
+     "мно́го",
+     "кни́г"
+    ],
+    "a": [
+     "У",
+     "меня́",
+     "мно́го",
+     "кни́г"
+    ],
+    "why": "**мно́го** + genitive plural."
+   }
+  ]
+ },
+ {
+  "id": "ru6-numbers",
+  "lesson": 6,
+  "title": "Numbers with the genitive: 2–4 and 5+",
+  "summary": "1 → nominative, 2–4 → genitive singular, 5–20 → genitive plural, and the last digit decides.",
+  "explain": "The noun after a number depends on the **last digit** of the whole number.\n\n| number | noun form | example |\n|---|---|---|\n| **1, 21, 31…** | nominative singular | **два́дцать оди́н студе́нт** (*dvádtsat' odín studént*) |\n| **2, 3, 4, 22, 23, 24…** | genitive singular | **два бра́та, три ко́мнаты** (*dva bráta, tri kómnaty*) |\n| **5–20, 25–30…** | genitive plural | **пять сестёр, два́дцать пять студе́нтов** |\n\nThe teens **11–14** end in \"teen\" and follow the **5+** rule: **оди́ннадцать кни́г**.\n\n**Tens:** **три́дцать** (*trídtsat'*) 30, **со́рок** (*sórok*) 40, **пятьдеся́т** (*pyat'desyát*) 50, **шестьдеся́т** 60, **се́мьдесят** 70, **во́семьдесят** 80, **девяно́сто** (*devyanósto*) 90, **сто** 100.\n\nFor feminine **два** is **две**: **две сестры́**, **две ко́мнаты**.\n\n**Pitfalls**\n- **21** is \"one\" in the nominative: **два́дцать оди́н год**, not **годов**.\n- **Two sisters** is **две сестры́** (genitive singular), but **five sisters** is **пять сестёр** (genitive plural, with the vowel **ё**).\n- **Два брата** and **два стола́** are not \"plural\": the genitive singular looks like **бра́та, стола́**.\n- Stress changes are common (**два часа́**, *dva chasá*): learn each noun.",
+  "examples": [
+   {
+    "t": "У меня́ два бра́та.",
+    "tr": "U menyá dva bráta.",
+    "en": "I have two brothers."
+   },
+   {
+    "t": "У нас три ко́мнаты.",
+    "tr": "U nas tri kómnaty.",
+    "en": "We have three rooms."
+   },
+   {
+    "t": "У него́ пять сестёр.",
+    "tr": "U negó pyat' sestyór.",
+    "en": "He has five sisters."
+   },
+   {
+    "t": "В кла́ссе два́дцать студе́нтов.",
+    "tr": "V klásse dvádtsat' studéntov.",
+    "en": "There are twenty students in the class."
+   },
+   {
+    "t": "В кла́ссе два́дцать оди́н студе́нт.",
+    "tr": "V klásse dvádtsat' odín studént.",
+    "en": "There are twenty-one students in the class."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "два ＿＿ (стол)",
+    "options": [
+     "стола́",
+     "столы́",
+     "столо́в",
+     "стол"
+    ],
+    "a": 0,
+    "why": "2–4 + genitive singular."
+   },
+   {
+    "type": "choice",
+    "q": "пять ＿＿ (стол)",
+    "options": [
+     "столо́в",
+     "стола́",
+     "столы́",
+     "стол"
+    ],
+    "a": 0,
+    "why": "5+ + genitive plural."
+   },
+   {
+    "type": "fill",
+    "q": "три ＿＿ (кни́га)",
+    "a": [
+     "книги"
+    ],
+    "why": "2–4 + genitive singular."
+   },
+   {
+    "type": "fill",
+    "q": "пять ＿＿ (сестра́)",
+    "a": [
+     "сестёр",
+     "сестер"
+    ],
+    "why": "5+ + genitive plural."
+   },
+   {
+    "type": "fill",
+    "q": "два ＿＿ (брат)",
+    "a": [
+     "брата"
+    ],
+    "why": "2–4 + genitive singular."
+   },
+   {
+    "type": "order",
+    "q": "Make: We have four rooms.",
+    "tokens": [
+     "У",
+     "нас",
+     "четы́ре",
+     "ко́мнаты"
+    ],
+    "a": [
+     "У",
+     "нас",
+     "четы́ре",
+     "ко́мнаты"
+    ],
+    "why": "2–4 + genitive singular."
+   }
+  ]
+ },
+ {
+  "id": "ru6-prepositions",
+  "lesson": 6,
+  "title": "Prepositions with the genitive",
+  "summary": "без, для, из, от, до, у, с (from) and около take the genitive.",
+  "explain": "Several common prepositions are always followed by the **genitive**.\n\n| preposition | meaning | example |\n|---|---|---|\n| **без** (*bez*) | without | **ко́фе без са́хара** (*kófe bez sákhara*) |\n| **для** (*dlya*) | for | **пода́рок для сестры́** (*podárok dlya sestrý*) |\n| **из** (*iz*) | out of / from (a place) | **Я из Москвы́.** (*Ya iz Moskvý.*) |\n| **от** (*ot*) | from (a person), away from | **письмо́ от дру́га** (*pis'mó ot drúga*) |\n| **до** (*do*) | until, as far as | **до шко́лы** (*do shkóly*) |\n| **у** (*u*) | at / by (someone's place) | **Я у дру́га.** (*Ya u drúga.*) |\n| **с** (*s*) | from (opposite of **на**) | **с рабо́ты** (*s rabóty*) |\n\n**Pitfalls**\n- **из** is the opposite of **в**; **с** is the opposite of **на**: **в шко́ле / из шко́лы**, **на рабо́те / с рабо́ты**.\n- **от** goes with people, **из** with places: **от дру́га**, **из го́рода**.\n- **у** + person also means \"at X's place\": **Я у дру́га** \"I'm at a friend's\".\n- Do not confuse **с** + genitive \"from\" with **с** + instrumental \"with\" (lesson 8).",
+  "examples": [
+   {
+    "t": "Ко́фе без са́хара.",
+    "tr": "Kófe bez sákhara.",
+    "en": "Coffee without sugar."
+   },
+   {
+    "t": "Э́то пода́рок для сестры́.",
+    "tr": "Éto podárok dlya sestrý.",
+    "en": "This is a present for my sister."
+   },
+   {
+    "t": "Я из Москвы́.",
+    "tr": "Ya iz Moskvý.",
+    "en": "I am from Moscow."
+   },
+   {
+    "t": "Письмо́ от дру́га.",
+    "tr": "Pis'mó ot drúga.",
+    "en": "A letter from a friend."
+   },
+   {
+    "t": "До шко́лы пять мину́т.",
+    "tr": "Do shkóly pyat' minút.",
+    "en": "It is five minutes to school."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Подарок ＿＿ сестры́. (for)",
+    "options": [
+     "для",
+     "без",
+     "из",
+     "от"
+    ],
+    "a": 0,
+    "why": "**для** = for."
+   },
+   {
+    "type": "choice",
+    "q": "Я ＿＿ Москвы́. (from)",
+    "options": [
+     "из",
+     "в",
+     "на",
+     "о"
+    ],
+    "a": 0,
+    "why": "**из** + city = from."
+   },
+   {
+    "type": "fill",
+    "q": "Ко́фе без ＿＿. (са́хар)",
+    "a": [
+     "сахара"
+    ],
+    "why": "**без** + genitive."
+   },
+   {
+    "type": "fill",
+    "q": "Письмо́ от ＿＿. (друг)",
+    "a": [
+     "друга"
+    ],
+    "why": "**от** + genitive."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то для ＿＿. (сестра́)",
+    "a": [
+     "сестры"
+    ],
+    "why": "**для** + genitive."
+   },
+   {
+    "type": "order",
+    "q": "Make: Coffee without sugar.",
+    "tokens": [
+     "Ко́фе",
+     "без",
+     "са́хара"
+    ],
+    "a": [
+     "Ко́фе",
+     "без",
+     "са́хара"
+    ],
+    "why": "**без** + genitive."
+   }
+  ]
+ },
+ {
+  "id": "ru7-dative",
+  "lesson": 7,
+  "title": "Dative case: кому? indirect objects",
+  "summary": "The dative marks the person who receives or benefits: «to / for someone».",
+  "explain": "The **dative** answers **«кому?»** (to whom?). It marks the **indirect object**: the person you give, tell, write, call or help.\n\n| nominative | dative | example |\n|---|---|---|\n| masculine hard | **-у** | **брат → бра́ту** (*brátu*) |\n| masculine soft | **-ю** | **учи́тель → учи́телю** |\n| feminine **-а** | **-е** | **сестра́ → сестре́** (*sestré*) |\n| feminine **-я** | **-е** | **неде́ля → неде́ле** |\n| **-ия** | **-ии** | **Мари́я → Мари́и** |\n| feminine **-ь** | **-и** | **мать → ма́тери** |\n| neuter | **-у / -ю** | **окно́ → окну́** |\n\n**Pronouns:** **мне** (*mne*), **тебе́** (*tebé*), **ему́** (*emú*), **ей** (*yey*), **нам** (*nam*), **вам** (*vam*), **им** (*im*).\n\nTypical verbs: **писа́ть** (write to), **звони́ть** (call), **помога́ть** (help), **говори́ть** (tell), **дава́ть** (give), **пока́зывать** (show).\n\n**Pitfalls**\n- **Звони́ть** and **помога́ть** take the **dative**, not the accusative: **Я звоню́ ма́ме**, not \"ма́му\".\n- With two objects: dative for the person, accusative for the thing: **Я даю́ вам кни́гу.**\n- The dative of **я** is **мне**; the dative of **она́** is **ей**; **ему́** and **ей** become **нему́**, **ней** after prepositions.\n- Don't confuse **-е** of the dative (**сестре́**) with the same ending in the prepositional (**о сестре́**); only the preposition tells them apart.",
+  "examples": [
+   {
+    "t": "Я пишу́ бра́ту письмо́.",
+    "tr": "Ya pishú brátu pis'mó.",
+    "en": "I am writing my brother a letter."
+   },
+   {
+    "t": "Он звони́т сестре́.",
+    "tr": "On zvonít sestré.",
+    "en": "He calls his sister."
+   },
+   {
+    "t": "Мы помога́ем ма́ме.",
+    "tr": "My pomogáyem máme.",
+    "en": "We help mum."
+   },
+   {
+    "t": "Она́ говори́т мне пра́вду.",
+    "tr": "Oná govorít mne právdu.",
+    "en": "She tells me the truth."
+   },
+   {
+    "t": "Я даю́ вам кни́гу.",
+    "tr": "Ya dayú vam knígu.",
+    "en": "I give you the book."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Я звоню́ ＿＿. (сестра́)",
+    "options": [
+     "сестре́",
+     "сестру́",
+     "сестры́",
+     "сестро́й"
+    ],
+    "a": 0,
+    "why": "**звони́ть** takes the dative: **-а → -е**."
+   },
+   {
+    "type": "choice",
+    "q": "Он помога́ет ＿＿. (брат)",
+    "options": [
+     "бра́ту",
+     "бра́та",
+     "бра́том",
+     "бра́те"
+    ],
+    "a": 0,
+    "why": "Dative masculine: **-у**."
+   },
+   {
+    "type": "fill",
+    "q": "Я даю́ ＿＿ кни́гу. (to you, informal)",
+    "a": [
+     "тебе"
+    ],
+    "why": "The dative of **ты** is **тебе́**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы звони́м ＿＿. (друг)",
+    "a": [
+     "другу"
+    ],
+    "why": "Masculine: **-у**."
+   },
+   {
+    "type": "fill",
+    "q": "Я помогаю ＿＿. (А́нна)",
+    "a": [
+     "Анне"
+    ],
+    "why": "Feminine **-а → -е**."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am writing my brother a letter.",
+    "tokens": [
+     "Я",
+     "пишу́",
+     "бра́ту",
+     "письмо́"
+    ],
+    "a": [
+     "Я",
+     "пишу́",
+     "бра́ту",
+     "письмо́"
+    ],
+    "why": "Dative for the person, accusative for the thing."
+   }
+  ]
+ },
+ {
+  "id": "ru7-nravitsya",
+  "lesson": 7,
+  "title": "нравится: liking things",
+  "summary": "Мне нравится… — the thing you like is the subject, the person is in the dative.",
+  "explain": "**Нра́виться** (*nrávit'sya*) means \"to please\": the person who likes goes into the **dative**, and the thing liked is the **subject**.\n\n**Мне нра́вится Москва́.** (*Mne nrávitsya Moskvá.*) literally \"Moscow pleases to me\" = \"I like Moscow.\"\n\n| liker | form |\n|---|---|\n| I | **мне нра́вится** |\n| you | **тебе́ нра́вится** |\n| he / it | **ему́ нра́вится** |\n| she | **ей нра́вится** |\n| we | **нам нра́вится** |\n| you (pl.) | **вам нра́вится** |\n| they | **им нра́вится** |\n\nThe verb agrees with the thing liked: singular **нра́вится**, plural **нра́вятся** (*nrávyatsya*): **Мне нра́вятся э́ти го́рода.** You can also like an **action**: **Мне нра́вится чита́ть.** \"I like reading.\"\n\n**Pitfalls**\n- **Я нра́вится** is wrong: the subject is the thing.\n- If the thing liked is plural, the verb is plural: **нра́вятся**.\n- **нра́вится** is for liking a thing at a moment; for a stable love use **люби́ть**: **Я люблю́ му́зыку.**\n- The ending is pronounced *-tsa*: **нра́вится** sounds like *nrávitsa*.",
+  "examples": [
+   {
+    "t": "Мне нра́вится Москва́.",
+    "tr": "Mne nrávitsya Moskvá.",
+    "en": "I like Moscow."
+   },
+   {
+    "t": "Ему́ нра́вится э́та кни́га.",
+    "tr": "Emú nrávitsya éta kníga.",
+    "en": "He likes this book."
+   },
+   {
+    "t": "Тебе́ нра́вятся э́ти города́?",
+    "tr": "Tebé nrávyatsya éti gorodá?",
+    "en": "Do you like these cities?"
+   },
+   {
+    "t": "Ей нра́вится чита́ть.",
+    "tr": "Yey nrávitsya chitát'.",
+    "en": "She likes reading."
+   },
+   {
+    "t": "Вам нра́вится ру́сский язы́к?",
+    "tr": "Vam nrávitsya rússkiy yazýk?",
+    "en": "Do you like the Russian language?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you say «I like Moscow»?",
+    "options": [
+     "Мне нра́вится Москва́",
+     "Я нра́вится Москва́",
+     "Мне нра́вится Москву́",
+     "Мне нра́вятся Москва́"
+    ],
+    "a": 0,
+    "why": "Dative **мне** + singular verb."
+   },
+   {
+    "type": "choice",
+    "q": "Мне ＿＿ кни́ги. (plural)",
+    "options": [
+     "нра́вятся",
+     "нра́вится",
+     "нра́вишься",
+     "нра́вим"
+    ],
+    "a": 0,
+    "why": "Plural things take **нра́вятся**."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ нра́вится чита́ть. (She)",
+    "a": [
+     "ей",
+     "Ей"
+    ],
+    "why": "Dative of **она́**."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ нра́вится му́зыка. (He)",
+    "a": [
+     "ему",
+     "Ему"
+    ],
+    "why": "Dative of **он**."
+   },
+   {
+    "type": "fill",
+    "q": "Мне ＿＿ кни́ги. (нра́виться, plural)",
+    "a": [
+     "нравятся"
+    ],
+    "why": "Plural thing, plural verb."
+   },
+   {
+    "type": "order",
+    "q": "Make: I like Russian music.",
+    "tokens": [
+     "Мне",
+     "нра́вится",
+     "ру́сская",
+     "му́зыка"
+    ],
+    "a": [
+     "Мне",
+     "нра́вится",
+     "ру́сская",
+     "му́зыка"
+    ],
+    "why": "Dative + verb + noun (nominative, feminine)."
+   }
+  ]
+ },
+ {
+  "id": "ru7-modal",
+  "lesson": 7,
+  "title": "надо, нужно, можно, нельзя",
+  "summary": "Words of necessity and permission: dative person + infinitive.",
+  "explain": "Russian expresses «must / may» with short impersonal words plus the **dative** of the person and an **infinitive**.\n\n| word | meaning | example |\n|---|---|---|\n| **на́до** (*nádo*) | must, have to | **Мне на́до рабо́тать.** (*Mne nádo rabótat'.*) |\n| **ну́жно** (*núzhno*) | need to | **Тебе́ ну́жно идти́.** (*Tebé núzhno idtí.*) |\n| **мо́жно** (*mózhno*) | may, it's allowed | **Здесь мо́жно звони́ть.** |\n| **нельзя́** (*nel'zyá*) | must not, impossible | **Нам нельзя́ говори́ть.** (*Nam nel'zyá govorít'.*) |\n\n**надо** and **нужно** mean the same. With a **noun** use **ну́жен / нужна́ / ну́жно / нужны́** (like a short adjective, agreeing with the thing): **Мне нужна́ кни́га.** (*Mne nuzhná kníga.*) \"I need a book.\"\n\n**Pitfalls**\n- The person is in the **dative**, not nominative: **Мне на́до**, **Нам нельзя́**.\n- **нельзя́** means \"don't / not allowed\"; **не на́до** means \"no need\": **Тебе́ не на́до идти́** \"You needn't go.\"\n- There is no verb **to be**: the sentence has no subject.\n- Past: add **бы́ло**: **Мне на́до бы́ло рабо́тать.** (lesson 10); future: **бу́дет**.",
+  "examples": [
+   {
+    "t": "Мне на́до рабо́тать.",
+    "tr": "Mne nádo rabótat'.",
+    "en": "I have to work."
+   },
+   {
+    "t": "Тебе́ ну́жно идти́.",
+    "tr": "Tebé núzhno idtí.",
+    "en": "You need to go."
+   },
+   {
+    "t": "Здесь мо́жно звони́ть?",
+    "tr": "Zdes' mózhno zvonít'?",
+    "en": "May one call here?"
+   },
+   {
+    "t": "Нам нельзя́ говори́ть.",
+    "tr": "Nam nel'zyá govorít'.",
+    "en": "We must not talk."
+   },
+   {
+    "t": "Мне нужна́ кни́га.",
+    "tr": "Mne nuzhná kníga.",
+    "en": "I need a book."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you say «I must work»?",
+    "options": [
+     "Мне на́до рабо́тать",
+     "Я на́до рабо́тать",
+     "Меня́ на́до рабо́тать",
+     "Мне на́до рабо́таю"
+    ],
+    "a": 0,
+    "why": "Dative + **на́до** + infinitive."
+   },
+   {
+    "type": "choice",
+    "q": "«Here you may not call» — which word?",
+    "options": [
+     "нельзя́",
+     "мо́жно",
+     "на́до",
+     "ну́жно"
+    ],
+    "a": 0,
+    "why": "**нельзя́** forbids."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ на́до рабо́тать. (We)",
+    "a": [
+     "нам",
+     "Нам"
+    ],
+    "why": "Dative of **мы**."
+   },
+   {
+    "type": "fill",
+    "q": "Здесь ＿＿ звони́ть. (is allowed)",
+    "a": [
+     "можно"
+    ],
+    "why": "**мо́жно** = allowed."
+   },
+   {
+    "type": "fill",
+    "q": "Здесь ＿＿ говори́ть. (not allowed)",
+    "a": [
+     "нельзя"
+    ],
+    "why": "**нельзя́** = forbidden."
+   },
+   {
+    "type": "order",
+    "q": "Make: We need to work.",
+    "tokens": [
+     "Нам",
+     "на́до",
+     "рабо́тать"
+    ],
+    "a": [
+     "Нам",
+     "на́до",
+     "рабо́тать"
+    ],
+    "why": "Dative + **на́до** + infinitive."
+   }
+  ]
+ },
+ {
+  "id": "ru7-age-po",
+  "lesson": 7,
+  "title": "Age and the preposition по",
+  "summary": "Мне 20 лет: dative + number + год/года/лет; по + dative means along, by, per.",
+  "explain": "**Age** uses the dative of the person, then the number and the word for «year»:\n\n| number | word | example |\n|---|---|---|\n| 1, 21, 31… | **год** | **Мне два́дцать оди́н год.** |\n| 2–4, 22–24… | **го́да** | **Бра́ту четы́ре го́да.** |\n| 5–20, 25–30… | **лет** | **Мне два́дцать лет.** |\n\nAsk with **Ско́лько тебе́ лет?** (*Skól'ko tebé let?*) \"How old are you?\" (**вам** for formal).\n\n**по + dative** has several meanings:\n\n| meaning | example |\n|---|---|\n| along | **по у́лице** (*po úlitse*) |\n| by (means) | **по телефо́ну** (*po telefónu*) |\n| on (repeated day) | **по понеде́льникам** (*po ponedél'nikam*) on Mondays |\n| in a language | **по-ру́сски** (*po-rússki*) |\n\n**Pitfalls**\n- **5–20 лет** (not **годов**): **Мне пять лет**, **Ему́ оди́ннадцать лет**.\n- **Мне 20 лет** has no verb: «to me twenty years».\n- **по** uses the dative: **по телефо́ну**, **по у́лице**, **по ра́дио**.\n- **Ей два́дцать оди́н год** is correct (ends in 1).",
+  "examples": [
+   {
+    "t": "Мне два́дцать лет.",
+    "tr": "Mne dvádtsat' let.",
+    "en": "I am twenty."
+   },
+   {
+    "t": "Ско́лько тебе́ лет?",
+    "tr": "Skól'ko tebé let?",
+    "en": "How old are you?"
+   },
+   {
+    "t": "Ей два́дцать оди́н год.",
+    "tr": "Yey dvádtsat' odín god.",
+    "en": "She is twenty-one."
+   },
+   {
+    "t": "Бра́ту четы́ре го́да.",
+    "tr": "Brátu chetýre góda.",
+    "en": "My brother is four."
+   },
+   {
+    "t": "Мы идём по у́лице.",
+    "tr": "My idyóm po úlitse.",
+    "en": "We are walking along the street."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Мне пять ＿＿.",
+    "options": [
+     "лет",
+     "год",
+     "го́да",
+     "го́ды"
+    ],
+    "a": 0,
+    "why": "5+ takes **лет**."
+   },
+   {
+    "type": "choice",
+    "q": "Ей два́дцать два ＿＿.",
+    "options": [
+     "го́да",
+     "год",
+     "лет",
+     "го́ды"
+    ],
+    "a": 0,
+    "why": "2–4 takes **го́да**."
+   },
+   {
+    "type": "fill",
+    "q": "Мне два́дцать ＿＿.",
+    "a": [
+     "лет"
+    ],
+    "why": "20 takes **лет**."
+   },
+   {
+    "type": "fill",
+    "q": "Ему́ три ＿＿.",
+    "a": [
+     "года"
+    ],
+    "why": "3 takes **го́да**."
+   },
+   {
+    "type": "fill",
+    "q": "Ско́лько ＿＿ лет? (to you, informal)",
+    "a": [
+     "тебе"
+    ],
+    "why": "Age uses the dative."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am twenty.",
+    "tokens": [
+     "Мне",
+     "два́дцать",
+     "лет"
+    ],
+    "a": [
+     "Мне",
+     "два́дцать",
+     "лет"
+    ],
+    "why": "Dative + number + **лет**."
+   }
+  ]
+ },
+ {
+  "id": "ru8-instrumental",
+  "lesson": 8,
+  "title": "Instrumental case and с («with»)",
+  "summary": "The instrumental answers «with whom / with what?»: с + instrumental.",
+  "explain": "The **instrumental** case means \"with\" or \"by means of\". After **с** (*s*) it says **who you are with**.\n\n| nominative | instrumental | example |\n|---|---|---|\n| masculine hard | **-ом** | **друг → с дру́гом** (*s drúgom*) |\n| masculine soft | **-ем** | **учи́тель → с учи́телем** |\n| neuter | **-ом / -ем** | **окно́ → окно́м** |\n| feminine **-а** | **-ой** | **сестра́ → с сестро́й** (*s sestróy*) |\n| feminine **-я** | **-ей** | **неде́ля → неде́лей** |\n| feminine **-ь** | **-ью** | **тетра́дь → тетра́дью** |\n\n**Pronouns:** **мной** (*mnoy*), **тобо́й** (*tobóy*), **им** (*im*), **ей** (*yey*), **на́ми** (*námi*), **ва́ми** (*vámi*), **и́ми** (*ími*). **со мно́й** = \"with me\".\n\nAfter **ж, ч, ш, щ, ц**, unstressed **-ом** is written **-ем**: **с врачо́м** (stressed, **-ом**) but **с му́жем** (*s múzhem*) \"with the husband\".\n\n**Pitfalls**\n- **с** has two meanings: \"with\" + instrumental, \"from\" + genitive.\n- **со** is used before some consonant clusters: **со мно́й**, **со сто́лом**.\n- Use it also for means: **я пишу́ ру́чкой** \"I write with a pen\".\n- A tool takes the instrumental **without** **с**: **ру́чкой**, not **с ру́чкой**.",
+  "examples": [
+   {
+    "t": "Я иду́ в кино́ с дру́гом.",
+    "tr": "Ya idú v kinó s drúgom.",
+    "en": "I am going to the cinema with a friend."
+   },
+   {
+    "t": "Она́ пьёт чай с лимо́ном.",
+    "tr": "Oná p'yót chay s limónom.",
+    "en": "She drinks tea with lemon."
+   },
+   {
+    "t": "Я говорю́ с сестро́й.",
+    "tr": "Ya govoryú s sestróy.",
+    "en": "I am talking with my sister."
+   },
+   {
+    "t": "Мы живём с ма́мой.",
+    "tr": "My zhivyóm s mámoy.",
+    "en": "We live with mum."
+   },
+   {
+    "t": "Хо́чешь ко́фе со мно́й?",
+    "tr": "Khóchesh' kófe so mnóy?",
+    "en": "Do you want coffee with me?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "с ＿＿ (друг)",
+    "options": [
+     "дру́гом",
+     "дру́гу",
+     "дру́га",
+     "дру́ге"
+    ],
+    "a": 0,
+    "why": "Masculine: **-ом**."
+   },
+   {
+    "type": "choice",
+    "q": "с ＿＿ (сестра́)",
+    "options": [
+     "сестро́й",
+     "сестре́",
+     "сестру́",
+     "сестры́"
+    ],
+    "a": 0,
+    "why": "Feminine **-а → -ой**."
+   },
+   {
+    "type": "fill",
+    "q": "чай с ＿＿ (лимо́н)",
+    "a": [
+     "лимоном"
+    ],
+    "why": "Masculine: **-ом**."
+   },
+   {
+    "type": "fill",
+    "q": "Я иду́ с ＿＿. (ма́ма)",
+    "a": [
+     "мамой"
+    ],
+    "why": "Feminine **-а → -ой**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы говори́м с ＿＿. (А́нна)",
+    "a": [
+     "Анной"
+    ],
+    "why": "Feminine **-а → -ой**."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am going with a friend.",
+    "tokens": [
+     "Я",
+     "иду́",
+     "с",
+     "дру́гом"
+    ],
+    "a": [
+     "Я",
+     "иду́",
+     "с",
+     "дру́гом"
+    ],
+    "why": "**с** + instrumental."
+   }
+  ]
+ },
+ {
+  "id": "ru8-profession",
+  "lesson": 8,
+  "title": "быть, работать + instrumental: professions",
+  "summary": "In the past, future and with «work as», professions go into the instrumental.",
+  "explain": "In the **present**, a profession is simply nominative with no verb: **Он врач.** (*On vrach.*) \"He is a doctor.\" But in the **past, future, infinitive** and after verbs like **рабо́тать**, **стать**, the profession goes into the **instrumental**.\n\n| construction | example |\n|---|---|\n| present | **Он врач.** |\n| past | **Он был врачо́м.** (*On byl vrachóm.*) |\n| future | **Он бу́дет врачо́м.** |\n| infinitive | **Я хочу́ быть учи́телем.** (*Ya khochú byt' uchítelem.*) |\n| work as | **Он рабо́тает инжене́ром.** (*On rabótayet inzhenérom.*) |\n| become | **Он стал инжене́ром.** (*On stal inzhenérom.*) |\n\nAsk: **Кем ты хо́чешь быть?** (*Kem ty khóchesh' byt'?*) \"What do you want to be?\" and **Кем ты рабо́таешь?** \"What do you do?\"\n\n**Pitfalls**\n- Not **Он врач** → **Он был врач**; use **врачо́м**: the instrumental follows **был, бу́дет, быть**.\n- Feminine: **учи́тельница → учи́тельницей**, **студе́нтка → студе́нткой**.\n- The question word is **кем** (*kem*) — the instrumental of **кто**.\n- A dash or nothing is used in the present, never the verb **есть**.",
+  "examples": [
+   {
+    "t": "Он рабо́тает врачо́м.",
+    "tr": "On rabótayet vrachóm.",
+    "en": "He works as a doctor."
+   },
+   {
+    "t": "Я хочу́ быть учи́телем.",
+    "tr": "Ya khochú byt' uchítelem.",
+    "en": "I want to be a teacher."
+   },
+   {
+    "t": "Она́ была́ студе́нткой.",
+    "tr": "Oná bylá studéntkoy.",
+    "en": "She was a student."
+   },
+   {
+    "t": "Он стал инжене́ром.",
+    "tr": "On stal inzhenérom.",
+    "en": "He became an engineer."
+   },
+   {
+    "t": "Кем ты хо́чешь быть?",
+    "tr": "Kem ty khóchesh' byt'?",
+    "en": "What do you want to be?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Он хо́чет быть ＿＿. (врач)",
+    "options": [
+     "врачо́м",
+     "врач",
+     "врача́",
+     "врачу́"
+    ],
+    "a": 0,
+    "why": "After **быть** → instrumental."
+   },
+   {
+    "type": "choice",
+    "q": "Она́ хо́чет быть ＿＿. (учи́тельница)",
+    "options": [
+     "учи́тельницей",
+     "учи́тельница",
+     "учи́тельницу",
+     "учи́тельницы"
+    ],
+    "a": 0,
+    "why": "Feminine **-а → -ой/-ей**."
+   },
+   {
+    "type": "fill",
+    "q": "Я рабо́таю ＿＿. (инжене́р)",
+    "a": [
+     "инженером"
+    ],
+    "why": "Instrumental after **рабо́тать**."
+   },
+   {
+    "type": "fill",
+    "q": "Кем ты хо́чешь ＿＿? (be)",
+    "a": [
+     "быть"
+    ],
+    "why": "**быть** = to be."
+   },
+   {
+    "type": "fill",
+    "q": "Он хо́чет быть ＿＿. (студе́нт)",
+    "a": [
+     "студентом"
+    ],
+    "why": "Instrumental after **быть**."
+   },
+   {
+    "type": "order",
+    "q": "Make: He wants to be a doctor.",
+    "tokens": [
+     "Он",
+     "хо́чет",
+     "быть",
+     "врачо́м"
+    ],
+    "a": [
+     "Он",
+     "хо́чет",
+     "быть",
+     "врачо́м"
+    ],
+    "why": "**быть** + instrumental."
+   }
+  ]
+ },
+ {
+  "id": "ru8-za-nad",
+  "lesson": 8,
+  "title": "за, над, перед, под, между + instrumental",
+  "summary": "These location prepositions put the noun in the instrumental.",
+  "explain": "These prepositions use the **instrumental** when they say **where something is**.\n\n| preposition | meaning | example |\n|---|---|---|\n| **за** (*za*) | behind | **маши́на за до́мом** (*mashína za dómom*) |\n| **над** (*nad*) | above | **ла́мпа над столо́м** (*lámpa nad stolóm*) |\n| **под** (*pod*) | under | **соба́ка под столо́м** |\n| **пе́ред** (*péred*) | in front of | **пе́ред до́мом сад** |\n| **ме́жду** (*mézhdu*) | between | **ме́жду ла́мпой и ча́шкой** |\n| **ря́дом с** (*ryádom s*) | next to | **ря́дом с до́мом** |\n\n**Position vs direction.** **за, под** also answer **куда́?** with the **accusative**: **Соба́ка под столо́м** (where) but **Соба́ка идёт под стол** (where to). Same preposition, different case.\n\n**Pitfalls**\n- **пе́ред** also means \"before\" in time: **пе́ред обе́дом** \"before lunch\".\n- **Ме́жду** with two things takes the **instrumental** singular or plural: **ме́жду дома́ми**.\n- Don't confuse **за** + instr. \"behind\" with **за** + acc. \"for / in exchange for\".\n- The stress in **столо́м** is on the ending: **стол → столо́м**.",
+  "examples": [
+   {
+    "t": "Маши́на за до́мом.",
+    "tr": "Mashína za dómom.",
+    "en": "The car is behind the house."
+   },
+   {
+    "t": "Ла́мпа над столо́м.",
+    "tr": "Lámpa nad stolóm.",
+    "en": "The lamp is above the table."
+   },
+   {
+    "t": "Соба́ка под столо́м.",
+    "tr": "Sobáka pod stolóm.",
+    "en": "The dog is under the table."
+   },
+   {
+    "t": "Пе́ред до́мом сад.",
+    "tr": "Péred dómom sad.",
+    "en": "There is a garden in front of the house."
+   },
+   {
+    "t": "Кни́га ме́жду ла́мпой и ча́шкой.",
+    "tr": "Kníga mézhdu lámpoy i cháshkoy.",
+    "en": "The book is between the lamp and the cup."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "ла́мпа над ＿＿ (стол)",
+    "options": [
+     "столо́м",
+     "столе́",
+     "столу́",
+     "стола́"
+    ],
+    "a": 0,
+    "why": "**над** + instrumental."
+   },
+   {
+    "type": "choice",
+    "q": "соба́ка под ＿＿ (стол)",
+    "options": [
+     "столо́м",
+     "столе́",
+     "столу́",
+     "стола́"
+    ],
+    "a": 0,
+    "why": "**под** + instrumental (location)."
+   },
+   {
+    "type": "fill",
+    "q": "маши́на за ＿＿ (дом)",
+    "a": [
+     "домом"
+    ],
+    "why": "**за** + instrumental."
+   },
+   {
+    "type": "fill",
+    "q": "пе́ред ＿＿ (шко́ла)",
+    "a": [
+     "школой"
+    ],
+    "why": "Feminine **-а → -ой**."
+   },
+   {
+    "type": "fill",
+    "q": "ме́жду ла́мпой и ＿＿ (ча́шка)",
+    "a": [
+     "чашкой"
+    ],
+    "why": "Feminine **-а → -ой**."
+   },
+   {
+    "type": "order",
+    "q": "Make: The lamp is above the table.",
+    "tokens": [
+     "Ла́мпа",
+     "над",
+     "столо́м"
+    ],
+    "a": [
+     "Ла́мпа",
+     "над",
+     "столо́м"
+    ],
+    "why": "**над** + instrumental."
+   }
+  ]
+ },
+ {
+  "id": "ru8-adjectives",
+  "lesson": 8,
+  "title": "Adjective agreement: nominative",
+  "summary": "Adjectives agree with the noun in gender and number; the ending shows which.",
+  "explain": "Adjectives agree with their noun in **gender** and **number**. The dictionary form is masculine.\n\n| | masc. | fem. | neut. | plural |\n|---|---|---|---|---|\n| hard | **но́вый** (*nóvyy*) | **но́вая** (*nóvaya*) | **но́вое** (*nóvoye*) | **но́вые** (*nóvye*) |\n| stressed ending | **большо́й** (*bol'shóy*) | **больша́я** (*bol'sháya*) | **большо́е** (*bol'shóye*) | **больши́е** (*bol'shíye*) |\n| soft | **си́ний** (*síniy*) | **си́няя** (*sínyaya*) | **си́нее** (*sínee*) | **си́ние** (*sínie*) |\n| after **г к х ж ч ш щ** | **хоро́ший** (*khoróshiy*) | **хоро́шая** | **хоро́шее** | **хоро́шие** |\n\n**Hard** adjectives end in **-ый / -ая / -ое / -ые** (**-ой** if the stress is on the ending), **soft** ones in **-ий / -яя / -ее / -ие**. After **г, к, х, ж, ч, ш, щ** you write **-ий** and **-ие** (spelling rule): **ру́сский**, **ру́сские**.\n\nThe adjective stands **before** the noun: **но́вый дом**, **но́вая кни́га**, **но́вое окно́**, **но́вые столы́**.\n\n**Pitfalls**\n- **-ый** (hard) and **-ий** (soft, or after **г к х ж ч ш щ**) look alike: learn the type.\n- The adjective changes, the noun doesn't: **Э́то но́вая кни́га** — **но́вый**, not **но́вый кни́га**.\n- **большо́й** has its stress on the ending, so it ends in **-ой**.\n- The same adjective with **plural** nouns is always **-ые / -ие**: **но́вые друзья́**.",
+  "examples": [
+   {
+    "t": "Э́то но́вый дом.",
+    "tr": "Éto nóvyy dom.",
+    "en": "This is a new house."
+   },
+   {
+    "t": "Э́то но́вая кни́га.",
+    "tr": "Éto nóvaya kníga.",
+    "en": "This is a new book."
+   },
+   {
+    "t": "Э́то но́вое окно́.",
+    "tr": "Éto nóvoye oknó.",
+    "en": "This is a new window."
+   },
+   {
+    "t": "Э́то хоро́шие друзья́.",
+    "tr": "Éto khoróshiye druz'yá.",
+    "en": "These are good friends."
+   },
+   {
+    "t": "У меня́ си́няя су́мка.",
+    "tr": "U menyá sínyaya súmka.",
+    "en": "I have a blue bag."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "＿＿ кни́га (new)",
+    "options": [
+     "но́вая",
+     "но́вый",
+     "но́вое",
+     "но́вые"
+    ],
+    "a": 0,
+    "why": "Feminine **-ая**."
+   },
+   {
+    "type": "choice",
+    "q": "＿＿ окно́ (new)",
+    "options": [
+     "но́вое",
+     "но́вый",
+     "но́вая",
+     "но́вые"
+    ],
+    "a": 0,
+    "why": "Neuter **-ое**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то ＿＿ стол. (new)",
+    "a": [
+     "новый"
+    ],
+    "why": "Masculine **-ый**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то ＿＿ кни́га. (Russian)",
+    "a": [
+     "русская"
+    ],
+    "why": "Feminine **-ая** (after **к** the ending stays **-ая**)."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то ＿＿ окно́. (good)",
+    "a": [
+     "хорошее"
+    ],
+    "why": "Neuter **-ее** (soft, after **ш**)."
+   },
+   {
+    "type": "order",
+    "q": "Make: This is a new house.",
+    "tokens": [
+     "Э́то",
+     "но́вый",
+     "дом"
+    ],
+    "a": [
+     "Э́то",
+     "но́вый",
+     "дом"
+    ],
+    "why": "Adjective masc. before the noun."
+   }
+  ]
+ },
+ {
+  "id": "ru9-adj-cases",
+  "lesson": 9,
+  "title": "Adjectives in all cases: overview",
+  "summary": "Adjective endings follow the noun's case; learn one table for hard adjectives.",
+  "explain": "An adjective takes the **case, gender and number** of its noun. Here is **но́вый** \"new\":\n\n| case | masc. | fem. | neut. | plural |\n|---|---|---|---|---|\n| nominative | **-ый** | **-ая** | **-ое** | **-ые** |\n| accusative | **-ый / -ого** (animate) | **-ую** | **-ое** | **-ые / -ых** (animate) |\n| genitive | **-ого** | **-ой** | **-ого** | **-ых** |\n| dative | **-ому** | **-ой** | **-ому** | **-ым** |\n| instrumental | **-ым** | **-ой** | **-ым** | **-ыми** |\n| prepositional | **-ом** | **-ой** | **-ом** | **-ых** |\n\n**Example forms** (masculine): **но́вый дом, но́вого дру́га, но́вому дру́гу, но́вым дру́гом, о но́вом дру́ге**.\n\nNotice that **feminine** uses just **-ой** for genitive, dative, instrumental and prepositional, and **-ую** in the accusative.\n\n**Pitfalls**\n- Accusative follows the noun type: **Я ви́жу но́вый дом** (thing) but **Я ви́жу но́вого студе́нта** (person).\n- In **-ого / -его**, the **г** sounds like **в**: *nóvovo*.\n- Soft adjectives use **-ий, -яя, -ее, -ие** and **-его, -ей, -ему, -ем, -ими**: same pattern with **е/и/я/ю**.\n- After **г к х ж ч ш щ**, use **и** instead of **ы**: **хоро́шими**, **ру́сским**.",
+  "examples": [
+   {
+    "t": "Я чита́ю но́вую кни́гу.",
+    "tr": "Ya chitáyu nóvuyu knígu.",
+    "en": "I am reading a new book."
+   },
+   {
+    "t": "Я ви́жу но́вого студе́нта.",
+    "tr": "Ya vízhu nóvogo studénta.",
+    "en": "I see the new student."
+   },
+   {
+    "t": "У меня́ нет но́вой кни́ги.",
+    "tr": "U menyá net nóvoy knígi.",
+    "en": "I don't have a new book."
+   },
+   {
+    "t": "Мы говори́м о но́вом фи́льме.",
+    "tr": "My govorím o nóvom fílme.",
+    "en": "We are talking about the new film."
+   },
+   {
+    "t": "Я иду́ в кино́ с но́вым дру́гом.",
+    "tr": "Ya idú v kinó s nóvym drúgom.",
+    "en": "I am going to the cinema with a new friend."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Я ви́жу ＿＿ дом.",
+    "options": [
+     "но́вый",
+     "но́вого",
+     "но́вую",
+     "но́вым"
+    ],
+    "a": 0,
+    "why": "Inanimate masculine accusative = nominative."
+   },
+   {
+    "type": "choice",
+    "q": "Я ви́жу ＿＿ дру́га.",
+    "options": [
+     "но́вого",
+     "но́вый",
+     "но́вому",
+     "но́вым"
+    ],
+    "a": 0,
+    "why": "Animate masculine accusative = genitive."
+   },
+   {
+    "type": "choice",
+    "q": "Я чита́ю ＿＿ кни́гу.",
+    "options": [
+     "но́вую",
+     "но́вая",
+     "но́вой",
+     "но́вый"
+    ],
+    "a": 0,
+    "why": "Feminine accusative **-ую**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ви́жу ＿＿ студе́нта. (но́вый)",
+    "a": [
+     "нового"
+    ],
+    "why": "Animate accusative **-ого**."
+   },
+   {
+    "type": "fill",
+    "q": "Я иду́ в ＿＿ шко́лу. (но́вый)",
+    "a": [
+     "новую"
+    ],
+    "why": "Feminine accusative **-ую**."
+   },
+   {
+    "type": "order",
+    "q": "Make: I read a new book.",
+    "tokens": [
+     "Я",
+     "чита́ю",
+     "но́вую",
+     "кни́гу"
+    ],
+    "a": [
+     "Я",
+     "чита́ю",
+     "но́вую",
+     "кни́гу"
+    ],
+    "why": "Feminine accusative adjective **-ую**."
+   }
+  ]
+ },
+ {
+  "id": "ru9-comparative",
+  "lesson": 9,
+  "title": "Comparatives: -ее, более, лучше, хуже",
+  "summary": "Add -ее or use более; a few common ones are irregular.",
+  "explain": "There are two ways to say \"more …\".\n\n**1. Simple comparative:** **-ее** (invariable): **бы́стрый → быстре́е** (*bystrée*) \"faster\", **краси́вый → краси́вее**, **интере́сный → интере́снее**.\n\n**2. Compound:** **бо́лее** (*bólee*) + the ordinary adjective: **бо́лее но́вая маши́на** \"a newer car\". This form does change with gender.\n\n**Irregular comparatives**\n\n| adjective / adverb | comparative |\n|---|---|\n| **хоро́ший, хорошо́** good | **лу́чше** (*lúchshe*) better |\n| **плохо́й, пло́хо** bad | **ху́же** (*khúzhe*) worse |\n| **большо́й** big | **бо́льше** (*ból'she*) bigger, more |\n| **ма́ленький** small | **ме́ньше** (*mén'she*) smaller, less |\n| **ста́рый** old | **ста́рше** (*stárshe*) older (people) |\n| **молодо́й** young | **моло́же** (*molózhe*) |\n| **дорого́й** expensive | **доро́же** (*dorózhe*) |\n| **дешёвый** cheap | **деше́вле** (*deshévle*) |\n\n**\"than\"**: use **чем** + nominative: **Он ста́рше, чем я** or the **genitive**: **Он ста́рше меня́** (*On stárshe menyá*).\n\n**Pitfalls**\n- **-ее** forms never change gender: **Э́та кни́га интере́снее**.\n- **лу́чше** also means \"better\" as adverb: **Он говори́т лу́чше** \"He speaks better\".\n- Don't say **бо́лее лу́чше** — **лу́чше** already means \"better\".",
+  "examples": [
+   {
+    "t": "Мой брат ста́рше меня́.",
+    "tr": "Moy brat stárshe menyá.",
+    "en": "My brother is older than me."
+   },
+   {
+    "t": "Э́то лу́чше.",
+    "tr": "Éto lúchshe.",
+    "en": "This is better."
+   },
+   {
+    "t": "Он бежи́т быстре́е меня́.",
+    "tr": "On bezhít bystréye menyá.",
+    "en": "He runs faster than me."
+   },
+   {
+    "t": "Э́та кни́га интере́снее, чем фильм.",
+    "tr": "Éta kníga interésneye, chem fil'm.",
+    "en": "This book is more interesting than the film."
+   },
+   {
+    "t": "Э́та маши́на бо́лее но́вая.",
+    "tr": "Éta mashína bólee nóvaya.",
+    "en": "This car is newer."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "How do you say «better»?",
+    "options": [
+     "лу́чше",
+     "ху́же",
+     "бо́льше",
+     "ме́ньше"
+    ],
+    "a": 0,
+    "why": "**лу́чше** is the irregular comparative of **хоро́ший**."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say «worse»?",
+    "options": [
+     "ху́же",
+     "лу́чше",
+     "бо́льше",
+     "ста́рше"
+    ],
+    "a": 0,
+    "why": "**ху́же**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́то ＿＿. (better)",
+    "a": [
+     "лучше"
+    ],
+    "why": "Irregular **лу́чше**."
+   },
+   {
+    "type": "fill",
+    "q": "Он ＿＿ меня́. (older than)",
+    "a": [
+     "старше"
+    ],
+    "why": "Comparative **ста́рше**."
+   },
+   {
+    "type": "fill",
+    "q": "Э́та кни́га ＿＿ интере́сная. (more)",
+    "a": [
+     "более"
+    ],
+    "why": "**бо́лее** + adjective."
+   },
+   {
+    "type": "order",
+    "q": "Make: This book is more interesting.",
+    "tokens": [
+     "Э́та",
+     "кни́га",
+     "интере́снее"
+    ],
+    "a": [
+     "Э́та",
+     "кни́га",
+     "интере́снее"
+    ],
+    "why": "Invariable **-ее** form."
+   }
+  ]
+ },
+ {
+  "id": "ru9-superlative",
+  "lesson": 9,
+  "title": "Superlative: самый",
+  "summary": "Put самый before the adjective and make both agree.",
+  "explain": "The superlative (\"the most …\") is formed with **са́мый** (*sámyy*) + adjective. Both words agree with the noun in gender, number and case.\n\n| | masc. | fem. | neut. | plural |\n|---|---|---|---|---|\n| the most beautiful | **са́мый краси́вый** | **са́мая краси́вая** | **са́мое краси́вое** | **са́мые краси́вые** |\n\n- **Э́то са́мый большо́й го́род.** \"This is the biggest city.\"\n- **Э́то са́мая краси́вая кни́га.** \"This is the most beautiful book.\"\n\n**Other ways**\n- **лу́чший** (*lúchshiy*) \"best\", **ху́дший** (*khúdshiy*) \"worst\": **мой лу́чший друг** \"my best friend\".\n- **лу́чше всех** (*lúchshe vsekh*) \"better than all\", i.e. \"best\": **Он лу́чше всех говори́т по-ру́сски.**\n- **бо́льше всего́** (*ból'she vsevó*) \"most of all\": **Бо́льше всего́ я люблю́ чита́ть.**\n\n**Pitfalls**\n- **са́мый** is declined like **но́вый**: **в са́мом большо́м го́роде** (*v sámom bol'shóm górode*).\n- Never combine **са́мый** with **-ее**: say **са́мый интере́сный**, not **са́мый интере́снее**.\n- **лу́чший** is a full adjective and agrees: **лу́чшая кни́га**.",
+  "examples": [
+   {
+    "t": "Э́то са́мый большо́й го́род.",
+    "tr": "Éto sámyy bol'shóy górod.",
+    "en": "This is the biggest city."
+   },
+   {
+    "t": "Э́то са́мая краси́вая кни́га.",
+    "tr": "Éto sámaya krasívaya kníga.",
+    "en": "This is the most beautiful book."
+   },
+   {
+    "t": "Э́то са́мое хоро́шее ме́сто.",
+    "tr": "Éto sámoye khoróshee mésto.",
+    "en": "This is the best place."
+   },
+   {
+    "t": "Он мой лу́чший друг.",
+    "tr": "On moy lúchshiy drug.",
+    "en": "He is my best friend."
+   },
+   {
+    "t": "Он лу́чше всех говори́т по-ру́сски.",
+    "tr": "On lúchshe vsekh govorít po-rússki.",
+    "en": "He speaks Russian best of all."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«the most beautiful book»",
+    "options": [
+     "са́мая краси́вая кни́га",
+     "са́мый краси́вая кни́га",
+     "са́мое краси́вая кни́га",
+     "са́мая краси́вый кни́га"
+    ],
+    "a": 0,
+    "why": "Both words are feminine."
+   },
+   {
+    "type": "choice",
+    "q": "«the biggest city» (город is masculine)",
+    "options": [
+     "са́мый большо́й го́род",
+     "са́мая большо́й го́род",
+     "са́мое большо́е го́род",
+     "са́мые больши́е го́род"
+    ],
+    "a": 0,
+    "why": "Both words are masculine."
+   },
+   {
+    "type": "fill",
+    "q": "са́мая ＿＿ кни́га (new)",
+    "a": [
+     "новая"
+    ],
+    "why": "Feminine nominative."
+   },
+   {
+    "type": "fill",
+    "q": "са́мое ＿＿ окно́ (big)",
+    "a": [
+     "большое"
+    ],
+    "why": "Neuter nominative."
+   },
+   {
+    "type": "fill",
+    "q": "са́мый ＿＿ дом (new)",
+    "a": [
+     "новый"
+    ],
+    "why": "Masculine nominative."
+   },
+   {
+    "type": "order",
+    "q": "Make: He is my best friend.",
+    "tokens": [
+     "Он",
+     "мой",
+     "лу́чший",
+     "друг"
+    ],
+    "a": [
+     "Он",
+     "мой",
+     "лу́чший",
+     "друг"
+    ],
+    "why": "**лу́чший** = best."
+   }
+  ]
+ },
+ {
+  "id": "ru9-short",
+  "lesson": 9,
+  "title": "Short adjective forms (briefly)",
+  "summary": "Short forms like рад, занят, готов, должен are used only as predicates and have no cases.",
+  "explain": "Some adjectives have **short forms** that are used **only after the noun as a predicate** («X is …»). They have no case, only gender and number.\n\n| | masc. | fem. | neut. | plural |\n|---|---|---|---|---|\n| glad | **рад** (*rad*) | **ра́да** (*ráda*) | **ра́до** (*rádo*) | **ра́ды** (*rády*) |\n| busy | **за́нят** (*zányat*) | **занята́** (*zanyatá*) | **за́нято** (*zányato*) | **за́няты** (*zányaty*) |\n| ready | **гото́в** (*gotóv*) | **гото́ва** (*gotóva*) | **гото́во** | **гото́вы** |\n| must | **до́лжен** (*dólzhen*) | **должна́** (*dolzhná*) | **должно́** | **должны́** |\n\n**Examples:** **Я рад тебя́ ви́деть.** (*Ya rad tebyá vídet'.*) \"I am glad to see you.\" **Она́ занята́.** \"She is busy.\" **Он до́лжен рабо́тать.** \"He has to work.\"\n\nSome adjectives only exist in short form (**рад, до́лжен, нужен**). With others the short form means a temporary state or \"too\": **Он бо́лен** (*bólen*) \"he is ill\".\n\n**Pitfalls**\n- The man says **Я рад**, the woman **Я ра́да**.\n- Short forms don't take cases: **Я зна́ю, что он за́нят** is right.\n- **до́лжен** (+ infinitive) is \"must\": **Мы должны́ идти́.**\n- **Он гото́в** — short; **гото́вый у́жин** — long form, before the noun («a ready dinner»).",
+  "examples": [
+   {
+    "t": "Я рад тебя́ ви́деть.",
+    "tr": "Ya rad tebyá vídet'.",
+    "en": "I am glad to see you."
+   },
+   {
+    "t": "Она́ занята́.",
+    "tr": "Oná zanyatá.",
+    "en": "She is busy."
+   },
+   {
+    "t": "Мы гото́вы.",
+    "tr": "My gotóvy.",
+    "en": "We are ready."
+   },
+   {
+    "t": "Он до́лжен рабо́тать.",
+    "tr": "On dólzhen rabótat'.",
+    "en": "He has to work."
+   },
+   {
+    "t": "Она́ должна́ рабо́тать.",
+    "tr": "Oná dolzhná rabótat'.",
+    "en": "She has to work."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "A woman says «I am glad»",
+    "options": [
+     "Я ра́да",
+     "Я рад",
+     "Я ра́до",
+     "Я ра́ды"
+    ],
+    "a": 0,
+    "why": "Feminine short form: **ра́да**."
+   },
+   {
+    "type": "choice",
+    "q": "«They are busy»",
+    "options": [
+     "Они́ за́няты",
+     "Они́ за́нят",
+     "Они́ занята́",
+     "Они́ за́нято"
+    ],
+    "a": 0,
+    "why": "Plural: **-ы**."
+   },
+   {
+    "type": "fill",
+    "q": "Он ＿＿. (ready)",
+    "a": [
+     "готов"
+    ],
+    "why": "Masculine short form."
+   },
+   {
+    "type": "fill",
+    "q": "Мы ＿＿. (busy, plural)",
+    "a": [
+     "заняты"
+    ],
+    "why": "Plural short form."
+   },
+   {
+    "type": "fill",
+    "q": "Она́ ＿＿. (busy)",
+    "a": [
+     "занята"
+    ],
+    "why": "Feminine short form."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am glad to see you.",
+    "tokens": [
+     "Я",
+     "рад",
+     "тебя́",
+     "ви́деть"
+    ],
+    "a": [
+     "Я",
+     "рад",
+     "тебя́",
+     "ви́деть"
+    ],
+    "why": "Short form + **тебя́** + infinitive."
+   }
+  ]
+ },
+ {
+  "id": "ru10-past",
+  "lesson": 10,
+  "title": "Past tense: -л, -ла, -ло, -ли",
+  "summary": "Drop -ть and add -л / -ла / -ло / -ли: the past agrees with gender, not person.",
+  "explain": "The past tense is simple: take the infinitive, drop **-ть** and add **-л** (masculine), **-ла** (feminine), **-ло** (neuter) or **-ли** (plural). It does not change for person, so **я, ты, он** all use the same form.\n\n| | masc. | fem. | neut. | plural |\n|---|---|---|---|---|\n| **чита́ть** (*chitát'*) | **чита́л** | **чита́ла** | **чита́ло** | **чита́ли** |\n| **быть** (*byt'*) to be | **был** | **была́** | **бы́ло** | **бы́ли** |\n| **идти́** (*idtí*) to go | **шёл** (*shol*) | **шла** | **шло** | **шли** |\n\nA man says **Я чита́л**, a woman **Я чита́ла**; **ты** the same (**ты чита́л / чита́ла**); **вы** always **чита́ли**.\n\nThe verb **быть** appears in the past: **Вчера́ бы́ло хо́лодно.** \"Yesterday it was cold.\" Its present form is not used, but the past is.\n\n**Pitfalls**\n- The stress may move in feminine and plural: **был, была́, бы́ло, бы́ли**.\n- A few verbs are irregular: **идти́ → шёл, шла, шло, шли**; **мочь → мог, могла́**; **есть → ел, е́ла**.\n- **Мы бы́ли** is plural even if you are two people.",
+  "examples": [
+   {
+    "t": "Я чита́л кни́гу.",
+    "tr": "Ya chitál knígu.",
+    "en": "I read / was reading a book (male)."
+   },
+   {
+    "t": "Она́ рабо́тала до́ма.",
+    "tr": "Oná rabótala dóma.",
+    "en": "She worked at home."
+   },
+   {
+    "t": "Мы бы́ли в Москве́.",
+    "tr": "My býli v Moskvé.",
+    "en": "We were in Moscow."
+   },
+   {
+    "t": "Он шёл домо́й.",
+    "tr": "On shol domóy.",
+    "en": "He was walking home."
+   },
+   {
+    "t": "Вчера́ бы́ло хо́лодно.",
+    "tr": "Vcherá býlo khólodno.",
+    "en": "Yesterday it was cold."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Она́ ＿＿. (читать)",
+    "options": [
+     "чита́ла",
+     "чита́л",
+     "чита́ло",
+     "чита́ли"
+    ],
+    "a": 0,
+    "why": "Feminine **-ла**."
+   },
+   {
+    "type": "choice",
+    "q": "Мы ＿＿. (работать)",
+    "options": [
+     "рабо́тали",
+     "рабо́тал",
+     "рабо́тала",
+     "рабо́тало"
+    ],
+    "a": 0,
+    "why": "Plural **-ли**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ＿＿. (де́лать, said by a woman)",
+    "a": [
+     "делала"
+    ],
+    "why": "Feminine **-ла**."
+   },
+   {
+    "type": "fill",
+    "q": "Они́ ＿＿. (знать)",
+    "a": [
+     "знали"
+    ],
+    "why": "Plural **-ли**."
+   },
+   {
+    "type": "fill",
+    "q": "Вчера́ ＿＿ хо́лодно. (was)",
+    "a": [
+     "было"
+    ],
+    "why": "Impersonal sentences use the neuter."
+   },
+   {
+    "type": "order",
+    "q": "Make: He read the book.",
+    "tokens": [
+     "Он",
+     "чита́л",
+     "кни́гу"
+    ],
+    "a": [
+     "Он",
+     "чита́л",
+     "кни́гу"
+    ],
+    "why": "Masculine past **-л**."
+   }
+  ]
+ },
+ {
+  "id": "ru10-aspect",
+  "lesson": 10,
+  "title": "Aspect: imperfective and perfective",
+  "summary": "Imperfective describes a process or habit; perfective a finished result.",
+  "explain": "Most Russian verbs come in **pairs**: an **imperfective** (process, repeated action) and a **perfective** (single finished action with a result).\n\n| imperfective | perfective | meaning |\n|---|---|---|\n| **чита́ть** | **прочита́ть** | read |\n| **писа́ть** | **написа́ть** | write |\n| **де́лать** | **сде́лать** | do, make |\n| **покупа́ть** | **купи́ть** | buy |\n| **говори́ть** | **сказа́ть** | say |\n| **смотре́ть** | **посмотре́ть** | watch |\n\nOften the perfective just adds a **prefix** (**по-, про-, на-, с-**), but sometimes the verb is different (**покупа́ть / купи́ть**).\n\n- **Я чита́л кни́гу весь ве́чер.** — process, how long: imperfective.\n- **Я прочита́л кни́гу.** — finished, I have the result: perfective.\n- **Ка́ждый день он покупа́л хлеб.** — repeated: imperfective.\n\n**Pitfalls**\n- Perfective verbs have **no present tense**: **прочита́ю** means \"I will read it through\".\n- Signal words for imperfective: **ка́ждый день, всегда́, ча́сто, весь ве́чер, до́лго**. Perfective: **уже́, вдруг, наконе́ц, за час**.\n- **Что ты де́лал?** asks \"what were you doing?\" while **Что ты сде́лал?** asks \"what did you get done?\"\n- Learn both verbs of a pair together.",
+  "examples": [
+   {
+    "t": "Я чита́л кни́гу весь ве́чер.",
+    "tr": "Ya chitál knígu ves' vécher.",
+    "en": "I was reading the book all evening."
+   },
+   {
+    "t": "Я прочита́л кни́гу.",
+    "tr": "Ya prochitál knígu.",
+    "en": "I read the book (finished it)."
+   },
+   {
+    "t": "Она́ купи́ла хлеб.",
+    "tr": "Oná kupíla khleb.",
+    "en": "She bought bread."
+   },
+   {
+    "t": "Мы ка́ждый день покупа́ли хлеб.",
+    "tr": "My kázhdyy den' pokupáli khleb.",
+    "en": "We bought bread every day."
+   },
+   {
+    "t": "Он написа́л письмо́.",
+    "tr": "On napisál pis'mó.",
+    "en": "He wrote the letter."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I was reading the book all evening»",
+    "options": [
+     "Я чита́л кни́гу весь ве́чер",
+     "Я прочита́л кни́гу весь ве́чер",
+     "Я прочита́ю кни́гу",
+     "Я бу́ду прочита́л"
+    ],
+    "a": 0,
+    "why": "A long process: imperfective."
+   },
+   {
+    "type": "choice",
+    "q": "«I have read the book (finished)»",
+    "options": [
+     "Я прочита́л кни́гу",
+     "Я чита́л кни́гу",
+     "Я бу́ду чита́л",
+     "Я чита́ю кни́гу"
+    ],
+    "a": 0,
+    "why": "A result: perfective."
+   },
+   {
+    "type": "fill",
+    "q": "Я вчера́ ＿＿ письмо́. (написа́ть, perfective, male)",
+    "a": [
+     "написал"
+    ],
+    "why": "Perfective past of **написа́ть**."
+   },
+   {
+    "type": "fill",
+    "q": "Она́ ＿＿ хлеб. (купи́ть, she)",
+    "a": [
+     "купила"
+    ],
+    "why": "Perfective past of **купи́ть**."
+   },
+   {
+    "type": "fill",
+    "q": "Ка́ждый день он ＿＿ хлеб. (покупа́ть, male past)",
+    "a": [
+     "покупал"
+    ],
+    "why": "Repeated action: imperfective."
+   },
+   {
+    "type": "order",
+    "q": "Make: I wrote the letter.",
+    "tokens": [
+     "Я",
+     "написа́л",
+     "письмо́"
+    ],
+    "a": [
+     "Я",
+     "написа́л",
+     "письмо́"
+    ],
+    "why": "Perfective past."
+   }
+  ]
+ },
+ {
+  "id": "ru10-future",
+  "lesson": 10,
+  "title": "Future: буду + infinitive, and perfective future",
+  "summary": "Imperfective future = быть + infinitive; perfective future = present-tense endings.",
+  "explain": "Russian has two futures.\n\n**1. Imperfective future** = **быть** + infinitive. Use it for a process, repeated action or duration.\n\n| я | **бу́ду** | **рабо́тать** |\n|---|---|---|\n| ты | **бу́дешь** | |\n| он / она́ | **бу́дет** | |\n| мы | **бу́дем** | |\n| вы | **бу́дете** | |\n| они́ | **бу́дут** | |\n\n**За́втра я бу́ду рабо́тать.** (*Závtra ya búdu rabótat'.*) \"Tomorrow I will be working.\"\n\n**2. Perfective future** = the perfective verb conjugated like a present tense: **прочита́ть → прочита́ю, прочита́ешь…**, **написа́ть → напишу́, напи́шешь…**, **купи́ть → куплю́, ку́пишь…**, **сде́лать → сде́лаю**. It means a single completed action in the future.\n\n**Я напишу́ тебе́ письмо́.** \"I will write you a letter (and finish it).\"\n\n**Pitfalls**\n- **Бу́ду** is never used with a perfective infinitive: **Я бу́ду написа́ть** is wrong; say **Я напишу́**.\n- The perfective future endings are the normal present ones: **я напишу́, мы напи́шем**.\n- The present tense of imperfective verbs can also refer to the near future: **За́втра я иду́ в кино́.**\n- Don't forget the question word: **Что ты бу́дешь де́лать?** (*Chto ty búdesh' délat'?*) \"What will you be doing?\" and **Что ты сде́лаешь?** \"What will you do (get done)?\".",
+  "examples": [
+   {
+    "t": "За́втра я бу́ду рабо́тать.",
+    "tr": "Závtra ya búdu rabótat'.",
+    "en": "Tomorrow I will be working."
+   },
+   {
+    "t": "Он бу́дет чита́ть весь ве́чер.",
+    "tr": "On búdet chitát' ves' vécher.",
+    "en": "He will read all evening."
+   },
+   {
+    "t": "Я напишу́ тебе́ письмо́.",
+    "tr": "Ya napishú tebé pis'mó.",
+    "en": "I will write you a letter."
+   },
+   {
+    "t": "Мы ку́пим хлеб.",
+    "tr": "My kúpim khleb.",
+    "en": "We will buy bread."
+   },
+   {
+    "t": "Она́ прочита́ет кни́гу.",
+    "tr": "Oná prochitáyet knígu.",
+    "en": "She will read the book (finish it)."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "«I will be working»",
+    "options": [
+     "Я бу́ду рабо́тать",
+     "Я бу́ду порабо́тал",
+     "Я рабо́тал бу́ду",
+     "Я бу́ду рабо́таю"
+    ],
+    "a": 0,
+    "why": "**бу́ду** + infinitive."
+   },
+   {
+    "type": "choice",
+    "q": "«He will write» (perfective)",
+    "options": [
+     "Он напи́шет",
+     "Он бу́дет написа́ть",
+     "Он напи́сал",
+     "Он бу́дет напи́шет"
+    ],
+    "a": 0,
+    "why": "Perfective: present-type endings."
+   },
+   {
+    "type": "fill",
+    "q": "За́втра мы ＿＿ рабо́тать. (will)",
+    "a": [
+     "будем"
+    ],
+    "why": "**бу́дем** for **мы**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ＿＿ письмо́. (написа́ть, I will write)",
+    "a": [
+     "напишу"
+    ],
+    "why": "Perfective future."
+   },
+   {
+    "type": "fill",
+    "q": "Она́ ＿＿ кни́гу. (прочита́ть, will read)",
+    "a": [
+     "прочитает"
+    ],
+    "why": "Perfective future."
+   },
+   {
+    "type": "order",
+    "q": "Make: Tomorrow I will work.",
+    "tokens": [
+     "За́втра",
+     "я",
+     "бу́ду",
+     "рабо́тать"
+    ],
+    "a": [
+     "За́втра",
+     "я",
+     "бу́ду",
+     "рабо́тать"
+    ],
+    "why": "**бу́ду** + imperfective infinitive."
+   }
+  ]
+ },
+ {
+  "id": "ru10-motion",
+  "lesson": 10,
+  "title": "Verbs of motion: идти/ходить, ехать/ездить",
+  "summary": "Two verbs for each kind of travel: one direction now vs habitual or round trip.",
+  "explain": "Russian splits \"to go\" by **how** you move and whether it is **one direction** or **habitual / round trip**.\n\n| | one direction, now | habitual / round trip |\n|---|---|---|\n| on foot | **идти́** (*idtí*) | **ходи́ть** (*khodít'*) |\n| by transport | **е́хать** (*yékhat'*) | **е́здить** (*yézdit'*) |\n\n| | идти́ | ходи́ть | е́хать | е́здить |\n|---|---|---|---|---|\n| я | **иду́** | **хожу́** | **е́ду** | **е́зжу** |\n| ты | **идёшь** | **хо́дишь** | **е́дешь** | **е́здишь** |\n| он | **идёт** | **хо́дит** | **е́дет** | **е́здит** |\n| мы | **идём** | **хо́дим** | **е́дем** | **е́здим** |\n| вы | **идёте** | **хо́дите** | **е́дете** | **е́здите** |\n| они́ | **иду́т** | **хо́дят** | **е́дут** | **е́здят** |\n\n- **Сейча́с я иду́ в шко́лу.** — now, one direction.\n- **Ка́ждый день я хожу́ в шко́лу.** — repeated.\n- **Вчера́ она́ шла домо́й.** — past of **идти́**: **шёл, шла, шли**.\n\n**Pitfalls**\n- Choose by transport, not distance: **е́хать** for bus, train, car, plane; **идти́** only on foot.\n- **Я е́здил в Берли́н** can mean \"I have been to Berlin\" (round trip).\n- Don't say **я хожу́ в шко́лу сейча́с**: use **иду́**.",
+  "examples": [
+   {
+    "t": "Я иду́ в шко́лу.",
+    "tr": "Ya idú v shkólu.",
+    "en": "I am walking to school."
+   },
+   {
+    "t": "Я хожу́ в шко́лу ка́ждый день.",
+    "tr": "Ya khozhú v shkólu kázhdyy den'.",
+    "en": "I walk to school every day."
+   },
+   {
+    "t": "Мы е́дем в Москву́.",
+    "tr": "My yédem v Moskvú.",
+    "en": "We are going (by transport) to Moscow."
+   },
+   {
+    "t": "Он ча́сто е́здит в Берли́н.",
+    "tr": "On chásto yézdit v Berlín.",
+    "en": "He often travels to Berlin."
+   },
+   {
+    "t": "Вчера́ она́ шла домо́й.",
+    "tr": "Vcherá oná shla domóy.",
+    "en": "Yesterday she was walking home."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Сейча́с я ＿＿ в шко́лу. (on foot)",
+    "options": [
+     "иду́",
+     "хожу́",
+     "е́ду",
+     "е́зжу"
+    ],
+    "a": 0,
+    "why": "One direction on foot: **идти́**."
+   },
+   {
+    "type": "choice",
+    "q": "Ка́ждый день я ＿＿ в шко́лу. (on foot)",
+    "options": [
+     "хожу́",
+     "иду́",
+     "е́ду",
+     "е́зжу"
+    ],
+    "a": 0,
+    "why": "Habitual on foot: **ходи́ть**."
+   },
+   {
+    "type": "fill",
+    "q": "Мы ＿＿ в Москву́. (by transport, now)",
+    "a": [
+     "едем"
+    ],
+    "why": "**е́хать** → **мы е́дем**."
+   },
+   {
+    "type": "fill",
+    "q": "Вчера́ она́ ＿＿ домо́й. (was walking)",
+    "a": [
+     "шла"
+    ],
+    "why": "Past of **идти́**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ＿＿ в шко́лу ка́ждый день. (on foot, habitual)",
+    "a": [
+     "хожу"
+    ],
+    "why": "**ходи́ть** → **я хожу́**."
+   },
+   {
+    "type": "order",
+    "q": "Make: We are going to Moscow.",
+    "tokens": [
+     "Мы",
+     "е́дем",
+     "в",
+     "Москву́"
+    ],
+    "a": [
+     "Мы",
+     "е́дем",
+     "в",
+     "Москву́"
+    ],
+    "why": "**е́хать** + **в** + accusative."
+   }
+  ]
+ },
+ {
+  "id": "ru11-imperative",
+  "lesson": 11,
+  "title": "Imperative: commands and requests",
+  "summary": "Take the ты present stem: add -й, -и or -ь; add -те for вы.",
+  "explain": "The imperative tells someone to do something. Take the **я / они́** present stem (drop the ending) and add:\n\n| stem ends in | ты | вы | example |\n|---|---|---|---|\n| vowel | **-й** | **-йте** | **чита́ть → чита́й(те)** (*chitáy(te)*) |\n| consonant, ending stressed | **-и** | **-ите** | **говори́ть → говори́(те)** (*govorí(te)*) |\n| consonant, stem stressed | **-ь** | **-ьте** | **отве́тить → отве́ть(те)** |\n| irregular | | | **дать → дай(те)**, **пить → пей(те)**, **есть → ешь(те)** |\n\nMore: **пиши́(те)** (*pishí*), **смотри́(те)** (*smotrí*), **иди́(те)** (*idí*), **приходи́(те)** (*prikhodí*). Add **пожа́луйста** (*pozháluysta*) to be polite.\n\n**Negative commands** use **не** + the **imperfective**: **Не звони́ мне.** (*Ne zvoní mne.*) \"Don't call me.\" \n\n**Pitfalls**\n- **-те** is for **вы**: it addresses one polite person or several people: **Говори́те ме́дленнее!** (*Govoríte médlenneye!*)\n- A one-time positive request often uses the **perfective**: **Напиши́ мне!** \"Write to me!\"; a negative or repeated one uses the **imperfective**: **Не пиши́ мне.**\n- Never use the perfective after **не**: **Не напиши́** is wrong.\n- Even a polite «**Дай мне**» sounds blunt: add **пожа́луйста**.",
+  "examples": [
+   {
+    "t": "Чита́й!",
+    "tr": "Chitáy!",
+    "en": "Read! (informal)"
+   },
+   {
+    "t": "Говори́те ме́дленнее, пожа́луйста.",
+    "tr": "Govoríte médlenneye, pozháluysta.",
+    "en": "Speak more slowly, please."
+   },
+   {
+    "t": "Смотри́ сюда́.",
+    "tr": "Smotrí syudá.",
+    "en": "Look here."
+   },
+   {
+    "t": "Не звони́ мне.",
+    "tr": "Ne zvoní mne.",
+    "en": "Don't call me."
+   },
+   {
+    "t": "Приходи́те за́втра.",
+    "tr": "Prikhodíte závtra.",
+    "en": "Come tomorrow."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "The imperative of **чита́ть** (ты)",
+    "options": [
+     "чита́й",
+     "чита́ть",
+     "чита́ю",
+     "чита́ет"
+    ],
+    "a": 0,
+    "why": "Vowel stem → **-й**."
+   },
+   {
+    "type": "choice",
+    "q": "The imperative of **говори́ть** (вы)",
+    "options": [
+     "говори́те",
+     "говорю́те",
+     "говоря́т",
+     "говори́шь"
+    ],
+    "a": 0,
+    "why": "**говори́** + **-те**."
+   },
+   {
+    "type": "fill",
+    "q": "＿＿ мне, пожа́луйста. (дать, ты)",
+    "a": [
+     "дай",
+     "Дай"
+    ],
+    "why": "Irregular imperative **дай**."
+   },
+   {
+    "type": "fill",
+    "q": "Смотри́＿＿! (вы, add the ending)",
+    "a": [
+     "те"
+    ],
+    "why": "**вы** adds **-те**."
+   },
+   {
+    "type": "fill",
+    "q": "Не ＿＿ туда́! (ходи́ть, ты)",
+    "a": [
+     "ходи"
+    ],
+    "why": "Imperfective imperative."
+   },
+   {
+    "type": "order",
+    "q": "Make: Speak slowly, please.",
+    "tokens": [
+     "Говори́те",
+     "ме́дленно",
+     "пожа́луйста"
+    ],
+    "a": [
+     "Говори́те",
+     "ме́дленно",
+     "пожа́луйста"
+    ],
+    "why": "**-те** for **вы**."
+   }
+  ]
+ },
+ {
+  "id": "ru11-conditionals",
+  "lesson": 11,
+  "title": "Conditionals: если and бы",
+  "summary": "Real conditions use если + the real tense; unreal ones use бы + the past.",
+  "explain": "**Real condition** (it could happen): **е́сли** (*ésli*) \"if\" + the normal tense (usually the **future**, unlike English): **Е́сли ты придёшь, я бу́ду до́ма.** (*Ésli ty pridyósh', ya búdu dóma.*) \"If you come, I will be at home.\"\n\n**Unreal condition** (imaginary): **е́сли бы** + past, and **бы** + past in the main clause: **Е́сли бы я знал, я бы сказа́л.** (*Ésli by ya znal, ya by skazál.*) \"If I knew, I would say.\"\n\n| meaning | pattern |\n|---|---|\n| real | **е́сли** + future / present, ... |\n| unreal | **е́сли бы** + past, ... **бы** + past |\n| polite wish | **Я бы хоте́л ко́фе.** (*Ya by khotél kófe.*) \"I would like coffee.\" |\n\nThe particle **бы** (*by*) never changes and is **unstressed**. In the past it has no tense: it simply shows that the action is imaginary.\n\n**Pitfalls**\n- Don't mix the two types: **е́сли бы** is always followed by the past form, never by **бу́дет**.\n- After **бы**, the verb is in the **past form**, but it describes the present or future: **Я бы пошёл сейча́с.**\n- **бы** can move: **Я бы хоте́л**, **Я хоте́л бы** (both fine).\n- Women use **-ла**: **Я бы хоте́ла ко́фе.**",
+  "examples": [
+   {
+    "t": "Е́сли ты придёшь, я бу́ду до́ма.",
+    "tr": "Ésli ty pridyósh', ya búdu dóma.",
+    "en": "If you come, I'll be at home."
+   },
+   {
+    "t": "Е́сли бы я знал, я бы сказа́л.",
+    "tr": "Ésli by ya znal, ya by skazál.",
+    "en": "If I knew, I'd tell you."
+   },
+   {
+    "t": "Я бы хоте́л ко́фе.",
+    "tr": "Ya by khotél kófe.",
+    "en": "I would like a coffee."
+   },
+   {
+    "t": "Е́сли бы у меня́ бы́ли де́ньги, я бы купи́л маши́ну.",
+    "tr": "Ésli by u menyá býli dén'gi, ya by kupíl mashínu.",
+    "en": "If I had money, I'd buy a car."
+   },
+   {
+    "t": "Е́сли за́втра бу́дет дождь, мы бу́дем до́ма.",
+    "tr": "Ésli závtra búdet dozhd', my búdem dóma.",
+    "en": "If it rains tomorrow, we'll be at home."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Е́сли ты ＿＿, я бу́ду до́ма. (come)",
+    "options": [
+     "придёшь",
+     "пришёл",
+     "пришла́",
+     "приходи́л бы"
+    ],
+    "a": 0,
+    "why": "Real future: **придёшь**."
+   },
+   {
+    "type": "choice",
+    "q": "«I would like a coffee»",
+    "options": [
+     "Я бы хоте́л ко́фе",
+     "Я хоте́л ко́фе",
+     "Я бу́ду хоте́л ко́фе",
+     "Я хочу́ бы ко́фе"
+    ],
+    "a": 0,
+    "why": "Polite wish: **бы** + past."
+   },
+   {
+    "type": "fill",
+    "q": "Е́сли бы я знал, я ＿＿ сказа́л. (would)",
+    "a": [
+     "бы"
+    ],
+    "why": "Main clause also has **бы**."
+   },
+   {
+    "type": "fill",
+    "q": "Я ＿＿ хоте́л ко́фе. (would)",
+    "a": [
+     "бы"
+    ],
+    "why": "The polite particle."
+   },
+   {
+    "type": "fill",
+    "q": "Е́сли за́втра ＿＿ дождь, мы бу́дем до́ма. (будет)",
+    "a": [
+     "будет"
+    ],
+    "why": "Real condition uses the future."
+   },
+   {
+    "type": "order",
+    "q": "Make: If I knew, I would say.",
+    "tokens": [
+     "Е́сли",
+     "бы",
+     "я",
+     "знал",
+     "я",
+     "бы",
+     "сказа́л"
+    ],
+    "a": [
+     "Е́сли",
+     "бы",
+     "я",
+     "знал",
+     "я",
+     "бы",
+     "сказа́л"
+    ],
+    "why": "Both clauses contain **бы**."
+   }
+  ]
+ },
+ {
+  "id": "ru11-reflexive",
+  "lesson": 11,
+  "title": "Reflexive verbs in -ся",
+  "summary": "-ся (after a vowel -сь) turns an action back on the subject or makes it intransitive.",
+  "explain": "**-ся** is added to the end of a verb. It is written **-ся** after a consonant and **-сь** after a vowel. In speech **-тся** and **-ться** sound like *-tsa*.\n\n| verb | meaning | forms |\n|---|---|---|\n| **учи́ться** (*uchítsya*) | study, be a student | **учу́сь, у́чишься, у́чится, у́чимся, у́читесь, у́чатся** |\n| **занима́ться** (*zanimátsya*) | be busy with, do (sport) | **занима́юсь, занима́ешься, занима́ется…** |\n| **встреча́ться** (*vstrechátsya*) | meet each other | **встреча́юсь, встреча́ешься…** |\n| **называ́ться** (*nazyváyetsya*) | be called | **называ́ется** |\n| **смея́ться** (*smeyátsya*) | laugh | **смею́сь, смеёшься, смеётся…** |\n\nThe **meanings**:\n- reflexive: **мы́ться** \"wash oneself\", **одева́ться** \"get dressed\";\n- reciprocal: **встреча́ться** \"meet\", **ссо́риться** \"quarrel\";\n- intransitive: **начина́ться** \"begin\", **открыва́ться** \"open\".\n\n**Past:** **Я учи́лся** / **Я учи́лась**, **мы учи́лись**.\n\n**Pitfalls**\n- **Я учу́ слова́** \"I learn (memorise) words\" (transitive) but **Я учу́сь в университе́те** \"I study at the university\".\n- After **-ся** a verb never takes a direct object: **заниматься спо́ртом** (instrumental).\n- **-тся** in the 3rd person is **-ется / -ится**, always with **т**; the infinitive is **-ться** (with **ь**): **Он занима́ется** vs **Он хо́чет занима́ться**.\n- The ending **-ся** stays last even in the past: **учи́лся**.",
+  "examples": [
+   {
+    "t": "Я учу́сь в университе́те.",
+    "tr": "Ya uchús' v universitéte.",
+    "en": "I study at the university."
+   },
+   {
+    "t": "Как называ́ется э́тот го́род?",
+    "tr": "Kak nazyváyetsya étot górod?",
+    "en": "What is this city called?"
+   },
+   {
+    "t": "Мы встреча́емся за́втра.",
+    "tr": "My vstrecháyemsya závtra.",
+    "en": "We are meeting tomorrow."
+   },
+   {
+    "t": "Она́ занима́ется спо́ртом.",
+    "tr": "Oná zanimáyetsya spórtom.",
+    "en": "She does sports."
+   },
+   {
+    "t": "Он ча́сто смеётся.",
+    "tr": "On chásto smeyótsya.",
+    "en": "He often laughs."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "After a vowel, the reflexive ending is…",
+    "options": [
+     "-сь",
+     "-ся",
+     "-съ",
+     "-ся́"
+    ],
+    "a": 0,
+    "why": "**-сь** after a vowel: **учу́сь**."
+   },
+   {
+    "type": "choice",
+    "q": "Я ＿＿. (учиться)",
+    "options": [
+     "учу́сь",
+     "учу́ся",
+     "у́чишься",
+     "у́чится"
+    ],
+    "a": 0,
+    "why": "**я** + **-сь**."
+   },
+   {
+    "type": "fill",
+    "q": "Я учу́＿＿. (-ся / -сь)",
+    "a": [
+     "сь"
+    ],
+    "why": "After a vowel."
+   },
+   {
+    "type": "fill",
+    "q": "Он ＿＿ в университе́те. (учиться, past, male)",
+    "a": [
+     "учился"
+    ],
+    "why": "Past **-л + -ся**."
+   },
+   {
+    "type": "fill",
+    "q": "Они́ ＿＿ за́втра. (встреча́ться)",
+    "a": [
+     "встречаются"
+    ],
+    "why": "**они́** + **-ются**."
+   },
+   {
+    "type": "order",
+    "q": "Make: I study at the university.",
+    "tokens": [
+     "Я",
+     "учу́сь",
+     "в",
+     "университе́те"
+    ],
+    "a": [
+     "Я",
+     "учу́сь",
+     "в",
+     "университе́те"
+    ],
+    "why": "**учу́сь** + **в** + prepositional."
+   }
+  ]
+ },
+ {
+  "id": "ru11-connectors",
+  "lesson": 11,
+  "title": "Reported speech and connectors",
+  "summary": "что, чтобы, потому что, поэтому, хотя link clauses: that, in order to, because, therefore, although.",
+  "explain": "Russian reported speech uses **что** (*chto*) \"that\" and keeps the **tense of the original speaker**: **Он сказа́л, что он до́ма.** (*On skazál, chto on dóma.*) \"He said that he is at home.\"\n\n**чтобы** (*chtóby*) = \"in order to / so that\":\n- same subject → infinitive: **Я иду́ в магази́н, что́бы купи́ть хлеб.**\n- different subject → past form: **Я хочу́, что́бы ты пришёл.** (*Ya khochú, chtóby ty prishyól.*) \"I want you to come.\"\n\n| word | meaning | example |\n|---|---|---|\n| **потому́ что** (*potomú chto*) | because | **Я до́ма, потому́ что бо́лен.** |\n| **поэ́тому** (*poétomu*) | therefore | **Идёт дождь, поэ́тому мы до́ма.** |\n| **хотя́** (*khotyá*) | although | **Хотя́ он бо́лен, он рабо́тает.** |\n| **но** / **а** | but | |\n| **когда́** | when | |\n\n**Pitfalls**\n- A comma always goes before **что** and **что́бы**.\n- **потому́ что** gives the reason (it answers **почему́?**), **поэ́тому** gives the result: the order is swapped. **Я до́ма, потому́ что бо́лен** = **Я бо́лен, поэ́тому я до́ма.**\n- Don't say **Я хочу́ тебя́ прийти**; use **Я хочу́, что́бы ты пришёл** or **Я хочу́ прийти.**\n- Indirect questions use **ли** or the question word: **Он спроси́л, где я.** He asked where I was.",
+  "examples": [
+   {
+    "t": "Он сказа́л, что он до́ма.",
+    "tr": "On skazál, chto on dóma.",
+    "en": "He said that he is at home."
+   },
+   {
+    "t": "Я хочу́, что́бы ты пришёл.",
+    "tr": "Ya khochú, chtóby ty prishyól.",
+    "en": "I want you to come."
+   },
+   {
+    "t": "Я до́ма, потому́ что бо́лен.",
+    "tr": "Ya dóma, potomú chto bólen.",
+    "en": "I am at home because I am ill."
+   },
+   {
+    "t": "Идёт дождь, поэ́тому мы до́ма.",
+    "tr": "Idyót dozhd', poétomu my dóma.",
+    "en": "It is raining, so we are at home."
+   },
+   {
+    "t": "Хотя́ он бо́лен, он рабо́тает.",
+    "tr": "Khotyá on bólen, on rabótayet.",
+    "en": "Although he is ill, he works."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which word means «because»?",
+    "options": [
+     "потому́ что",
+     "поэ́тому",
+     "хотя́",
+     "что́бы"
+    ],
+    "a": 0,
+    "why": "**потому́ что** gives the reason."
+   },
+   {
+    "type": "choice",
+    "q": "Which word means «therefore»?",
+    "options": [
+     "поэ́тому",
+     "потому́ что",
+     "хотя́",
+     "когда́"
+    ],
+    "a": 0,
+    "why": "**поэ́тому** gives the result."
+   },
+   {
+    "type": "fill",
+    "q": "Он сказа́л, ＿＿ он до́ма. (that)",
+    "a": [
+     "что"
+    ],
+    "why": "**что** = «that»."
+   },
+   {
+    "type": "fill",
+    "q": "Я иду́ в магази́н, ＿＿ купи́ть хлеб. (in order to)",
+    "a": [
+     "чтобы"
+    ],
+    "why": "**что́бы** + infinitive."
+   },
+   {
+    "type": "fill",
+    "q": "Идёт дождь, ＿＿ мы до́ма. (therefore)",
+    "a": [
+     "поэтому"
+    ],
+    "why": "**поэ́тому** introduces the result."
+   },
+   {
+    "type": "order",
+    "q": "Make: I am at home because I am ill.",
+    "tokens": [
+     "Я",
+     "до́ма",
+     "потому́",
+     "что",
+     "бо́лен"
+    ],
+    "a": [
+     "Я",
+     "до́ма",
+     "потому́",
+     "что",
+     "бо́лен"
+    ],
+    "why": "**потому́ что** introduces the reason."
+   }
+  ]
+ }
+]

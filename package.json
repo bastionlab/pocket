@@ -1,0 +1,13 @@
+{
+  "name": "bastion-pocket",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^3",
+    "marked": "^16.0.0"
+  }
+}

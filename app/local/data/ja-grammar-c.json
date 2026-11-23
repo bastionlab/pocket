@@ -1,0 +1,3902 @@
+[
+ {
+  "id": "l16-te-ageru",
+  "lesson": 16,
+  "title": "～てあげる / ～てくれる / ～てもらう",
+  "summary": "Say who does a favour for whom with three verbs of giving and receiving.",
+  "explain": "Attach **あげる / くれる / もらう** to the て-form to say someone does an action as a favour.\n\n| Pattern | Meaning | Marked doer |\n|---|---|---|\n| V-て + あげる | I do it for someone else | 私は (X に) |\n| V-て + くれる | someone does it for me / my group | X が |\n| V-て + もらう | I receive the favour (I get X to do it) | X に |\n\nThe direction is the same as with plain あげる/くれる/もらう: **くれる** always points toward the speaker's side, **あげる** away from it.\n\n**Mistakes:** with もらう the person who acts takes **に** (or から), not が. Also, あげる sounds condescending toward a superior; to a teacher or boss, prefer a different wording such as 「お手伝いします」 instead of 「手伝ってあげます」.\n\n**Politeness:** the humble forms are さしあげる, くださる and いただく (more in Lesson 19-20). くれる/もらう are very natural when you are grateful for the favour.",
+  "examples": [
+   {
+    "ja": "私は友達に傘を貸してあげました。",
+    "en": "I lent my friend an umbrella."
+   },
+   {
+    "ja": "姉が空港まで迎えに来てくれました。",
+    "en": "My older sister came to pick me up at the airport."
+   },
+   {
+    "ja": "父に車で駅まで送ってもらいました。",
+    "en": "I had my father drive me to the station."
+   },
+   {
+    "ja": "先生は私の作文を直してくれました。",
+    "en": "The teacher corrected my essay for me."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "友達の引っ越しを手伝って＿＿。(I helped a friend move)",
+    "options": [
+     "あげました",
+     "くれました",
+     "もらいました",
+     "くださいました"
+    ],
+    "a": 0,
+    "why": "I did the favour for someone else, so あげる."
+   },
+   {
+    "type": "choice",
+    "q": "母が私にケーキを作って＿＿。",
+    "options": [
+     "あげました",
+     "くれました",
+     "もらいました",
+     "やりました"
+    ],
+    "a": 1,
+    "why": "Mother did it for me: くれる, with 母が as the doer."
+   },
+   {
+    "type": "choice",
+    "q": "友達＿＿宿題を教えてもらいました。",
+    "options": [
+     "に",
+     "が",
+     "を",
+     "で"
+    ],
+    "a": 0,
+    "why": "With もらう, the person who does the action takes に."
+   },
+   {
+    "type": "fill",
+    "q": "私は先生に日本語を直して＿＿。(I had the teacher correct it)",
+    "a": [
+     "もらいました"
+    ],
+    "why": "I received the favour: ～てもらう."
+   },
+   {
+    "type": "fill",
+    "q": "田中さんが駅まで送って＿＿。(Tanaka took me to the station)",
+    "a": [
+     "くれました"
+    ],
+    "why": "A favour toward me: ～てくれる."
+   },
+   {
+    "type": "order",
+    "q": "Make: I bought my little sister a bag.",
+    "tokens": [
+     "妹に",
+     "かばんを",
+     "買って",
+     "あげました"
+    ],
+    "a": [
+     "妹に",
+     "かばんを",
+     "買って",
+     "あげました"
+    ],
+    "why": "Receiver に + object を + V-て + あげる."
+   }
+  ]
+ },
+ {
+  "id": "l16-requests",
+  "lesson": 16,
+  "title": "～ていただけませんか and other request forms",
+  "summary": "Ask for favours with levels of politeness from casual to very formal.",
+  "explain": "Requests are built from the て-form plus a verb of giving or receiving. In the **negative question** the request becomes softer and more polite.\n\n| Politeness | Form |\n|---|---|\n| casual | V-て / V-てくれる？ / V-てもらえる？ |\n| polite | V-てください / V-てくれませんか / V-てもらえませんか |\n| very polite | V-てくださいませんか / V-ていただけませんか |\n\nいただけませんか literally asks \"can I receive (the favour of) your doing...?\" and is the safest choice for teachers, bosses and strangers.\n\n**Mistakes:** ～てください alone is a plain instruction and can feel blunt; add すみませんが or turn it into a question. Don't use ～てあげませんか to ask a favour: that is an offer or suggestion (\"shall we do it for them?\").\n\nOpening with **すみませんが、** or **あのう、** makes any of these sound better.",
+  "examples": [
+   {
+    "ja": "先生、推薦状を書いていただけませんか。",
+    "en": "Professor, could you please write me a recommendation letter?"
+   },
+   {
+    "ja": "すみませんが、もう一度言ってくれませんか。",
+    "en": "Excuse me, could you say that once more?"
+   },
+   {
+    "ja": "窓を開けてくださいませんか。",
+    "en": "Would you be so kind as to open the window?"
+   },
+   {
+    "ja": "ちょっとこれ、手伝ってもらえる？",
+    "en": "Can you give me a hand with this? (casual)"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Which is the most polite way to ask a professor to read your essay?",
+    "options": [
+     "読んでくれる？",
+     "読んでください",
+     "読んでいただけませんか",
+     "読んでもらえる？"
+    ],
+    "a": 2,
+    "why": "～ていただけませんか is the most formal request here."
+   },
+   {
+    "type": "choice",
+    "q": "Which one is NOT a request?",
+    "options": [
+     "手伝ってもらえませんか",
+     "手伝ってあげませんか",
+     "手伝ってくれませんか",
+     "手伝ってくださいませんか"
+    ],
+    "a": 1,
+    "why": "～てあげませんか offers help (\"shall I help?\"), it does not ask for help."
+   },
+   {
+    "type": "fill",
+    "q": "すみません、写真を撮って＿＿ませんか。(very polite)",
+    "a": [
+     "いただけ"
+    ],
+    "why": "V-ていただけませんか."
+   },
+   {
+    "type": "fill",
+    "q": "「ノートを見せて＿＿？」(to a friend, casual)",
+    "a": [
+     "もらえない",
+     "くれない",
+     "もらえる",
+     "くれる"
+    ],
+    "why": "Casual requests: ～てもらえない？ / ～てくれない？"
+   },
+   {
+    "type": "order",
+    "q": "Make: Teacher, could you please speak a bit more slowly?",
+    "tokens": [
+     "先生、",
+     "もう少し",
+     "ゆっくり",
+     "話して",
+     "くださいませんか"
+    ],
+    "a": [
+     "先生、",
+     "もう少し",
+     "ゆっくり",
+     "話して",
+     "くださいませんか"
+    ],
+    "why": "Adverbs first, then て-form + くださいませんか."
+   }
+  ]
+ },
+ {
+  "id": "l16-to-ii",
+  "lesson": 16,
+  "title": "～といい(ですね)",
+  "summary": "Express a hope (\"I hope...\") or give a casual suggestion (\"it'd be good if...\").",
+  "explain": "**Plain form + といい(ですね)** has two jobs.\n\n1. **Hope about something outside your control:** 「明日、晴れるといいですね。」 (I hope it's sunny.)\n2. **Soft suggestion or advice:** 「早く寝るといいですよ。」 (It would be good to go to bed early.)\n\n| Word type | Example |\n|---|---|\n| verb | 行く / 行った + といい |\n| い-adj | 安い + といい |\n| な-adj | 静か**だ** + といい (だ is often dropped) |\n| noun | 休み**だ** + といい |\n\nThe particle after いい changes the tone: **ですね / ね** shares a hope, **ですよ / よ** gives advice.\n\n**Mistakes:** don't use といい to say what you yourself want to do (use ～たい). It is also not a command; it is gentle and indirect. For a stronger hope, ～ばいい or ～てほしい are used (later lessons).",
+  "examples": [
+   {
+    "ja": "明日、天気がいいといいですね。",
+    "en": "I hope the weather is nice tomorrow."
+   },
+   {
+    "ja": "試験に合格するといいね。",
+    "en": "I hope you pass the exam."
+   },
+   {
+    "ja": "風邪には、この薬を飲むといいですよ。",
+    "en": "For a cold, it would be good to take this medicine."
+   },
+   {
+    "ja": "彼が来ると、いいんだけど。",
+    "en": "I hope he comes..."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "週末、晴れる＿＿ですね。",
+    "options": [
+     "といい",
+     "から",
+     "ので",
+     "のに"
+    ],
+    "a": 0,
+    "why": "V + といいですね expresses a hope."
+   },
+   {
+    "type": "choice",
+    "q": "「友達が早く元気になるといいね」 expresses...",
+    "options": [
+     "a hope",
+     "a past regret",
+     "an order",
+     "a reason"
+    ],
+    "a": 0,
+    "why": "Hope about something the speaker cannot control."
+   },
+   {
+    "type": "fill",
+    "q": "風邪をひいたら、ゆっくり休む＿＿いいですよ。",
+    "a": [
+     "と"
+    ],
+    "why": "Suggestion: V-dictionary + といい."
+   },
+   {
+    "type": "fill",
+    "q": "日本語が上手になる＿＿＿ですね。",
+    "a": [
+     "といい"
+    ],
+    "why": "Hope: ～といいですね."
+   },
+   {
+    "type": "order",
+    "q": "Make: I hope the test is easy.",
+    "tokens": [
+     "テストが",
+     "やさしい",
+     "といい",
+     "ですね"
+    ],
+    "a": [
+     "テストが",
+     "やさしい",
+     "といい",
+     "ですね"
+    ],
+    "why": "Plain form (やさしい) + といいですね."
+   }
+  ]
+ },
+ {
+  "id": "l16-toki",
+  "lesson": 16,
+  "title": "～時 (when ...)",
+  "summary": "Connect two events with 時, and choose the tense of the 時 clause carefully.",
+  "explain": "**時** (とき) means \"when / at the time that\". It follows a plain form or a noun.\n\n| Type | Form | Example |\n|---|---|---|\n| verb | plain + 時 | 行く時 / 行った時 |\n| い-adj | い + 時 | 忙しい時 |\n| な-adj | な + 時 | 暇な時 |\n| noun | の + 時 | 子どもの時 |\n\n**Tense trick:** the tense of the 時 clause is relative to the main clause.\n- **dictionary form** = the action has not happened yet (before or while heading to it): 日本へ行く時、かばんを買いました。(I bought a bag before going.)\n- **past form** = it is finished by the time of the main action: 日本へ行った時、かばんを買いました。(I bought a bag when I was there.)\n\n**Mistakes:** な-adj and nouns need な / の, not だ. Do not leave out the particle.",
+  "examples": [
+   {
+    "ja": "暇な時、よく映画を見ます。",
+    "en": "When I'm free I often watch movies."
+   },
+   {
+    "ja": "子どもの時、東京に住んでいました。",
+    "en": "I lived in Tokyo when I was a child."
+   },
+   {
+    "ja": "日本へ行く時、かばんを買いました。",
+    "en": "When I was about to go to Japan, I bought a bag."
+   },
+   {
+    "ja": "日本へ行った時、かばんを買いました。",
+    "en": "When I went to Japan (while there), I bought a bag."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "食事の前に、食べ＿＿時、「いただきます」と言います。(When I eat)",
+    "options": [
+     "る",
+     "た",
+     "て",
+     "ない"
+    ],
+    "a": 0,
+    "why": "Habit/the action not yet finished: dictionary form + 時."
+   },
+   {
+    "type": "choice",
+    "q": "京都に＿＿、抹茶のお菓子を食べました。(While I was in Kyoto)",
+    "options": [
+     "行く時",
+     "行った時",
+     "行って時",
+     "行きた時"
+    ],
+    "a": 1,
+    "why": "Past form: the arriving was completed, so the eating was in Kyoto."
+   },
+   {
+    "type": "fill",
+    "q": "学生＿＿時、よくアルバイトをしました。",
+    "a": [
+     "の"
+    ],
+    "why": "Noun + の + 時."
+   },
+   {
+    "type": "fill",
+    "q": "暇＿＿時、電話してください。",
+    "a": [
+     "な"
+    ],
+    "why": "な-adjective + な + 時."
+   },
+   {
+    "type": "fill",
+    "q": "高＿＿時は、買いません。(い-adjective)",
+    "a": [
+     "い"
+    ],
+    "why": "い-adjective keeps い before 時."
+   },
+   {
+    "type": "order",
+    "q": "Make: When I'm tired, I listen to music.",
+    "tokens": [
+     "疲れている",
+     "時は",
+     "音楽を",
+     "聞きます"
+    ],
+    "a": [
+     "疲れている",
+     "時は",
+     "音楽を",
+     "聞きます"
+    ],
+    "why": "Clause + 時は + main clause."
+   }
+  ]
+ },
+ {
+  "id": "l16-te-sumimasen",
+  "lesson": 16,
+  "title": "～てすみませんでした",
+  "summary": "Apologise for something you did, or failed to do, using the て-form.",
+  "explain": "Use the **て-form** (or なくて for negatives) before **すみませんでした / ごめんなさい / ごめん** to say what you are sorry for.\n\n| Positive | 遅れてすみませんでした。 |\n|---|---|\n| Negative | 行けなくてすみませんでした。 |\n| Casual | 昨日は行けなくてごめんね。 |\n\nNegative reasons use **～なくて** (not ～ないで): 連絡しなくて, 行けなくて.\n\n**Tense:** すみませんでした is for a finished event (\"I'm sorry that I was late\"). すみません is right if the apology covers something happening now (\"sorry for bothering you\"). The same pattern works for thanks with ありがとう (Lesson 19).\n\n**Politeness:** to a boss use ～て申し訳ありませんでした, which is more formal than すみません.",
+  "examples": [
+   {
+    "ja": "遅くなってすみませんでした。",
+    "en": "I'm sorry I'm late."
+   },
+   {
+    "ja": "昨日は行けなくて、すみませんでした。",
+    "en": "I'm sorry I couldn't go yesterday."
+   },
+   {
+    "ja": "連絡しなくてすみませんでした。",
+    "en": "I'm sorry I didn't get in touch."
+   },
+   {
+    "ja": "来られなくてごめんね。",
+    "en": "Sorry I couldn't come. (casual)"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "昨日は行けなく＿＿、すみませんでした。",
+    "options": [
+     "て",
+     "で",
+     "に",
+     "を"
+    ],
+    "a": 0,
+    "why": "Negative reason: ～なくて."
+   },
+   {
+    "type": "choice",
+    "q": "Sorry I'm late (to a friend): 遅れて＿＿。",
+    "options": [
+     "ごめん",
+     "ありがとう",
+     "どうぞ",
+     "おめでとう"
+    ],
+    "a": 0,
+    "why": "ごめん is the casual apology."
+   },
+   {
+    "type": "fill",
+    "q": "宿題を出さ＿＿てすみませんでした。",
+    "a": [
+     "なく"
+    ],
+    "why": "V-negative stem + なくて."
+   },
+   {
+    "type": "fill",
+    "q": "昨日、連絡しなかった。→ 連絡しなく＿＿すみませんでした。",
+    "a": [
+     "て"
+    ],
+    "why": "て-form of ない = なくて."
+   },
+   {
+    "type": "order",
+    "q": "Make: I'm sorry I couldn't go yesterday.",
+    "tokens": [
+     "昨日",
+     "行けなくて",
+     "すみませんでした"
+    ],
+    "a": [
+     "昨日",
+     "行けなくて",
+     "すみませんでした"
+    ],
+    "why": "Time + なくて-form + apology."
+   }
+  ]
+ },
+ {
+  "id": "l17-souda-hearsay",
+  "lesson": 17,
+  "title": "～そうです (hearsay)",
+  "summary": "Report something you heard, using a plain form plus そうです.",
+  "explain": "**Plain form + そうです** means \"I hear that... / they say that...\". It passes on information from a source.\n\n| Type | Example |\n|---|---|\n| verb | 行く / 行った / 行かない + そうです |\n| い-adj | 高い / 高かった + そうです |\n| な-adj | 静か**だ** + そうです |\n| noun | 学生**だ** + そうです |\n\nNote that だ **stays** for nouns and な-adjectives (学生だそうです), unlike before 時 or のに. The source is often marked with **によると** (\"according to\"): 天気予報によると、...\n\n**Mistakes:** this そうです is different from the \"looks like\" ～そうです (stem + そう, e.g. おいしそう). Compare おいしいそうです (I hear it's tasty) with おいしそうです (it looks tasty). You cannot use hearsay そうです to give your own impression.\n\nIt's not usually used with the speaker's own opinion; keep it for second-hand information.",
+  "examples": [
+   {
+    "ja": "天気予報によると、明日は雪が降るそうです。",
+    "en": "According to the weather forecast, it will snow tomorrow."
+   },
+   {
+    "ja": "田中さんは来月結婚するそうです。",
+    "en": "I hear Tanaka is getting married next month."
+   },
+   {
+    "ja": "あの店のラーメンはおいしくないそうです。",
+    "en": "I hear the ramen at that shop isn't good."
+   },
+   {
+    "ja": "先生は昔、歌手だったそうです。",
+    "en": "I hear the teacher used to be a singer."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "友達の話では、この映画は面白い＿＿。",
+    "options": [
+     "そうです",
+     "だそうです",
+     "のそうです",
+     "くそうです"
+    ],
+    "a": 0,
+    "why": "い-adjective plain form + そうです."
+   },
+   {
+    "type": "choice",
+    "q": "彼は学生＿＿そうです。(I hear he is a student)",
+    "options": [
+     "だ",
+     "な",
+     "の",
+     "である"
+    ],
+    "a": 0,
+    "why": "Nouns keep だ before hearsay そうです."
+   },
+   {
+    "type": "choice",
+    "q": "そこの寿司はおいしく＿＿そうです。(I hear it isn't tasty)",
+    "options": [
+     "ない",
+     "なく",
+     "なくて",
+     "ないの"
+    ],
+    "a": 0,
+    "why": "Plain negative form + そうです."
+   },
+   {
+    "type": "fill",
+    "q": "天気予報＿＿よると、明日は雨だそうです。",
+    "a": [
+     "に"
+    ],
+    "why": "によると = according to."
+   },
+   {
+    "type": "fill",
+    "q": "山田さんは先月、日本へ行った＿＿です。",
+    "a": [
+     "そう"
+    ],
+    "why": "Plain past + そうです."
+   },
+   {
+    "type": "order",
+    "q": "Make: I hear that Mr. Suzuki is busy this week.",
+    "tokens": [
+     "鈴木さんは",
+     "今週",
+     "忙しい",
+     "そうです"
+    ],
+    "a": [
+     "鈴木さんは",
+     "今週",
+     "忙しい",
+     "そうです"
+    ],
+    "why": "Plain form 忙しい + そうです."
+   }
+  ]
+ },
+ {
+  "id": "l17-tte",
+  "lesson": 17,
+  "title": "～って (informal quotation)",
+  "summary": "The casual way to quote and ask about words: って instead of と.",
+  "explain": "In casual speech **って** replaces the quotation marker **と**.\n\n| Formal | Casual |\n|---|---|\n| 「明日来る」と言っていました | 「明日来る」って言ってた |\n| 何と言いますか | 何て言うの？ |\n| 明日は休みだそうです | 明日は休みだって |\n\nThree common uses:\n1. **Quoting speech or thought:** 山田さんが来ないって言っていたよ。\n2. **Hearsay at the end of a sentence:** 来週、試験があるって。 (I heard...)\n3. **Asking the meaning or name of something:** 「ありがとう」って英語で何て言うの？ and 何て読むの？\n\n**Mistakes:** って is spoken, not for essays or business emails. Also, the verb before って is in plain form; the polite ～ですって sounds odd in casual speech. 何て = 何と (\"what (do you call it)\").",
+  "examples": [
+   {
+    "ja": "田中さんは「あした来る」って言っていたよ。",
+    "en": "Tanaka said he's coming tomorrow."
+   },
+   {
+    "ja": "明日は休みだって。",
+    "en": "I heard tomorrow's a day off."
+   },
+   {
+    "ja": "この漢字、何て読むの？",
+    "en": "How do you read this kanji?"
+   },
+   {
+    "ja": "先生が、宿題はなくていいって。",
+    "en": "The teacher says we don't have to do homework."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "山田さんは来週来ない＿＿言っていました。",
+    "options": [
+     "って",
+     "そう",
+     "よう",
+     "から"
+    ],
+    "a": 0,
+    "why": "Casual quote marker って."
+   },
+   {
+    "type": "choice",
+    "q": "Which is the casual version of 「明日は休みだと言っていました」?",
+    "options": [
+     "明日は休みだって言ってた",
+     "明日は休みですって言ってた",
+     "明日は休みだとって言ってた",
+     "明日は休みでってた"
+    ],
+    "a": 0,
+    "why": "と → って, polite ending → plain."
+   },
+   {
+    "type": "fill",
+    "q": "これ、何＿＿読むの？(casual)",
+    "a": [
+     "て"
+    ],
+    "why": "何て = 何と."
+   },
+   {
+    "type": "fill",
+    "q": "先生が、明日はテストがない＿＿。(I heard)",
+    "a": [
+     "って"
+    ],
+    "why": "Sentence-final って = hearsay."
+   },
+   {
+    "type": "order",
+    "q": "Make: Mr. Ito said he won't come.",
+    "tokens": [
+     "伊藤さんは",
+     "来ない",
+     "って",
+     "言っていた"
+    ],
+    "a": [
+     "伊藤さんは",
+     "来ない",
+     "って",
+     "言っていた"
+    ],
+    "why": "Plain clause + って + 言っていた."
+   }
+  ]
+ },
+ {
+  "id": "l17-tara",
+  "lesson": 17,
+  "title": "～たら (if / when)",
+  "summary": "Say what happens or what to do if or when something occurs.",
+  "explain": "**Past plain form + ら** forms a conditional: \"if / when ...\".\n\n| Type | たら-form |\n|---|---|\n| verb | 食べたら / 食べなかったら |\n| い-adj | 高かったら |\n| な-adj | 静かだったら |\n| noun | 学生だったら |\n\nThe main clause can be a request, a volition (～ましょう), a wish or a fact. This is the most flexible conditional in Japanese.\n\n**Two meanings:**\n- hypothetical: 安かったら、買います。 (If it's cheap, I'll buy it.)\n- sequence: 駅に着いたら、電話してください。 (Once you arrive, call me.)\n\n**Mistakes:** don't use the present tense inside たら for an unreal \"if\"; use the past form even though the meaning is future. And the main clause is not in past tense because of たら.",
+  "examples": [
+   {
+    "ja": "安かったら、買います。",
+    "en": "If it's cheap, I'll buy it."
+   },
+   {
+    "ja": "駅に着いたら、電話してください。",
+    "en": "When you get to the station, please call me."
+   },
+   {
+    "ja": "雨が降ったら、行きません。",
+    "en": "If it rains, I won't go."
+   },
+   {
+    "ja": "時間があったら、遊びに来てください。",
+    "en": "If you have time, please come visit."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "宿題が終わっ＿＿、遊びに行ってもいいです。",
+    "options": [
+     "たら",
+     "ると",
+     "て",
+     "ても"
+    ],
+    "a": 0,
+    "why": "Past plain + ら (終わった → 終わったら)."
+   },
+   {
+    "type": "choice",
+    "q": "この車がもっと安＿＿、買います。",
+    "options": [
+     "かったら",
+     "くたら",
+     "だったら",
+     "たら"
+    ],
+    "a": 0,
+    "why": "い-adjective: 安かった + ら."
+   },
+   {
+    "type": "fill",
+    "q": "暇＿＿、手伝ってください。",
+    "a": [
+     "だったら"
+    ],
+    "why": "な-adjective: 暇だった + ら."
+   },
+   {
+    "type": "fill",
+    "q": "日本へ行っ＿＿、富士山に登りたいです。",
+    "a": [
+     "たら"
+    ],
+    "why": "行った + ら."
+   },
+   {
+    "type": "order",
+    "q": "Make: If it rains tomorrow, I'll stay home.",
+    "tokens": [
+     "明日",
+     "雨が",
+     "降ったら",
+     "家に",
+     "います"
+    ],
+    "a": [
+     "明日",
+     "雨が",
+     "降ったら",
+     "家に",
+     "います"
+    ],
+    "why": "Condition clause first, then main clause."
+   }
+  ]
+ },
+ {
+  "id": "l17-nakutemo-ii",
+  "lesson": 17,
+  "title": "～なくてもいいです",
+  "summary": "Say that something is not necessary (\"you don't have to\").",
+  "explain": "Form: **V-ない stem + なくてもいいです**. Change the final い of the negative to く and add てもいいです.\n\n| Dictionary | Negative | Not necessary |\n|---|---|---|\n| 行く | 行かない | 行かなくてもいいです |\n| 食べる | 食べない | 食べなくてもいいです |\n| する | しない | しなくてもいいです |\n\nIt is the reverse of ～なければなりません (must). Combine with a topic: 靴は脱がなくてもいいです。\n\n**Mistakes:** the meaning is **not** \"you must not\" (that is ～てはいけません). It means permission to skip: it is allowed not to do something. In casual speech: ～なくてもいい / ～なくてもだいじょうぶ.\n\n**Politeness:** a question 来なくてもいいですか。 asks if it is okay to skip; to a superior, add すみません and keep ですか.",
+  "examples": [
+   {
+    "ja": "明日は早く起きなくてもいいです。",
+    "en": "You don't have to get up early tomorrow."
+   },
+   {
+    "ja": "靴を脱がなくてもいいですよ。",
+    "en": "You don't need to take your shoes off."
+   },
+   {
+    "ja": "説明書は読まなくてもいいですか。",
+    "en": "Is it all right if I don't read the manual?"
+   },
+   {
+    "ja": "日曜日は働かなくてもいいです。",
+    "en": "I don't have to work on Sundays."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "明日は休みだから、早く起き＿＿いいです。",
+    "options": [
+     "なくても",
+     "ないでも",
+     "なくて",
+     "なければ"
+    ],
+    "a": 0,
+    "why": "V-ない → なくても + いいです."
+   },
+   {
+    "type": "choice",
+    "q": "「行かなくてもいいです」 means...",
+    "options": [
+     "You must not go",
+     "You don't have to go",
+     "You may go",
+     "You should go"
+    ],
+    "a": 1,
+    "why": "It expresses that going is not necessary."
+   },
+   {
+    "type": "fill",
+    "q": "全部、食べ＿＿もいいですよ。",
+    "a": [
+     "なくて"
+    ],
+    "why": "食べない → 食べなくても."
+   },
+   {
+    "type": "fill",
+    "q": "傘は持って行か＿＿もいいですよ。",
+    "a": [
+     "なくて"
+    ],
+    "why": "行かない → 行かなくても."
+   },
+   {
+    "type": "fill",
+    "q": "今日は宿題を＿＿もいいです。(する)",
+    "a": [
+     "しなくて"
+    ],
+    "why": "しない → しなくても."
+   },
+   {
+    "type": "order",
+    "q": "Make: You don't have to pay today.",
+    "tokens": [
+     "今日は",
+     "払わなくても",
+     "いいです"
+    ],
+    "a": [
+     "今日は",
+     "払わなくても",
+     "いいです"
+    ],
+    "why": "払わない → 払わなくても."
+   }
+  ]
+ },
+ {
+  "id": "l17-mitai",
+  "lesson": 17,
+  "title": "～みたいです",
+  "summary": "Say that something seems or looks like a certain way, based on what you see or hear.",
+  "explain": "**みたいです** expresses a judgement from evidence: \"it seems / it looks like / it's like\". It is a casual relative of ～ようです.\n\n| Type | Form |\n|---|---|\n| verb | plain + みたいです (行くみたい) |\n| い-adj | plain + みたいです (高いみたい) |\n| な-adj | stem + みたいです (静かみたい) |\n| noun | noun + みたいです (学生みたい) |\n\n**Mistakes:** な-adjectives and nouns do **not** take だ or な/の before みたい (×静かだみたい, ×学生のみたい). Also みたい itself works like a な-adjective in front of nouns: 子どもみたいな人 (a person like a child).\n\nUse it when you guess from what you saw (lights are on, so someone is home). It also expresses comparison: 夢みたい (like a dream).\n\n**Politeness:** みたいです is conversational; in formal writing use ～ようです.",
+  "examples": [
+   {
+    "ja": "田中さんは疲れているみたいです。",
+    "en": "Tanaka seems to be tired."
+   },
+   {
+    "ja": "あの人は学生みたいですね。",
+    "en": "That person looks like a student."
+   },
+   {
+    "ja": "外は寒いみたいです。",
+    "en": "It seems to be cold outside."
+   },
+   {
+    "ja": "部屋の電気が消えているから、誰もいないみたいです。",
+    "en": "The lights are off, so it seems nobody's there."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "彼は病気＿＿みたいです。(He seems ill: what goes before みたい?)",
+    "options": [
+     "だ",
+     "の",
+     "な",
+     "(nothing)"
+    ],
+    "a": 3,
+    "why": "Nouns and な-adjective stems connect directly to みたい."
+   },
+   {
+    "type": "choice",
+    "q": "あの店は人が多い＿＿ですね。",
+    "options": [
+     "みたい",
+     "みたいに",
+     "みたいな",
+     "みたいの"
+    ],
+    "a": 0,
+    "why": "Plain form + みたいです."
+   },
+   {
+    "type": "choice",
+    "q": "みたいです is used when...",
+    "options": [
+     "you judge from what you saw or heard",
+     "you are 100% sure",
+     "you give an order",
+     "you thank someone"
+    ],
+    "a": 0,
+    "why": "It's a judgement based on evidence."
+   },
+   {
+    "type": "fill",
+    "q": "部屋の電気がついているから、田中さんはいる＿＿です。",
+    "a": [
+     "みたい"
+    ],
+    "why": "Plain verb + みたいです."
+   },
+   {
+    "type": "order",
+    "q": "Make: It seems this PC is broken.",
+    "tokens": [
+     "この",
+     "パソコンは",
+     "壊れた",
+     "みたいです"
+    ],
+    "a": [
+     "この",
+     "パソコンは",
+     "壊れた",
+     "みたいです"
+    ],
+    "why": "Plain past + みたいです."
+   }
+  ]
+ },
+ {
+  "id": "l17-mae-ni-te-kara",
+  "lesson": 17,
+  "title": "～前に / ～てから",
+  "summary": "Say what you do before another action, and what you do after it.",
+  "explain": "**前に (before)** and **てから (after)** order two events in time.\n\n| Pattern | Form | Meaning |\n|---|---|---|\n| V-dictionary + 前に | 寝る前に | before sleeping |\n| Noun の + 前に | 食事の前に | before the meal |\n| V-て + から | 宿題をしてから | after doing homework |\n\n**The verb before 前に is always in dictionary form**, even if the main verb is in the past tense: 日本に来る前に、日本語を勉強しました。\n\nてから stresses the order: first A, then B. It is natural when you give directions or steps in a recipe.\n\n**Mistakes:** don't say ×食べた前に; and don't forget **の** after a noun (食事前に is wrong in speech).",
+  "examples": [
+   {
+    "ja": "寝る前に、歯を磨きます。",
+    "en": "I brush my teeth before going to bed."
+   },
+   {
+    "ja": "食事の前に、手を洗ってください。",
+    "en": "Please wash your hands before the meal."
+   },
+   {
+    "ja": "宿題をしてから、テレビを見ます。",
+    "en": "I watch TV after I do my homework."
+   },
+   {
+    "ja": "日本に来る前に、日本語を勉強しました。",
+    "en": "I studied Japanese before coming to Japan."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "寝＿＿前に、お風呂に入ります。",
+    "options": [
+     "る",
+     "た",
+     "て",
+     "ない"
+    ],
+    "a": 0,
+    "why": "Verb before 前に stays in dictionary form."
+   },
+   {
+    "type": "choice",
+    "q": "授業が終わっ＿＿、アルバイトに行きます。",
+    "options": [
+     "てから",
+     "てまえ",
+     "たまえに",
+     "るから"
+    ],
+    "a": 0,
+    "why": "After finishing: V-て + から."
+   },
+   {
+    "type": "fill",
+    "q": "食事＿＿前に、手を洗います。",
+    "a": [
+     "の"
+    ],
+    "why": "Noun + の + 前に."
+   },
+   {
+    "type": "fill",
+    "q": "宿題を＿＿から、遊びます。(する)",
+    "a": [
+     "して"
+    ],
+    "why": "V-て + から."
+   },
+   {
+    "type": "order",
+    "q": "Make: Before going to bed, I check my email.",
+    "tokens": [
+     "寝る",
+     "前に",
+     "メールを",
+     "確認します"
+    ],
+    "a": [
+     "寝る",
+     "前に",
+     "メールを",
+     "確認します"
+    ],
+    "why": "Dictionary form + 前に."
+   }
+  ]
+ },
+ {
+  "id": "l18-transitive-pairs",
+  "lesson": 18,
+  "title": "Transitive and intransitive verb pairs",
+  "summary": "Learn the pairs: one verb for what a person does, one for what simply happens.",
+  "explain": "Many Japanese verbs come in pairs. The **transitive** verb takes an object with **を** (someone does it). The **intransitive** verb takes **が** (it happens by itself).\n\n| Intransitive (が) | Transitive (を) |\n|---|---|\n| ドアが開く | ドアを開ける |\n| ドアが閉まる | ドアを閉める |\n| 電気がつく | 電気をつける |\n| 電気が消える | 電気を消す |\n| 授業が始まる | 授業を始める |\n| 車が止まる | 車を止める |\n| 財布が落ちる | 財布を落とす |\n| コップが壊れる | コップを壊す |\n| 人が入る | 物を入れる |\n| 人が出る | 物を出す |\n\n**Tips:** the pairs are irregular, so memorise them together. The \"state\" form is ～ている with the intransitive verb (ドアが開いている = the door is open), while ～てある goes with the transitive verb (Lesson 21).\n\n**Mistake:** 財布を落ちた is wrong; use 財布を落とした (I dropped my wallet).",
+  "examples": [
+   {
+    "ja": "ドアが開きました。",
+    "en": "The door opened."
+   },
+   {
+    "ja": "私は窓を開けました。",
+    "en": "I opened the window."
+   },
+   {
+    "ja": "電気が消えています。",
+    "en": "The light is off."
+   },
+   {
+    "ja": "電車の中で財布を落としました。",
+    "en": "I dropped my wallet on the train."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "電気＿＿消えました。",
+    "options": [
+     "が",
+     "を",
+     "に",
+     "で"
+    ],
+    "a": 0,
+    "why": "消える is intransitive: が."
+   },
+   {
+    "type": "choice",
+    "q": "誰かが窓＿＿開けました。",
+    "options": [
+     "が",
+     "を",
+     "に",
+     "は"
+    ],
+    "a": 1,
+    "why": "開ける is transitive: を."
+   },
+   {
+    "type": "choice",
+    "q": "What is the transitive partner of 始まる?",
+    "options": [
+     "始める",
+     "始まれる",
+     "始れる",
+     "始くる"
+    ],
+    "a": 0,
+    "why": "始まる (begins) / 始める (begin something)."
+   },
+   {
+    "type": "fill",
+    "q": "あっ、コップが＿＿ました。(it broke by itself)",
+    "a": [
+     "壊れ",
+     "こわれ"
+    ],
+    "why": "壊れる is intransitive."
+   },
+   {
+    "type": "fill",
+    "q": "私はドアを＿＿ました。(I closed it)",
+    "a": [
+     "閉め",
+     "しめ"
+    ],
+    "why": "閉める is transitive."
+   },
+   {
+    "type": "order",
+    "q": "Make: The bus has stopped.",
+    "tokens": [
+     "バスが",
+     "止まって",
+     "います"
+    ],
+    "a": [
+     "バスが",
+     "止まって",
+     "います"
+    ],
+    "why": "Intransitive 止まる + ている shows a state."
+   }
+  ]
+ },
+ {
+  "id": "l18-te-shimau",
+  "lesson": 18,
+  "title": "～てしまう",
+  "summary": "Show that an action is finished completely, or that it happened with regret.",
+  "explain": "**V-て + しまう** has two meanings.\n\n1. **Completion:** 宿題を全部やってしまいました。 (I finished all of my homework.)\n2. **Regret or accident:** 財布を忘れてしまいました。 (I forgot my wallet. Oh no.)\n\nIn casual speech it contracts:\n\n| Full | Casual |\n|---|---|\n| 〜てしまう / てしまった | 〜ちゃう / ちゃった |\n| 〜でしまう / でしまった | 〜じゃう / じゃった |\n\nSo 食べてしまった → 食べちゃった; 飲んでしまった → 飲んじゃった.\n\n**Mistakes:** the regret use is for things that go badly or unexpectedly; it is not used for things you did intentionally and happily. The second meaning is natural with verbs like 忘れる, なくす, 壊す, 寝坊する, 間違える.\n\n**Politeness:** ～てしまいました is polite; ちゃった is casual and cute, so avoid it with your boss.",
+  "examples": [
+   {
+    "ja": "宿題を全部やってしまいました。",
+    "en": "I finished all my homework."
+   },
+   {
+    "ja": "電車で携帯をなくしてしまいました。",
+    "en": "I lost my phone on the train."
+   },
+   {
+    "ja": "弟がケーキを食べちゃったよ。",
+    "en": "My little brother ate the cake!"
+   },
+   {
+    "ja": "今朝、寝坊してしまいました。",
+    "en": "I overslept this morning."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "携帯をなくして＿＿。",
+    "options": [
+     "しまいました",
+     "ありました",
+     "おきました",
+     "みました"
+    ],
+    "a": 0,
+    "why": "Regret: V-て + しまう."
+   },
+   {
+    "type": "choice",
+    "q": "What is the casual form of 食べてしまった?",
+    "options": [
+     "食べちゃった",
+     "食べじゃった",
+     "食べってしまった",
+     "食べたしまった"
+    ],
+    "a": 0,
+    "why": "てしまう → ちゃう."
+   },
+   {
+    "type": "fill",
+    "q": "本を一日で全部読＿＿ました。(completely)",
+    "a": [
+     "んでしまい"
+    ],
+    "why": "読んで + しまいました."
+   },
+   {
+    "type": "fill",
+    "q": "全部飲ん＿＿った。(casual)",
+    "a": [
+     "じゃ"
+    ],
+    "why": "でしまう → じゃう."
+   },
+   {
+    "type": "order",
+    "q": "Make: I overslept this morning.",
+    "tokens": [
+     "今朝",
+     "寝坊して",
+     "しまいました"
+    ],
+    "a": [
+     "今朝",
+     "寝坊して",
+     "しまいました"
+    ],
+    "why": "V-て + しまいました."
+   }
+  ]
+ },
+ {
+  "id": "l18-to",
+  "lesson": 18,
+  "title": "～と (whenever / if)",
+  "summary": "Express a natural result, habit or discovery that follows an action.",
+  "explain": "**Dictionary form (or ない-form) + と + result** means \"when X happens, Y (always) follows\". It describes natural consequences, habits, directions and machine operations.\n\n| Use | Example |\n|---|---|\n| natural result | 春になると、桜が咲きます。 |\n| habit | お酒を飲むと、顔が赤くなります。 |\n| directions | まっすぐ行くと、駅があります。 |\n| machine | ボタンを押すと、ドアが開きます。 |\n\nThe verb before と is in the **non-past plain form** for the usual pattern. \n\n**Mistakes:** the second clause must not be a command, request, invitation or the speaker's will. ×暇だと、行きましょう is wrong; use たら instead (暇だったら、行きましょう). と means the result follows automatically.\n\nFor \"discoveries\" a past clause is also possible (ドアを開けると、猫がいた) but you can ignore that at this stage.",
+  "examples": [
+   {
+    "ja": "春になると、桜が咲きます。",
+    "en": "When spring comes, the cherry blossoms bloom."
+   },
+   {
+    "ja": "このボタンを押すと、ドアが開きます。",
+    "en": "If you press this button, the door opens."
+   },
+   {
+    "ja": "まっすぐ行くと、右に駅があります。",
+    "en": "If you go straight, the station is on your right."
+   },
+   {
+    "ja": "お酒を飲むと、顔が赤くなります。",
+    "en": "When I drink alcohol, my face turns red."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "右に曲がる＿＿、銀行があります。",
+    "options": [
+     "と",
+     "たら",
+     "ても",
+     "ながら"
+    ],
+    "a": 0,
+    "why": "Directions: V-dictionary + と."
+   },
+   {
+    "type": "choice",
+    "q": "Which sentence is NOT natural with と?",
+    "options": [
+     "春になると、花が咲きます",
+     "勉強すると、眠くなります",
+     "暇だと、映画を見に行きましょう",
+     "ボタンを押すと、開きます"
+    ],
+    "a": 2,
+    "why": "と cannot be followed by an invitation or the speaker's will."
+   },
+   {
+    "type": "fill",
+    "q": "冬になる＿＿、寒くなります。",
+    "a": [
+     "と"
+    ],
+    "why": "Natural result: ～と."
+   },
+   {
+    "type": "fill",
+    "q": "このボタンを＿＿と、お湯が出ます。(press)",
+    "a": [
+     "押す",
+     "おす"
+    ],
+    "why": "Dictionary form + と."
+   },
+   {
+    "type": "order",
+    "q": "Make: When I drink coffee, I can't sleep.",
+    "tokens": [
+     "コーヒーを",
+     "飲むと",
+     "眠れません"
+    ],
+    "a": [
+     "コーヒーを",
+     "飲むと",
+     "眠れません"
+    ],
+    "why": "Condition with と, then the result."
+   }
+  ]
+ },
+ {
+  "id": "l18-nagara",
+  "lesson": 18,
+  "title": "～ながら",
+  "summary": "Do two actions at the same time, with the main action last.",
+  "explain": "**V-stem + ながら** means \"while doing...\". The same person does both actions.\n\n| Dictionary | Stem | ながら-form |\n|---|---|---|\n| 聞く | 聞き | 聞きながら |\n| 食べる | 食べ | 食べながら |\n| する | し | しながら |\n\nThe **main action** is the verb at the end of the sentence; the ながら verb is the background action: 音楽を聞きながら、勉強します。 = I study (main) while listening to music (background).\n\n**Mistakes:** the two verbs need the same subject. For different subjects use ～間に or ～ている間. Do not put the tense on the ながら verb; the tense belongs to the last verb only. The ながら verb should be a continuing action: ×死にながら.\n\nIn writing, ながら can also express contrast (\"although\") but you'll mostly meet the \"while\" meaning.",
+  "examples": [
+   {
+    "ja": "音楽を聞きながら、勉強します。",
+    "en": "I study while listening to music."
+   },
+   {
+    "ja": "朝ご飯を食べながら、新聞を読みました。",
+    "en": "I read the newspaper while eating breakfast."
+   },
+   {
+    "ja": "兄はアルバイトをしながら、大学に通っています。",
+    "en": "My brother goes to university while working part-time."
+   },
+   {
+    "ja": "歩きながら食べるのは行儀が悪いです。",
+    "en": "It's bad manners to eat while walking."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "歌を歌い＿＿、料理をします。",
+    "options": [
+     "ながら",
+     "ながり",
+     "ながって",
+     "ながらて"
+    ],
+    "a": 0,
+    "why": "V-stem + ながら."
+   },
+   {
+    "type": "choice",
+    "q": "「テレビを見ながらご飯を食べる」: the main action is...",
+    "options": [
+     "eating",
+     "watching TV",
+     "both equally",
+     "neither"
+    ],
+    "a": 0,
+    "why": "The verb at the end is the main action."
+   },
+   {
+    "type": "fill",
+    "q": "コーヒーを飲み＿＿、話しました。",
+    "a": [
+     "ながら"
+    ],
+    "why": "V-stem + ながら."
+   },
+   {
+    "type": "fill",
+    "q": "本を読＿＿ながら、寝てしまいました。",
+    "a": [
+     "み"
+    ],
+    "why": "読む → stem 読み."
+   },
+   {
+    "type": "order",
+    "q": "Make: I study while listening to music.",
+    "tokens": [
+     "音楽を",
+     "聞きながら",
+     "勉強します"
+    ],
+    "a": [
+     "音楽を",
+     "聞きながら",
+     "勉強します"
+    ],
+    "why": "Background action first, main action last."
+   }
+  ]
+ },
+ {
+  "id": "l18-ba-yokatta",
+  "lesson": 18,
+  "title": "～ばよかったです",
+  "summary": "Express regret: \"I should have done...\" or \"I shouldn't have done...\".",
+  "explain": "**V-ば-form + よかった(です)** means \"it would have been good if I had...\", i.e. \"I should have...\". The negative **なければよかった** means \"I shouldn't have...\".\n\n**ば-form:**\n\n| Type | Rule | Example |\n|---|---|---|\n| u-verb | final u → e + ば | 行く → 行けば, 飲む → 飲めば |\n| ru-verb | る → れば | 食べる → 食べれば |\n| irregular | | する → すれば, 来る → 来れば |\n| ない | ない → なければ | 食べない → 食べなければ |\n\nUse it to talk about past choices that went badly: 傘を持ってくればよかった。(It's raining and I have no umbrella!)\n\n**Mistakes:** don't confuse it with ～てよかった, which expresses relief about something that did happen. To say \"I'm glad I did\", use V-て + よかった.\n\n**Politeness:** ～ばよかったです is polite; casual speech drops です.",
+  "examples": [
+   {
+    "ja": "もっと早く寝ればよかったです。",
+    "en": "I should have gone to bed earlier."
+   },
+   {
+    "ja": "傘を持ってくればよかった。",
+    "en": "I should have brought an umbrella."
+   },
+   {
+    "ja": "あんなに食べなければよかった。",
+    "en": "I shouldn't have eaten so much."
+   },
+   {
+    "ja": "先生に聞けばよかったです。",
+    "en": "I should have asked the teacher."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the ば-form of 行く?",
+    "options": [
+     "行けば",
+     "行くば",
+     "行れば",
+     "行いば"
+    ],
+    "a": 0,
+    "why": "u-verb: final u → e + ば."
+   },
+   {
+    "type": "choice",
+    "q": "What is the ば-form of 食べる?",
+    "options": [
+     "食べれば",
+     "食べば",
+     "食べるば",
+     "食べえば"
+    ],
+    "a": 0,
+    "why": "ru-verb: る → れば."
+   },
+   {
+    "type": "fill",
+    "q": "もっと勉強＿＿よかった。(する)",
+    "a": [
+     "すれば"
+    ],
+    "why": "する → すれば."
+   },
+   {
+    "type": "fill",
+    "q": "お酒を飲み過ぎ＿＿よかった。(I shouldn't have)",
+    "a": [
+     "なければ"
+    ],
+    "why": "Negative regret: ～なければよかった."
+   },
+   {
+    "type": "order",
+    "q": "Make: I should have brought an umbrella.",
+    "tokens": [
+     "傘を",
+     "持って来れば",
+     "よかった"
+    ],
+    "a": [
+     "傘を",
+     "持って来れば",
+     "よかった"
+    ],
+    "why": "持って来る → 持って来れば + よかった."
+   }
+  ]
+ },
+ {
+  "id": "l19-honorific-verbs",
+  "lesson": 19,
+  "title": "Honorific verbs (いらっしゃる, 召し上がる, ...)",
+  "summary": "Raise the other person by swapping their actions for special honorific verbs.",
+  "explain": "**Honorific (尊敬語)** language elevates the person you are talking about or to (teacher, customer, boss). Never use it about yourself.\n\n| Plain | Honorific |\n|---|---|\n| いる / 行く / 来る | いらっしゃる |\n| 食べる / 飲む | 召し上がる |\n| 言う | おっしゃる |\n| する | なさる |\n| くれる | くださる |\n| 見る | ご覧になる |\n| 知っている | ご存じ |\n\nThe verbs いらっしゃる, おっしゃる, なさる and くださる are irregular in the ます-form: **いらっしゃいます, おっしゃいます, なさいます, くださいます** (the る becomes い, not り).\n\n**Mistakes:** do not say ×先生はおっしゃりました. Also don't use honorific verbs for your own family when speaking to outsiders; use plain or humble forms.\n\n**Politeness:** the honorific verb is combined with the ます-form for the highest level: 先生がいらっしゃいます.",
+  "examples": [
+   {
+    "ja": "先生は明日いらっしゃいますか。",
+    "en": "Will the teacher be coming tomorrow?"
+   },
+   {
+    "ja": "社長は何を召し上がりますか。",
+    "en": "What will the president have to eat?"
+   },
+   {
+    "ja": "先生がそうおっしゃいました。",
+    "en": "The teacher said so."
+   },
+   {
+    "ja": "部長はこの映画をご覧になりましたか。",
+    "en": "Has the department manager seen this movie?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "お客様は何を＿＿か。(eat/drink, honorific)",
+    "options": [
+     "召し上がります",
+     "食べます",
+     "いただきます",
+     "いたします"
+    ],
+    "a": 0,
+    "why": "召し上がる is the honorific for 食べる/飲む."
+   },
+   {
+    "type": "choice",
+    "q": "先生は今どこに＿＿か。(be, honorific)",
+    "options": [
+     "いらっしゃいます",
+     "参ります",
+     "おります",
+     "いただきます"
+    ],
+    "a": 0,
+    "why": "いらっしゃる is the honorific for いる/行く/来る."
+   },
+   {
+    "type": "choice",
+    "q": "What is the honorific verb for 言う?",
+    "options": [
+     "おっしゃる",
+     "申す",
+     "いただく",
+     "ございます"
+    ],
+    "a": 0,
+    "why": "申す is humble; おっしゃる is honorific."
+   },
+   {
+    "type": "fill",
+    "q": "先生が「明日は休みです」と＿＿ました。(said)",
+    "a": [
+     "おっしゃい"
+    ],
+    "why": "おっしゃいます is the irregular ます-form."
+   },
+   {
+    "type": "fill",
+    "q": "社長は私に本を＿＿ました。(gave me)",
+    "a": [
+     "ください"
+    ],
+    "why": "くださる → くださいます."
+   },
+   {
+    "type": "order",
+    "q": "Make: Has the teacher seen this?",
+    "tokens": [
+     "先生は",
+     "これを",
+     "ご覧になりましたか"
+    ],
+    "a": [
+     "先生は",
+     "これを",
+     "ご覧になりましたか"
+    ],
+    "why": "ご覧になる is honorific for 見る."
+   }
+  ]
+ },
+ {
+  "id": "l19-o-ni-naru",
+  "lesson": 19,
+  "title": "お～になる (honorific pattern)",
+  "summary": "Turn most verbs into honorific verbs with お + stem + になる.",
+  "explain": "For verbs that have no special honorific form, use **お + V-stem + になる**.\n\n| Verb | Honorific |\n|---|---|\n| 読む | お読みになる |\n| 待つ | お待ちになる |\n| 帰る | お帰りになる |\n| 書く | お書きになる |\n| 出かける | お出かけになる |\n\nFor suru-compounds such as 利用する, use **ご + noun + になる**: ご利用になる, ご出席になる.\n\n**Mistakes:** verbs whose stem is a single syllable (見る, 着る, 寝る, いる) do not fit this pattern because they already have special honorific forms (ご覧になる, お召しになる, お休みになる). Never use お～になる for yourself: 私はお読みになる is wrong.\n\nMake it past or negative on なる: お読みになりました / お読みになりません.\n\n**Politeness:** お～になる is a standard business honorific, and a natural way to speak about a customer or senior person.",
+  "examples": [
+   {
+    "ja": "部長はもうお帰りになりました。",
+    "en": "The manager has already gone home."
+   },
+   {
+    "ja": "先生は新聞をお読みになっています。",
+    "en": "The teacher is reading the newspaper."
+   },
+   {
+    "ja": "何時にお出かけになりますか。",
+    "en": "What time will you go out?"
+   },
+   {
+    "ja": "この本をお書きになったのは、山田先生です。",
+    "en": "It is Professor Yamada who wrote this book."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the honorific form of 待つ?",
+    "options": [
+     "お待ちになる",
+     "お待ちする",
+     "お待たせになる",
+     "待ちになる"
+    ],
+    "a": 0,
+    "why": "お + stem (待ち) + になる."
+   },
+   {
+    "type": "choice",
+    "q": "先生は新聞を＿＿＿。(reading)",
+    "options": [
+     "お読みになっています",
+     "お読みしています",
+     "お読みください",
+     "読まれたいです"
+    ],
+    "a": 0,
+    "why": "Honorific: お読みになる (お読みする is humble)."
+   },
+   {
+    "type": "fill",
+    "q": "社長は何時にお帰り＿＿ますか。",
+    "a": [
+     "になり"
+    ],
+    "why": "お帰りになります."
+   },
+   {
+    "type": "fill",
+    "q": "どうぞ、お＿＿になってください。(座る)",
+    "a": [
+     "座り",
+     "すわり"
+    ],
+    "why": "座る → stem 座り."
+   },
+   {
+    "type": "order",
+    "q": "Make: Has the president already left?",
+    "tokens": [
+     "社長は",
+     "もう",
+     "お出かけに",
+     "なりましたか"
+    ],
+    "a": [
+     "社長は",
+     "もう",
+     "お出かけに",
+     "なりましたか"
+    ],
+    "why": "お出かけになる."
+   }
+  ]
+ },
+ {
+  "id": "l19-o-kudasai",
+  "lesson": 19,
+  "title": "お～ください (respectful requests)",
+  "summary": "Give polite instructions to customers and guests.",
+  "explain": "**お + V-stem + ください** is a respectful \"please do...\". It is what you hear in shops, stations and announcements.\n\n| Plain request | Respectful |\n|---|---|\n| 待ってください | お待ちください |\n| 入ってください | お入りください |\n| 使ってください | お使いください |\n| 見てください | ご覧ください |\n| 座ってください | おかけください |\n\nWith suru-compounds use **ご + noun + ください**: ご注意ください, ご確認ください, ご利用ください.\n\n**Mistakes:** the お + stem pattern needs a verb with a stem of two or more syllables; so for 見る use ご覧ください. Don't add です/ます after ください.\n\n**Politeness:** compared to ～てください, お～ください is for service situations and instructions to customers. A stronger hint of formal style is 少々お待ちください (\"please wait a moment\").",
+  "examples": [
+   {
+    "ja": "少々お待ちください。",
+    "en": "Please wait a moment."
+   },
+   {
+    "ja": "こちらにおかけください。",
+    "en": "Please have a seat here."
+   },
+   {
+    "ja": "こちらをご覧ください。",
+    "en": "Please look at this."
+   },
+   {
+    "ja": "足元にご注意ください。",
+    "en": "Please watch your step."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "A clerk asks a customer to wait. Which fits best?",
+    "options": [
+     "お待ちください",
+     "待ちください",
+     "お待ちなさい",
+     "待ってくれ"
+    ],
+    "a": 0,
+    "why": "お + stem + ください."
+   },
+   {
+    "type": "choice",
+    "q": "Which one is correct?",
+    "options": [
+     "ご注意ください",
+     "お注意ください",
+     "ご待ちください",
+     "お説明ください"
+    ],
+    "a": 0,
+    "why": "Sino-Japanese noun: ご + noun + ください."
+   },
+   {
+    "type": "fill",
+    "q": "こちらからお入り＿＿。",
+    "a": [
+     "ください"
+    ],
+    "why": "お入りください."
+   },
+   {
+    "type": "fill",
+    "q": "どうぞこちらを＿＿ください。(see)",
+    "a": [
+     "ご覧"
+    ],
+    "why": "見る → ご覧ください."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please wait a moment.",
+    "tokens": [
+     "少々",
+     "お待ち",
+     "ください"
+    ],
+    "a": [
+     "少々",
+     "お待ち",
+     "ください"
+    ],
+    "why": "少々 + お + stem + ください."
+   }
+  ]
+ },
+ {
+  "id": "l19-te-kurete-arigatou",
+  "lesson": 19,
+  "title": "～てくれてありがとう",
+  "summary": "Thank someone for doing something for you.",
+  "explain": "**V-て + くれて + ありがとう** thanks someone for the action. くれて carries the sense \"you did this for me\".\n\n| Style | Form |\n|---|---|\n| casual | 来てくれてありがとう |\n| polite | 来てくれてありがとうございます |\n| thanks for a past favour | 来てくれてありがとうございました |\n| to a superior | 来てくださってありがとうございます |\n\nUse **くださって** for teachers and seniors, and **いただいて** is possible when you stress receiving: 教えていただいて、ありがとうございました。\n\n**Mistakes:** don't use あげて here: ×来てあげてありがとう. And remember it is the **て-form + くれて**, not ～てくれた; you attach ありがとう to the て-form. When you don't want to impose on the other person, you can still thank them for the result: 手伝ってくれて助かりました。",
+  "examples": [
+   {
+    "ja": "手伝ってくれてありがとう。",
+    "en": "Thanks for helping me."
+   },
+   {
+    "ja": "来てくれてありがとうございます。",
+    "en": "Thank you for coming."
+   },
+   {
+    "ja": "昨日は電話してくれて、ありがとう。",
+    "en": "Thanks for calling yesterday."
+   },
+   {
+    "ja": "誘ってくださって、ありがとうございました。",
+    "en": "Thank you very much for inviting me."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "来て＿＿ありがとう。",
+    "options": [
+     "くれて",
+     "あげて",
+     "もらって",
+     "おいて"
+    ],
+    "a": 0,
+    "why": "Someone did it for me: くれて."
+   },
+   {
+    "type": "choice",
+    "q": "Thanks for inviting me (friend):",
+    "options": [
+     "誘ってくれて",
+     "誘ってあげて",
+     "誘ってやって",
+     "誘わせて"
+    ],
+    "a": 0,
+    "why": "V-て + くれて + ありがとう."
+   },
+   {
+    "type": "fill",
+    "q": "先生、教えて＿＿て、ありがとうございました。(honorific)",
+    "a": [
+     "くださっ"
+    ],
+    "why": "くださって for a teacher."
+   },
+   {
+    "type": "fill",
+    "q": "昨日は荷物を送っ＿＿ありがとう。",
+    "a": [
+     "てくれて"
+    ],
+    "why": "送って + くれて."
+   },
+   {
+    "type": "order",
+    "q": "Make: Thank you for helping me.",
+    "tokens": [
+     "手伝って",
+     "くれて",
+     "ありがとう"
+    ],
+    "a": [
+     "手伝って",
+     "くれて",
+     "ありがとう"
+    ],
+    "why": "て-form + くれて + ありがとう."
+   }
+  ]
+ },
+ {
+  "id": "l19-te-yokatta",
+  "lesson": 19,
+  "title": "～てよかったです",
+  "summary": "Say you are glad that something happened or that you did something.",
+  "explain": "**V-て / adj-くて + よかったです** expresses relief or gladness about a fact.\n\n| Type | Example |\n|---|---|\n| verb | 来てよかったです |\n| negative verb | 遅れなくてよかったです |\n| い-adj | 安くてよかったです |\n| な-adj | 便利でよかったです |\n\nThe thing you are glad about is placed before よかった. It is often used for things that turn out well after you took action: 日本語を勉強してよかった。\n\n**Mistakes:** don't mix it up with ～ばよかった (regret). ～てよかった = \"I'm glad I did\", ～ばよかった = \"I should have\". For something you did not do, use the negative: 傘を忘れなくてよかった.\n\n**Politeness:** use ～てよかったです in polite speech; drop です for friends. A common reply to news: よかったですね!",
+  "examples": [
+   {
+    "ja": "この店に来てよかったです。",
+    "en": "I'm glad I came to this shop."
+   },
+   {
+    "ja": "日本語を勉強してよかったです。",
+    "en": "I'm glad I studied Japanese."
+   },
+   {
+    "ja": "傘を持って行ってよかった。",
+    "en": "I'm glad I took my umbrella."
+   },
+   {
+    "ja": "電車に乗り遅れなくてよかったです。",
+    "en": "I'm glad I didn't miss the train."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "日本に来＿＿よかったです。",
+    "options": [
+     "て",
+     "たら",
+     "ても",
+     "ると"
+    ],
+    "a": 0,
+    "why": "V-て + よかった."
+   },
+   {
+    "type": "choice",
+    "q": "「傘を持ってきてよかった」 expresses...",
+    "options": [
+     "gladness",
+     "regret",
+     "an order",
+     "a wish"
+    ],
+    "a": 0,
+    "why": "～てよかった = glad it happened."
+   },
+   {
+    "type": "fill",
+    "q": "試験に合格し＿＿よかったです。",
+    "a": [
+     "て"
+    ],
+    "why": "V-て + よかった."
+   },
+   {
+    "type": "fill",
+    "q": "電車に乗り遅れ＿＿よかったです。(I didn't miss it)",
+    "a": [
+     "なくて"
+    ],
+    "why": "Negative: ～なくてよかった."
+   },
+   {
+    "type": "order",
+    "q": "Make: I'm glad I entered this university.",
+    "tokens": [
+     "この大学に",
+     "入って",
+     "よかったです"
+    ],
+    "a": [
+     "この大学に",
+     "入って",
+     "よかったです"
+    ],
+    "why": "V-て + よかったです."
+   }
+  ]
+ },
+ {
+  "id": "l19-hazu",
+  "lesson": 19,
+  "title": "～はずです",
+  "summary": "Say that something should be so, based on reasoning or what you know.",
+  "explain": "**はず** means \"it should be / it is expected to be\". It is a logical expectation, stronger than みたい.\n\n| Type | Form |\n|---|---|\n| verb | plain + はずです (着いたはずです) |\n| い-adj | plain + はずです |\n| な-adj | な + はずです (静かなはずです) |\n| noun | の + はずです (学生のはずです) |\n\nNegative: **ないはずです** (should not be): 山田さんは来ないはずです。 Don't use ×はずではありません for that.\n\n**Mistakes:** use な/の before はず, not だ. はず is not for orders, wishes or the speaker's own behaviour. It is for events and states that you reason about, e.g. \"He's Japanese, so he should be able to read it.\"\n\nIf the expectation turns out to be wrong, you can say ～はずだったのに (\"it should have been, but...\").",
+  "examples": [
+   {
+    "ja": "田中さんはもう家に着いたはずです。",
+    "en": "Tanaka should have arrived home already."
+   },
+   {
+    "ja": "この店は安いはずです。",
+    "en": "This shop should be cheap."
+   },
+   {
+    "ja": "彼は学生のはずです。",
+    "en": "He should be a student."
+   },
+   {
+    "ja": "山田さんは来ないはずです。",
+    "en": "Yamada shouldn't be coming."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "彼は日本人だから、日本語が分かる＿＿です。",
+    "options": [
+     "はず",
+     "もの",
+     "ところ",
+     "ため"
+    ],
+    "a": 0,
+    "why": "Logical expectation: ～はずです."
+   },
+   {
+    "type": "choice",
+    "q": "彼は学生＿＿はずです。",
+    "options": [
+     "の",
+     "な",
+     "だ",
+     "い"
+    ],
+    "a": 0,
+    "why": "Noun + の + はず."
+   },
+   {
+    "type": "fill",
+    "q": "彼女は静か＿＿はずです。",
+    "a": [
+     "な"
+    ],
+    "why": "な-adjective + な + はず."
+   },
+   {
+    "type": "fill",
+    "q": "メールを送ったから、もう届いている＿＿です。",
+    "a": [
+     "はず"
+    ],
+    "why": "Plain form + はず."
+   },
+   {
+    "type": "order",
+    "q": "Make: Ms. Sato should be at home now.",
+    "tokens": [
+     "佐藤さんは",
+     "今",
+     "家に",
+     "いる",
+     "はずです"
+    ],
+    "a": [
+     "佐藤さんは",
+     "今",
+     "家に",
+     "いる",
+     "はずです"
+    ],
+    "why": "Plain form + はずです."
+   }
+  ]
+ },
+ {
+  "id": "l20-modest-forms",
+  "lesson": 20,
+  "title": "Extra-modest expressions (参る, おる, ございます, でございます)",
+  "summary": "Speak formally to customers and in business, lowering yourself as the speaker.",
+  "explain": "**Humble-polite (謙譲語II / 丁重語)** forms don't raise the listener or lower someone in particular; they make *your own speech* extra formal. They are used for your own actions and in service language.\n\n| Plain | Extra-modest |\n|---|---|\n| 行く / 来る | 参る (参ります) |\n| いる | おる (おります) |\n| ある | ございます |\n| です | でございます |\n| する | いたす (いたします) |\n| 言う | 申す (申します) |\n\nExamples: 私は大阪から参りました。 / 今、会社におります。 / こちらがメニューでございます。\n\n**Mistakes:** don't use these for the other person's action (×先生は参ります). Use the honorific いらっしゃる for them. Also don't use ございます for people: 山田はおります (my colleague is here), not ×ございます.\n\n**Politeness:** shop staff and business people use ございます all the time; in daily life it is too formal.",
+  "examples": [
+   {
+    "ja": "私は大阪から参りました。",
+    "en": "I have come from Osaka."
+   },
+   {
+    "ja": "今、会社におります。",
+    "en": "I'm at the office now."
+   },
+   {
+    "ja": "こちらがメニューでございます。",
+    "en": "This is the menu."
+   },
+   {
+    "ja": "トイレは二階にございます。",
+    "en": "The restroom is on the second floor."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "At the phone: 山田＿＿。(This is Yamada)",
+    "options": [
+     "でございます",
+     "ございます",
+     "でありません",
+     "だ"
+    ],
+    "a": 0,
+    "why": "です → でございます."
+   },
+   {
+    "type": "choice",
+    "q": "What is the extra-modest form of 行く / 来る?",
+    "options": [
+     "参る",
+     "おる",
+     "いたす",
+     "申す"
+    ],
+    "a": 0,
+    "why": "参る."
+   },
+   {
+    "type": "fill",
+    "q": "私は今、家に＿＿ます。(いる, modest)",
+    "a": [
+     "おり"
+    ],
+    "why": "いる → おります."
+   },
+   {
+    "type": "fill",
+    "q": "こちらが資料で＿＿ます。",
+    "a": [
+     "ござい"
+    ],
+    "why": "でございます."
+   },
+   {
+    "type": "order",
+    "q": "Make: I came from Tokyo.",
+    "tokens": [
+     "私は",
+     "東京から",
+     "参りました"
+    ],
+    "a": [
+     "私は",
+     "東京から",
+     "参りました"
+    ],
+    "why": "参る for your own movement."
+   }
+  ]
+ },
+ {
+  "id": "l20-o-suru",
+  "lesson": 20,
+  "title": "お～する (humble pattern)",
+  "summary": "Humble your own action toward someone you respect.",
+  "explain": "**お + V-stem + する** (or the more formal **いたす**) lowers your own action when it benefits or involves the other person.\n\n| Verb | Humble |\n|---|---|\n| 持つ | お持ちする / お持ちいたす |\n| 送る | お送りする |\n| 待つ | お待ちする |\n| 電話する | お電話する / ご連絡する |\n\nWith suru-compounds use **ご + noun + する**: ご案内する, ご説明する, ご連絡いたします.\n\n**Mistakes:** お～する is for *your* actions. For the other person's, use お～になる. It doesn't fit verbs whose stem is one syllable (見る, 来る, いる), which have their own humble verbs: 拝見する, 参る, おる.\n\nOffering help: お持ちしましょうか。 (Shall I carry it for you?)\n\n**Politeness:** お～いたします is slightly more formal than お～します and common in business.",
+  "examples": [
+   {
+    "ja": "お荷物をお持ちしましょうか。",
+    "en": "Shall I carry your luggage for you?"
+   },
+   {
+    "ja": "先生に資料をお送りしました。",
+    "en": "I sent the materials to my teacher."
+   },
+   {
+    "ja": "明日、お電話いたします。",
+    "en": "I will call you tomorrow."
+   },
+   {
+    "ja": "駅までご案内します。",
+    "en": "I'll guide you to the station."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "You offer to carry a customer's bag. Which fits?",
+    "options": [
+     "お持ちします",
+     "持ちます",
+     "お持ちになります",
+     "お持ちください"
+    ],
+    "a": 0,
+    "why": "Your own action: お～します."
+   },
+   {
+    "type": "choice",
+    "q": "お待ちする is...",
+    "options": [
+     "humble: you wait for them",
+     "honorific: they wait",
+     "a command",
+     "a request to wait"
+    ],
+    "a": 0,
+    "why": "お～する lowers the speaker's own action."
+   },
+   {
+    "type": "fill",
+    "q": "先生の荷物を＿＿持ちしましょうか。",
+    "a": [
+     "お"
+    ],
+    "why": "お + stem + します."
+   },
+   {
+    "type": "fill",
+    "q": "明日、ご連絡＿＿ます。(more formal than し)",
+    "a": [
+     "いたし",
+     "し"
+    ],
+    "why": "ご連絡いたします / ご連絡します."
+   },
+   {
+    "type": "order",
+    "q": "Make: I will explain it.",
+    "tokens": [
+     "私が",
+     "ご説明",
+     "いたします"
+    ],
+    "a": [
+     "私が",
+     "ご説明",
+     "いたします"
+    ],
+    "why": "ご + noun + いたします."
+   }
+  ]
+ },
+ {
+  "id": "l20-humble-verbs",
+  "lesson": 20,
+  "title": "Humble verbs (いただく, うかがう, 申し上げる, ...)",
+  "summary": "Use special humble verbs for eating, receiving, visiting, asking and more.",
+  "explain": "Some verbs have their own **humble (謙譲語I)** forms that lower your action toward the other person.\n\n| Plain | Humble |\n|---|---|\n| 食べる / 飲む / もらう | いただく |\n| 行く / 聞く / 訪ねる | うかがう |\n| 言う | 申す / 申し上げる |\n| あげる | さしあげる |\n| 見る | 拝見する |\n| 会う | お目にかかる |\n| 知っている | 存じている |\n\nExamples: 明日、三時にうかがいます。 / 先生にお土産をさしあげました。\n\n**Mistakes:** いただく means \"receive\" or \"eat/drink\" in a humble way; the giver is に/から. Do not use these for your teacher's actions: 先生が召し上がる (honorific) but 私がいただく (humble).\n\n**Politeness:** use うかがう for visiting or asking a superior, and いただきます before meals. These words are typical in job interviews and business emails.",
+  "examples": [
+   {
+    "ja": "明日の三時にうかがいます。",
+    "en": "I'll visit at three tomorrow."
+   },
+   {
+    "ja": "先生にプレゼントをいただきました。",
+    "en": "I received a present from my teacher."
+   },
+   {
+    "ja": "先生の作品を拝見しました。",
+    "en": "I had the honour of seeing your work."
+   },
+   {
+    "ja": "私は田中と申します。",
+    "en": "My name is Tanaka."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the humble verb for 食べる / もらう?",
+    "options": [
+     "いただく",
+     "くださる",
+     "さしあげる",
+     "うかがう"
+    ],
+    "a": 0,
+    "why": "いただく."
+   },
+   {
+    "type": "choice",
+    "q": "先生の家に＿＿ます。(visit, humble)",
+    "options": [
+     "うかがい",
+     "いらっしゃい",
+     "くださり",
+     "ご覧になり"
+    ],
+    "a": 0,
+    "why": "うかがう = humble 行く."
+   },
+   {
+    "type": "fill",
+    "q": "私は田中と＿＿ます。",
+    "a": [
+     "申し"
+    ],
+    "why": "言う → 申す → 申します."
+   },
+   {
+    "type": "fill",
+    "q": "先生の絵を＿＿しました。(see, humble)",
+    "a": [
+     "拝見"
+    ],
+    "why": "拝見する."
+   },
+   {
+    "type": "order",
+    "q": "Make: I received a present from the teacher.",
+    "tokens": [
+     "先生に",
+     "プレゼントを",
+     "いただきました"
+    ],
+    "a": [
+     "先生に",
+     "プレゼントを",
+     "いただきました"
+    ],
+    "why": "Giver + に, humble いただく."
+   }
+  ]
+ },
+ {
+  "id": "l20-naide",
+  "lesson": 20,
+  "title": "～ないで (without doing / please don't)",
+  "summary": "Say you did one thing without doing another, or ask someone not to do something.",
+  "explain": "**V-ない + で** has two uses.\n\n1. **Without doing:** 朝ご飯を食べないで、学校へ行きました。 (I went to school without eating breakfast.)\n2. **Please don't:** ここで写真を撮らないでください。\n\n| Dictionary | ない-form | + で |\n|---|---|---|\n| 食べる | 食べない | 食べないで |\n| 持つ | 持たない | 持たないで |\n| する | しない | しないで |\n\nIn the second use, ～ないでください is the standard polite way to ask someone not to do something. The casual one is just ～ないで。\n\n**Mistakes:** don't mix it up with ～なくて (a reason or a continuation, as in 行けなくてすみません) or ～なくても (not necessary). Use ～ないで when the main verb is about an action done *in the state of* not doing something else.\n\n**Politeness:** with a superior, soften with すみませんが: すみませんが、ここでは吸わないでいただけませんか。",
+  "examples": [
+   {
+    "ja": "朝ご飯を食べないで、学校へ行きました。",
+    "en": "I went to school without eating breakfast."
+   },
+   {
+    "ja": "傘を持たないで出かけました。",
+    "en": "I went out without an umbrella."
+   },
+   {
+    "ja": "ここで写真を撮らないでください。",
+    "en": "Please don't take photos here."
+   },
+   {
+    "ja": "宿題をしないで、寝てしまいました。",
+    "en": "I went to sleep without doing my homework."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "辞書を見＿＿、読んでください。(without looking)",
+    "options": [
+     "ないで",
+     "なくて",
+     "なかった",
+     "なければ"
+    ],
+    "a": 0,
+    "why": "V-ない + で = without doing."
+   },
+   {
+    "type": "choice",
+    "q": "「ここで食べないでください」 means...",
+    "options": [
+     "Please don't eat here",
+     "You may eat here",
+     "You must eat here",
+     "I want to eat here"
+    ],
+    "a": 0,
+    "why": "～ないでください is a negative request."
+   },
+   {
+    "type": "fill",
+    "q": "ここで走ら＿＿ください。",
+    "a": [
+     "ないで"
+    ],
+    "why": "走らない + で + ください."
+   },
+   {
+    "type": "fill",
+    "q": "傘を持た＿＿、出かけました。",
+    "a": [
+     "ないで"
+    ],
+    "why": "持たない + で."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please don't put in salt.",
+    "tokens": [
+     "塩を",
+     "入れないで",
+     "ください"
+    ],
+    "a": [
+     "塩を",
+     "入れないで",
+     "ください"
+    ],
+    "why": "V-ない + でください."
+   }
+  ]
+ },
+ {
+  "id": "l20-embedded-questions",
+  "lesson": 20,
+  "title": "Questions within larger sentences (か / かどうか)",
+  "summary": "Put a question inside a sentence: \"I don't know when he is coming\".",
+  "explain": "A question can be embedded in a bigger sentence by using the **plain form + か**. For yes/no questions add **かどうか** (\"whether or not\").\n\n| Question | Embedded |\n|---|---|\n| 何時に来ますか | 何時に来るか教えてください |\n| どこで買いましたか | どこで買ったか覚えていません |\n| 彼は来ますか | 彼が来るかどうか分かりません |\n\n**Rules:**\n- Use the plain form inside the clause (not です/ます).\n- With nouns and な-adjectives, だ is dropped before か: 誰か、元気か.\n- Question words (何, いつ, どこ, 誰) need just か; yes/no questions need **かどうか**.\n\n**Mistakes:** don't leave ですか inside the sentence. For a question inside a polite sentence, finish with the polite verb: 駅がどこか教えてください。\n\nTypical verbs after the clause: 知っている, 分かる, 聞く, 教える, 覚えている, 調べる.",
+  "examples": [
+   {
+    "ja": "明日、何時に来るか教えてください。",
+    "en": "Please tell me what time you're coming tomorrow."
+   },
+   {
+    "ja": "彼が来るかどうか分かりません。",
+    "en": "I don't know whether he is coming."
+   },
+   {
+    "ja": "どこで買ったか覚えていません。",
+    "en": "I don't remember where I bought it."
+   },
+   {
+    "ja": "このレストランがおいしいかどうか、食べてみます。",
+    "en": "I'll try eating there to see if this restaurant is good."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "駅がどこ＿＿教えてください。",
+    "options": [
+     "か",
+     "を",
+     "が",
+     "の"
+    ],
+    "a": 0,
+    "why": "Embedded question: question word + か."
+   },
+   {
+    "type": "choice",
+    "q": "彼が来る＿＿分かりません。(whether)",
+    "options": [
+     "かどうか",
+     "かない",
+     "ですか",
+     "かだ"
+    ],
+    "a": 0,
+    "why": "Yes/no question: かどうか."
+   },
+   {
+    "type": "fill",
+    "q": "この人が誰＿＿知っていますか。",
+    "a": [
+     "か"
+    ],
+    "why": "だ is dropped before か."
+   },
+   {
+    "type": "fill",
+    "q": "明日、雨が降る＿＿＿、ニュースを見ます。(whether)",
+    "a": [
+     "かどうか"
+    ],
+    "why": "Plain form + かどうか."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please tell me what time it starts.",
+    "tokens": [
+     "何時に",
+     "始まるか",
+     "教えて",
+     "ください"
+    ],
+    "a": [
+     "何時に",
+     "始まるか",
+     "教えて",
+     "ください"
+    ],
+    "why": "Plain form + か + 教えてください."
+   }
+  ]
+ },
+ {
+  "id": "l20-to-iu",
+  "lesson": 20,
+  "title": "Name という item",
+  "summary": "Introduce something by its name: \"a place called ...\", \"a person named ...\".",
+  "explain": "**Name + という + noun** means \"a ... called ...\". It is how you introduce a name the listener may not know.\n\n| Pattern | Example |\n|---|---|\n| name + という + noun | 「さくら」という名前の猫 |\n| 何という + noun | これは何という花ですか。 |\n| person | 田中さんという人 |\n| title | 「七人の侍」という映画 |\n\nQuotation marks 「」 are common with titles. Use **さん** after a personal name but not for yourself or your family.\n\n**Mistakes:** と is the quotation particle and **いう** is the verb \"say\", so the pattern literally means \"a flower that people say is ...\". Don't use ×と言う for this. The pattern is not needed if the listener already knows the thing.\n\n**Politeness:** in polite speech you can use ～と申します for your own name and ～とおっしゃいます for others.",
+  "examples": [
+   {
+    "ja": "「さくら」という名前の猫を飼っています。",
+    "en": "I have a cat named Sakura."
+   },
+   {
+    "ja": "これは何という花ですか。",
+    "en": "What is this flower called?"
+   },
+   {
+    "ja": "田中さんという人から電話がありました。",
+    "en": "There was a call from a person named Tanaka."
+   },
+   {
+    "ja": "「七人の侍」という映画を見たことがありますか。",
+    "en": "Have you seen a movie called Seven Samurai?"
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "これは何＿＿料理ですか。",
+    "options": [
+     "という",
+     "って",
+     "と",
+     "のう"
+    ],
+    "a": 0,
+    "why": "何という + noun = \"what is it called\"."
+   },
+   {
+    "type": "choice",
+    "q": "How do you say \"a station called Ginza\"?",
+    "options": [
+     "銀座という駅",
+     "銀座の駅という",
+     "駅という銀座",
+     "銀座と駅"
+    ],
+    "a": 0,
+    "why": "Name + という + noun."
+   },
+   {
+    "type": "fill",
+    "q": "山田＿＿＿人を知っていますか。",
+    "a": [
+     "さんという"
+    ],
+    "why": "Name + さん + という."
+   },
+   {
+    "type": "fill",
+    "q": "「ポケモン」＿＿ゲームを知っていますか。",
+    "a": [
+     "という"
+    ],
+    "why": "Title + という + noun."
+   },
+   {
+    "type": "order",
+    "q": "Make: I'm looking for a book called Kokoro.",
+    "tokens": [
+     "「こころ」という",
+     "本を",
+     "探しています"
+    ],
+    "a": [
+     "「こころ」という",
+     "本を",
+     "探しています"
+    ],
+    "why": "Title + という + noun."
+   }
+  ]
+ },
+ {
+  "id": "l20-yasui-nikui",
+  "lesson": 20,
+  "title": "～やすい / ～にくい",
+  "summary": "Say that something is easy or hard to do.",
+  "explain": "**V-stem + やすい** = easy to ..., **V-stem + にくい** = hard to ... The result is an い-adjective, so it conjugates like one.\n\n| Dictionary | Easy | Hard |\n|---|---|---|\n| 書く | 書きやすい | 書きにくい |\n| 食べる | 食べやすい | 食べにくい |\n| 歩く | 歩きやすい | 歩きにくい |\n| 分かる | 分かりやすい | 分かりにくい |\n\nConjugation: 書きやすかった, 書きにくくない, 書きやすくて.\n\nThe subject of the sentence is the thing, with が or は: この靴は歩きやすい。 The one doing the action is not marked.\n\n**Mistakes:** this expresses a property of the thing (the pen is easy to write with). For your ability or difficulty, use できる or ～ことができる. ～づらい is a similar \"hard to\" that sounds more emotional.\n\n**Politeness:** neutral, can be used with です in polite speech.",
+  "examples": [
+   {
+    "ja": "この靴は歩きやすいです。",
+    "en": "These shoes are easy to walk in."
+   },
+   {
+    "ja": "この漢字は書きにくいです。",
+    "en": "This kanji is hard to write."
+   },
+   {
+    "ja": "先生の説明は分かりやすかったです。",
+    "en": "The teacher's explanation was easy to understand."
+   },
+   {
+    "ja": "このペンは書きやすいですね。",
+    "en": "This pen is easy to write with."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "このペンは書き＿＿です。(easy to write with)",
+    "options": [
+     "やすい",
+     "にくい",
+     "たい",
+     "そう"
+    ],
+    "a": 0,
+    "why": "V-stem + やすい."
+   },
+   {
+    "type": "choice",
+    "q": "「食べにくい」 means...",
+    "options": [
+     "hard to eat",
+     "easy to eat",
+     "want to eat",
+     "don't eat"
+    ],
+    "a": 0,
+    "why": "にくい = hard to."
+   },
+   {
+    "type": "fill",
+    "q": "この本は字が大きいので、読み＿＿です。",
+    "a": [
+     "やすい"
+    ],
+    "why": "Large letters make it easy to read."
+   },
+   {
+    "type": "fill",
+    "q": "この薬は苦くて、飲み＿＿です。",
+    "a": [
+     "にくい"
+    ],
+    "why": "Bitter medicine is hard to take."
+   },
+   {
+    "type": "order",
+    "q": "Make: This road is hard to walk on.",
+    "tokens": [
+     "この道は",
+     "歩き",
+     "にくい",
+     "です"
+    ],
+    "a": [
+     "この道は",
+     "歩き",
+     "にくい",
+     "です"
+    ],
+    "why": "Stem + にくい + です."
+   }
+  ]
+ },
+ {
+  "id": "l21-passive",
+  "lesson": 21,
+  "title": "Passive sentences",
+  "summary": "Say what is done to someone, including things that happen to you against your wishes.",
+  "explain": "**Passive (受身)** forms:\n\n| Group | Rule | Example |\n|---|---|---|\n| u-verb | final u → a + れる | 書く → 書かれる, 言う → 言われる |\n| ru-verb | る → られる | 食べる → 食べられる |\n| する | される | |\n| 来る | 来られる | |\n\n**Direct passive:** the receiver is the subject, the doer takes **に**: 私は先生にほめられました。\n\n**Adversity (indirect) passive:** something happens to you that you dislike, often with a third party: 雨に降られた (I got rained on), 弟にケーキを食べられた (my brother ate my cake, to my annoyance).\n\n**Things as subjects:** 多くの人に読まれています (it is read by many).\n\n**Mistakes:** don't use passive when no one is affected. Also, ら抜き (食べれる) is potential in casual speech, not passive. The passive of 言う is 言われる, with the vowel before れる being わ.",
+  "examples": [
+   {
+    "ja": "私は先生にほめられました。",
+    "en": "I was praised by my teacher."
+   },
+   {
+    "ja": "財布を泥棒に盗まれました。",
+    "en": "My wallet was stolen by a thief."
+   },
+   {
+    "ja": "昨日、雨に降られました。",
+    "en": "I got caught in the rain yesterday."
+   },
+   {
+    "ja": "この本は多くの人に読まれています。",
+    "en": "This book is read by many people."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the passive of 言う?",
+    "options": [
+     "言われる",
+     "言られる",
+     "言あれる",
+     "言わせる"
+    ],
+    "a": 0,
+    "why": "u-verb: う → わ + れる."
+   },
+   {
+    "type": "choice",
+    "q": "What is the passive of 食べる?",
+    "options": [
+     "食べられる",
+     "食べされる",
+     "食べわれる",
+     "食べらせる"
+    ],
+    "a": 0,
+    "why": "ru-verb: stem + られる."
+   },
+   {
+    "type": "choice",
+    "q": "「雨に降られた」 means...",
+    "options": [
+     "It rained and it bothered me",
+     "I made it rain",
+     "It might rain",
+     "I wanted rain"
+    ],
+    "a": 0,
+    "why": "Adversity passive."
+   },
+   {
+    "type": "fill",
+    "q": "子どもの時、母に叱＿＿＿ました。",
+    "a": [
+     "られ"
+    ],
+    "why": "叱る → 叱られる."
+   },
+   {
+    "type": "fill",
+    "q": "電車で足を踏＿＿＿ました。(My foot was stepped on)",
+    "a": [
+     "まれ"
+    ],
+    "why": "踏む → 踏まれる."
+   },
+   {
+    "type": "order",
+    "q": "Make: I was scolded by the teacher.",
+    "tokens": [
+     "先生に",
+     "叱られました"
+    ],
+    "a": [
+     "先生に",
+     "叱られました"
+    ],
+    "why": "Doer に + passive verb."
+   }
+  ]
+ },
+ {
+  "id": "l21-te-aru",
+  "lesson": 21,
+  "title": "～てある",
+  "summary": "Describe a state that exists because someone did something on purpose.",
+  "explain": "**V(transitive)-て + ある** shows that something is in a state resulting from a deliberate action, and the evidence can still be seen.\n\n| Pattern | Meaning |\n|---|---|\n| 窓が開けてある | someone opened the window (and it's still open) |\n| 壁に絵がかけてある | a picture has been hung on the wall |\n| 晩ご飯は作ってある | dinner has been made (in preparation) |\n\nThe thing is normally marked with **が** (it can also be は/も), because it is the subject of the state: 黒板に名前が書いてあります。\n\n**Contrast with ～ている:** 窓が開いている uses the intransitive verb and just says the window is open; 窓が開けてある implies that someone opened it for a reason.\n\n**Mistakes:** use transitive verbs only. ×雨が降ってある is wrong because no one did it. The person who did it is usually not mentioned.",
+  "examples": [
+   {
+    "ja": "窓が開けてあります。",
+    "en": "The window has been opened (by someone)."
+   },
+   {
+    "ja": "壁に絵がかけてあります。",
+    "en": "A picture is hung on the wall."
+   },
+   {
+    "ja": "黒板に名前が書いてあります。",
+    "en": "Names are written on the blackboard."
+   },
+   {
+    "ja": "晩ご飯はもう作ってあります。",
+    "en": "Dinner is already made."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "窓が開け＿＿。(someone opened it deliberately)",
+    "options": [
+     "てあります",
+     "ています",
+     "ておきます",
+     "てみます"
+    ],
+    "a": 0,
+    "why": "Transitive verb + てある."
+   },
+   {
+    "type": "choice",
+    "q": "ドアが開い＿＿。(it is simply open)",
+    "options": [
+     "ています",
+     "てあります",
+     "てしまいます",
+     "ておきます"
+    ],
+    "a": 0,
+    "why": "Intransitive 開く + ている."
+   },
+   {
+    "type": "fill",
+    "q": "机の上に地図が置い＿＿＿。",
+    "a": [
+     "てあります"
+    ],
+    "why": "置く (transitive) + てある."
+   },
+   {
+    "type": "fill",
+    "q": "ホテルはもう予約し＿＿あります。",
+    "a": [
+     "て"
+    ],
+    "why": "V-て + ある."
+   },
+   {
+    "type": "order",
+    "q": "Make: A picture is hung on the wall.",
+    "tokens": [
+     "壁に",
+     "絵が",
+     "かけて",
+     "あります"
+    ],
+    "a": [
+     "壁に",
+     "絵が",
+     "かけて",
+     "あります"
+    ],
+    "why": "Place に + thing が + V-て + あります."
+   }
+  ]
+ },
+ {
+  "id": "l21-aida-ni",
+  "lesson": 21,
+  "title": "～間に (while / during)",
+  "summary": "Say what happens within the time that another state continues.",
+  "explain": "**～間に** (あいだに) means \"while / during (a period)\" and marks something that happens **within** that time.\n\n| Preceding word | Example |\n|---|---|\n| V-ている | 寝ている間に |\n| い-adj | 忙しい間に |\n| な-adj + な | 暇な間に |\n| noun + の | 夏休みの間に |\n\nThe main clause usually describes a single event or change: 私が寝ている間に、地震がありました。\n\n**間 vs 間に:**\n- **間** (no に) = the whole time, throughout: 授業の間、ずっと寝ていました。\n- **間に** = at some point in that time: 授業の間に、メールを書きました。\n\n**Mistakes:** use ている for continuous actions in the 間に clause (×寝る間に is \"before sleeping\" in another sense). The subjects of the two clauses are typically different.",
+  "examples": [
+   {
+    "ja": "私が寝ている間に、地震がありました。",
+    "en": "An earthquake happened while I was asleep."
+   },
+   {
+    "ja": "夏休みの間に、運転免許を取ります。",
+    "en": "I'll get my driver's license during summer vacation."
+   },
+   {
+    "ja": "母が買い物に行っている間に、掃除をしました。",
+    "en": "I cleaned while my mother was out shopping."
+   },
+   {
+    "ja": "留守の間に、荷物が届きました。",
+    "en": "A package arrived while I was away."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "寝ている＿＿、泥棒が入りました。",
+    "options": [
+     "間に",
+     "間",
+     "前に",
+     "ながら"
+    ],
+    "a": 0,
+    "why": "An event within the period: 間に."
+   },
+   {
+    "type": "choice",
+    "q": "授業の＿＿＿、ずっと寝ていました。(the whole time)",
+    "options": [
+     "間",
+     "間に",
+     "前に",
+     "あとで"
+    ],
+    "a": 0,
+    "why": "Throughout the period: 間 without に."
+   },
+   {
+    "type": "fill",
+    "q": "子どもが寝ている＿＿＿、掃除します。",
+    "a": [
+     "間に"
+    ],
+    "why": "Action within the period."
+   },
+   {
+    "type": "fill",
+    "q": "夏休み＿＿間に、日本へ行きます。",
+    "a": [
+     "の"
+    ],
+    "why": "Noun + の + 間に."
+   },
+   {
+    "type": "order",
+    "q": "Make: While I was out, a package came.",
+    "tokens": [
+     "出かけている",
+     "間に",
+     "荷物が",
+     "届きました"
+    ],
+    "a": [
+     "出かけている",
+     "間に",
+     "荷物が",
+     "届きました"
+    ],
+    "why": "V-ている + 間に."
+   }
+  ]
+ },
+ {
+  "id": "l21-adj-suru",
+  "lesson": 21,
+  "title": "Adjective + する (make it ...)",
+  "summary": "Change a state on purpose: make it bigger, quieter, cleaner.",
+  "explain": "**する** after an adjective or noun means \"make it...\" or \"decide on...\".\n\n| Type | Form | Example |\n|---|---|---|\n| い-adj | く + する | 小さくする |\n| な-adj | に + する | きれいにする |\n| noun | に + する | コーヒーにする |\n\nThe thing you change takes **を**: 部屋を明るくしてください。 / 音を小さくします。\n\nWith a noun, **～にする** also means \"I'll choose / I'll have\": 私は寿司にします。\n\n**Mistakes:** don't confuse with **なる** (it becomes): 部屋が明るくなる (it gets bright by itself) vs 部屋を明るくする (someone makes it bright). The particle changes too: が with なる, を with する.\n\nCommon in requests: 静かにしてください (Please be quiet).",
+  "examples": [
+   {
+    "ja": "部屋を明るくしてください。",
+    "en": "Please make the room brighter."
+   },
+   {
+    "ja": "音を小さくします。",
+    "en": "I'll turn the volume down."
+   },
+   {
+    "ja": "部屋をきれいにしました。",
+    "en": "I tidied up the room."
+   },
+   {
+    "ja": "私は寿司にします。",
+    "en": "I'll have the sushi."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "音を＿＿してください。(make it smaller)",
+    "options": [
+     "小さく",
+     "小さい",
+     "小さに",
+     "小さな"
+    ],
+    "a": 0,
+    "why": "い-adjective: く + する."
+   },
+   {
+    "type": "choice",
+    "q": "部屋を＿＿します。(make it tidy)",
+    "options": [
+     "きれいに",
+     "きれいく",
+     "きれいな",
+     "きれいで"
+    ],
+    "a": 0,
+    "why": "な-adjective: に + する."
+   },
+   {
+    "type": "fill",
+    "q": "暗いので、部屋を明る＿＿してください。",
+    "a": [
+     "く"
+    ],
+    "why": "明るい → 明るく."
+   },
+   {
+    "type": "fill",
+    "q": "私はコーヒー＿＿します。(I'll have)",
+    "a": [
+     "に"
+    ],
+    "why": "Noun + にする = choose."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please make the room warm.",
+    "tokens": [
+     "部屋を",
+     "暖かく",
+     "してください"
+    ],
+    "a": [
+     "部屋を",
+     "暖かく",
+     "してください"
+    ],
+    "why": "い-adjective + く + してください."
+   }
+  ]
+ },
+ {
+  "id": "l21-te-hoshii",
+  "lesson": 21,
+  "title": "～てほしい",
+  "summary": "Say that you want someone else to do something.",
+  "explain": "**V-て + ほしい** means \"I want (you / someone) to do...\". The person who should act is marked with **に**.\n\n| Pattern | Example |\n|---|---|\n| V-て + ほしい | 母に来てほしい |\n| V-ない + で + ほしい | ここで騒がないでほしい |\n| polite | 来てほしいです |\n\n**Compare:** V-たい is for your *own* wish (私は行きたい). V-てほしい is for what you want *others* to do (彼に行ってほしい).\n\n**Mistakes:** ほしい is an い-adjective, so the past is ほしかった. It sounds a bit direct if said to the person you are asking; to them use a request (～てください). It is mostly used about third parties or when you share feelings with a friend.\n\n**Politeness:** to ask a superior, use ～ていただきたいです (I'd like you to...).",
+  "examples": [
+   {
+    "ja": "友達にもっと連絡してほしいです。",
+    "en": "I want my friend to get in touch more."
+   },
+   {
+    "ja": "彼には早く来てほしいです。",
+    "en": "I want him to come early."
+   },
+   {
+    "ja": "ここでタバコを吸わないでほしいです。",
+    "en": "I'd like people not to smoke here."
+   },
+   {
+    "ja": "先生に日本語を教えてほしいです。",
+    "en": "I'd like the teacher to teach me Japanese."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "母に会いに来て＿＿。",
+    "options": [
+     "ほしいです",
+     "たいです",
+     "ほしくです",
+     "ほしいない"
+    ],
+    "a": 0,
+    "why": "V-て + ほしい."
+   },
+   {
+    "type": "choice",
+    "q": "I want him to go: 彼に行って＿＿。",
+    "options": [
+     "ほしい",
+     "たい",
+     "ほしがる",
+     "ほしく"
+    ],
+    "a": 0,
+    "why": "Wanting someone else to act: ～てほしい."
+   },
+   {
+    "type": "fill",
+    "q": "彼に自分の部屋を片付け＿＿ほしい。",
+    "a": [
+     "て"
+    ],
+    "why": "V-て + ほしい."
+   },
+   {
+    "type": "fill",
+    "q": "夜は騒がない＿＿ほしいです。",
+    "a": [
+     "で"
+    ],
+    "why": "Negative: ～ないでほしい."
+   },
+   {
+    "type": "order",
+    "q": "Make: I want you to come early.",
+    "tokens": [
+     "早く",
+     "来て",
+     "ほしいです"
+    ],
+    "a": [
+     "早く",
+     "来て",
+     "ほしいです"
+    ],
+    "why": "V-て + ほしいです."
+   }
+  ]
+ },
+ {
+  "id": "l22-causative",
+  "lesson": 22,
+  "title": "Causative sentences",
+  "summary": "Say that someone makes or lets another person do something.",
+  "explain": "**Causative (使役)** means \"make someone do\" or \"let someone do\".\n\n| Group | Rule | Example |\n|---|---|---|\n| u-verb | final u → a + せる | 行く → 行かせる, 読む → 読ませる |\n| ru-verb | る → させる | 食べる → 食べさせる |\n| する | させる | |\n| 来る | 来させる (こさせる) | |\n\nThe person made to act takes **に** (or **を** with intransitive verbs): 母は弟に野菜を食べさせた。 / 先生は学生を帰らせた。\n\nMeaning depends on context: **force** (子どもに宿題をさせる) or **permission** (好きなことをさせる). Causative verbs conjugate as ru-verbs: 食べさせない, 食べさせた.\n\n**Mistakes:** don't mix with the passive (食べられる, someone does it to me). Using the causative about a superior's action (先生に言わせる) is rude, so use polite requests instead.",
+  "examples": [
+   {
+    "ja": "母は私に野菜を食べさせました。",
+    "en": "My mother made me eat vegetables."
+   },
+   {
+    "ja": "先生は学生に作文を書かせます。",
+    "en": "The teacher has the students write essays."
+   },
+   {
+    "ja": "部長は社員を早く帰らせました。",
+    "en": "The manager let the employees go home early."
+   },
+   {
+    "ja": "子どもを公園で遊ばせています。",
+    "en": "I let my child play at the park."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the causative of 行く?",
+    "options": [
+     "行かせる",
+     "行かれる",
+     "行けさせる",
+     "行くさせる"
+    ],
+    "a": 0,
+    "why": "u-verb: a + せる."
+   },
+   {
+    "type": "choice",
+    "q": "What is the causative of 食べる?",
+    "options": [
+     "食べさせる",
+     "食べせる",
+     "食べられる",
+     "食べらせる"
+    ],
+    "a": 0,
+    "why": "ru-verb: stem + させる."
+   },
+   {
+    "type": "fill",
+    "q": "先生は学生を教室に＿＿＿ました。(来る)",
+    "a": [
+     "来させ",
+     "こさせ"
+    ],
+    "why": "来る → 来させる."
+   },
+   {
+    "type": "fill",
+    "q": "母は弟に部屋を掃除＿＿＿ました。",
+    "a": [
+     "させ"
+    ],
+    "why": "する → させる."
+   },
+   {
+    "type": "order",
+    "q": "Make: The teacher made the students read.",
+    "tokens": [
+     "先生は",
+     "学生に",
+     "本を",
+     "読ませました"
+    ],
+    "a": [
+     "先生は",
+     "学生に",
+     "本を",
+     "読ませました"
+    ],
+    "why": "Causer は + person に + object を + causative."
+   }
+  ]
+ },
+ {
+  "id": "l22-causative-te",
+  "lesson": 22,
+  "title": "Causative + てあげる / てくれる / てもらう / てください",
+  "summary": "Combine the causative with favours: let me, she lets me, I was allowed to.",
+  "explain": "Add giving and receiving verbs to the causative て-form to talk about permission as a favour.\n\n| Pattern | Meaning |\n|---|---|\n| V-causative-て + あげる | I let someone do it |\n| V-causative-て + くれる | someone let me do it |\n| V-causative-て + もらう | I was allowed (I got permission) |\n| V-causative-て + ください | please let me |\n\nExamples: 私に説明させてください。 / 先生は私に発表させてくれました。 / 父に車を運転させてもらいました。\n\n**Mistakes:** 〜させてください has the speaker as the person who acts; the verb is causative but the doer is you. Don't use させていただく wherever you can; it is humble business speech.\n\n**Politeness:** ～させてください is polite and ～させてもらえませんか is more polite. 〜させていただけませんか is very formal.",
+  "examples": [
+   {
+    "ja": "子どもに好きなことをさせてあげました。",
+    "en": "I let my child do what they liked."
+   },
+   {
+    "ja": "私に説明させてください。",
+    "en": "Please let me explain."
+   },
+   {
+    "ja": "先生は私に発表させてくれました。",
+    "en": "The teacher let me give a presentation."
+   },
+   {
+    "ja": "父に車を運転させてもらいました。",
+    "en": "My father let me drive his car."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "Please let me go: 行かせて＿＿。",
+    "options": [
+     "ください",
+     "あげてください",
+     "くださらない",
+     "おく"
+    ],
+    "a": 0,
+    "why": "V-causative-て + ください."
+   },
+   {
+    "type": "choice",
+    "q": "友達に私の自転車を使わせて＿＿。(I let my friend)",
+    "options": [
+     "あげました",
+     "もらいました",
+     "くれました",
+     "おきました"
+    ],
+    "a": 0,
+    "why": "I allowed someone to use it."
+   },
+   {
+    "type": "fill",
+    "q": "私にもやらせ＿＿ください。",
+    "a": [
+     "て"
+    ],
+    "why": "させて + ください."
+   },
+   {
+    "type": "fill",
+    "q": "両親が私に留学さ＿＿くれました。",
+    "a": [
+     "せて"
+    ],
+    "why": "留学させて + くれる."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please let me think a little.",
+    "tokens": [
+     "少し",
+     "考えさせて",
+     "ください"
+    ],
+    "a": [
+     "少し",
+     "考えさせて",
+     "ください"
+    ],
+    "why": "考える → 考えさせる → 考えさせて."
+   }
+  ]
+ },
+ {
+  "id": "l22-nasai",
+  "lesson": 22,
+  "title": "V-stem + なさい",
+  "summary": "Give a firm but caring instruction, as a parent or teacher would.",
+  "explain": "**V-stem + なさい** is a command from someone with authority over the listener, such as a parent or a teacher.\n\n| Verb | Form |\n|---|---|\n| 食べる | 食べなさい |\n| 起きる | 起きなさい |\n| する | しなさい |\n| 来る | 来なさい |\n| 行く | 行きなさい |\n\nIt is softer than the plain imperative (食べろ) but still an order.\n\n**Mistakes:** do not use it to a superior or an equal, or to someone you don't know. It is rude. Use ～てください instead. And remember to use the **ます stem**, not the dictionary form.\n\n**Where you hear it:** parents (早く寝なさい), teachers (静かにしなさい), exam instructions (次の文を読みなさい). In test questions it is common and neutral.",
+  "examples": [
+   {
+    "ja": "早く寝なさい。",
+    "en": "Go to bed early."
+   },
+   {
+    "ja": "ちゃんと座りなさい。",
+    "en": "Sit properly."
+   },
+   {
+    "ja": "宿題をしなさい。",
+    "en": "Do your homework."
+   },
+   {
+    "ja": "手を洗いなさい。",
+    "en": "Wash your hands."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "食べ＿＿。(Eat!)",
+    "options": [
+     "なさい",
+     "なさって",
+     "なさる",
+     "なさく"
+    ],
+    "a": 0,
+    "why": "Stem + なさい."
+   },
+   {
+    "type": "choice",
+    "q": "Who would normally say ～なさい to whom?",
+    "options": [
+     "a parent to a child",
+     "a child to a parent",
+     "an employee to the boss",
+     "a customer to a clerk"
+    ],
+    "a": 0,
+    "why": "It requires authority over the listener."
+   },
+   {
+    "type": "fill",
+    "q": "静かに＿＿＿。(する)",
+    "a": [
+     "しなさい"
+    ],
+    "why": "する → し + なさい."
+   },
+   {
+    "type": "fill",
+    "q": "早く起き＿＿＿。",
+    "a": [
+     "なさい"
+    ],
+    "why": "起きる → 起き + なさい."
+   },
+   {
+    "type": "order",
+    "q": "Make: Do your homework quickly.",
+    "tokens": [
+     "早く",
+     "宿題を",
+     "しなさい"
+    ],
+    "a": [
+     "早く",
+     "宿題を",
+     "しなさい"
+    ],
+    "why": "Adverb + object + stem + なさい."
+   }
+  ]
+ },
+ {
+  "id": "l22-ba",
+  "lesson": 22,
+  "title": "～ば (conditional)",
+  "summary": "Say \"if X, then Y\" with the ば-form.",
+  "explain": "The **ば conditional** expresses \"if X, (then) Y\", especially when X is the key condition for Y.\n\n| Type | Rule | Example |\n|---|---|---|\n| u-verb | u → e + ば | 飲む → 飲めば |\n| ru-verb | る → れば | 食べれば |\n| する / 来る | すれば / くれば | |\n| い-adj | い → ければ | 安ければ |\n| ない | ない → なければ | 行かなければ |\n| noun / な-adj | なら(ば) | 静かなら |\n\nExamples: 急げば、間に合います。 / 天気がよければ、出かけましょう。\n\n**Mistakes:** the second clause is usually not a request, a command or a strong volition when the first clause is a verb in ば (use たら then). With adjectives, ば is fine in suggestions: 安ければ、買いましょう.\n\n**Compare:** と = automatic result; たら = if/once (most flexible); ば = key condition.\n\n**Politeness:** neutral; fine in any register.",
+  "examples": [
+   {
+    "ja": "安ければ、買います。",
+    "en": "If it's cheap, I'll buy it."
+   },
+   {
+    "ja": "急げば、間に合います。",
+    "en": "If you hurry, you'll make it."
+   },
+   {
+    "ja": "天気がよければ、出かけましょう。",
+    "en": "If the weather's good, let's go out."
+   },
+   {
+    "ja": "駅から近ければ、便利です。",
+    "en": "If it is close to the station, it is convenient."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the ば-form of 飲む?",
+    "options": [
+     "飲めば",
+     "飲むば",
+     "飲れば",
+     "飲まば"
+    ],
+    "a": 0,
+    "why": "u → e + ば."
+   },
+   {
+    "type": "choice",
+    "q": "What is the ば-form of 高い?",
+    "options": [
+     "高ければ",
+     "高いば",
+     "高くば",
+     "高かれば"
+    ],
+    "a": 0,
+    "why": "い → ければ."
+   },
+   {
+    "type": "fill",
+    "q": "時間が＿＿＿ば、行きます。(ある)",
+    "a": [
+     "あれ"
+    ],
+    "why": "ある → あれば."
+   },
+   {
+    "type": "fill",
+    "q": "この色が好き＿＿＿、買ってもいいですよ。",
+    "a": [
+     "なら"
+    ],
+    "why": "な-adjective / noun: なら."
+   },
+   {
+    "type": "order",
+    "q": "Make: If you hurry, you'll make it in time.",
+    "tokens": [
+     "急げば",
+     "間に合います"
+    ],
+    "a": [
+     "急げば",
+     "間に合います"
+    ],
+    "why": "急ぐ → 急げば."
+   }
+  ]
+ },
+ {
+  "id": "l22-noni",
+  "lesson": 22,
+  "title": "～のに (although)",
+  "summary": "Express a result that goes against expectations, often with surprise or complaint.",
+  "explain": "**Plain form + のに** means \"although / even though / in spite of the fact that\".\n\n| Type | Form | Example |\n|---|---|---|\n| verb | plain + のに | 勉強したのに |\n| い-adj | plain + のに | 安いのに |\n| な-adj | な + のに | 暇なのに |\n| noun | な + のに | 春なのに |\n\nExamples: 春なのに、まだ寒いです。 / 一生懸命勉強したのに、試験に落ちました。\n\nNote that **な-adjectives and nouns take なのに** (not だのに).\n\n**Mistakes:** のに carries feelings such as surprise, disappointment, or complaint, so it is not neutral. For a neutral \"although\", use けど or が. Also, the second clause is not a command or request: ×安いのに、買ってください.\n\n**Politeness:** neutral in tone; the main feeling comes from the content.",
+  "examples": [
+   {
+    "ja": "春なのに、まだ寒いです。",
+    "en": "Even though it's spring, it's still cold."
+   },
+   {
+    "ja": "一生懸命勉強したのに、試験に落ちました。",
+    "en": "Although I studied hard, I failed the exam."
+   },
+   {
+    "ja": "安いのに、おいしくないです。",
+    "en": "It's cheap, yet not tasty."
+   },
+   {
+    "ja": "約束したのに、彼は来ませんでした。",
+    "en": "Even though we promised, he didn't come."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "熱がある＿＿、学校に来ました。",
+    "options": [
+     "のに",
+     "ので",
+     "から",
+     "たら"
+    ],
+    "a": 0,
+    "why": "Contrast with expectation: のに."
+   },
+   {
+    "type": "choice",
+    "q": "日曜日＿＿、会社に行きます。",
+    "options": [
+     "なのに",
+     "だのに",
+     "のに",
+     "であって"
+    ],
+    "a": 0,
+    "why": "Noun + なのに."
+   },
+   {
+    "type": "fill",
+    "q": "暇＿＿のに、来ません。",
+    "a": [
+     "な"
+    ],
+    "why": "な-adjective + なのに."
+   },
+   {
+    "type": "fill",
+    "q": "薬を飲んだ＿＿＿、まだ痛い。",
+    "a": [
+     "のに"
+    ],
+    "why": "Plain form + のに."
+   },
+   {
+    "type": "order",
+    "q": "Make: Even though it's cheap, he doesn't buy it.",
+    "tokens": [
+     "安い",
+     "のに",
+     "買いません"
+    ],
+    "a": [
+     "安い",
+     "のに",
+     "買いません"
+    ],
+    "why": "Plain form + のに."
+   }
+  ]
+ },
+ {
+  "id": "l22-youna",
+  "lesson": 22,
+  "title": "～のような / ～のように",
+  "summary": "Compare things: \"like a ...\", \"as if ...\".",
+  "explain": "**N + のような + noun** and **N + のように + verb/adj** mean \"like / such as\".\n\n| Use | Pattern | Example |\n|---|---|---|\n| before a noun | N + のような + N | 夢のような話 |\n| before a verb/adj | N + のように | 魚のように泳ぐ |\n| plain verb | plain + ように | 知っているように話す |\n| な-adj | な + ように | 静かなように |\n\nThe particle の links the noun to ような. **みたい** is the casual alternative: 夢みたいな話, 魚みたいに泳ぐ.\n\n**Mistakes:** don't forget **の** after a noun: ×子どもような. A noun-modifying clause uses **ような**; a verb-modifying clause uses **ように**.\n\n**Politeness:** ような / ように are suitable for all registers; みたい is for casual conversation. Besides comparison, ように is also used for goals (勉強する**ように**), which is a different usage.",
+  "examples": [
+   {
+    "ja": "彼女は人形のようにかわいいです。",
+    "en": "She is as cute as a doll."
+   },
+   {
+    "ja": "夢のような時間でした。",
+    "en": "It was a dream-like time."
+   },
+   {
+    "ja": "魚のように泳ぎます。",
+    "en": "He swims like a fish."
+   },
+   {
+    "ja": "日本人のように日本語を話します。",
+    "en": "She speaks Japanese like a native Japanese person."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "子ども＿＿＿＿人ですね。",
+    "options": [
+     "のような",
+     "ような",
+     "みたいの",
+     "にような"
+    ],
+    "a": 0,
+    "why": "Noun + のような + noun."
+   },
+   {
+    "type": "choice",
+    "q": "鳥＿＿＿飛びたい。(like a bird)",
+    "options": [
+     "のように",
+     "のような",
+     "ようで",
+     "ようが"
+    ],
+    "a": 0,
+    "why": "Before a verb: のように."
+   },
+   {
+    "type": "fill",
+    "q": "彼は日本人＿＿＿日本語を話します。",
+    "a": [
+     "のように"
+    ],
+    "why": "Noun + のように + verb."
+   },
+   {
+    "type": "fill",
+    "q": "夢＿＿ような話ですね。",
+    "a": [
+     "の"
+    ],
+    "why": "Noun + の + ような."
+   },
+   {
+    "type": "order",
+    "q": "Make: She sings like a singer.",
+    "tokens": [
+     "彼女は",
+     "歌手のように",
+     "歌います"
+    ],
+    "a": [
+     "彼女は",
+     "歌手のように",
+     "歌います"
+    ],
+    "why": "Noun + のように + verb."
+   }
+  ]
+ },
+ {
+  "id": "l23-causative-passive",
+  "lesson": 23,
+  "title": "Causative-passive (～させられる)",
+  "summary": "Say that you were made to do something, usually unwillingly.",
+  "explain": "**Causative-passive** = causative + passive: \"I was made to ...\". It carries a feeling of reluctance.\n\n| Group | Rule | Example |\n|---|---|---|\n| u-verb | a + せられる / a + される | 待つ → 待たされる, 飲む → 飲まされる |\n| ru-verb | stem + させられる | 食べる → 食べさせられる |\n| する | させられる | |\n| 来る | 来させられる (こさせられる) | |\n\nFor u-verbs (except す-ending), the short form **-される** is the usual spoken form (読まされる), while the long form (読ませられる) is also correct. For す-ending verbs only the long form (話させられる) is used.\n\nThe person forced takes **は/が**, and the forcing person takes **に**: 私は母にピーマンを食べさせられました。\n\n**Mistakes:** don't reverse the order: ×食べられさせる. And don't use it for things that someone let you do willingly (that is ～させてもらう).",
+  "examples": [
+   {
+    "ja": "子どもの時、母にピーマンを食べさせられました。",
+    "en": "As a child, my mother made me eat green peppers."
+   },
+   {
+    "ja": "昨日、残業をさせられました。",
+    "en": "I was made to work overtime yesterday."
+   },
+   {
+    "ja": "先輩にお酒を飲まされました。",
+    "en": "My senior made me drink alcohol."
+   },
+   {
+    "ja": "私は友達に一時間待たされました。",
+    "en": "My friend made me wait for an hour."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "What is the causative-passive of 食べる?",
+    "options": [
+     "食べさせられる",
+     "食べられせる",
+     "食べせられる",
+     "食べらされる"
+    ],
+    "a": 0,
+    "why": "ru-verb: stem + させられる."
+   },
+   {
+    "type": "choice",
+    "q": "What is the causative-passive of 待つ?",
+    "options": [
+     "待たされる",
+     "待たせれる",
+     "待てされる",
+     "待ちされる"
+    ],
+    "a": 0,
+    "why": "u-verb: 待たせられる → 待たされる."
+   },
+   {
+    "type": "fill",
+    "q": "弟は母に部屋を掃除＿＿＿ました。",
+    "a": [
+     "させられ"
+    ],
+    "why": "する → させられる."
+   },
+   {
+    "type": "fill",
+    "q": "私は毎日、先生に早く＿＿＿ました。(来る)",
+    "a": [
+     "来させられ",
+     "こさせられ"
+    ],
+    "why": "来る → 来させられる."
+   },
+   {
+    "type": "order",
+    "q": "Make: I was made to wait by my friend.",
+    "tokens": [
+     "私は",
+     "友達に",
+     "待たされました"
+    ],
+    "a": [
+     "私は",
+     "友達に",
+     "待たされました"
+    ],
+    "why": "Forced person は + forcer に + causative-passive."
+   }
+  ]
+ },
+ {
+  "id": "l23-temo",
+  "lesson": 23,
+  "title": "～ても (even if)",
+  "summary": "Say that the result does not change even when the condition is met.",
+  "explain": "**～ても** means \"even if / even though\".\n\n| Type | Form | Example |\n|---|---|---|\n| verb | V-て + も | 雨が降っても |\n| ない | なくても | 行きたくなくても |\n| い-adj | くても | 高くても |\n| な-adj | でも | 静かでも |\n| noun | でも | 学生でも |\n\nExamples: 雨が降っても、行きます。 / 高くても、このかばんがほしいです。\n\nWith question words it means \"no matter...\": いくら食べても太りません。 何度聞いても分かりません。\n\n**Mistakes:** this is the same ても as in permission (行ってもいいです) but here the focus is on a contrast with the expected result. Don't confuse it with ～のに, which states a surprising fact that already occurred; ても is hypothetical or general.\n\n**Politeness:** neutral in all styles. Use でも after nouns (学生でも).",
+  "examples": [
+   {
+    "ja": "雨が降っても、行きます。",
+    "en": "I'll go even if it rains."
+   },
+   {
+    "ja": "高くても、このかばんがほしいです。",
+    "en": "Even if it's expensive, I want this bag."
+   },
+   {
+    "ja": "何度聞いても、分かりません。",
+    "en": "No matter how many times I hear it, I don't understand."
+   },
+   {
+    "ja": "学生でも、お酒は二十歳からです。",
+    "en": "Even for students, drinking starts at twenty."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "高く＿＿＿、買います。",
+    "options": [
+     "ても",
+     "ので",
+     "たら",
+     "のに"
+    ],
+    "a": 0,
+    "why": "い-adjective: くても."
+   },
+   {
+    "type": "choice",
+    "q": "学生＿＿＿、割引はありません。",
+    "options": [
+     "でも",
+     "ても",
+     "なても",
+     "だても"
+    ],
+    "a": 0,
+    "why": "Noun + でも."
+   },
+   {
+    "type": "fill",
+    "q": "いくら食べ＿＿＿、太りません。",
+    "a": [
+     "ても"
+    ],
+    "why": "V-て + も."
+   },
+   {
+    "type": "fill",
+    "q": "行きたくなく＿＿＿、行かなければなりません。",
+    "a": [
+     "ても"
+    ],
+    "why": "くなくても."
+   },
+   {
+    "type": "order",
+    "q": "Make: Even if it rains, I'll go.",
+    "tokens": [
+     "雨が",
+     "降っても",
+     "行きます"
+    ],
+    "a": [
+     "雨が",
+     "降っても",
+     "行きます"
+    ],
+    "why": "V-て + も + main clause."
+   }
+  ]
+ },
+ {
+  "id": "l23-koto-ni-suru",
+  "lesson": 23,
+  "title": "～ことにする",
+  "summary": "State a decision you have made.",
+  "explain": "**V-dictionary / V-ない + ことにする** means \"I decide to / not to...\". It expresses your own decision.\n\n| Pattern | Example |\n|---|---|\n| V + ことにする | 毎日走ることにします |\n| V-ない + ことにする | お酒を飲まないことにした |\n| past | 留学することにしました |\n\nThe past form ことにしました is normal for \"I have decided\".\n\n**Mistakes:** it is the speaker's *own* decision. For a decision made by others or circumstance (\"it was decided that...\"), use **～ことになる** (Lesson 23+). Don't forget に: ×ことをする.\n\nVerb before ことにする is in plain form: 行く, 行かない. Don't use the ます form.\n\n**Politeness:** ことにしました is polite enough for a conversation; ことにした is casual. It sounds natural to report a plan: 来年、日本で働くことにしました。",
+  "examples": [
+   {
+    "ja": "来年、留学することにしました。",
+    "en": "I decided to study abroad next year."
+   },
+   {
+    "ja": "毎日走ることにします。",
+    "en": "I've decided to run every day."
+   },
+   {
+    "ja": "お酒を飲まないことにしました。",
+    "en": "I decided not to drink alcohol."
+   },
+   {
+    "ja": "今日は家で休むことにします。",
+    "en": "I'll rest at home today."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "日本で働く＿＿しました。(I decided)",
+    "options": [
+     "ことに",
+     "ことで",
+     "ように",
+     "ことを"
+    ],
+    "a": 0,
+    "why": "V + ことにする."
+   },
+   {
+    "type": "choice",
+    "q": "「ことにしました」 shows...",
+    "options": [
+     "my own decision",
+     "someone else's decision",
+     "a habit by others",
+     "surprise"
+    ],
+    "a": 0,
+    "why": "ことにする = the speaker decides."
+   },
+   {
+    "type": "fill",
+    "q": "禁煙する＿＿＿しました。",
+    "a": [
+     "ことに"
+    ],
+    "why": "V + ことにしました."
+   },
+   {
+    "type": "fill",
+    "q": "お菓子を食べない＿＿＿しました。(decided not to)",
+    "a": [
+     "ことに"
+    ],
+    "why": "V-ない + ことにする."
+   },
+   {
+    "type": "order",
+    "q": "Make: I decided to study abroad.",
+    "tokens": [
+     "留学する",
+     "ことに",
+     "しました"
+    ],
+    "a": [
+     "留学する",
+     "ことに",
+     "しました"
+    ],
+    "why": "V + ことにしました."
+   }
+  ]
+ },
+ {
+  "id": "l23-koto-ni-shiteiru",
+  "lesson": 23,
+  "title": "～ことにしている",
+  "summary": "Describe a rule or habit you keep on purpose.",
+  "explain": "**V + ことにしている** says that you make a point of doing something, a personal rule or habit you follow.\n\n| Plain | Meaning |\n|---|---|\n| ことにする | decide (a one-time decision) |\n| ことにしている | keep as a rule or habit |\n\nExamples: 毎朝、ジョギングすることにしています。 (I make it a rule to jog every morning.) / 夜はコーヒーを飲まないことにしています。\n\n**Mistakes:** ことにしました describes the moment of deciding; ことにしています describes the ongoing result. Do not use ている for something that happens by chance; there has to be intention.\n\nThe verb is dictionary or ない form, as with ことにする.\n\n**Politeness:** ことにしています is polite and widely used to explain your personal rules to others, e.g. to politely refuse: 夜は食べないことにしているんです。",
+  "examples": [
+   {
+    "ja": "毎朝、ジョギングすることにしています。",
+    "en": "I make a point of jogging every morning."
+   },
+   {
+    "ja": "夜は炭水化物を食べないことにしています。",
+    "en": "I make it a rule not to eat carbs at night."
+   },
+   {
+    "ja": "一日一回、母に電話することにしています。",
+    "en": "I make a point of calling my mother once a day."
+   },
+   {
+    "ja": "日曜日は何もしないことにしています。",
+    "en": "I make it a rule to do nothing on Sundays."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "毎日、日記を書く＿＿＿。(as a habit)",
+    "options": [
+     "ことにしています",
+     "ことにしました",
+     "ことになります",
+     "ことがあります"
+    ],
+    "a": 0,
+    "why": "Continuing personal rule: ことにしている."
+   },
+   {
+    "type": "choice",
+    "q": "「ことにしている」 expresses...",
+    "options": [
+     "a personal rule or habit",
+     "a one-time guess",
+     "something someone forced on you",
+     "a wish"
+    ],
+    "a": 0,
+    "why": "Ongoing, intentional habit."
+   },
+   {
+    "type": "fill",
+    "q": "夜は、コーヒーを飲まない＿＿＿。",
+    "a": [
+     "ことにしています"
+    ],
+    "why": "Rule: V-ない + ことにしています."
+   },
+   {
+    "type": "fill",
+    "q": "毎日、早く寝る＿＿＿しています。",
+    "a": [
+     "ことに"
+    ],
+    "why": "ことにしています."
+   },
+   {
+    "type": "order",
+    "q": "Make: I make a point of walking every morning.",
+    "tokens": [
+     "毎朝",
+     "散歩する",
+     "ことに",
+     "しています"
+    ],
+    "a": [
+     "毎朝",
+     "散歩する",
+     "ことに",
+     "しています"
+    ],
+    "why": "V + ことにしています."
+   }
+  ]
+ },
+ {
+  "id": "l23-made",
+  "lesson": 23,
+  "title": "～まで / ～までに",
+  "summary": "Mark the end point of an action or place, and the deadline by which something happens.",
+  "explain": "**まで** means \"until / as far as\". **までに** means \"by (a deadline)\".\n\n| Pattern | Meaning | Example |\n|---|---|---|\n| N + まで | until / up to | 五時までここにいます |\n| N + まで | as far as (place) | 駅まで歩きます |\n| V-dictionary + まで | until (something happens) | 雨がやむまで、待ちます |\n| N + までに | by | 金曜日までにレポートを出してください |\n\n**まで** = a continuing action up to that point (stay, wait, work). **までに** = a single action done at some point before the deadline (submit, finish, return).\n\n**Mistakes:** ×金曜日までレポートを出す is wrong (a one-time action needs までに). With a verb, the verb before まで is in dictionary form (or ない form).\n\nOften paired with から: 九時から五時まで (from nine to five).",
+  "examples": [
+   {
+    "ja": "朝から晩まで働きました。",
+    "en": "I worked from morning to night."
+   },
+   {
+    "ja": "駅まで歩きます。",
+    "en": "I walk as far as the station."
+   },
+   {
+    "ja": "雨がやむまで、ここで待ちましょう。",
+    "en": "Let's wait here until the rain stops."
+   },
+   {
+    "ja": "金曜日までにレポートを出してください。",
+    "en": "Please submit the report by Friday."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "来週の月曜日＿＿＿、これを出してください。(deadline)",
+    "options": [
+     "までに",
+     "まで",
+     "から",
+     "ほど"
+    ],
+    "a": 0,
+    "why": "A one-time action before the deadline: までに."
+   },
+   {
+    "type": "choice",
+    "q": "夜中の二時＿＿＿勉強しました。(kept studying)",
+    "options": [
+     "まで",
+     "までに",
+     "から",
+     "で"
+    ],
+    "a": 0,
+    "why": "Continuous action up to that time: まで."
+   },
+   {
+    "type": "fill",
+    "q": "家から駅＿＿＿歩きます。",
+    "a": [
+     "まで"
+    ],
+    "why": "Up to a place."
+   },
+   {
+    "type": "fill",
+    "q": "雨がやむ＿＿＿、待ちましょう。",
+    "a": [
+     "まで"
+    ],
+    "why": "V + まで = until."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please submit by Friday.",
+    "tokens": [
+     "金曜日までに",
+     "出して",
+     "ください"
+    ],
+    "a": [
+     "金曜日までに",
+     "出して",
+     "ください"
+    ],
+    "why": "Deadline までに + V-て + ください."
+   }
+  ]
+ },
+ {
+  "id": "l23-kata",
+  "lesson": 23,
+  "title": "～方 (way of doing)",
+  "summary": "Turn a verb into \"how to ...\".",
+  "explain": "**V-stem + 方** (かた) makes a noun meaning \"how to / way of doing\".\n\n| Verb | Noun |\n|---|---|\n| 作る | 作り方 |\n| 読む | 読み方 |\n| 使う | 使い方 |\n| 行く | 行き方 |\n| 食べる | 食べ方 |\n| 勉強する | 勉強の仕方 |\n\nFor suru-verbs, use **noun + の + 仕方** (or **し方**): 勉強の仕方 (how to study).\n\nThe object is usually marked with **の**, not を: ケーキの作り方 (how to make a cake), 漢字の書き方 (how to write kanji). The whole phrase is a noun, so it takes を, が, は: 使い方を教えてください。\n\n**Mistakes:** don't say ×作る方 (that means a person who makes). Use the stem: 作り方. Don't mix this up with 方 meaning \"person\" (あの方, a polite way to say that person).\n\n**Politeness:** neutral. Often used in requests: ～の仕方を教えてください。",
+  "examples": [
+   {
+    "ja": "この漢字の読み方を教えてください。",
+    "en": "Please tell me how to read this kanji."
+   },
+   {
+    "ja": "ケーキの作り方を知っていますか。",
+    "en": "Do you know how to make a cake?"
+   },
+   {
+    "ja": "箸の使い方が上手ですね。",
+    "en": "You're good at using chopsticks."
+   },
+   {
+    "ja": "駅への行き方が分かりません。",
+    "en": "I don't know how to get to the station."
+   }
+  ],
+  "exercises": [
+   {
+    "type": "choice",
+    "q": "料理の＿＿＿を習いたいです。(how to make)",
+    "options": [
+     "作り方",
+     "作る方",
+     "作って方",
+     "作った方"
+    ],
+    "a": 0,
+    "why": "V-stem + 方."
+   },
+   {
+    "type": "choice",
+    "q": "駅への＿＿＿が分かりません。(how to go)",
+    "options": [
+     "行き方",
+     "行く方",
+     "行って方",
+     "行かない方"
+    ],
+    "a": 0,
+    "why": "行き + 方."
+   },
+   {
+    "type": "fill",
+    "q": "この果物の食べ＿＿＿が分かりません。",
+    "a": [
+     "方"
+    ],
+    "why": "食べ + 方."
+   },
+   {
+    "type": "fill",
+    "q": "漢字の書き＿＿＿を習います。",
+    "a": [
+     "方"
+    ],
+    "why": "書き + 方."
+   },
+   {
+    "type": "order",
+    "q": "Make: Please tell me how to use this machine.",
+    "tokens": [
+     "この機械の",
+     "使い方を",
+     "教えて",
+     "ください"
+    ],
+    "a": [
+     "この機械の",
+     "使い方を",
+     "教えて",
+     "ください"
+    ],
+    "why": "Noun の + stem 方 + を + 教えてください."
+   }
+  ]
+ }
+]

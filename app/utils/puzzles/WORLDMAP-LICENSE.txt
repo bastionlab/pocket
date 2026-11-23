@@ -1,0 +1,12 @@
+worldMap.ts: country outlines for the world map of the geography games, generated from the "world-atlas" npm package, version 2.0.2
+(countries-110m.json, https://github.com/topojson/world-atlas), whose data comes from Natural Earth (naturalearthdata.com, version 4.1.0).
+ISO numeric -> ISO 3166-1 alpha-2 ids were mapped with the "i18n-iso-countries" package (MIT) at conversion time only; nothing of it is shipped.
+
+- world-atlas: ISC licence, Copyright 2013-2019 Michael Bostock. Permission to use, copy, modify, and/or distribute this
+  software for any purpose with or without fee is hereby granted, provided that the copyright notice and this permission
+  notice appear in all copies. The software is provided "as is" without warranty of any kind.
+- Natural Earth: public domain, no permission needed.
+
+Processing: TopoJSON decoded, projected with the Natural Earth projection (Savric 2008) into a 1000 x 439 box, coordinates rounded to 0.1,
+written as one SVG path per country (relative lineto). Antarctica and the French Southern Lands are left out. Countries without a polygon at
+this scale (micro states, small islands) are listed as dots at their stored lat / lon. The converter is not part of the add-on.
