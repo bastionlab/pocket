@@ -126,12 +126,14 @@ watch(tab, () => { editing.value = null })
   <div class="hb">
     <PageTabs v-model="tab" :tabs="tabs" />
     <div class="body">
+    <HabitsReminder v-if="data" banner :habits="habits" :checks="ck" />
     <p v-if="error" class="errbox">{{ error }} <button class="lnk" @click="load">{{ t('habits.retry') }}</button></p>
     <Skeleton v-if="!data" kind="cards" :n="3" />
     <template v-else>
       <HabitsToday v-if="tab === 'today'" :habits="habits" :checks="ck" :now="now" :perfect="perfect" :sound="sound" @toggle="tick" @sound="toggleSound" />
       <HabitsDetail v-else-if="openHabit" :habit="openHabit" :checks="ck" :now="now" @back="closeDetail" @edit="editFromDetail" @day="pastDay" />
       <HabitsList v-else :habits="habits" :checks="ck" :now="now" :editing="editing" @save="save" @cancel="editing = null" @open="openDetail" @remove="remove" />
+      <HabitsReminder v-if="tab !== 'today' && !openHabit" :habits="habits" :checks="ck" />
     </template>
     </div>
     <HabitsCelebrate :open="!!celebrating" :n="celeLast.n" :done="celeLast.done" :habits="habits" :checks="ck" :today="today" @close="celebrating = null" />

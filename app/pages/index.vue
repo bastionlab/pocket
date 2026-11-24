@@ -34,6 +34,8 @@ async function install() {
   <div>
     <p class="sub">Your add-ons, on this phone. Nothing leaves the device.</p>
 
+    <HomeToday />
+
     <div class="grid">
       <NuxtLink v-for="c in cards" :key="c.to" :to="c.to" class="card tile">
         <Icon :name="c.icon" :size="22" />
