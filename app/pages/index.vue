@@ -1,9 +1,10 @@
 <script setup lang="ts">
 const cards = [
-  { to: '/habits', name: 'Habits' },
-  { to: '/puzzles', name: 'Puzzles' },
-  { to: '/languages', name: 'Languages' },
-  { to: '/notes', name: 'Notes' },
+  { to: '/habits', name: 'Habits', icon: 'check', desc: 'Build streaks' },
+  { to: '/puzzles', name: 'Puzzles', icon: 'gamepad', desc: 'Daily puzzles and quizzes' },
+  { to: '/languages', name: 'Languages', icon: 'languages', desc: 'Kana, kanji and more' },
+  { to: '/notes', name: 'Notes', icon: 'note', desc: 'Quick notes with todos' },
+  { to: '/backup', name: 'Backup', icon: 'download', desc: 'Save or restore your data' },
 ]
 
 const standalone = ref(false)
@@ -31,14 +32,15 @@ async function install() {
 
 <template>
   <div>
-    <h1>Bastion Pocket</h1>
     <p class="sub">Your add-ons, on this phone. Nothing leaves the device.</p>
 
-    <NuxtLink v-for="c in cards" :key="c.to" :to="c.to" class="card">
-      <strong>{{ c.name }}</strong>
-    </NuxtLink>
-
-    <NuxtLink to="/backup" class="card"><strong>Backup</strong><small>Save or restore your data</small></NuxtLink>
+    <div class="grid">
+      <NuxtLink v-for="c in cards" :key="c.to" :to="c.to" class="card tile">
+        <Icon :name="c.icon" :size="22" />
+        <strong>{{ c.name }}</strong>
+        <small>{{ c.desc }}</small>
+      </NuxtLink>
+    </div>
 
     <div v-if="!standalone && (deferred || isIos)" class="card">
       <strong>Install</strong>
@@ -47,3 +49,10 @@ async function install() {
     </div>
   </div>
 </template>
+
+<style scoped>
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-bottom: 10px; }
+.tile { margin-bottom: 0; gap: 4px; min-height: 96px; justify-content: flex-start; }
+.tile :deep(.icon) { color: var(--accent); margin-bottom: 4px; }
+@media (min-width: 761px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+</style>

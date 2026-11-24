@@ -4,6 +4,7 @@
  * title), then its decks as page tabs. Each deck has its own daily queue (Study opens
  * the review screen over the page; ?study=<deck> keeps it in the URL so the phone's back button closes it).
  */
+import { downloadPack } from '~/local/languages'
 const t = langT
 useHead({ title: `${t('lang.title')} · Bastion` })
 
@@ -19,13 +20,40 @@ function pickLang(id: string) { lang.value = id; localStorage.setItem(PICK, id) 
 const o = ref<any>(null)
 const error = ref('')
 const speech = useLangSpeech()
+
+// --- packs: a language is downloaded once, then it shows in the selector ---
+const packs = ref<{ languages: { id: string, name: string, native: string }[], downloaded: string[] } | null>(null)
+const adding = ref(false) // the picker over a page that already has languages
+const dl = ref<{ id: string, n: number, total: number } | null>(null)
+const dlError = ref('')
+const removing = ref('')
+const picker = computed(() => !!packs.value && (!packs.value.downloaded.length || adding.value))
+const offered = computed(() => (packs.value?.languages ?? []).filter(l => !packs.value!.downloaded.includes(l.id)))
+async function download(id: string) {
+  if (dl.value) return
+  dlError.value = ''; dl.value = { id, n: 0, total: 1 }
+  try {
+    await downloadPack(id, (n, total) => { dl.value = { id, n, total } })
+    adding.value = false; pickLang(id); await load()
+  } catch (e: any) { dlError.value = e?.message || t('lang.downloadFailed') } finally { dl.value = null }
+}
+async function removePack(id: string) {
+  removing.value = ''
+  await post({ action: 'remove-pack', id })
+  if (lang.value === id) o.value = null
+  await load()
+}
+
 async function load() {
   const asked = lang.value
   try {
+    packs.value = await $fetch<any>('/api/lang/packs')
+    const have = packs.value!.downloaded
+    if (!have.length) { o.value = null; error.value = ''; return }
+    if (!have.includes(lang.value)) { pickLang(have[0]!); return } // the language on screen is not downloaded: the first one that is
     const r = await $fetch<any>('/api/lang', { query: { l: asked } })
     if (asked !== lang.value) return // switched meanwhile: that load is on its way
-    // the language on screen is not one the owner learns (any more): fall back to the first one that is
-    if (!r.enabled.includes(lang.value)) { lang.value = r.enabled[0]; return }
+    if (!r.enabled.includes(lang.value)) { if (r.enabled[0]) pickLang(r.enabled[0]); return }
     o.value = r; error.value = ''
     speech.value = r.languages.find((l: any) => l.id === lang.value)?.speech !== false
   } catch (e: any) { error.value = e?.data?.statusMessage || e?.statusMessage || e?.message }
@@ -92,15 +120,6 @@ function toggleLevel(deck: string, n: number) {
   setDeck(deck, { levels: l.includes(n) ? l.filter(x => x !== n) : [...l, n] })
 }
 const lvName2 = (n: number) => lvName(n)
-/** Settings → Languages I learn */
-const toggleLang = (id: string) => {
-  const on = o.value.enabled as string[]
-  const next = on.includes(id) ? on.filter(x => x !== id) : [...on, id]
-  if (!next.length) return
-  o.value.enabled = next // flips at once; load() brings the server's answer
-  if (!next.includes(lang.value)) pickLang(next[0]!)
-  return post({ action: 'languages', languages: next })
-}
 const LIMITS = [0, 1, 2, 3, 5, 10, 15, 20, 30]
 const limitsFor = (cur: number) => [...new Set([...LIMITS, cur])].sort((a, b) => a - b)
 </script>
@@ -108,12 +127,33 @@ const limitsFor = (cur: number) => [...new Set([...LIMITS, cur])].sort((a, b) =>
 <template>
   <div class="lg">
     <p v-if="error" class="errbox">{{ error }}</p>
-    <Skeleton v-if="!o" kind="cards" :n="4" />
-    <template v-else>
-      <div v-if="enabled.length > 1" class="langs" role="group" :aria-label="langT('lang.title')">
-        <button v-for="l in enabled" :key="l.id" type="button" class="chip" :class="{ on: lang === l.id }" @click="pickLang(l.id)">{{ l.name }}</button>
+    <Skeleton v-if="!packs && !error" kind="cards" :n="4" />
+    <section v-else-if="picker" class="pick">
+      <h2 class="ltitle">{{ langT('lang.pickTitle') }}</h2>
+      <p class="muted small pick-sub">{{ langT('lang.pickSub') }}</p>
+      <p v-if="dlError" class="errbox">{{ dlError }}</p>
+      <div class="pcards">
+        <Panel v-for="l in offered" :key="l.id" class="pc">
+          <div class="pc-name"><b>{{ l.name }}</b><span class="muted" :lang="l.id">{{ l.native }}</span></div>
+          <p class="muted small pc-info">{{ langT(`lang.packInfo.${l.id}`) }}</p>
+          <div v-if="dl?.id === l.id" class="pc-prog">
+            <div class="bar"><i :style="{ width: `${(100 * dl.n) / dl.total}%` }" /></div>
+            <span class="small muted">{{ langT('lang.downloading', { n: dl.n, total: dl.total }) }}</span>
+          </div>
+          <button v-else type="button" class="btn primary pc-btn" :disabled="!!dl" @click="download(l.id)">
+            <Icon name="download" :size="16" />{{ langT('lang.download') }} · {{ langT(`lang.packSize.${l.id}`) }}
+          </button>
+        </Panel>
       </div>
-      <h2 v-else class="ltitle">{{ enabled[0]?.name }}</h2>
+      <p v-if="!offered.length" class="muted small">{{ langT('lang.allDownloaded') }}</p>
+      <button v-if="adding" type="button" class="btn pc-cancel" :disabled="!!dl" @click="adding = false">{{ langT('lang.cancel') }}</button>
+    </section>
+    <Skeleton v-else-if="!o" kind="cards" :n="4" />
+    <template v-else>
+      <div class="langs" role="group" :aria-label="langT('lang.title')">
+        <button v-for="l in enabled" :key="l.id" type="button" class="chip" :class="{ on: lang === l.id }" @click="pickLang(l.id)">{{ l.name }}</button>
+        <button type="button" class="chip add" @click="adding = true"><Icon name="plus" :size="14" />{{ langT('lang.addLanguage') }}</button>
+      </div>
 
       <PageTabs :model-value="active" :tabs="tabs" @update:model-value="tab = $event" />
 
@@ -199,11 +239,18 @@ const limitsFor = (cur: number) => [...new Set([...LIMITS, cur])].sort((a, b) =>
       <!-- Settings -->
       <template v-else-if="active === 'settings'">
         <Panel :title="langT('lang.langsLearn')" id="lang-set-languages">
-          <div class="chips">
-            <button v-for="l in o.languages" :key="l.id" type="button" class="chip" :class="{ on: o.enabled.includes(l.id) && !l.planned }" :disabled="l.planned" :aria-pressed="o.enabled.includes(l.id)" @click="toggleLang(l.id)">
-              {{ l.name }}<span v-if="l.planned" class="soon">{{ langT('lang.planned') }}</span>
-            </button>
-          </div>
+          <ul class="plist">
+            <li v-for="l in enabled" :key="l.id">
+              <span class="pl-name"><b>{{ l.name }}</b> <span class="muted small" :lang="l.id">{{ l.native }}</span></span>
+              <template v-if="removing === l.id">
+                <span class="small muted pl-ask">{{ langT('lang.removeAsk', { name: l.name }) }}</span>
+                <button type="button" class="btn danger" @click="removePack(l.id)">{{ langT('lang.removeYes') }}</button>
+                <button type="button" class="btn" @click="removing = ''">{{ langT('lang.cancel') }}</button>
+              </template>
+              <button v-else type="button" class="btn" :disabled="enabled.length < 1" @click="removing = l.id"><Icon name="trash-2" :size="15" />{{ langT('lang.remove') }}</button>
+            </li>
+          </ul>
+          <button v-if="packs && offered.length" type="button" class="btn pl-add" @click="adding = true"><Icon name="plus" :size="15" />{{ langT('lang.addLanguage') }}</button>
         </Panel>
         <Panel :title="lessonTitle(o.lesson.n)" :id="`${lang}-set-lesson`" v-if="idOf('vocab') || idOf('grammar')" class="setp">
           <div class="set">
@@ -271,7 +318,19 @@ const limitsFor = (cur: number) => [...new Set([...LIMITS, cur])].sort((a, b) =>
 .lg { max-width: 860px; margin: 0 auto; }
 .errbox { margin: 0 0 12px; }
 .langs { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 12px; }
-.langs .chip { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; }
+.langs .chip { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 4px 14px; }
+.langs .chip.add { border-style: dashed; }
+.pick-sub { margin: -6px 0 14px; }
+.pcards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-bottom: 12px; }
+.pc-name { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; font-size: 16px; }
+.pc-info { margin: 0 0 12px; }
+.pc-btn, .pc-cancel { min-height: 44px; width: 100%; }
+.pc-prog { display: flex; flex-direction: column; gap: 6px; min-height: 44px; justify-content: center; }
+.plist { list-style: none; margin: 0 0 10px; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+.plist li { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-height: 44px; }
+.plist .btn, .pl-add { min-height: 44px; }
+.pl-name { flex: 1; min-width: 120px; }
+.pl-ask { flex-basis: 100%; }
 .ltitle { margin: 0 0 12px; font-size: 18px; font-weight: 650; }
 .all { display: flex; align-items: center; gap: 4px 14px; flex-wrap: wrap; margin-bottom: 12px; }
 .all .lnk { min-height: 32px; }

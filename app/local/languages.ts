@@ -148,15 +148,43 @@ async function putLangLesson(lang: string, n: number) {
   await writeSetting(`lang:${lang}`, { lesson: v })
   return v
 }
-async function getLanguages(): Promise<string[]> {
-  const v = await readSetting('languages')
-  const ok = (Array.isArray(v) ? v : ['ja']).filter((id: unknown) => LANG_DEFS.some(l => l.id === id && !l.planned))
-  return ok.length ? ok : ['ja']
+// --- language packs: the data chunks of a language are fetched once ("Download"), the flag lives in kv as lang:pack:<id> = { at, bytes } ---
+/** approximate download size of a language's data files (the JSON in ./data, before compression) */
+export const PACK_INFO: Record<string, { bytes: number, size: string }> = {
+  ja: { bytes: 1_252_000, size: 'about 1.3 MB' },
+  ru: { bytes: 291_000, size: 'about 0.3 MB' },
+  hy: { bytes: 235_000, size: 'about 0.2 MB' },
 }
-async function putLanguages(ids: unknown) {
-  const l = [...new Set(Array.isArray(ids) ? ids.map(String) : [])].filter(id => LANG_DEFS.some(x => x.id === id && !x.planned))
-  if (!l.length) throw new LocalError(400, 'Keep at least one language')
-  await writeSetting('languages', LANG_DEFS.filter(x => l.includes(x.id)).map(x => x.id)) // registry order
+const packFiles = (id: string) => fileNames.filter(f => f.startsWith(`${id}-`) || (id === 'ja' && f === 'kanji'))
+/** fetch every data chunk of a language one by one (the service worker keeps them for offline), then mark the pack as downloaded */
+export async function downloadPack(id: string, onProgress?: (n: number, total: number) => void) {
+  const L = LANG_DEFS.find(l => l.id === id && !l.planned)
+  if (!L) throw new LocalError(400, 'unknown language')
+  const files = packFiles(id)
+  onProgress?.(0, files.length)
+  for (let i = 0; i < files.length; i++) { await file(files[i]!); onProgress?.(i + 1, files.length) }
+  await kv.set(`lang:pack:${id}`, { at: Math.floor(Date.now() / 1000), bytes: PACK_INFO[id]?.bytes ?? 0 })
+  await kv.del(`lang:pack-removed:${id}`)
+}
+/** downloaded languages in registry order; progress from before packs existed counts as a downloaded pack (migrated silently) */
+async function getLanguages(): Promise<string[]> {
+  const out: string[] = []
+  for (const l of LANG_DEFS) {
+    if (l.planned) continue
+    let pack = await kv.get(`lang:pack:${l.id}`)
+    if (!pack && !(await kv.get(`lang:pack-removed:${l.id}`)) && (await kv.list(`lang:card:${l.id}-`)).length + (await kv.list(`lang:rev:${l.id}-`)).length) {
+      pack = { at: Math.floor(Date.now() / 1000), bytes: PACK_INFO[l.id]?.bytes ?? 0 }
+      await kv.set(`lang:pack:${l.id}`, pack)
+    }
+    if (pack) out.push(l.id)
+  }
+  return out
+}
+/** remove a pack: hides the language, the learning progress stays in kv so adding it again restores it */
+async function removePack(id: string) {
+  if (!LANG_DEFS.some(l => l.id === id && !l.planned)) throw new LocalError(400, 'unknown language')
+  await kv.del(`lang:pack:${id}`)
+  await kv.set(`lang:pack-removed:${id}`, 1) // stops the silent migration from bringing it back
   return getLanguages()
 }
 
@@ -507,6 +535,12 @@ async function langGrammar(langId: string) {
 }
 
 // --- routes ---
+/** which languages are downloaded (no data is loaded: the picker and a first visit use this) */
+defineLocal('GET', '/api/lang/packs', async () => ({
+  languages: LANG_DEFS.filter(l => !l.planned).map(l => ({ id: l.id, name: l.name, native: l.native })),
+  downloaded: await getLanguages(),
+}))
+
 defineLocal('GET', '/api/lang', ({ query }) => langOverview(String(query.l ?? 'ja').slice(0, 8)))
 
 defineLocal('GET', '/api/lang/next', async ({ query }) => nextCard(deckOrThrow(query.deck).def.id))
@@ -524,7 +558,7 @@ defineLocal('GET', '/api/lang/deck', async ({ query }) => {
   return items
 })
 
-const ACTIONS = ['answer', 'undo', 'forget', 'settings', 'grammar-learn', 'lesson', 'languages']
+const ACTIONS = ['answer', 'undo', 'forget', 'settings', 'grammar-learn', 'lesson', 'remove-pack']
 defineLocal('POST', '/api/lang/action', async ({ body }) => {
   body = body ?? {}
   const action = String(body.action ?? '').slice(0, 20)
@@ -534,7 +568,7 @@ defineLocal('POST', '/api/lang/action', async ({ body }) => {
     await loadLang(lang)
     return { lesson: await putLangLesson(lang, body.delta != null ? (await getLangLesson(lang)) + Math.round(Number(body.delta) || 0) : Number(body.lesson)) }
   }
-  if (action === 'languages') return { languages: await putLanguages(body.languages) }
+  if (action === 'remove-pack') return { languages: await removePack(String(body.id ?? '').slice(0, 8)) }
   if (action === 'grammar-learn') return grammarLearn(String(body.k ?? '').replace(/^g:/, '').slice(0, 60), String(body.lang ?? 'ja').slice(0, 8))
   const deck = deckOrThrow(body.deck).def.id
   if (action === 'undo') return undo(deck)

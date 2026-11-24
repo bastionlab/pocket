@@ -10,8 +10,6 @@ async function onPick(e: Event) {
 
 <template>
   <div>
-    <NuxtLink to="/">Back</NuxtLink>
-    <h1>Backup</h1>
     <p class="sub">Everything lives only on this phone. Save a backup file now and then, especially before clearing browser data.</p>
     <button class="btn" type="button" @click="exportBackup">Save backup file</button>
     <p><label class="btn">Restore from file<input type="file" accept="application/json" hidden @change="onPick"></label></p>
