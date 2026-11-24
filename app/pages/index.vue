@@ -44,7 +44,7 @@ async function install() {
 
     <div v-if="!standalone && (deferred || isIos)" class="card">
       <strong>Install</strong>
-      <button v-if="deferred" class="btn" type="button" @click="install">Install app</button>
+      <button v-if="deferred" class="btn primary" type="button" @click="install">Install app</button>
       <small v-else>Tap the Share button in Safari, then Add to Home Screen.</small>
     </div>
   </div>

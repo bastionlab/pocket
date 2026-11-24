@@ -116,5 +116,4 @@ function back() {
 .card:hover { text-decoration: none; }
 .card strong { font-size: 1.05rem; }
 .card small { color: var(--muted); }
-.btn { min-height: 44px; padding: 0 18px; border: 0; border-radius: var(--radius-sm); background: var(--accent); color: #0a0c10; font: inherit; font-weight: 600; }
 </style>
