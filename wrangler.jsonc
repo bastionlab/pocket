@@ -1,0 +1,9 @@
+{
+  // Serves the static build (npx nuxi generate) as a Worker with static assets.
+  "name": "pocket",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": ".output/public",
+    "not_found_handling": "single-page-application"
+  }
+}
